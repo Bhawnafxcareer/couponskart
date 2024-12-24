@@ -24,8 +24,10 @@ import RegisterPage from "./pages/RegisterPage";
 import LoginPage from "./pages/LoginPage";
 import BlogPage from "./pages/BlogPage";
 import BlogDetailsPage from "./pages/BlogDetailsPage";
-import BlogDetailsSidebarPage from "./pages/BlogDetailsSidebarPage";
+// import BlogDetailsSidebarPage from "./pages/BlogDetailsSidebarPage";
 import ContactPage from "./pages/ContactPage";
+import About from "./pages/About";
+import './index.css';
 
 
 function App() {
@@ -35,6 +37,7 @@ function App() {
       <ScrollToTop smooth color="#A847F0" />
       <Routes>
         <Route exact path="/" element={<HomePage />} />
+        <Route exact path="/about" element={<About />} />
         <Route exact path="/index-two" element={<HomePageTwo />} />
         <Route exact path="/all-product" element={<AllProductPage />} />
         <Route exact path="/product-details" element={<ProductDetailsPage />} />
@@ -55,7 +58,7 @@ function App() {
         <Route exact path="/refund" element={<RefundPage />} />
         <Route exact path="/blog" element={<BlogPage />} />
         <Route exact path="/blog-details" element={<BlogDetailsPage />} />
-        <Route exact path="/blog-details-sidebar" element={<BlogDetailsSidebarPage />} />
+        {/* <Route exact path="/blog-details-sidebar" element={<BlogDetailsSidebarPage />} /> */}
         <Route exact path="/contact" element={<ContactPage />} />
 
         <Route exact path="/register" element={<RegisterPage />} />

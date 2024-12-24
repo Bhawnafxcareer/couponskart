@@ -1,0 +1,18 @@
+.banner-right{
+    background-image: url(../public/assets/images/About/banner-background.webp);
+    background-size: contain;
+    background-position: center;
+    padding: 50px 50px 0px;
+    background-repeat: no-repeat;
+}
+.why_Choose_tab{
+    border:5px solid rgb(108, 108, 108);
+    border-radius: 10px;
+    padding: 20px 30px;
+}
+.why_Choose_tab h5{
+    color: rgb(108, 108, 108);
+}
+.why_Choose_tab h3{
+    color: rgb(108, 108, 108);
+}
