@@ -6,13 +6,32 @@
     background-repeat: no-repeat;
 }
 .why_Choose_tab{
-    border:5px solid rgb(108, 108, 108);
+    border:3px solid rgb(0, 0, 0);
     border-radius: 10px;
     padding: 20px 30px;
+    text-align: start;
 }
 .why_Choose_tab h5{
-    color: rgb(108, 108, 108);
+    color: rgb(0, 0, 0);
 }
 .why_Choose_tab h3{
-    color: rgb(108, 108, 108);
+    color: rgb(0, 0, 0);
+}
+.why_Choose_tab p{
+    color:#000000 !important;
+}
+.nav-link.active {
+    outline: none;
+}
+.nav-link.active .why_Choose_tab{
+    border: 3px solid #8b5ca7;
+}
+.nav-link.active .why_Choose_tab p{
+ color: black;
+}
+.nav-link.active .why_Choose_tab h5{
+ color: #8b5ca7;
+}
+.nav-link.active .why_Choose_tab h3{
+ color: #8b5ca7;
 }
