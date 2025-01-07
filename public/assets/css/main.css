@@ -3111,6 +3111,7 @@ input[type=number] {
 .header {
     background-color: hsl(var(--white));
     transition: 0.2s linear;
+    padding: 0.5rem 0px;
 }
 
 @media screen and (max-width: 991px) {
@@ -3316,7 +3317,6 @@ input[type=number] {
     font-weight: 500;
     font-size: 1rem;
     width: 100%;
-    padding: 38px 0;
     width: 100%;
 }
 

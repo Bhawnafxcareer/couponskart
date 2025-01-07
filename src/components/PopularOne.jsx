@@ -68,66 +68,66 @@ const PopularOne = () => {
         <div className="popular-slider arrow-style-two row gy-4">
           <Slider {...settings}>
             <div>
-              <Link to="/all-product" className="popular-item w-100">
+              <Link to="/all-product" className="text-center w-100">
                 <span className="popular-item__icon">
                   <img src="assets/images/icons/popular-icon1.svg" alt="" />
                 </span>
-                <h6 className="popular-item__title font-18">WordPress</h6>
-                <span className="popular-item__qty text-body">15,296</span>
+                <h6 className="popular-item__title fw-semibold font-18">Hypermarkets</h6>
+               
               </Link>
             </div>
             <div>
-              <Link to="/all-product" className="popular-item w-100">
+              <Link to="/all-product" className="text-center w-100">
                 <span className="popular-item__icon">
                   <img src="assets/images/icons/popular-icon2.svg" alt="" />
                 </span>
-                <h6 className="popular-item__title font-18">Plugin</h6>
-                <span className="popular-item__qty text-body">15,296</span>
+                <h6 className="popular-item__title fw-semibold font-18">Fashion</h6>
+               
               </Link>
             </div>
             <div>
-              <Link to="/all-product" className="popular-item w-100">
+              <Link to="/all-product" className="text-center w-100">
                 <span className="popular-item__icon">
                   <img src="assets/images/icons/popular-icon3.svg" alt="" />
                 </span>
-                <h6 className="popular-item__title font-18">HTML</h6>
-                <span className="popular-item__qty text-body">15,296</span>
+                <h6 className="popular-item__title fw-semibold font-18">Shopping Malls</h6>
+               
               </Link>
             </div>
             <div>
-              <Link to="/all-product" className="popular-item w-100">
+              <Link to="/all-product" className="text-center w-100">
                 <span className="popular-item__icon">
                   <img src="assets/images/icons/popular-icon4.svg" alt="" />
                 </span>
-                <h6 className="popular-item__title font-18">Java Script</h6>
-                <span className="popular-item__qty text-body">15,296</span>
+                <h6 className="popular-item__title fw-semibold font-18">Electronics</h6>
+               
               </Link>
             </div>
             <div>
-              <Link to="/all-product" className="popular-item w-100">
+              <Link to="/all-product" className="text-center w-100">
                 <span className="popular-item__icon">
                   <img src="assets/images/icons/popular-icon5.svg" alt="" />
                 </span>
-                <h6 className="popular-item__title font-18">Mobile App</h6>
-                <span className="popular-item__qty text-body">15,296</span>
+                <h6 className="popular-item__title fw-semibold font-18">Mobile App</h6>
+               
               </Link>
             </div>
             <div>
-              <Link to="/all-product" className="popular-item w-100">
+              <Link to="/all-product" className="text-center w-100">
                 <span className="popular-item__icon">
                   <img src="assets/images/icons/popular-icon6.svg" alt="" />
                 </span>
-                <h6 className="popular-item__title font-18">PHP Script</h6>
-                <span className="popular-item__qty text-body">15,296</span>
+                <h6 className="popular-item__title fw-semibold font-18">Online Shopping</h6>
+               
               </Link>
             </div>
             <div>
-              <Link to="/all-product" className="popular-item w-100">
+              <Link to="/all-product" className="text-center w-100">
                 <span className="popular-item__icon">
                   <img src="assets/images/icons/popular-icon4.svg" alt="" />
                 </span>
-                <h6 className="popular-item__title font-18">Java Script</h6>
-                <span className="popular-item__qty text-body">15,296</span>
+                <h6 className="popular-item__title fw-semibold font-18">Java Script</h6>
+               
               </Link>
             </div>
           </Slider>

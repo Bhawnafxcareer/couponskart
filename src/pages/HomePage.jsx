@@ -22,7 +22,7 @@ const HomePage = () => {
     <Preloader />
 
     {/* SaleOffer */}
-    <SaleOffer />
+    {/* <SaleOffer /> */}
 
     {/* HeaderOne */}
     <HeaderOne />
@@ -45,8 +45,7 @@ const HomePage = () => {
     {/* FeaturedAuthor */}
     <FeaturedAuthor />
 
-    {/* PerformanceAuthor */}
-    <PerformanceAuthor />
+    
 
     {/* BlogOne */}
     <BlogOne />

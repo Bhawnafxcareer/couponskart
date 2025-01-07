@@ -55,7 +55,7 @@ const HeaderOne = () => {
       <div className={`side-overlay ${active && "show"}`}></div>
       {/* ==================== Header Start Here ==================== */}
       <header className={`header ${scroll ? "fixed-header" : ""} `}>
-        <div className="container container-full">
+        <div className="container">
           <nav className="header-inner flx-between">
             {/* Logo Start */}
             <div className="logo">
@@ -92,12 +92,12 @@ const HeaderOne = () => {
                     </li>
                     <li className="nav-submenu__item">
                       <NavLink to="/all-product" className="nav-submenu__link">
-                     UP TO 50% Off
+                        UP TO 50% Off
                       </NavLink>
                     </li>
                     <li className="nav-submenu__item">
                       <NavLink to="/all-product" className="nav-submenu__link">
-                      UP TO 30% off
+                        UP TO 30% off
                       </NavLink>
                     </li>
                     {/* <li className="nav-submenu__item">
@@ -157,7 +157,7 @@ const HeaderOne = () => {
                   <Link to="/blog" className="nav-menu__link">
                     Blog
                   </Link>
-                
+
                 </li>
 
 
@@ -171,22 +171,7 @@ const HeaderOne = () => {
             {/* Menu End  */}
             {/* Header Right start */}
             <div className="header-right flx-align">
-              <Link
-                to="/cart"
-                className="header-right__button cart-btn position-relative"
-              >
-                <img
-                  src="assets/images/icons/cart.svg"
-                  alt=""
-                  className="white-version"
-                />
-                <img
-                  src="assets/images/icons/cart-white.svg"
-                  alt=""
-                  className="dark-version"
-                />
-                <span className="qty-badge font-12">0</span>
-              </Link>
+
               {/* Light Dark Mode */}
               <ThemeToggle />
               {/* Light Dark Mode */}
@@ -227,7 +212,24 @@ const HeaderOne = () => {
             {/* Header Right End  */}
           </nav>
         </div>
+        <div className="container">
+        <div className="search-box">
+          <button
+            type="submit"
+            className=" icon border-0"
+          >
+            <img src="assets/images/icons/search-01.svg" alt="" />
+          </button>
+          <input
+            type="text"
+            className="common-input common-input--sm  bg-light rounded "
+            placeholder="Search theme, plugins & more..."
+          />
+
+        </div>
+      </div>
       </header>
+
       {/* ==================== Header End Here ==================== */}
 
       <div className={`mobile-menu d-lg-none d-block ${active && "active"}`}>
@@ -256,13 +258,13 @@ const HeaderOne = () => {
                 <Link to="/" className="nav-menu__link">
                   Home
                 </Link>
-              
+
               </li>
               <li className="nav-menu__item  ">
                 <Link to="/about" className="nav-menu__link">
                   about
                 </Link>
-              
+
               </li>
               <li className="nav-menu__item has-submenu">
                 <Link to="#" className="nav-menu__link">
@@ -280,14 +282,14 @@ const HeaderOne = () => {
                     <NavLink to="/all-product" className={(navData) =>
                       navData.isActive ? "nav-submenu__link activePage" : "nav-submenu__link"
                     } >
-                        UP TO 50% Off
+                      UP TO 50% Off
                     </NavLink>
                   </li>
                   <li className="nav-submenu__item">
                     <NavLink to="/all-product" className={(navData) =>
                       navData.isActive ? "nav-submenu__link activePage" : "nav-submenu__link"
                     } >
-                          UP TO 30% Off
+                      UP TO 30% Off
                     </NavLink>
                   </li>
                   {/* <li className="nav-submenu__item">
@@ -356,9 +358,9 @@ const HeaderOne = () => {
                 <Link to="/blog" className="nav-menu__link">
                   Blog
                 </Link>
-                
-                 
-                
+
+
+
               </li>
               <li className="nav-menu__item">
                 <NavLink to="/contact" className="nav-menu__link">

@@ -3,6 +3,7 @@
 .header {
     background-color: hsl(var(--white));
     transition: .2s linear;
+    padding: 0.5rem 0px;
     @include md-screen {
         padding: 10px 0;
     }
@@ -187,7 +188,7 @@
         font-weight: 500;
         @include font-16; 
         width: 100%;
-        padding: 38px 0;
+        padding: 0px 0;
         width: 100%;
         @include lg-screen {
             @include font-14; 

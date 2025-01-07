@@ -2,11 +2,12 @@
 .search-box {
     position: relative;
     input {
-        background-color: hsl(var(--white)) !important;
+        background-color: hsl(var(--gray-seven)) !important;
         border: 0;
-        padding-right: 70px;
+        padding: 10px 15px 10px  60px ;
+        padding-right: 15px;
         @include sm-screen {
-            padding-right: 56px;
+            padding-left: 56px;
         }
         &::placeholder {
             color: hsl(var(--black-three));
@@ -14,12 +15,15 @@
     }
     .icon {
         position: absolute;
-        right: 8px;
+        left: 10px;
         top: 50%;
         transform: translateY(-50%);
         color: hsl(var(--body-color)); 
         @include sm-screen {
-            right: 5px;
+            left: 5px;
+        }
+        img{
+            width: 22px;
         }
     }
 
@@ -42,6 +46,7 @@
                 @include msm-screen {
                     left: 0;
                 }
+      
                 &.select-has-icon {
                     &::before {
                         right: 0;
@@ -69,6 +74,7 @@
                     }
                 }
             }
+            
         }
     }
 
