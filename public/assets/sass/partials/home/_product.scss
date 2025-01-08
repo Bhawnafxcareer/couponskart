@@ -31,14 +31,12 @@
         }
     }
     &__thumb {
-        margin: 8px;
+        
         border-radius: inherit;
         overflow: hidden;
         padding-bottom: 0;
         position: relative;
-        @media (min-width: 575px) {
-            max-height: 156px;
-        }
+    
         &::before {
             position: absolute;
             content: "";
@@ -94,8 +92,8 @@
         }
     }
     &__content {
-        padding: 24px 16px;
-        padding-top: 16px;
+        padding: 15px 15px;
+        padding-top: 15px;
     }
     &__title {
         margin-bottom: 8px;

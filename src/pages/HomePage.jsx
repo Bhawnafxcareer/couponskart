@@ -13,6 +13,8 @@ import BlogOne from "../components/BlogOne";
 import BecomeSellerOne from "../components/BecomeSellerOne";
 import BrandSectionOne from "../components/BrandSectionOne";
 import FooterOne from "../components/FooterOne";
+import FeaturedTwo from "../components/FeaturedTwo";
+import ResourceOne from "../components/ResourceOne";
 
 const HomePage = () => {
   
@@ -37,15 +39,11 @@ const HomePage = () => {
     <ArrivalOne />
 
     {/* FeaturedOne */}
-    <FeaturedOne />
+ 
+    <ResourceOne />
 
     {/* SellingOne */}
     <SellingOne />
-
-    {/* FeaturedAuthor */}
-    <FeaturedAuthor />
-
-    
 
     {/* BlogOne */}
     <BlogOne />
@@ -54,7 +52,7 @@ const HomePage = () => {
     <BecomeSellerOne />
 
     {/* BrandSectionOne */}
-    <BrandSectionOne />
+    {/* <BrandSectionOne /> */}
 
     {/* FooterOne */}
     <FooterOne />

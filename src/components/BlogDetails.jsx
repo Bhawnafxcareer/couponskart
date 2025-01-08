@@ -38,7 +38,7 @@ const BlogDetails = () => {
               {/* blog details content Start */}
               <div className="blog-details-content">
                 <div className="blog-details-content__thumb mb-32">
-                  <img src="assets/images/thumbs/blog-details-thumb1.png" alt="" />
+                  <img src="assets/images/thumbs/blog1.png" alt="" />
                 </div>
                 <p className="blog-details-content__desc mb-40">
                   Design and development may seem like two separate worlds, but they
@@ -54,26 +54,7 @@ const BlogDetails = () => {
                   pellentesque lorem turpis feugiat non sed sed sed aliquam lectus
                   sodales gravida turpis maassa.
                 </p>
-                <div className="blog-details-content__thumbs mb-40">
-                  <div className="row gy-4">
-                    <div className="col-sm-5 col-6">
-                      <div className="blog-details-content__thumb">
-                        <img
-                          src="assets/images/thumbs/blog-details-thumb2.jpg"
-                          alt=""
-                        />
-                      </div>
-                    </div>
-                    <div className="col-sm-7 col-6">
-                      <div className="blog-details-content__thumb">
-                        <img
-                          src="assets/images/thumbs/blog-details-thumb3.jpg"
-                          alt=""
-                        />
-                      </div>
-                    </div>
-                  </div>
-                </div>
+
                 <h5 className="blog-details-content__title mb-3">
                   Search for the right experience
                 </h5>

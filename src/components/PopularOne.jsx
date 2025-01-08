@@ -70,7 +70,7 @@ const PopularOne = () => {
             <div>
               <Link to="/all-product" className="text-center w-100">
                 <span className="popular-item__icon">
-                  <img src="assets/images/icons/popular-icon1.svg" alt="" />
+                  <img src="assets/images/icons/hypermarkets.png" alt="" />
                 </span>
                 <h6 className="popular-item__title fw-semibold font-18">Hypermarkets</h6>
                
@@ -79,7 +79,7 @@ const PopularOne = () => {
             <div>
               <Link to="/all-product" className="text-center w-100">
                 <span className="popular-item__icon">
-                  <img src="assets/images/icons/popular-icon2.svg" alt="" />
+                  <img src="assets/images/icons/fashion.png" alt="" />
                 </span>
                 <h6 className="popular-item__title fw-semibold font-18">Fashion</h6>
                
@@ -88,7 +88,7 @@ const PopularOne = () => {
             <div>
               <Link to="/all-product" className="text-center w-100">
                 <span className="popular-item__icon">
-                  <img src="assets/images/icons/popular-icon3.svg" alt="" />
+                  <img src="assets/images/icons/malls.png" alt="" />
                 </span>
                 <h6 className="popular-item__title fw-semibold font-18">Shopping Malls</h6>
                
@@ -97,7 +97,7 @@ const PopularOne = () => {
             <div>
               <Link to="/all-product" className="text-center w-100">
                 <span className="popular-item__icon">
-                  <img src="assets/images/icons/popular-icon4.svg" alt="" />
+                  <img src="assets/images/icons/electronics.png" alt="" />
                 </span>
                 <h6 className="popular-item__title fw-semibold font-18">Electronics</h6>
                
@@ -106,27 +106,18 @@ const PopularOne = () => {
             <div>
               <Link to="/all-product" className="text-center w-100">
                 <span className="popular-item__icon">
-                  <img src="assets/images/icons/popular-icon5.svg" alt="" />
+                  <img src="assets/images/icons/jawellery.png" alt="" />
                 </span>
-                <h6 className="popular-item__title fw-semibold font-18">Mobile App</h6>
+                <h6 className="popular-item__title fw-semibold font-18">Jawellery</h6>
                
               </Link>
             </div>
             <div>
               <Link to="/all-product" className="text-center w-100">
                 <span className="popular-item__icon">
-                  <img src="assets/images/icons/popular-icon6.svg" alt="" />
+                  <img src="assets/images/icons/onilne-shopping.png" alt="" />
                 </span>
                 <h6 className="popular-item__title fw-semibold font-18">Online Shopping</h6>
-               
-              </Link>
-            </div>
-            <div>
-              <Link to="/all-product" className="text-center w-100">
-                <span className="popular-item__icon">
-                  <img src="assets/images/icons/popular-icon4.svg" alt="" />
-                </span>
-                <h6 className="popular-item__title fw-semibold font-18">Java Script</h6>
                
               </Link>
             </div>

@@ -40,101 +40,74 @@ const ArrivalOne = () => {
           <li className="nav-item" role="presentation">
             <button
               className="nav-link"
-              id="pills-wordPress-tab"
+              id="pills-hypermarket-tab"
               data-bs-toggle="pill"
-              data-bs-target="#pills-wordPress"
+              data-bs-target="#pills-hypermarket"
               type="button"
               role="tab"
-              aria-controls="pills-wordPress"
+              aria-controls="pills-hypermarket"
               aria-selected="false"
             >
-              wordPress
+              Hypermarket
             </button>
           </li>
           <li className="nav-item" role="presentation">
             <button
               className="nav-link"
-              id="pills-php-tab"
+              id="pills-fashion-tab"
               data-bs-toggle="pill"
-              data-bs-target="#pills-php"
+              data-bs-target="#pills-fashion"
               type="button"
               role="tab"
-              aria-controls="pills-php"
+              aria-controls="pills-fashion"
               aria-selected="false"
             >
-              php
+              Fashion
             </button>
           </li>
           <li className="nav-item" role="presentation">
             <button
               className="nav-link"
-              id="pills-siteTemplate-tab"
+              id="pills-shopping-malls-tab"
               data-bs-toggle="pill"
-              data-bs-target="#pills-siteTemplate"
+              data-bs-target="#pills-shopping-malls"
               type="button"
               role="tab"
-              aria-controls="pills-siteTemplate"
+              aria-controls="pills-shopping-malls"
               aria-selected="false"
             >
-              site Template
+              Shopping Malls
             </button>
           </li>
           <li className="nav-item" role="presentation">
             <button
               className="nav-link"
-              id="pills-blogging-tab"
+              id="pills-Electronics-tab"
               data-bs-toggle="pill"
-              data-bs-target="#pills-blogging"
+              data-bs-target="#pills-Electronics"
               type="button"
               role="tab"
-              aria-controls="pills-blogging"
+              aria-controls="pills-Electronics"
               aria-selected="false"
             >
-              blogging
+              Electronics
             </button>
           </li>
           <li className="nav-item" role="presentation">
             <button
               className="nav-link"
-              id="pills-marketing-tab"
+              id="pills-online-shopping-tab"
               data-bs-toggle="pill"
-              data-bs-target="#pills-marketing"
+              data-bs-target="#pills-online-shopping"
               type="button"
               role="tab"
-              aria-controls="pills-marketing"
+              aria-controls="pills-online-shopping"
               aria-selected="false"
             >
-              marketing
+             Online Shopping
             </button>
           </li>
-          <li className="nav-item" role="presentation">
-            <button
-              className="nav-link"
-              id="pills-plugins-tab"
-              data-bs-toggle="pill"
-              data-bs-target="#pills-plugins"
-              type="button"
-              role="tab"
-              aria-controls="pills-plugins"
-              aria-selected="false"
-            >
-              plugins
-            </button>
-          </li>
-          <li className="nav-item" role="presentation">
-            <button
-              className="nav-link"
-              id="pills-uiTemplate-tab"
-              data-bs-toggle="pill"
-              data-bs-target="#pills-uiTemplate"
-              type="button"
-              role="tab"
-              aria-controls="pills-uiTemplate"
-              aria-selected="false"
-            >
-              UI Template
-            </button>
-          </li>
+
         </ul>
         <div className="tab-content" id="pills-tabContent">
           <div
@@ -150,14 +123,12 @@ const ArrivalOne = () => {
                   <div className="product-item__thumb d-flex">
                     <Link to="/product-details" className="link w-100">
                       <img
-                        src="assets/images/thumbs/product-img1.png"
+                        src="assets/images/thumbs/coupon1.jpg"
                         alt=""
                         className="cover-img"
                       />
                     </Link>
-                    <button type="button" className="product-item__wishlist">
-                      <i className="fas fa-heart" />
-                    </button>
+
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
@@ -165,74 +136,22 @@ const ArrivalOne = () => {
                         SaaS dashboard digital products Title here
                       </Link>
                     </h6>
-                    <div className="product-item__info flx-between gap-2">
-                      <span className="product-item__author">
-                        by
-                        <Link
-                          to="/profile"
-                          className="link hover-text-decoration-underline"
-                        >
-                          themepix
-                        </Link>
-                      </span>
-                      <div className="flx-align gap-2">
-                        <h6 className="product-item__price mb-0">$120</h6>
-                        <span className="product-item__prevPrice text-decoration-line-through">
-                          $259
-                        </span>
-                      </div>
-                    </div>
-                    <div className="product-item__bottom flx-between gap-2">
-                      <div>
-                        <span className="product-item__sales font-14 mb-2">
-                          1200 Sales
-                        </span>
-                        <div className="d-flex align-items-center gap-1">
-                          <ul className="star-rating">
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                          </ul>
-                          <span className="star-rating__text text-heading fw-500 font-14">
-                            (16)
-                          </span>
-                        </div>
-                      </div>
-                      <Link
-                        to="/product-details"
-                        className="btn btn-outline-light btn-sm pill"
-                      >
-                        Live Demo
-                      </Link>
-                    </div>
+
+
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6">
-                <div className="product-item">
+              <div className="product-item">
                   <div className="product-item__thumb d-flex">
                     <Link to="/product-details" className="link w-100">
                       <img
-                        src="assets/images/thumbs/product-img2.png"
+                        src="assets/images/thumbs/coupon2.png"
                         alt=""
                         className="cover-img"
                       />
                     </Link>
-                    <button type="button" className="product-item__wishlist">
-                      <i className="fas fa-heart" />
-                    </button>
+
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
@@ -240,74 +159,22 @@ const ArrivalOne = () => {
                         SaaS dashboard digital products Title here
                       </Link>
                     </h6>
-                    <div className="product-item__info flx-between gap-2">
-                      <span className="product-item__author">
-                        by
-                        <Link
-                          to="/profile"
-                          className="link hover-text-decoration-underline"
-                        >
-                          themepix
-                        </Link>
-                      </span>
-                      <div className="flx-align gap-2">
-                        <h6 className="product-item__price mb-0">$129</h6>
-                        <span className="product-item__prevPrice text-decoration-line-through">
-                          $236
-                        </span>
-                      </div>
-                    </div>
-                    <div className="product-item__bottom flx-between gap-2">
-                      <div>
-                        <span className="product-item__sales font-14 mb-2">
-                          100 Sales
-                        </span>
-                        <div className="d-flex align-items-center gap-1">
-                          <ul className="star-rating">
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                          </ul>
-                          <span className="star-rating__text text-heading fw-500 font-14">
-                            (16)
-                          </span>
-                        </div>
-                      </div>
-                      <Link
-                        to="/product-details"
-                        className="btn btn-outline-light btn-sm pill"
-                      >
-                        Live Demo
-                      </Link>
-                    </div>
+
+
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6">
-                <div className="product-item">
+              <div className="product-item">
                   <div className="product-item__thumb d-flex">
                     <Link to="/product-details" className="link w-100">
                       <img
-                        src="assets/images/thumbs/product-img3.png"
+                        src="assets/images/thumbs/coupon3.png"
                         alt=""
                         className="cover-img"
                       />
                     </Link>
-                    <button type="button" className="product-item__wishlist">
-                      <i className="fas fa-heart" />
-                    </button>
+
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
@@ -315,74 +182,22 @@ const ArrivalOne = () => {
                         SaaS dashboard digital products Title here
                       </Link>
                     </h6>
-                    <div className="product-item__info flx-between gap-2">
-                      <span className="product-item__author">
-                        by
-                        <Link
-                          to="/profile"
-                          className="link hover-text-decoration-underline"
-                        >
-                          themepix
-                        </Link>
-                      </span>
-                      <div className="flx-align gap-2">
-                        <h6 className="product-item__price mb-0">$79</h6>
-                        <span className="product-item__prevPrice text-decoration-line-through">
-                          $99
-                        </span>
-                      </div>
-                    </div>
-                    <div className="product-item__bottom flx-between gap-2">
-                      <div>
-                        <span className="product-item__sales font-14 mb-2">
-                          900 Sales
-                        </span>
-                        <div className="d-flex align-items-center gap-1">
-                          <ul className="star-rating">
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                          </ul>
-                          <span className="star-rating__text text-heading fw-500 font-14">
-                            (16)
-                          </span>
-                        </div>
-                      </div>
-                      <Link
-                        to="/product-details"
-                        className="btn btn-outline-light btn-sm pill"
-                      >
-                        Live Demo
-                      </Link>
-                    </div>
+
+
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6">
-                <div className="product-item">
+              <div className="product-item">
                   <div className="product-item__thumb d-flex">
                     <Link to="/product-details" className="link w-100">
                       <img
-                        src="assets/images/thumbs/product-img4.png"
+                        src="assets/images/thumbs/coupon4.png"
                         alt=""
                         className="cover-img"
                       />
                     </Link>
-                    <button type="button" className="product-item__wishlist">
-                      <i className="fas fa-heart" />
-                    </button>
+
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
@@ -390,74 +205,22 @@ const ArrivalOne = () => {
                         SaaS dashboard digital products Title here
                       </Link>
                     </h6>
-                    <div className="product-item__info flx-between gap-2">
-                      <span className="product-item__author">
-                        by
-                        <Link
-                          to="/profile"
-                          className="link hover-text-decoration-underline"
-                        >
-                          themepix
-                        </Link>
-                      </span>
-                      <div className="flx-align gap-2">
-                        <h6 className="product-item__price mb-0">$59</h6>
-                        <span className="product-item__prevPrice text-decoration-line-through">
-                          $129
-                        </span>
-                      </div>
-                    </div>
-                    <div className="product-item__bottom flx-between gap-2">
-                      <div>
-                        <span className="product-item__sales font-14 mb-2">
-                          1225 Sales
-                        </span>
-                        <div className="d-flex align-items-center gap-1">
-                          <ul className="star-rating">
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                          </ul>
-                          <span className="star-rating__text text-heading fw-500 font-14">
-                            (16)
-                          </span>
-                        </div>
-                      </div>
-                      <Link
-                        to="/product-details"
-                        className="btn btn-outline-light btn-sm pill"
-                      >
-                        Live Demo
-                      </Link>
-                    </div>
+
+
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6">
-                <div className="product-item">
+              <div className="product-item">
                   <div className="product-item__thumb d-flex">
                     <Link to="/product-details" className="link w-100">
                       <img
-                        src="assets/images/thumbs/product-img5.png"
+                        src="assets/images/thumbs/coupon4.png"
                         alt=""
                         className="cover-img"
                       />
                     </Link>
-                    <button type="button" className="product-item__wishlist">
-                      <i className="fas fa-heart" />
-                    </button>
+
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
@@ -465,74 +228,22 @@ const ArrivalOne = () => {
                         SaaS dashboard digital products Title here
                       </Link>
                     </h6>
-                    <div className="product-item__info flx-between gap-2">
-                      <span className="product-item__author">
-                        by
-                        <Link
-                          to="/profile"
-                          className="link hover-text-decoration-underline"
-                        >
-                          themepix
-                        </Link>
-                      </span>
-                      <div className="flx-align gap-2">
-                        <h6 className="product-item__price mb-0">$99</h6>
-                        <span className="product-item__prevPrice text-decoration-line-through">
-                          $129
-                        </span>
-                      </div>
-                    </div>
-                    <div className="product-item__bottom flx-between gap-2">
-                      <div>
-                        <span className="product-item__sales font-14 mb-2">
-                          1300 Sales
-                        </span>
-                        <div className="d-flex align-items-center gap-1">
-                          <ul className="star-rating">
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                          </ul>
-                          <span className="star-rating__text text-heading fw-500 font-14">
-                            (16)
-                          </span>
-                        </div>
-                      </div>
-                      <Link
-                        to="/product-details"
-                        className="btn btn-outline-light btn-sm pill"
-                      >
-                        Live Demo
-                      </Link>
-                    </div>
+
+
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6">
-                <div className="product-item">
+              <div className="product-item">
                   <div className="product-item__thumb d-flex">
                     <Link to="/product-details" className="link w-100">
                       <img
-                        src="assets/images/thumbs/product-img6.png"
+                        src="assets/images/thumbs/coupon3.png"
                         alt=""
                         className="cover-img"
                       />
                     </Link>
-                    <button type="button" className="product-item__wishlist">
-                      <i className="fas fa-heart" />
-                    </button>
+
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
@@ -540,74 +251,22 @@ const ArrivalOne = () => {
                         SaaS dashboard digital products Title here
                       </Link>
                     </h6>
-                    <div className="product-item__info flx-between gap-2">
-                      <span className="product-item__author">
-                        by
-                        <Link
-                          to="/profile"
-                          className="link hover-text-decoration-underline"
-                        >
-                          themepix
-                        </Link>
-                      </span>
-                      <div className="flx-align gap-2">
-                        <h6 className="product-item__price mb-0">$129</h6>
-                        <span className="product-item__prevPrice text-decoration-line-through">
-                          $256
-                        </span>
-                      </div>
-                    </div>
-                    <div className="product-item__bottom flx-between gap-2">
-                      <div>
-                        <span className="product-item__sales font-14 mb-2">
-                          200 Sales
-                        </span>
-                        <div className="d-flex align-items-center gap-1">
-                          <ul className="star-rating">
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                          </ul>
-                          <span className="star-rating__text text-heading fw-500 font-14">
-                            (16)
-                          </span>
-                        </div>
-                      </div>
-                      <Link
-                        to="/product-details"
-                        className="btn btn-outline-light btn-sm pill"
-                      >
-                        Live Demo
-                      </Link>
-                    </div>
+
+
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6">
-                <div className="product-item">
+              <div className="product-item">
                   <div className="product-item__thumb d-flex">
                     <Link to="/product-details" className="link w-100">
                       <img
-                        src="assets/images/thumbs/product-img7.png"
+                        src="assets/images/thumbs/coupon2.png"
                         alt=""
                         className="cover-img"
                       />
                     </Link>
-                    <button type="button" className="product-item__wishlist">
-                      <i className="fas fa-heart" />
-                    </button>
+
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
@@ -615,74 +274,22 @@ const ArrivalOne = () => {
                         SaaS dashboard digital products Title here
                       </Link>
                     </h6>
-                    <div className="product-item__info flx-between gap-2">
-                      <span className="product-item__author">
-                        by
-                        <Link
-                          to="/profile"
-                          className="link hover-text-decoration-underline"
-                        >
-                          themepix
-                        </Link>
-                      </span>
-                      <div className="flx-align gap-2">
-                        <h6 className="product-item__price mb-0">$129</h6>
-                        <span className="product-item__prevPrice text-decoration-line-through">
-                          $259
-                        </span>
-                      </div>
-                    </div>
-                    <div className="product-item__bottom flx-between gap-2">
-                      <div>
-                        <span className="product-item__sales font-14 mb-2">
-                          500 Sales
-                        </span>
-                        <div className="d-flex align-items-center gap-1">
-                          <ul className="star-rating">
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                          </ul>
-                          <span className="star-rating__text text-heading fw-500 font-14">
-                            (16)
-                          </span>
-                        </div>
-                      </div>
-                      <Link
-                        to="/product-details"
-                        className="btn btn-outline-light btn-sm pill"
-                      >
-                        Live Demo
-                      </Link>
-                    </div>
+
+
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6">
-                <div className="product-item">
+              <div className="product-item">
                   <div className="product-item__thumb d-flex">
                     <Link to="/product-details" className="link w-100">
                       <img
-                        src="assets/images/thumbs/product-img8.png"
+                        src="assets/images/thumbs/coupon1.jpg"
                         alt=""
                         className="cover-img"
                       />
                     </Link>
-                    <button type="button" className="product-item__wishlist">
-                      <i className="fas fa-heart" />
-                    </button>
+
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
@@ -690,58 +297,8 @@ const ArrivalOne = () => {
                         SaaS dashboard digital products Title here
                       </Link>
                     </h6>
-                    <div className="product-item__info flx-between gap-2">
-                      <span className="product-item__author">
-                        by
-                        <Link
-                          to="/profile"
-                          className="link hover-text-decoration-underline"
-                        >
-                          themepix
-                        </Link>
-                      </span>
-                      <div className="flx-align gap-2">
-                        <h6 className="product-item__price mb-0">$79</h6>
-                        <span className="product-item__prevPrice text-decoration-line-through">
-                          $99
-                        </span>
-                      </div>
-                    </div>
-                    <div className="product-item__bottom flx-between gap-2">
-                      <div>
-                        <span className="product-item__sales font-14 mb-2">
-                          2100 Sales
-                        </span>
-                        <div className="d-flex align-items-center gap-1">
-                          <ul className="star-rating">
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                          </ul>
-                          <span className="star-rating__text text-heading fw-500 font-14">
-                            (16)
-                          </span>
-                        </div>
-                      </div>
-                      <Link
-                        to="/product-details"
-                        className="btn btn-outline-light btn-sm pill"
-                      >
-                        Live Demo
-                      </Link>
-                    </div>
+
+
                   </div>
                 </div>
               </div>
@@ -749,9 +306,9 @@ const ArrivalOne = () => {
           </div>
           <div
             className="tab-pane fade"
-            id="pills-wordPress"
+            id="pills-hypermarket"
             role="tabpanel"
-            aria-labelledby="pills-wordPress-tab"
+            aria-labelledby="pills-hypermarket-tab"
             tabIndex={0}
           >
             <div className="row gy-4">
@@ -760,14 +317,12 @@ const ArrivalOne = () => {
                   <div className="product-item__thumb d-flex">
                     <Link to="/product-details" className="link w-100">
                       <img
-                        src="assets/images/thumbs/product-img1.png"
+                        src="assets/images/thumbs/coupon1.jpg"
                         alt=""
                         className="cover-img"
                       />
                     </Link>
-                    <button type="button" className="product-item__wishlist">
-                      <i className="fas fa-heart" />
-                    </button>
+
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
@@ -775,74 +330,22 @@ const ArrivalOne = () => {
                         SaaS dashboard digital products Title here
                       </Link>
                     </h6>
-                    <div className="product-item__info flx-between gap-2">
-                      <span className="product-item__author">
-                        by
-                        <Link
-                          to="/profile"
-                          className="link hover-text-decoration-underline"
-                        >
-                          themepix
-                        </Link>
-                      </span>
-                      <div className="flx-align gap-2">
-                        <h6 className="product-item__price mb-0">$120</h6>
-                        <span className="product-item__prevPrice text-decoration-line-through">
-                          $259
-                        </span>
-                      </div>
-                    </div>
-                    <div className="product-item__bottom flx-between gap-2">
-                      <div>
-                        <span className="product-item__sales font-14 mb-2">
-                          1200 Sales
-                        </span>
-                        <div className="d-flex align-items-center gap-1">
-                          <ul className="star-rating">
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                          </ul>
-                          <span className="star-rating__text text-heading fw-500 font-14">
-                            (16)
-                          </span>
-                        </div>
-                      </div>
-                      <Link
-                        to="/product-details"
-                        className="btn btn-outline-light btn-sm pill"
-                      >
-                        Live Demo
-                      </Link>
-                    </div>
+
+
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6">
-                <div className="product-item">
+              <div className="product-item">
                   <div className="product-item__thumb d-flex">
                     <Link to="/product-details" className="link w-100">
                       <img
-                        src="assets/images/thumbs/product-img2.png"
+                        src="assets/images/thumbs/coupon2.png"
                         alt=""
                         className="cover-img"
                       />
                     </Link>
-                    <button type="button" className="product-item__wishlist">
-                      <i className="fas fa-heart" />
-                    </button>
+
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
@@ -850,74 +353,22 @@ const ArrivalOne = () => {
                         SaaS dashboard digital products Title here
                       </Link>
                     </h6>
-                    <div className="product-item__info flx-between gap-2">
-                      <span className="product-item__author">
-                        by
-                        <Link
-                          to="/profile"
-                          className="link hover-text-decoration-underline"
-                        >
-                          themepix
-                        </Link>
-                      </span>
-                      <div className="flx-align gap-2">
-                        <h6 className="product-item__price mb-0">$129</h6>
-                        <span className="product-item__prevPrice text-decoration-line-through">
-                          $236
-                        </span>
-                      </div>
-                    </div>
-                    <div className="product-item__bottom flx-between gap-2">
-                      <div>
-                        <span className="product-item__sales font-14 mb-2">
-                          100 Sales
-                        </span>
-                        <div className="d-flex align-items-center gap-1">
-                          <ul className="star-rating">
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                          </ul>
-                          <span className="star-rating__text text-heading fw-500 font-14">
-                            (16)
-                          </span>
-                        </div>
-                      </div>
-                      <Link
-                        to="/product-details"
-                        className="btn btn-outline-light btn-sm pill"
-                      >
-                        Live Demo
-                      </Link>
-                    </div>
+
+
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6">
-                <div className="product-item">
+              <div className="product-item">
                   <div className="product-item__thumb d-flex">
                     <Link to="/product-details" className="link w-100">
                       <img
-                        src="assets/images/thumbs/product-img3.png"
+                        src="assets/images/thumbs/coupon3.png"
                         alt=""
                         className="cover-img"
                       />
                     </Link>
-                    <button type="button" className="product-item__wishlist">
-                      <i className="fas fa-heart" />
-                    </button>
+
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
@@ -925,74 +376,22 @@ const ArrivalOne = () => {
                         SaaS dashboard digital products Title here
                       </Link>
                     </h6>
-                    <div className="product-item__info flx-between gap-2">
-                      <span className="product-item__author">
-                        by
-                        <Link
-                          to="/profile"
-                          className="link hover-text-decoration-underline"
-                        >
-                          themepix
-                        </Link>
-                      </span>
-                      <div className="flx-align gap-2">
-                        <h6 className="product-item__price mb-0">$79</h6>
-                        <span className="product-item__prevPrice text-decoration-line-through">
-                          $99
-                        </span>
-                      </div>
-                    </div>
-                    <div className="product-item__bottom flx-between gap-2">
-                      <div>
-                        <span className="product-item__sales font-14 mb-2">
-                          900 Sales
-                        </span>
-                        <div className="d-flex align-items-center gap-1">
-                          <ul className="star-rating">
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                          </ul>
-                          <span className="star-rating__text text-heading fw-500 font-14">
-                            (16)
-                          </span>
-                        </div>
-                      </div>
-                      <Link
-                        to="/product-details"
-                        className="btn btn-outline-light btn-sm pill"
-                      >
-                        Live Demo
-                      </Link>
-                    </div>
+
+
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6">
-                <div className="product-item">
+              <div className="product-item">
                   <div className="product-item__thumb d-flex">
                     <Link to="/product-details" className="link w-100">
                       <img
-                        src="assets/images/thumbs/product-img4.png"
+                        src="assets/images/thumbs/coupon4.png"
                         alt=""
                         className="cover-img"
                       />
                     </Link>
-                    <button type="button" className="product-item__wishlist">
-                      <i className="fas fa-heart" />
-                    </button>
+
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
@@ -1000,74 +399,22 @@ const ArrivalOne = () => {
                         SaaS dashboard digital products Title here
                       </Link>
                     </h6>
-                    <div className="product-item__info flx-between gap-2">
-                      <span className="product-item__author">
-                        by
-                        <Link
-                          to="/profile"
-                          className="link hover-text-decoration-underline"
-                        >
-                          themepix
-                        </Link>
-                      </span>
-                      <div className="flx-align gap-2">
-                        <h6 className="product-item__price mb-0">$59</h6>
-                        <span className="product-item__prevPrice text-decoration-line-through">
-                          $129
-                        </span>
-                      </div>
-                    </div>
-                    <div className="product-item__bottom flx-between gap-2">
-                      <div>
-                        <span className="product-item__sales font-14 mb-2">
-                          1225 Sales
-                        </span>
-                        <div className="d-flex align-items-center gap-1">
-                          <ul className="star-rating">
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                          </ul>
-                          <span className="star-rating__text text-heading fw-500 font-14">
-                            (16)
-                          </span>
-                        </div>
-                      </div>
-                      <Link
-                        to="/product-details"
-                        className="btn btn-outline-light btn-sm pill"
-                      >
-                        Live Demo
-                      </Link>
-                    </div>
+
+
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6">
-                <div className="product-item">
+              <div className="product-item">
                   <div className="product-item__thumb d-flex">
                     <Link to="/product-details" className="link w-100">
                       <img
-                        src="assets/images/thumbs/product-img5.png"
+                        src="assets/images/thumbs/coupon4.png"
                         alt=""
                         className="cover-img"
                       />
                     </Link>
-                    <button type="button" className="product-item__wishlist">
-                      <i className="fas fa-heart" />
-                    </button>
+
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
@@ -1075,74 +422,22 @@ const ArrivalOne = () => {
                         SaaS dashboard digital products Title here
                       </Link>
                     </h6>
-                    <div className="product-item__info flx-between gap-2">
-                      <span className="product-item__author">
-                        by
-                        <Link
-                          to="/profile"
-                          className="link hover-text-decoration-underline"
-                        >
-                          themepix
-                        </Link>
-                      </span>
-                      <div className="flx-align gap-2">
-                        <h6 className="product-item__price mb-0">$99</h6>
-                        <span className="product-item__prevPrice text-decoration-line-through">
-                          $129
-                        </span>
-                      </div>
-                    </div>
-                    <div className="product-item__bottom flx-between gap-2">
-                      <div>
-                        <span className="product-item__sales font-14 mb-2">
-                          1300 Sales
-                        </span>
-                        <div className="d-flex align-items-center gap-1">
-                          <ul className="star-rating">
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                          </ul>
-                          <span className="star-rating__text text-heading fw-500 font-14">
-                            (16)
-                          </span>
-                        </div>
-                      </div>
-                      <Link
-                        to="/product-details"
-                        className="btn btn-outline-light btn-sm pill"
-                      >
-                        Live Demo
-                      </Link>
-                    </div>
+
+
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6">
-                <div className="product-item">
+              <div className="product-item">
                   <div className="product-item__thumb d-flex">
                     <Link to="/product-details" className="link w-100">
                       <img
-                        src="assets/images/thumbs/product-img6.png"
+                        src="assets/images/thumbs/coupon3.png"
                         alt=""
                         className="cover-img"
                       />
                     </Link>
-                    <button type="button" className="product-item__wishlist">
-                      <i className="fas fa-heart" />
-                    </button>
+
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
@@ -1150,74 +445,22 @@ const ArrivalOne = () => {
                         SaaS dashboard digital products Title here
                       </Link>
                     </h6>
-                    <div className="product-item__info flx-between gap-2">
-                      <span className="product-item__author">
-                        by
-                        <Link
-                          to="/profile"
-                          className="link hover-text-decoration-underline"
-                        >
-                          themepix
-                        </Link>
-                      </span>
-                      <div className="flx-align gap-2">
-                        <h6 className="product-item__price mb-0">$129</h6>
-                        <span className="product-item__prevPrice text-decoration-line-through">
-                          $256
-                        </span>
-                      </div>
-                    </div>
-                    <div className="product-item__bottom flx-between gap-2">
-                      <div>
-                        <span className="product-item__sales font-14 mb-2">
-                          200 Sales
-                        </span>
-                        <div className="d-flex align-items-center gap-1">
-                          <ul className="star-rating">
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                          </ul>
-                          <span className="star-rating__text text-heading fw-500 font-14">
-                            (16)
-                          </span>
-                        </div>
-                      </div>
-                      <Link
-                        to="/product-details"
-                        className="btn btn-outline-light btn-sm pill"
-                      >
-                        Live Demo
-                      </Link>
-                    </div>
+
+
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6">
-                <div className="product-item">
+              <div className="product-item">
                   <div className="product-item__thumb d-flex">
                     <Link to="/product-details" className="link w-100">
                       <img
-                        src="assets/images/thumbs/product-img7.png"
+                        src="assets/images/thumbs/coupon2.png"
                         alt=""
                         className="cover-img"
                       />
                     </Link>
-                    <button type="button" className="product-item__wishlist">
-                      <i className="fas fa-heart" />
-                    </button>
+
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
@@ -1225,74 +468,22 @@ const ArrivalOne = () => {
                         SaaS dashboard digital products Title here
                       </Link>
                     </h6>
-                    <div className="product-item__info flx-between gap-2">
-                      <span className="product-item__author">
-                        by
-                        <Link
-                          to="/profile"
-                          className="link hover-text-decoration-underline"
-                        >
-                          themepix
-                        </Link>
-                      </span>
-                      <div className="flx-align gap-2">
-                        <h6 className="product-item__price mb-0">$129</h6>
-                        <span className="product-item__prevPrice text-decoration-line-through">
-                          $259
-                        </span>
-                      </div>
-                    </div>
-                    <div className="product-item__bottom flx-between gap-2">
-                      <div>
-                        <span className="product-item__sales font-14 mb-2">
-                          500 Sales
-                        </span>
-                        <div className="d-flex align-items-center gap-1">
-                          <ul className="star-rating">
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                          </ul>
-                          <span className="star-rating__text text-heading fw-500 font-14">
-                            (16)
-                          </span>
-                        </div>
-                      </div>
-                      <Link
-                        to="/product-details"
-                        className="btn btn-outline-light btn-sm pill"
-                      >
-                        Live Demo
-                      </Link>
-                    </div>
+
+
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6">
-                <div className="product-item">
+              <div className="product-item">
                   <div className="product-item__thumb d-flex">
                     <Link to="/product-details" className="link w-100">
                       <img
-                        src="assets/images/thumbs/product-img8.png"
+                        src="assets/images/thumbs/coupon1.jpg"
                         alt=""
                         className="cover-img"
                       />
                     </Link>
-                    <button type="button" className="product-item__wishlist">
-                      <i className="fas fa-heart" />
-                    </button>
+
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
@@ -1300,58 +491,8 @@ const ArrivalOne = () => {
                         SaaS dashboard digital products Title here
                       </Link>
                     </h6>
-                    <div className="product-item__info flx-between gap-2">
-                      <span className="product-item__author">
-                        by
-                        <Link
-                          to="/profile"
-                          className="link hover-text-decoration-underline"
-                        >
-                          themepix
-                        </Link>
-                      </span>
-                      <div className="flx-align gap-2">
-                        <h6 className="product-item__price mb-0">$79</h6>
-                        <span className="product-item__prevPrice text-decoration-line-through">
-                          $99
-                        </span>
-                      </div>
-                    </div>
-                    <div className="product-item__bottom flx-between gap-2">
-                      <div>
-                        <span className="product-item__sales font-14 mb-2">
-                          2100 Sales
-                        </span>
-                        <div className="d-flex align-items-center gap-1">
-                          <ul className="star-rating">
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                          </ul>
-                          <span className="star-rating__text text-heading fw-500 font-14">
-                            (16)
-                          </span>
-                        </div>
-                      </div>
-                      <Link
-                        to="/product-details"
-                        className="btn btn-outline-light btn-sm pill"
-                      >
-                        Live Demo
-                      </Link>
-                    </div>
+
+
                   </div>
                 </div>
               </div>
@@ -1359,9 +500,9 @@ const ArrivalOne = () => {
           </div>
           <div
             className="tab-pane fade"
-            id="pills-php"
+            id="pills-fashion"
             role="tabpanel"
-            aria-labelledby="pills-php-tab"
+            aria-labelledby="pills-fashion-tab"
             tabIndex={0}
           >
             <div className="row gy-4">
@@ -1370,14 +511,12 @@ const ArrivalOne = () => {
                   <div className="product-item__thumb d-flex">
                     <Link to="/product-details" className="link w-100">
                       <img
-                        src="assets/images/thumbs/product-img1.png"
+                        src="assets/images/thumbs/coupon1.jpg"
                         alt=""
                         className="cover-img"
                       />
                     </Link>
-                    <button type="button" className="product-item__wishlist">
-                      <i className="fas fa-heart" />
-                    </button>
+
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
@@ -1385,74 +524,22 @@ const ArrivalOne = () => {
                         SaaS dashboard digital products Title here
                       </Link>
                     </h6>
-                    <div className="product-item__info flx-between gap-2">
-                      <span className="product-item__author">
-                        by
-                        <Link
-                          to="/profile"
-                          className="link hover-text-decoration-underline"
-                        >
-                          themepix
-                        </Link>
-                      </span>
-                      <div className="flx-align gap-2">
-                        <h6 className="product-item__price mb-0">$120</h6>
-                        <span className="product-item__prevPrice text-decoration-line-through">
-                          $259
-                        </span>
-                      </div>
-                    </div>
-                    <div className="product-item__bottom flx-between gap-2">
-                      <div>
-                        <span className="product-item__sales font-14 mb-2">
-                          1200 Sales
-                        </span>
-                        <div className="d-flex align-items-center gap-1">
-                          <ul className="star-rating">
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                          </ul>
-                          <span className="star-rating__text text-heading fw-500 font-14">
-                            (16)
-                          </span>
-                        </div>
-                      </div>
-                      <Link
-                        to="/product-details"
-                        className="btn btn-outline-light btn-sm pill"
-                      >
-                        Live Demo
-                      </Link>
-                    </div>
+
+
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6">
-                <div className="product-item">
+              <div className="product-item">
                   <div className="product-item__thumb d-flex">
                     <Link to="/product-details" className="link w-100">
                       <img
-                        src="assets/images/thumbs/product-img2.png"
+                        src="assets/images/thumbs/coupon2.png"
                         alt=""
                         className="cover-img"
                       />
                     </Link>
-                    <button type="button" className="product-item__wishlist">
-                      <i className="fas fa-heart" />
-                    </button>
+
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
@@ -1460,74 +547,22 @@ const ArrivalOne = () => {
                         SaaS dashboard digital products Title here
                       </Link>
                     </h6>
-                    <div className="product-item__info flx-between gap-2">
-                      <span className="product-item__author">
-                        by
-                        <Link
-                          to="/profile"
-                          className="link hover-text-decoration-underline"
-                        >
-                          themepix
-                        </Link>
-                      </span>
-                      <div className="flx-align gap-2">
-                        <h6 className="product-item__price mb-0">$129</h6>
-                        <span className="product-item__prevPrice text-decoration-line-through">
-                          $236
-                        </span>
-                      </div>
-                    </div>
-                    <div className="product-item__bottom flx-between gap-2">
-                      <div>
-                        <span className="product-item__sales font-14 mb-2">
-                          100 Sales
-                        </span>
-                        <div className="d-flex align-items-center gap-1">
-                          <ul className="star-rating">
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                          </ul>
-                          <span className="star-rating__text text-heading fw-500 font-14">
-                            (16)
-                          </span>
-                        </div>
-                      </div>
-                      <Link
-                        to="/product-details"
-                        className="btn btn-outline-light btn-sm pill"
-                      >
-                        Live Demo
-                      </Link>
-                    </div>
+
+
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6">
-                <div className="product-item">
+              <div className="product-item">
                   <div className="product-item__thumb d-flex">
                     <Link to="/product-details" className="link w-100">
                       <img
-                        src="assets/images/thumbs/product-img3.png"
+                        src="assets/images/thumbs/coupon3.png"
                         alt=""
                         className="cover-img"
                       />
                     </Link>
-                    <button type="button" className="product-item__wishlist">
-                      <i className="fas fa-heart" />
-                    </button>
+
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
@@ -1535,74 +570,22 @@ const ArrivalOne = () => {
                         SaaS dashboard digital products Title here
                       </Link>
                     </h6>
-                    <div className="product-item__info flx-between gap-2">
-                      <span className="product-item__author">
-                        by
-                        <Link
-                          to="/profile"
-                          className="link hover-text-decoration-underline"
-                        >
-                          themepix
-                        </Link>
-                      </span>
-                      <div className="flx-align gap-2">
-                        <h6 className="product-item__price mb-0">$79</h6>
-                        <span className="product-item__prevPrice text-decoration-line-through">
-                          $99
-                        </span>
-                      </div>
-                    </div>
-                    <div className="product-item__bottom flx-between gap-2">
-                      <div>
-                        <span className="product-item__sales font-14 mb-2">
-                          900 Sales
-                        </span>
-                        <div className="d-flex align-items-center gap-1">
-                          <ul className="star-rating">
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                          </ul>
-                          <span className="star-rating__text text-heading fw-500 font-14">
-                            (16)
-                          </span>
-                        </div>
-                      </div>
-                      <Link
-                        to="/product-details"
-                        className="btn btn-outline-light btn-sm pill"
-                      >
-                        Live Demo
-                      </Link>
-                    </div>
+
+
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6">
-                <div className="product-item">
+              <div className="product-item">
                   <div className="product-item__thumb d-flex">
                     <Link to="/product-details" className="link w-100">
                       <img
-                        src="assets/images/thumbs/product-img4.png"
+                        src="assets/images/thumbs/coupon4.png"
                         alt=""
                         className="cover-img"
                       />
                     </Link>
-                    <button type="button" className="product-item__wishlist">
-                      <i className="fas fa-heart" />
-                    </button>
+
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
@@ -1610,74 +593,22 @@ const ArrivalOne = () => {
                         SaaS dashboard digital products Title here
                       </Link>
                     </h6>
-                    <div className="product-item__info flx-between gap-2">
-                      <span className="product-item__author">
-                        by
-                        <Link
-                          to="/profile"
-                          className="link hover-text-decoration-underline"
-                        >
-                          themepix
-                        </Link>
-                      </span>
-                      <div className="flx-align gap-2">
-                        <h6 className="product-item__price mb-0">$59</h6>
-                        <span className="product-item__prevPrice text-decoration-line-through">
-                          $129
-                        </span>
-                      </div>
-                    </div>
-                    <div className="product-item__bottom flx-between gap-2">
-                      <div>
-                        <span className="product-item__sales font-14 mb-2">
-                          1225 Sales
-                        </span>
-                        <div className="d-flex align-items-center gap-1">
-                          <ul className="star-rating">
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                          </ul>
-                          <span className="star-rating__text text-heading fw-500 font-14">
-                            (16)
-                          </span>
-                        </div>
-                      </div>
-                      <Link
-                        to="/product-details"
-                        className="btn btn-outline-light btn-sm pill"
-                      >
-                        Live Demo
-                      </Link>
-                    </div>
+
+
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6">
-                <div className="product-item">
+              <div className="product-item">
                   <div className="product-item__thumb d-flex">
                     <Link to="/product-details" className="link w-100">
                       <img
-                        src="assets/images/thumbs/product-img5.png"
+                        src="assets/images/thumbs/coupon4.png"
                         alt=""
                         className="cover-img"
                       />
                     </Link>
-                    <button type="button" className="product-item__wishlist">
-                      <i className="fas fa-heart" />
-                    </button>
+
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
@@ -1685,74 +616,22 @@ const ArrivalOne = () => {
                         SaaS dashboard digital products Title here
                       </Link>
                     </h6>
-                    <div className="product-item__info flx-between gap-2">
-                      <span className="product-item__author">
-                        by
-                        <Link
-                          to="/profile"
-                          className="link hover-text-decoration-underline"
-                        >
-                          themepix
-                        </Link>
-                      </span>
-                      <div className="flx-align gap-2">
-                        <h6 className="product-item__price mb-0">$99</h6>
-                        <span className="product-item__prevPrice text-decoration-line-through">
-                          $129
-                        </span>
-                      </div>
-                    </div>
-                    <div className="product-item__bottom flx-between gap-2">
-                      <div>
-                        <span className="product-item__sales font-14 mb-2">
-                          1300 Sales
-                        </span>
-                        <div className="d-flex align-items-center gap-1">
-                          <ul className="star-rating">
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                          </ul>
-                          <span className="star-rating__text text-heading fw-500 font-14">
-                            (16)
-                          </span>
-                        </div>
-                      </div>
-                      <Link
-                        to="/product-details"
-                        className="btn btn-outline-light btn-sm pill"
-                      >
-                        Live Demo
-                      </Link>
-                    </div>
+
+
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6">
-                <div className="product-item">
+              <div className="product-item">
                   <div className="product-item__thumb d-flex">
                     <Link to="/product-details" className="link w-100">
                       <img
-                        src="assets/images/thumbs/product-img6.png"
+                        src="assets/images/thumbs/coupon3.png"
                         alt=""
                         className="cover-img"
                       />
                     </Link>
-                    <button type="button" className="product-item__wishlist">
-                      <i className="fas fa-heart" />
-                    </button>
+
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
@@ -1760,74 +639,22 @@ const ArrivalOne = () => {
                         SaaS dashboard digital products Title here
                       </Link>
                     </h6>
-                    <div className="product-item__info flx-between gap-2">
-                      <span className="product-item__author">
-                        by
-                        <Link
-                          to="/profile"
-                          className="link hover-text-decoration-underline"
-                        >
-                          themepix
-                        </Link>
-                      </span>
-                      <div className="flx-align gap-2">
-                        <h6 className="product-item__price mb-0">$129</h6>
-                        <span className="product-item__prevPrice text-decoration-line-through">
-                          $256
-                        </span>
-                      </div>
-                    </div>
-                    <div className="product-item__bottom flx-between gap-2">
-                      <div>
-                        <span className="product-item__sales font-14 mb-2">
-                          200 Sales
-                        </span>
-                        <div className="d-flex align-items-center gap-1">
-                          <ul className="star-rating">
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                          </ul>
-                          <span className="star-rating__text text-heading fw-500 font-14">
-                            (16)
-                          </span>
-                        </div>
-                      </div>
-                      <Link
-                        to="/product-details"
-                        className="btn btn-outline-light btn-sm pill"
-                      >
-                        Live Demo
-                      </Link>
-                    </div>
+
+
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6">
-                <div className="product-item">
+              <div className="product-item">
                   <div className="product-item__thumb d-flex">
                     <Link to="/product-details" className="link w-100">
                       <img
-                        src="assets/images/thumbs/product-img7.png"
+                        src="assets/images/thumbs/coupon2.png"
                         alt=""
                         className="cover-img"
                       />
                     </Link>
-                    <button type="button" className="product-item__wishlist">
-                      <i className="fas fa-heart" />
-                    </button>
+
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
@@ -1835,74 +662,22 @@ const ArrivalOne = () => {
                         SaaS dashboard digital products Title here
                       </Link>
                     </h6>
-                    <div className="product-item__info flx-between gap-2">
-                      <span className="product-item__author">
-                        by
-                        <Link
-                          to="/profile"
-                          className="link hover-text-decoration-underline"
-                        >
-                          themepix
-                        </Link>
-                      </span>
-                      <div className="flx-align gap-2">
-                        <h6 className="product-item__price mb-0">$129</h6>
-                        <span className="product-item__prevPrice text-decoration-line-through">
-                          $259
-                        </span>
-                      </div>
-                    </div>
-                    <div className="product-item__bottom flx-between gap-2">
-                      <div>
-                        <span className="product-item__sales font-14 mb-2">
-                          500 Sales
-                        </span>
-                        <div className="d-flex align-items-center gap-1">
-                          <ul className="star-rating">
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                          </ul>
-                          <span className="star-rating__text text-heading fw-500 font-14">
-                            (16)
-                          </span>
-                        </div>
-                      </div>
-                      <Link
-                        to="/product-details"
-                        className="btn btn-outline-light btn-sm pill"
-                      >
-                        Live Demo
-                      </Link>
-                    </div>
+
+
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6">
-                <div className="product-item">
+              <div className="product-item">
                   <div className="product-item__thumb d-flex">
                     <Link to="/product-details" className="link w-100">
                       <img
-                        src="assets/images/thumbs/product-img8.png"
+                        src="assets/images/thumbs/coupon1.jpg"
                         alt=""
                         className="cover-img"
                       />
                     </Link>
-                    <button type="button" className="product-item__wishlist">
-                      <i className="fas fa-heart" />
-                    </button>
+
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
@@ -1910,58 +685,8 @@ const ArrivalOne = () => {
                         SaaS dashboard digital products Title here
                       </Link>
                     </h6>
-                    <div className="product-item__info flx-between gap-2">
-                      <span className="product-item__author">
-                        by
-                        <Link
-                          to="/profile"
-                          className="link hover-text-decoration-underline"
-                        >
-                          themepix
-                        </Link>
-                      </span>
-                      <div className="flx-align gap-2">
-                        <h6 className="product-item__price mb-0">$79</h6>
-                        <span className="product-item__prevPrice text-decoration-line-through">
-                          $99
-                        </span>
-                      </div>
-                    </div>
-                    <div className="product-item__bottom flx-between gap-2">
-                      <div>
-                        <span className="product-item__sales font-14 mb-2">
-                          2100 Sales
-                        </span>
-                        <div className="d-flex align-items-center gap-1">
-                          <ul className="star-rating">
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                          </ul>
-                          <span className="star-rating__text text-heading fw-500 font-14">
-                            (16)
-                          </span>
-                        </div>
-                      </div>
-                      <Link
-                        to="/product-details"
-                        className="btn btn-outline-light btn-sm pill"
-                      >
-                        Live Demo
-                      </Link>
-                    </div>
+
+
                   </div>
                 </div>
               </div>
@@ -1969,9 +694,9 @@ const ArrivalOne = () => {
           </div>
           <div
             className="tab-pane fade"
-            id="pills-siteTemplate"
+            id="pills-shopping-malls"
             role="tabpanel"
-            aria-labelledby="pills-siteTemplate-tab"
+            aria-labelledby="pills-shopping-malls-tab"
             tabIndex={0}
           >
             <div className="row gy-4">
@@ -1980,14 +705,12 @@ const ArrivalOne = () => {
                   <div className="product-item__thumb d-flex">
                     <Link to="/product-details" className="link w-100">
                       <img
-                        src="assets/images/thumbs/product-img1.png"
+                        src="assets/images/thumbs/coupon1.jpg"
                         alt=""
                         className="cover-img"
                       />
                     </Link>
-                    <button type="button" className="product-item__wishlist">
-                      <i className="fas fa-heart" />
-                    </button>
+
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
@@ -1995,74 +718,22 @@ const ArrivalOne = () => {
                         SaaS dashboard digital products Title here
                       </Link>
                     </h6>
-                    <div className="product-item__info flx-between gap-2">
-                      <span className="product-item__author">
-                        by
-                        <Link
-                          to="/profile"
-                          className="link hover-text-decoration-underline"
-                        >
-                          themepix
-                        </Link>
-                      </span>
-                      <div className="flx-align gap-2">
-                        <h6 className="product-item__price mb-0">$120</h6>
-                        <span className="product-item__prevPrice text-decoration-line-through">
-                          $259
-                        </span>
-                      </div>
-                    </div>
-                    <div className="product-item__bottom flx-between gap-2">
-                      <div>
-                        <span className="product-item__sales font-14 mb-2">
-                          1200 Sales
-                        </span>
-                        <div className="d-flex align-items-center gap-1">
-                          <ul className="star-rating">
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                          </ul>
-                          <span className="star-rating__text text-heading fw-500 font-14">
-                            (16)
-                          </span>
-                        </div>
-                      </div>
-                      <Link
-                        to="/product-details"
-                        className="btn btn-outline-light btn-sm pill"
-                      >
-                        Live Demo
-                      </Link>
-                    </div>
+
+
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6">
-                <div className="product-item">
+              <div className="product-item">
                   <div className="product-item__thumb d-flex">
                     <Link to="/product-details" className="link w-100">
                       <img
-                        src="assets/images/thumbs/product-img2.png"
+                        src="assets/images/thumbs/coupon2.png"
                         alt=""
                         className="cover-img"
                       />
                     </Link>
-                    <button type="button" className="product-item__wishlist">
-                      <i className="fas fa-heart" />
-                    </button>
+
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
@@ -2070,74 +741,22 @@ const ArrivalOne = () => {
                         SaaS dashboard digital products Title here
                       </Link>
                     </h6>
-                    <div className="product-item__info flx-between gap-2">
-                      <span className="product-item__author">
-                        by
-                        <Link
-                          to="/profile"
-                          className="link hover-text-decoration-underline"
-                        >
-                          themepix
-                        </Link>
-                      </span>
-                      <div className="flx-align gap-2">
-                        <h6 className="product-item__price mb-0">$129</h6>
-                        <span className="product-item__prevPrice text-decoration-line-through">
-                          $236
-                        </span>
-                      </div>
-                    </div>
-                    <div className="product-item__bottom flx-between gap-2">
-                      <div>
-                        <span className="product-item__sales font-14 mb-2">
-                          100 Sales
-                        </span>
-                        <div className="d-flex align-items-center gap-1">
-                          <ul className="star-rating">
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                          </ul>
-                          <span className="star-rating__text text-heading fw-500 font-14">
-                            (16)
-                          </span>
-                        </div>
-                      </div>
-                      <Link
-                        to="/product-details"
-                        className="btn btn-outline-light btn-sm pill"
-                      >
-                        Live Demo
-                      </Link>
-                    </div>
+
+
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6">
-                <div className="product-item">
+              <div className="product-item">
                   <div className="product-item__thumb d-flex">
                     <Link to="/product-details" className="link w-100">
                       <img
-                        src="assets/images/thumbs/product-img3.png"
+                        src="assets/images/thumbs/coupon3.png"
                         alt=""
                         className="cover-img"
                       />
                     </Link>
-                    <button type="button" className="product-item__wishlist">
-                      <i className="fas fa-heart" />
-                    </button>
+
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
@@ -2145,74 +764,22 @@ const ArrivalOne = () => {
                         SaaS dashboard digital products Title here
                       </Link>
                     </h6>
-                    <div className="product-item__info flx-between gap-2">
-                      <span className="product-item__author">
-                        by
-                        <Link
-                          to="/profile"
-                          className="link hover-text-decoration-underline"
-                        >
-                          themepix
-                        </Link>
-                      </span>
-                      <div className="flx-align gap-2">
-                        <h6 className="product-item__price mb-0">$79</h6>
-                        <span className="product-item__prevPrice text-decoration-line-through">
-                          $99
-                        </span>
-                      </div>
-                    </div>
-                    <div className="product-item__bottom flx-between gap-2">
-                      <div>
-                        <span className="product-item__sales font-14 mb-2">
-                          900 Sales
-                        </span>
-                        <div className="d-flex align-items-center gap-1">
-                          <ul className="star-rating">
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                          </ul>
-                          <span className="star-rating__text text-heading fw-500 font-14">
-                            (16)
-                          </span>
-                        </div>
-                      </div>
-                      <Link
-                        to="/product-details"
-                        className="btn btn-outline-light btn-sm pill"
-                      >
-                        Live Demo
-                      </Link>
-                    </div>
+
+
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6">
-                <div className="product-item">
+              <div className="product-item">
                   <div className="product-item__thumb d-flex">
                     <Link to="/product-details" className="link w-100">
                       <img
-                        src="assets/images/thumbs/product-img4.png"
+                        src="assets/images/thumbs/coupon4.png"
                         alt=""
                         className="cover-img"
                       />
                     </Link>
-                    <button type="button" className="product-item__wishlist">
-                      <i className="fas fa-heart" />
-                    </button>
+
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
@@ -2220,74 +787,22 @@ const ArrivalOne = () => {
                         SaaS dashboard digital products Title here
                       </Link>
                     </h6>
-                    <div className="product-item__info flx-between gap-2">
-                      <span className="product-item__author">
-                        by
-                        <Link
-                          to="/profile"
-                          className="link hover-text-decoration-underline"
-                        >
-                          themepix
-                        </Link>
-                      </span>
-                      <div className="flx-align gap-2">
-                        <h6 className="product-item__price mb-0">$59</h6>
-                        <span className="product-item__prevPrice text-decoration-line-through">
-                          $129
-                        </span>
-                      </div>
-                    </div>
-                    <div className="product-item__bottom flx-between gap-2">
-                      <div>
-                        <span className="product-item__sales font-14 mb-2">
-                          1225 Sales
-                        </span>
-                        <div className="d-flex align-items-center gap-1">
-                          <ul className="star-rating">
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                          </ul>
-                          <span className="star-rating__text text-heading fw-500 font-14">
-                            (16)
-                          </span>
-                        </div>
-                      </div>
-                      <Link
-                        to="/product-details"
-                        className="btn btn-outline-light btn-sm pill"
-                      >
-                        Live Demo
-                      </Link>
-                    </div>
+
+
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6">
-                <div className="product-item">
+              <div className="product-item">
                   <div className="product-item__thumb d-flex">
                     <Link to="/product-details" className="link w-100">
                       <img
-                        src="assets/images/thumbs/product-img5.png"
+                        src="assets/images/thumbs/coupon4.png"
                         alt=""
                         className="cover-img"
                       />
                     </Link>
-                    <button type="button" className="product-item__wishlist">
-                      <i className="fas fa-heart" />
-                    </button>
+
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
@@ -2295,74 +810,22 @@ const ArrivalOne = () => {
                         SaaS dashboard digital products Title here
                       </Link>
                     </h6>
-                    <div className="product-item__info flx-between gap-2">
-                      <span className="product-item__author">
-                        by
-                        <Link
-                          to="/profile"
-                          className="link hover-text-decoration-underline"
-                        >
-                          themepix
-                        </Link>
-                      </span>
-                      <div className="flx-align gap-2">
-                        <h6 className="product-item__price mb-0">$99</h6>
-                        <span className="product-item__prevPrice text-decoration-line-through">
-                          $129
-                        </span>
-                      </div>
-                    </div>
-                    <div className="product-item__bottom flx-between gap-2">
-                      <div>
-                        <span className="product-item__sales font-14 mb-2">
-                          1300 Sales
-                        </span>
-                        <div className="d-flex align-items-center gap-1">
-                          <ul className="star-rating">
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                          </ul>
-                          <span className="star-rating__text text-heading fw-500 font-14">
-                            (16)
-                          </span>
-                        </div>
-                      </div>
-                      <Link
-                        to="/product-details"
-                        className="btn btn-outline-light btn-sm pill"
-                      >
-                        Live Demo
-                      </Link>
-                    </div>
+
+
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6">
-                <div className="product-item">
+              <div className="product-item">
                   <div className="product-item__thumb d-flex">
                     <Link to="/product-details" className="link w-100">
                       <img
-                        src="assets/images/thumbs/product-img6.png"
+                        src="assets/images/thumbs/coupon3.png"
                         alt=""
                         className="cover-img"
                       />
                     </Link>
-                    <button type="button" className="product-item__wishlist">
-                      <i className="fas fa-heart" />
-                    </button>
+
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
@@ -2370,74 +833,22 @@ const ArrivalOne = () => {
                         SaaS dashboard digital products Title here
                       </Link>
                     </h6>
-                    <div className="product-item__info flx-between gap-2">
-                      <span className="product-item__author">
-                        by
-                        <Link
-                          to="/profile"
-                          className="link hover-text-decoration-underline"
-                        >
-                          themepix
-                        </Link>
-                      </span>
-                      <div className="flx-align gap-2">
-                        <h6 className="product-item__price mb-0">$129</h6>
-                        <span className="product-item__prevPrice text-decoration-line-through">
-                          $256
-                        </span>
-                      </div>
-                    </div>
-                    <div className="product-item__bottom flx-between gap-2">
-                      <div>
-                        <span className="product-item__sales font-14 mb-2">
-                          200 Sales
-                        </span>
-                        <div className="d-flex align-items-center gap-1">
-                          <ul className="star-rating">
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                          </ul>
-                          <span className="star-rating__text text-heading fw-500 font-14">
-                            (16)
-                          </span>
-                        </div>
-                      </div>
-                      <Link
-                        to="/product-details"
-                        className="btn btn-outline-light btn-sm pill"
-                      >
-                        Live Demo
-                      </Link>
-                    </div>
+
+
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6">
-                <div className="product-item">
+              <div className="product-item">
                   <div className="product-item__thumb d-flex">
                     <Link to="/product-details" className="link w-100">
                       <img
-                        src="assets/images/thumbs/product-img7.png"
+                        src="assets/images/thumbs/coupon2.png"
                         alt=""
                         className="cover-img"
                       />
                     </Link>
-                    <button type="button" className="product-item__wishlist">
-                      <i className="fas fa-heart" />
-                    </button>
+
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
@@ -2445,74 +856,22 @@ const ArrivalOne = () => {
                         SaaS dashboard digital products Title here
                       </Link>
                     </h6>
-                    <div className="product-item__info flx-between gap-2">
-                      <span className="product-item__author">
-                        by
-                        <Link
-                          to="/profile"
-                          className="link hover-text-decoration-underline"
-                        >
-                          themepix
-                        </Link>
-                      </span>
-                      <div className="flx-align gap-2">
-                        <h6 className="product-item__price mb-0">$129</h6>
-                        <span className="product-item__prevPrice text-decoration-line-through">
-                          $259
-                        </span>
-                      </div>
-                    </div>
-                    <div className="product-item__bottom flx-between gap-2">
-                      <div>
-                        <span className="product-item__sales font-14 mb-2">
-                          500 Sales
-                        </span>
-                        <div className="d-flex align-items-center gap-1">
-                          <ul className="star-rating">
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                          </ul>
-                          <span className="star-rating__text text-heading fw-500 font-14">
-                            (16)
-                          </span>
-                        </div>
-                      </div>
-                      <Link
-                        to="/product-details"
-                        className="btn btn-outline-light btn-sm pill"
-                      >
-                        Live Demo
-                      </Link>
-                    </div>
+
+
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6">
-                <div className="product-item">
+              <div className="product-item">
                   <div className="product-item__thumb d-flex">
                     <Link to="/product-details" className="link w-100">
                       <img
-                        src="assets/images/thumbs/product-img8.png"
+                        src="assets/images/thumbs/coupon1.jpg"
                         alt=""
                         className="cover-img"
                       />
                     </Link>
-                    <button type="button" className="product-item__wishlist">
-                      <i className="fas fa-heart" />
-                    </button>
+
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
@@ -2520,58 +879,8 @@ const ArrivalOne = () => {
                         SaaS dashboard digital products Title here
                       </Link>
                     </h6>
-                    <div className="product-item__info flx-between gap-2">
-                      <span className="product-item__author">
-                        by
-                        <Link
-                          to="/profile"
-                          className="link hover-text-decoration-underline"
-                        >
-                          themepix
-                        </Link>
-                      </span>
-                      <div className="flx-align gap-2">
-                        <h6 className="product-item__price mb-0">$79</h6>
-                        <span className="product-item__prevPrice text-decoration-line-through">
-                          $99
-                        </span>
-                      </div>
-                    </div>
-                    <div className="product-item__bottom flx-between gap-2">
-                      <div>
-                        <span className="product-item__sales font-14 mb-2">
-                          2100 Sales
-                        </span>
-                        <div className="d-flex align-items-center gap-1">
-                          <ul className="star-rating">
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                          </ul>
-                          <span className="star-rating__text text-heading fw-500 font-14">
-                            (16)
-                          </span>
-                        </div>
-                      </div>
-                      <Link
-                        to="/product-details"
-                        className="btn btn-outline-light btn-sm pill"
-                      >
-                        Live Demo
-                      </Link>
-                    </div>
+
+
                   </div>
                 </div>
               </div>
@@ -2579,9 +888,9 @@ const ArrivalOne = () => {
           </div>
           <div
             className="tab-pane fade"
-            id="pills-blogging"
+            id="pills-Electronics"
             role="tabpanel"
-            aria-labelledby="pills-blogging-tab"
+            aria-labelledby="pills-Electronics-tab"
             tabIndex={0}
           >
             <div className="row gy-4">
@@ -2590,14 +899,12 @@ const ArrivalOne = () => {
                   <div className="product-item__thumb d-flex">
                     <Link to="/product-details" className="link w-100">
                       <img
-                        src="assets/images/thumbs/product-img1.png"
+                        src="assets/images/thumbs/coupon1.jpg"
                         alt=""
                         className="cover-img"
                       />
                     </Link>
-                    <button type="button" className="product-item__wishlist">
-                      <i className="fas fa-heart" />
-                    </button>
+
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
@@ -2605,74 +912,22 @@ const ArrivalOne = () => {
                         SaaS dashboard digital products Title here
                       </Link>
                     </h6>
-                    <div className="product-item__info flx-between gap-2">
-                      <span className="product-item__author">
-                        by
-                        <Link
-                          to="/profile"
-                          className="link hover-text-decoration-underline"
-                        >
-                          themepix
-                        </Link>
-                      </span>
-                      <div className="flx-align gap-2">
-                        <h6 className="product-item__price mb-0">$120</h6>
-                        <span className="product-item__prevPrice text-decoration-line-through">
-                          $259
-                        </span>
-                      </div>
-                    </div>
-                    <div className="product-item__bottom flx-between gap-2">
-                      <div>
-                        <span className="product-item__sales font-14 mb-2">
-                          1200 Sales
-                        </span>
-                        <div className="d-flex align-items-center gap-1">
-                          <ul className="star-rating">
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                          </ul>
-                          <span className="star-rating__text text-heading fw-500 font-14">
-                            (16)
-                          </span>
-                        </div>
-                      </div>
-                      <Link
-                        to="/product-details"
-                        className="btn btn-outline-light btn-sm pill"
-                      >
-                        Live Demo
-                      </Link>
-                    </div>
+
+
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6">
-                <div className="product-item">
+              <div className="product-item">
                   <div className="product-item__thumb d-flex">
                     <Link to="/product-details" className="link w-100">
                       <img
-                        src="assets/images/thumbs/product-img2.png"
+                        src="assets/images/thumbs/coupon2.png"
                         alt=""
                         className="cover-img"
                       />
                     </Link>
-                    <button type="button" className="product-item__wishlist">
-                      <i className="fas fa-heart" />
-                    </button>
+
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
@@ -2680,74 +935,22 @@ const ArrivalOne = () => {
                         SaaS dashboard digital products Title here
                       </Link>
                     </h6>
-                    <div className="product-item__info flx-between gap-2">
-                      <span className="product-item__author">
-                        by
-                        <Link
-                          to="/profile"
-                          className="link hover-text-decoration-underline"
-                        >
-                          themepix
-                        </Link>
-                      </span>
-                      <div className="flx-align gap-2">
-                        <h6 className="product-item__price mb-0">$129</h6>
-                        <span className="product-item__prevPrice text-decoration-line-through">
-                          $236
-                        </span>
-                      </div>
-                    </div>
-                    <div className="product-item__bottom flx-between gap-2">
-                      <div>
-                        <span className="product-item__sales font-14 mb-2">
-                          100 Sales
-                        </span>
-                        <div className="d-flex align-items-center gap-1">
-                          <ul className="star-rating">
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                          </ul>
-                          <span className="star-rating__text text-heading fw-500 font-14">
-                            (16)
-                          </span>
-                        </div>
-                      </div>
-                      <Link
-                        to="/product-details"
-                        className="btn btn-outline-light btn-sm pill"
-                      >
-                        Live Demo
-                      </Link>
-                    </div>
+
+
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6">
-                <div className="product-item">
+              <div className="product-item">
                   <div className="product-item__thumb d-flex">
                     <Link to="/product-details" className="link w-100">
                       <img
-                        src="assets/images/thumbs/product-img3.png"
+                        src="assets/images/thumbs/coupon3.png"
                         alt=""
                         className="cover-img"
                       />
                     </Link>
-                    <button type="button" className="product-item__wishlist">
-                      <i className="fas fa-heart" />
-                    </button>
+
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
@@ -2755,74 +958,22 @@ const ArrivalOne = () => {
                         SaaS dashboard digital products Title here
                       </Link>
                     </h6>
-                    <div className="product-item__info flx-between gap-2">
-                      <span className="product-item__author">
-                        by
-                        <Link
-                          to="/profile"
-                          className="link hover-text-decoration-underline"
-                        >
-                          themepix
-                        </Link>
-                      </span>
-                      <div className="flx-align gap-2">
-                        <h6 className="product-item__price mb-0">$79</h6>
-                        <span className="product-item__prevPrice text-decoration-line-through">
-                          $99
-                        </span>
-                      </div>
-                    </div>
-                    <div className="product-item__bottom flx-between gap-2">
-                      <div>
-                        <span className="product-item__sales font-14 mb-2">
-                          900 Sales
-                        </span>
-                        <div className="d-flex align-items-center gap-1">
-                          <ul className="star-rating">
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                          </ul>
-                          <span className="star-rating__text text-heading fw-500 font-14">
-                            (16)
-                          </span>
-                        </div>
-                      </div>
-                      <Link
-                        to="/product-details"
-                        className="btn btn-outline-light btn-sm pill"
-                      >
-                        Live Demo
-                      </Link>
-                    </div>
+
+
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6">
-                <div className="product-item">
+              <div className="product-item">
                   <div className="product-item__thumb d-flex">
                     <Link to="/product-details" className="link w-100">
                       <img
-                        src="assets/images/thumbs/product-img4.png"
+                        src="assets/images/thumbs/coupon4.png"
                         alt=""
                         className="cover-img"
                       />
                     </Link>
-                    <button type="button" className="product-item__wishlist">
-                      <i className="fas fa-heart" />
-                    </button>
+
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
@@ -2830,74 +981,22 @@ const ArrivalOne = () => {
                         SaaS dashboard digital products Title here
                       </Link>
                     </h6>
-                    <div className="product-item__info flx-between gap-2">
-                      <span className="product-item__author">
-                        by
-                        <Link
-                          to="/profile"
-                          className="link hover-text-decoration-underline"
-                        >
-                          themepix
-                        </Link>
-                      </span>
-                      <div className="flx-align gap-2">
-                        <h6 className="product-item__price mb-0">$59</h6>
-                        <span className="product-item__prevPrice text-decoration-line-through">
-                          $129
-                        </span>
-                      </div>
-                    </div>
-                    <div className="product-item__bottom flx-between gap-2">
-                      <div>
-                        <span className="product-item__sales font-14 mb-2">
-                          1225 Sales
-                        </span>
-                        <div className="d-flex align-items-center gap-1">
-                          <ul className="star-rating">
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                          </ul>
-                          <span className="star-rating__text text-heading fw-500 font-14">
-                            (16)
-                          </span>
-                        </div>
-                      </div>
-                      <Link
-                        to="/product-details"
-                        className="btn btn-outline-light btn-sm pill"
-                      >
-                        Live Demo
-                      </Link>
-                    </div>
+
+
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6">
-                <div className="product-item">
+              <div className="product-item">
                   <div className="product-item__thumb d-flex">
                     <Link to="/product-details" className="link w-100">
                       <img
-                        src="assets/images/thumbs/product-img5.png"
+                        src="assets/images/thumbs/coupon4.png"
                         alt=""
                         className="cover-img"
                       />
                     </Link>
-                    <button type="button" className="product-item__wishlist">
-                      <i className="fas fa-heart" />
-                    </button>
+
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
@@ -2905,74 +1004,22 @@ const ArrivalOne = () => {
                         SaaS dashboard digital products Title here
                       </Link>
                     </h6>
-                    <div className="product-item__info flx-between gap-2">
-                      <span className="product-item__author">
-                        by
-                        <Link
-                          to="/profile"
-                          className="link hover-text-decoration-underline"
-                        >
-                          themepix
-                        </Link>
-                      </span>
-                      <div className="flx-align gap-2">
-                        <h6 className="product-item__price mb-0">$99</h6>
-                        <span className="product-item__prevPrice text-decoration-line-through">
-                          $129
-                        </span>
-                      </div>
-                    </div>
-                    <div className="product-item__bottom flx-between gap-2">
-                      <div>
-                        <span className="product-item__sales font-14 mb-2">
-                          1300 Sales
-                        </span>
-                        <div className="d-flex align-items-center gap-1">
-                          <ul className="star-rating">
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                          </ul>
-                          <span className="star-rating__text text-heading fw-500 font-14">
-                            (16)
-                          </span>
-                        </div>
-                      </div>
-                      <Link
-                        to="/product-details"
-                        className="btn btn-outline-light btn-sm pill"
-                      >
-                        Live Demo
-                      </Link>
-                    </div>
+
+
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6">
-                <div className="product-item">
+              <div className="product-item">
                   <div className="product-item__thumb d-flex">
                     <Link to="/product-details" className="link w-100">
                       <img
-                        src="assets/images/thumbs/product-img6.png"
+                        src="assets/images/thumbs/coupon3.png"
                         alt=""
                         className="cover-img"
                       />
                     </Link>
-                    <button type="button" className="product-item__wishlist">
-                      <i className="fas fa-heart" />
-                    </button>
+
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
@@ -2980,74 +1027,22 @@ const ArrivalOne = () => {
                         SaaS dashboard digital products Title here
                       </Link>
                     </h6>
-                    <div className="product-item__info flx-between gap-2">
-                      <span className="product-item__author">
-                        by
-                        <Link
-                          to="/profile"
-                          className="link hover-text-decoration-underline"
-                        >
-                          themepix
-                        </Link>
-                      </span>
-                      <div className="flx-align gap-2">
-                        <h6 className="product-item__price mb-0">$129</h6>
-                        <span className="product-item__prevPrice text-decoration-line-through">
-                          $256
-                        </span>
-                      </div>
-                    </div>
-                    <div className="product-item__bottom flx-between gap-2">
-                      <div>
-                        <span className="product-item__sales font-14 mb-2">
-                          200 Sales
-                        </span>
-                        <div className="d-flex align-items-center gap-1">
-                          <ul className="star-rating">
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                          </ul>
-                          <span className="star-rating__text text-heading fw-500 font-14">
-                            (16)
-                          </span>
-                        </div>
-                      </div>
-                      <Link
-                        to="/product-details"
-                        className="btn btn-outline-light btn-sm pill"
-                      >
-                        Live Demo
-                      </Link>
-                    </div>
+
+
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6">
-                <div className="product-item">
+              <div className="product-item">
                   <div className="product-item__thumb d-flex">
                     <Link to="/product-details" className="link w-100">
                       <img
-                        src="assets/images/thumbs/product-img7.png"
+                        src="assets/images/thumbs/coupon2.png"
                         alt=""
                         className="cover-img"
                       />
                     </Link>
-                    <button type="button" className="product-item__wishlist">
-                      <i className="fas fa-heart" />
-                    </button>
+
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
@@ -3055,74 +1050,22 @@ const ArrivalOne = () => {
                         SaaS dashboard digital products Title here
                       </Link>
                     </h6>
-                    <div className="product-item__info flx-between gap-2">
-                      <span className="product-item__author">
-                        by
-                        <Link
-                          to="/profile"
-                          className="link hover-text-decoration-underline"
-                        >
-                          themepix
-                        </Link>
-                      </span>
-                      <div className="flx-align gap-2">
-                        <h6 className="product-item__price mb-0">$129</h6>
-                        <span className="product-item__prevPrice text-decoration-line-through">
-                          $259
-                        </span>
-                      </div>
-                    </div>
-                    <div className="product-item__bottom flx-between gap-2">
-                      <div>
-                        <span className="product-item__sales font-14 mb-2">
-                          500 Sales
-                        </span>
-                        <div className="d-flex align-items-center gap-1">
-                          <ul className="star-rating">
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                          </ul>
-                          <span className="star-rating__text text-heading fw-500 font-14">
-                            (16)
-                          </span>
-                        </div>
-                      </div>
-                      <Link
-                        to="/product-details"
-                        className="btn btn-outline-light btn-sm pill"
-                      >
-                        Live Demo
-                      </Link>
-                    </div>
+
+
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6">
-                <div className="product-item">
+              <div className="product-item">
                   <div className="product-item__thumb d-flex">
                     <Link to="/product-details" className="link w-100">
                       <img
-                        src="assets/images/thumbs/product-img8.png"
+                        src="assets/images/thumbs/coupon1.jpg"
                         alt=""
                         className="cover-img"
                       />
                     </Link>
-                    <button type="button" className="product-item__wishlist">
-                      <i className="fas fa-heart" />
-                    </button>
+
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
@@ -3130,58 +1073,8 @@ const ArrivalOne = () => {
                         SaaS dashboard digital products Title here
                       </Link>
                     </h6>
-                    <div className="product-item__info flx-between gap-2">
-                      <span className="product-item__author">
-                        by
-                        <Link
-                          to="/profile"
-                          className="link hover-text-decoration-underline"
-                        >
-                          themepix
-                        </Link>
-                      </span>
-                      <div className="flx-align gap-2">
-                        <h6 className="product-item__price mb-0">$79</h6>
-                        <span className="product-item__prevPrice text-decoration-line-through">
-                          $99
-                        </span>
-                      </div>
-                    </div>
-                    <div className="product-item__bottom flx-between gap-2">
-                      <div>
-                        <span className="product-item__sales font-14 mb-2">
-                          2100 Sales
-                        </span>
-                        <div className="d-flex align-items-center gap-1">
-                          <ul className="star-rating">
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                          </ul>
-                          <span className="star-rating__text text-heading fw-500 font-14">
-                            (16)
-                          </span>
-                        </div>
-                      </div>
-                      <Link
-                        to="/product-details"
-                        className="btn btn-outline-light btn-sm pill"
-                      >
-                        Live Demo
-                      </Link>
-                    </div>
+
+
                   </div>
                 </div>
               </div>
@@ -3189,9 +1082,9 @@ const ArrivalOne = () => {
           </div>
           <div
             className="tab-pane fade"
-            id="pills-marketing"
+            id="pills-online-shopping"
             role="tabpanel"
-            aria-labelledby="pills-marketing-tab"
+            aria-labelledby="pills-online-shopping-tab"
             tabIndex={0}
           >
             <div className="row gy-4">
@@ -3200,14 +1093,12 @@ const ArrivalOne = () => {
                   <div className="product-item__thumb d-flex">
                     <Link to="/product-details" className="link w-100">
                       <img
-                        src="assets/images/thumbs/product-img1.png"
+                        src="assets/images/thumbs/coupon1.jpg"
                         alt=""
                         className="cover-img"
                       />
                     </Link>
-                    <button type="button" className="product-item__wishlist">
-                      <i className="fas fa-heart" />
-                    </button>
+
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
@@ -3215,74 +1106,22 @@ const ArrivalOne = () => {
                         SaaS dashboard digital products Title here
                       </Link>
                     </h6>
-                    <div className="product-item__info flx-between gap-2">
-                      <span className="product-item__author">
-                        by
-                        <Link
-                          to="/profile"
-                          className="link hover-text-decoration-underline"
-                        >
-                          themepix
-                        </Link>
-                      </span>
-                      <div className="flx-align gap-2">
-                        <h6 className="product-item__price mb-0">$120</h6>
-                        <span className="product-item__prevPrice text-decoration-line-through">
-                          $259
-                        </span>
-                      </div>
-                    </div>
-                    <div className="product-item__bottom flx-between gap-2">
-                      <div>
-                        <span className="product-item__sales font-14 mb-2">
-                          1200 Sales
-                        </span>
-                        <div className="d-flex align-items-center gap-1">
-                          <ul className="star-rating">
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                          </ul>
-                          <span className="star-rating__text text-heading fw-500 font-14">
-                            (16)
-                          </span>
-                        </div>
-                      </div>
-                      <Link
-                        to="/product-details"
-                        className="btn btn-outline-light btn-sm pill"
-                      >
-                        Live Demo
-                      </Link>
-                    </div>
+
+
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6">
-                <div className="product-item">
+              <div className="product-item">
                   <div className="product-item__thumb d-flex">
                     <Link to="/product-details" className="link w-100">
                       <img
-                        src="assets/images/thumbs/product-img2.png"
+                        src="assets/images/thumbs/coupon2.png"
                         alt=""
                         className="cover-img"
                       />
                     </Link>
-                    <button type="button" className="product-item__wishlist">
-                      <i className="fas fa-heart" />
-                    </button>
+
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
@@ -3290,74 +1129,22 @@ const ArrivalOne = () => {
                         SaaS dashboard digital products Title here
                       </Link>
                     </h6>
-                    <div className="product-item__info flx-between gap-2">
-                      <span className="product-item__author">
-                        by
-                        <Link
-                          to="/profile"
-                          className="link hover-text-decoration-underline"
-                        >
-                          themepix
-                        </Link>
-                      </span>
-                      <div className="flx-align gap-2">
-                        <h6 className="product-item__price mb-0">$129</h6>
-                        <span className="product-item__prevPrice text-decoration-line-through">
-                          $236
-                        </span>
-                      </div>
-                    </div>
-                    <div className="product-item__bottom flx-between gap-2">
-                      <div>
-                        <span className="product-item__sales font-14 mb-2">
-                          100 Sales
-                        </span>
-                        <div className="d-flex align-items-center gap-1">
-                          <ul className="star-rating">
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                          </ul>
-                          <span className="star-rating__text text-heading fw-500 font-14">
-                            (16)
-                          </span>
-                        </div>
-                      </div>
-                      <Link
-                        to="/product-details"
-                        className="btn btn-outline-light btn-sm pill"
-                      >
-                        Live Demo
-                      </Link>
-                    </div>
+
+
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6">
-                <div className="product-item">
+              <div className="product-item">
                   <div className="product-item__thumb d-flex">
                     <Link to="/product-details" className="link w-100">
                       <img
-                        src="assets/images/thumbs/product-img3.png"
+                        src="assets/images/thumbs/coupon3.png"
                         alt=""
                         className="cover-img"
                       />
                     </Link>
-                    <button type="button" className="product-item__wishlist">
-                      <i className="fas fa-heart" />
-                    </button>
+
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
@@ -3365,74 +1152,22 @@ const ArrivalOne = () => {
                         SaaS dashboard digital products Title here
                       </Link>
                     </h6>
-                    <div className="product-item__info flx-between gap-2">
-                      <span className="product-item__author">
-                        by
-                        <Link
-                          to="/profile"
-                          className="link hover-text-decoration-underline"
-                        >
-                          themepix
-                        </Link>
-                      </span>
-                      <div className="flx-align gap-2">
-                        <h6 className="product-item__price mb-0">$79</h6>
-                        <span className="product-item__prevPrice text-decoration-line-through">
-                          $99
-                        </span>
-                      </div>
-                    </div>
-                    <div className="product-item__bottom flx-between gap-2">
-                      <div>
-                        <span className="product-item__sales font-14 mb-2">
-                          900 Sales
-                        </span>
-                        <div className="d-flex align-items-center gap-1">
-                          <ul className="star-rating">
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                          </ul>
-                          <span className="star-rating__text text-heading fw-500 font-14">
-                            (16)
-                          </span>
-                        </div>
-                      </div>
-                      <Link
-                        to="/product-details"
-                        className="btn btn-outline-light btn-sm pill"
-                      >
-                        Live Demo
-                      </Link>
-                    </div>
+
+
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6">
-                <div className="product-item">
+              <div className="product-item">
                   <div className="product-item__thumb d-flex">
                     <Link to="/product-details" className="link w-100">
                       <img
-                        src="assets/images/thumbs/product-img4.png"
+                        src="assets/images/thumbs/coupon4.png"
                         alt=""
                         className="cover-img"
                       />
                     </Link>
-                    <button type="button" className="product-item__wishlist">
-                      <i className="fas fa-heart" />
-                    </button>
+
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
@@ -3440,74 +1175,22 @@ const ArrivalOne = () => {
                         SaaS dashboard digital products Title here
                       </Link>
                     </h6>
-                    <div className="product-item__info flx-between gap-2">
-                      <span className="product-item__author">
-                        by
-                        <Link
-                          to="/profile"
-                          className="link hover-text-decoration-underline"
-                        >
-                          themepix
-                        </Link>
-                      </span>
-                      <div className="flx-align gap-2">
-                        <h6 className="product-item__price mb-0">$59</h6>
-                        <span className="product-item__prevPrice text-decoration-line-through">
-                          $129
-                        </span>
-                      </div>
-                    </div>
-                    <div className="product-item__bottom flx-between gap-2">
-                      <div>
-                        <span className="product-item__sales font-14 mb-2">
-                          1225 Sales
-                        </span>
-                        <div className="d-flex align-items-center gap-1">
-                          <ul className="star-rating">
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                          </ul>
-                          <span className="star-rating__text text-heading fw-500 font-14">
-                            (16)
-                          </span>
-                        </div>
-                      </div>
-                      <Link
-                        to="/product-details"
-                        className="btn btn-outline-light btn-sm pill"
-                      >
-                        Live Demo
-                      </Link>
-                    </div>
+
+
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6">
-                <div className="product-item">
+              <div className="product-item">
                   <div className="product-item__thumb d-flex">
                     <Link to="/product-details" className="link w-100">
                       <img
-                        src="assets/images/thumbs/product-img5.png"
+                        src="assets/images/thumbs/coupon4.png"
                         alt=""
                         className="cover-img"
                       />
                     </Link>
-                    <button type="button" className="product-item__wishlist">
-                      <i className="fas fa-heart" />
-                    </button>
+
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
@@ -3515,74 +1198,22 @@ const ArrivalOne = () => {
                         SaaS dashboard digital products Title here
                       </Link>
                     </h6>
-                    <div className="product-item__info flx-between gap-2">
-                      <span className="product-item__author">
-                        by
-                        <Link
-                          to="/profile"
-                          className="link hover-text-decoration-underline"
-                        >
-                          themepix
-                        </Link>
-                      </span>
-                      <div className="flx-align gap-2">
-                        <h6 className="product-item__price mb-0">$99</h6>
-                        <span className="product-item__prevPrice text-decoration-line-through">
-                          $129
-                        </span>
-                      </div>
-                    </div>
-                    <div className="product-item__bottom flx-between gap-2">
-                      <div>
-                        <span className="product-item__sales font-14 mb-2">
-                          1300 Sales
-                        </span>
-                        <div className="d-flex align-items-center gap-1">
-                          <ul className="star-rating">
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                          </ul>
-                          <span className="star-rating__text text-heading fw-500 font-14">
-                            (16)
-                          </span>
-                        </div>
-                      </div>
-                      <Link
-                        to="/product-details"
-                        className="btn btn-outline-light btn-sm pill"
-                      >
-                        Live Demo
-                      </Link>
-                    </div>
+
+
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6">
-                <div className="product-item">
+              <div className="product-item">
                   <div className="product-item__thumb d-flex">
                     <Link to="/product-details" className="link w-100">
                       <img
-                        src="assets/images/thumbs/product-img6.png"
+                        src="assets/images/thumbs/coupon3.png"
                         alt=""
                         className="cover-img"
                       />
                     </Link>
-                    <button type="button" className="product-item__wishlist">
-                      <i className="fas fa-heart" />
-                    </button>
+
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
@@ -3590,74 +1221,22 @@ const ArrivalOne = () => {
                         SaaS dashboard digital products Title here
                       </Link>
                     </h6>
-                    <div className="product-item__info flx-between gap-2">
-                      <span className="product-item__author">
-                        by
-                        <Link
-                          to="/profile"
-                          className="link hover-text-decoration-underline"
-                        >
-                          themepix
-                        </Link>
-                      </span>
-                      <div className="flx-align gap-2">
-                        <h6 className="product-item__price mb-0">$129</h6>
-                        <span className="product-item__prevPrice text-decoration-line-through">
-                          $256
-                        </span>
-                      </div>
-                    </div>
-                    <div className="product-item__bottom flx-between gap-2">
-                      <div>
-                        <span className="product-item__sales font-14 mb-2">
-                          200 Sales
-                        </span>
-                        <div className="d-flex align-items-center gap-1">
-                          <ul className="star-rating">
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                          </ul>
-                          <span className="star-rating__text text-heading fw-500 font-14">
-                            (16)
-                          </span>
-                        </div>
-                      </div>
-                      <Link
-                        to="/product-details"
-                        className="btn btn-outline-light btn-sm pill"
-                      >
-                        Live Demo
-                      </Link>
-                    </div>
+
+
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6">
-                <div className="product-item">
+              <div className="product-item">
                   <div className="product-item__thumb d-flex">
                     <Link to="/product-details" className="link w-100">
                       <img
-                        src="assets/images/thumbs/product-img7.png"
+                        src="assets/images/thumbs/coupon2.png"
                         alt=""
                         className="cover-img"
                       />
                     </Link>
-                    <button type="button" className="product-item__wishlist">
-                      <i className="fas fa-heart" />
-                    </button>
+
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
@@ -3665,74 +1244,22 @@ const ArrivalOne = () => {
                         SaaS dashboard digital products Title here
                       </Link>
                     </h6>
-                    <div className="product-item__info flx-between gap-2">
-                      <span className="product-item__author">
-                        by
-                        <Link
-                          to="/profile"
-                          className="link hover-text-decoration-underline"
-                        >
-                          themepix
-                        </Link>
-                      </span>
-                      <div className="flx-align gap-2">
-                        <h6 className="product-item__price mb-0">$129</h6>
-                        <span className="product-item__prevPrice text-decoration-line-through">
-                          $259
-                        </span>
-                      </div>
-                    </div>
-                    <div className="product-item__bottom flx-between gap-2">
-                      <div>
-                        <span className="product-item__sales font-14 mb-2">
-                          500 Sales
-                        </span>
-                        <div className="d-flex align-items-center gap-1">
-                          <ul className="star-rating">
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                          </ul>
-                          <span className="star-rating__text text-heading fw-500 font-14">
-                            (16)
-                          </span>
-                        </div>
-                      </div>
-                      <Link
-                        to="/product-details"
-                        className="btn btn-outline-light btn-sm pill"
-                      >
-                        Live Demo
-                      </Link>
-                    </div>
+
+
                   </div>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6">
-                <div className="product-item">
+              <div className="product-item">
                   <div className="product-item__thumb d-flex">
                     <Link to="/product-details" className="link w-100">
                       <img
-                        src="assets/images/thumbs/product-img8.png"
+                        src="assets/images/thumbs/coupon1.jpg"
                         alt=""
                         className="cover-img"
                       />
                     </Link>
-                    <button type="button" className="product-item__wishlist">
-                      <i className="fas fa-heart" />
-                    </button>
+
                   </div>
                   <div className="product-item__content">
                     <h6 className="product-item__title">
@@ -3740,1283 +1267,15 @@ const ArrivalOne = () => {
                         SaaS dashboard digital products Title here
                       </Link>
                     </h6>
-                    <div className="product-item__info flx-between gap-2">
-                      <span className="product-item__author">
-                        by
-                        <Link
-                          to="/profile"
-                          className="link hover-text-decoration-underline"
-                        >
-                          themepix
-                        </Link>
-                      </span>
-                      <div className="flx-align gap-2">
-                        <h6 className="product-item__price mb-0">$79</h6>
-                        <span className="product-item__prevPrice text-decoration-line-through">
-                          $99
-                        </span>
-                      </div>
-                    </div>
-                    <div className="product-item__bottom flx-between gap-2">
-                      <div>
-                        <span className="product-item__sales font-14 mb-2">
-                          2100 Sales
-                        </span>
-                        <div className="d-flex align-items-center gap-1">
-                          <ul className="star-rating">
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                          </ul>
-                          <span className="star-rating__text text-heading fw-500 font-14">
-                            (16)
-                          </span>
-                        </div>
-                      </div>
-                      <Link
-                        to="/product-details"
-                        className="btn btn-outline-light btn-sm pill"
-                      >
-                        Live Demo
-                      </Link>
-                    </div>
+
+
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div
-            className="tab-pane fade"
-            id="pills-plugins"
-            role="tabpanel"
-            aria-labelledby="pills-plugins-tab"
-            tabIndex={0}
-          >
-            <div className="row gy-4">
-              <div className="col-xl-3 col-lg-4 col-sm-6">
-                <div className="product-item">
-                  <div className="product-item__thumb d-flex">
-                    <Link to="/product-details" className="link w-100">
-                      <img
-                        src="assets/images/thumbs/product-img1.png"
-                        alt=""
-                        className="cover-img"
-                      />
-                    </Link>
-                    <button type="button" className="product-item__wishlist">
-                      <i className="fas fa-heart" />
-                    </button>
-                  </div>
-                  <div className="product-item__content">
-                    <h6 className="product-item__title">
-                      <Link to="/product-details" className="link">
-                        SaaS dashboard digital products Title here
-                      </Link>
-                    </h6>
-                    <div className="product-item__info flx-between gap-2">
-                      <span className="product-item__author">
-                        by
-                        <Link
-                          to="/profile"
-                          className="link hover-text-decoration-underline"
-                        >
-                          themepix
-                        </Link>
-                      </span>
-                      <div className="flx-align gap-2">
-                        <h6 className="product-item__price mb-0">$120</h6>
-                        <span className="product-item__prevPrice text-decoration-line-through">
-                          $259
-                        </span>
-                      </div>
-                    </div>
-                    <div className="product-item__bottom flx-between gap-2">
-                      <div>
-                        <span className="product-item__sales font-14 mb-2">
-                          1200 Sales
-                        </span>
-                        <div className="d-flex align-items-center gap-1">
-                          <ul className="star-rating">
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                          </ul>
-                          <span className="star-rating__text text-heading fw-500 font-14">
-                            (16)
-                          </span>
-                        </div>
-                      </div>
-                      <Link
-                        to="/product-details"
-                        className="btn btn-outline-light btn-sm pill"
-                      >
-                        Live Demo
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-xl-3 col-lg-4 col-sm-6">
-                <div className="product-item">
-                  <div className="product-item__thumb d-flex">
-                    <Link to="/product-details" className="link w-100">
-                      <img
-                        src="assets/images/thumbs/product-img2.png"
-                        alt=""
-                        className="cover-img"
-                      />
-                    </Link>
-                    <button type="button" className="product-item__wishlist">
-                      <i className="fas fa-heart" />
-                    </button>
-                  </div>
-                  <div className="product-item__content">
-                    <h6 className="product-item__title">
-                      <Link to="/product-details" className="link">
-                        SaaS dashboard digital products Title here
-                      </Link>
-                    </h6>
-                    <div className="product-item__info flx-between gap-2">
-                      <span className="product-item__author">
-                        by
-                        <Link
-                          to="/profile"
-                          className="link hover-text-decoration-underline"
-                        >
-                          themepix
-                        </Link>
-                      </span>
-                      <div className="flx-align gap-2">
-                        <h6 className="product-item__price mb-0">$129</h6>
-                        <span className="product-item__prevPrice text-decoration-line-through">
-                          $236
-                        </span>
-                      </div>
-                    </div>
-                    <div className="product-item__bottom flx-between gap-2">
-                      <div>
-                        <span className="product-item__sales font-14 mb-2">
-                          100 Sales
-                        </span>
-                        <div className="d-flex align-items-center gap-1">
-                          <ul className="star-rating">
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                          </ul>
-                          <span className="star-rating__text text-heading fw-500 font-14">
-                            (16)
-                          </span>
-                        </div>
-                      </div>
-                      <Link
-                        to="/product-details"
-                        className="btn btn-outline-light btn-sm pill"
-                      >
-                        Live Demo
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-xl-3 col-lg-4 col-sm-6">
-                <div className="product-item">
-                  <div className="product-item__thumb d-flex">
-                    <Link to="/product-details" className="link w-100">
-                      <img
-                        src="assets/images/thumbs/product-img3.png"
-                        alt=""
-                        className="cover-img"
-                      />
-                    </Link>
-                    <button type="button" className="product-item__wishlist">
-                      <i className="fas fa-heart" />
-                    </button>
-                  </div>
-                  <div className="product-item__content">
-                    <h6 className="product-item__title">
-                      <Link to="/product-details" className="link">
-                        SaaS dashboard digital products Title here
-                      </Link>
-                    </h6>
-                    <div className="product-item__info flx-between gap-2">
-                      <span className="product-item__author">
-                        by
-                        <Link
-                          to="/profile"
-                          className="link hover-text-decoration-underline"
-                        >
-                          themepix
-                        </Link>
-                      </span>
-                      <div className="flx-align gap-2">
-                        <h6 className="product-item__price mb-0">$79</h6>
-                        <span className="product-item__prevPrice text-decoration-line-through">
-                          $99
-                        </span>
-                      </div>
-                    </div>
-                    <div className="product-item__bottom flx-between gap-2">
-                      <div>
-                        <span className="product-item__sales font-14 mb-2">
-                          900 Sales
-                        </span>
-                        <div className="d-flex align-items-center gap-1">
-                          <ul className="star-rating">
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                          </ul>
-                          <span className="star-rating__text text-heading fw-500 font-14">
-                            (16)
-                          </span>
-                        </div>
-                      </div>
-                      <Link
-                        to="/product-details"
-                        className="btn btn-outline-light btn-sm pill"
-                      >
-                        Live Demo
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-xl-3 col-lg-4 col-sm-6">
-                <div className="product-item">
-                  <div className="product-item__thumb d-flex">
-                    <Link to="/product-details" className="link w-100">
-                      <img
-                        src="assets/images/thumbs/product-img4.png"
-                        alt=""
-                        className="cover-img"
-                      />
-                    </Link>
-                    <button type="button" className="product-item__wishlist">
-                      <i className="fas fa-heart" />
-                    </button>
-                  </div>
-                  <div className="product-item__content">
-                    <h6 className="product-item__title">
-                      <Link to="/product-details" className="link">
-                        SaaS dashboard digital products Title here
-                      </Link>
-                    </h6>
-                    <div className="product-item__info flx-between gap-2">
-                      <span className="product-item__author">
-                        by
-                        <Link
-                          to="/profile"
-                          className="link hover-text-decoration-underline"
-                        >
-                          themepix
-                        </Link>
-                      </span>
-                      <div className="flx-align gap-2">
-                        <h6 className="product-item__price mb-0">$59</h6>
-                        <span className="product-item__prevPrice text-decoration-line-through">
-                          $129
-                        </span>
-                      </div>
-                    </div>
-                    <div className="product-item__bottom flx-between gap-2">
-                      <div>
-                        <span className="product-item__sales font-14 mb-2">
-                          1225 Sales
-                        </span>
-                        <div className="d-flex align-items-center gap-1">
-                          <ul className="star-rating">
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                          </ul>
-                          <span className="star-rating__text text-heading fw-500 font-14">
-                            (16)
-                          </span>
-                        </div>
-                      </div>
-                      <Link
-                        to="/product-details"
-                        className="btn btn-outline-light btn-sm pill"
-                      >
-                        Live Demo
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-xl-3 col-lg-4 col-sm-6">
-                <div className="product-item">
-                  <div className="product-item__thumb d-flex">
-                    <Link to="/product-details" className="link w-100">
-                      <img
-                        src="assets/images/thumbs/product-img5.png"
-                        alt=""
-                        className="cover-img"
-                      />
-                    </Link>
-                    <button type="button" className="product-item__wishlist">
-                      <i className="fas fa-heart" />
-                    </button>
-                  </div>
-                  <div className="product-item__content">
-                    <h6 className="product-item__title">
-                      <Link to="/product-details" className="link">
-                        SaaS dashboard digital products Title here
-                      </Link>
-                    </h6>
-                    <div className="product-item__info flx-between gap-2">
-                      <span className="product-item__author">
-                        by
-                        <Link
-                          to="/profile"
-                          className="link hover-text-decoration-underline"
-                        >
-                          themepix
-                        </Link>
-                      </span>
-                      <div className="flx-align gap-2">
-                        <h6 className="product-item__price mb-0">$99</h6>
-                        <span className="product-item__prevPrice text-decoration-line-through">
-                          $129
-                        </span>
-                      </div>
-                    </div>
-                    <div className="product-item__bottom flx-between gap-2">
-                      <div>
-                        <span className="product-item__sales font-14 mb-2">
-                          1300 Sales
-                        </span>
-                        <div className="d-flex align-items-center gap-1">
-                          <ul className="star-rating">
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                          </ul>
-                          <span className="star-rating__text text-heading fw-500 font-14">
-                            (16)
-                          </span>
-                        </div>
-                      </div>
-                      <Link
-                        to="/product-details"
-                        className="btn btn-outline-light btn-sm pill"
-                      >
-                        Live Demo
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-xl-3 col-lg-4 col-sm-6">
-                <div className="product-item">
-                  <div className="product-item__thumb d-flex">
-                    <Link to="/product-details" className="link w-100">
-                      <img
-                        src="assets/images/thumbs/product-img6.png"
-                        alt=""
-                        className="cover-img"
-                      />
-                    </Link>
-                    <button type="button" className="product-item__wishlist">
-                      <i className="fas fa-heart" />
-                    </button>
-                  </div>
-                  <div className="product-item__content">
-                    <h6 className="product-item__title">
-                      <Link to="/product-details" className="link">
-                        SaaS dashboard digital products Title here
-                      </Link>
-                    </h6>
-                    <div className="product-item__info flx-between gap-2">
-                      <span className="product-item__author">
-                        by
-                        <Link
-                          to="/profile"
-                          className="link hover-text-decoration-underline"
-                        >
-                          themepix
-                        </Link>
-                      </span>
-                      <div className="flx-align gap-2">
-                        <h6 className="product-item__price mb-0">$129</h6>
-                        <span className="product-item__prevPrice text-decoration-line-through">
-                          $256
-                        </span>
-                      </div>
-                    </div>
-                    <div className="product-item__bottom flx-between gap-2">
-                      <div>
-                        <span className="product-item__sales font-14 mb-2">
-                          200 Sales
-                        </span>
-                        <div className="d-flex align-items-center gap-1">
-                          <ul className="star-rating">
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                          </ul>
-                          <span className="star-rating__text text-heading fw-500 font-14">
-                            (16)
-                          </span>
-                        </div>
-                      </div>
-                      <Link
-                        to="/product-details"
-                        className="btn btn-outline-light btn-sm pill"
-                      >
-                        Live Demo
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-xl-3 col-lg-4 col-sm-6">
-                <div className="product-item">
-                  <div className="product-item__thumb d-flex">
-                    <Link to="/product-details" className="link w-100">
-                      <img
-                        src="assets/images/thumbs/product-img7.png"
-                        alt=""
-                        className="cover-img"
-                      />
-                    </Link>
-                    <button type="button" className="product-item__wishlist">
-                      <i className="fas fa-heart" />
-                    </button>
-                  </div>
-                  <div className="product-item__content">
-                    <h6 className="product-item__title">
-                      <Link to="/product-details" className="link">
-                        SaaS dashboard digital products Title here
-                      </Link>
-                    </h6>
-                    <div className="product-item__info flx-between gap-2">
-                      <span className="product-item__author">
-                        by
-                        <Link
-                          to="/profile"
-                          className="link hover-text-decoration-underline"
-                        >
-                          themepix
-                        </Link>
-                      </span>
-                      <div className="flx-align gap-2">
-                        <h6 className="product-item__price mb-0">$129</h6>
-                        <span className="product-item__prevPrice text-decoration-line-through">
-                          $259
-                        </span>
-                      </div>
-                    </div>
-                    <div className="product-item__bottom flx-between gap-2">
-                      <div>
-                        <span className="product-item__sales font-14 mb-2">
-                          500 Sales
-                        </span>
-                        <div className="d-flex align-items-center gap-1">
-                          <ul className="star-rating">
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                          </ul>
-                          <span className="star-rating__text text-heading fw-500 font-14">
-                            (16)
-                          </span>
-                        </div>
-                      </div>
-                      <Link
-                        to="/product-details"
-                        className="btn btn-outline-light btn-sm pill"
-                      >
-                        Live Demo
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-xl-3 col-lg-4 col-sm-6">
-                <div className="product-item">
-                  <div className="product-item__thumb d-flex">
-                    <Link to="/product-details" className="link w-100">
-                      <img
-                        src="assets/images/thumbs/product-img8.png"
-                        alt=""
-                        className="cover-img"
-                      />
-                    </Link>
-                    <button type="button" className="product-item__wishlist">
-                      <i className="fas fa-heart" />
-                    </button>
-                  </div>
-                  <div className="product-item__content">
-                    <h6 className="product-item__title">
-                      <Link to="/product-details" className="link">
-                        SaaS dashboard digital products Title here
-                      </Link>
-                    </h6>
-                    <div className="product-item__info flx-between gap-2">
-                      <span className="product-item__author">
-                        by
-                        <Link
-                          to="/profile"
-                          className="link hover-text-decoration-underline"
-                        >
-                          themepix
-                        </Link>
-                      </span>
-                      <div className="flx-align gap-2">
-                        <h6 className="product-item__price mb-0">$79</h6>
-                        <span className="product-item__prevPrice text-decoration-line-through">
-                          $99
-                        </span>
-                      </div>
-                    </div>
-                    <div className="product-item__bottom flx-between gap-2">
-                      <div>
-                        <span className="product-item__sales font-14 mb-2">
-                          2100 Sales
-                        </span>
-                        <div className="d-flex align-items-center gap-1">
-                          <ul className="star-rating">
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                          </ul>
-                          <span className="star-rating__text text-heading fw-500 font-14">
-                            (16)
-                          </span>
-                        </div>
-                      </div>
-                      <Link
-                        to="/product-details"
-                        className="btn btn-outline-light btn-sm pill"
-                      >
-                        Live Demo
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            className="tab-pane fade"
-            id="pills-uiTemplate"
-            role="tabpanel"
-            aria-labelledby="pills-uiTemplate-tab"
-            tabIndex={0}
-          >
-            <div className="row gy-4">
-              <div className="col-xl-3 col-lg-4 col-sm-6">
-                <div className="product-item">
-                  <div className="product-item__thumb d-flex">
-                    <Link to="/product-details" className="link w-100">
-                      <img
-                        src="assets/images/thumbs/product-img1.png"
-                        alt=""
-                        className="cover-img"
-                      />
-                    </Link>
-                    <button type="button" className="product-item__wishlist">
-                      <i className="fas fa-heart" />
-                    </button>
-                  </div>
-                  <div className="product-item__content">
-                    <h6 className="product-item__title">
-                      <Link to="/product-details" className="link">
-                        SaaS dashboard digital products Title here
-                      </Link>
-                    </h6>
-                    <div className="product-item__info flx-between gap-2">
-                      <span className="product-item__author">
-                        by
-                        <Link
-                          to="/profile"
-                          className="link hover-text-decoration-underline"
-                        >
-                          themepix
-                        </Link>
-                      </span>
-                      <div className="flx-align gap-2">
-                        <h6 className="product-item__price mb-0">$120</h6>
-                        <span className="product-item__prevPrice text-decoration-line-through">
-                          $259
-                        </span>
-                      </div>
-                    </div>
-                    <div className="product-item__bottom flx-between gap-2">
-                      <div>
-                        <span className="product-item__sales font-14 mb-2">
-                          1200 Sales
-                        </span>
-                        <div className="d-flex align-items-center gap-1">
-                          <ul className="star-rating">
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                          </ul>
-                          <span className="star-rating__text text-heading fw-500 font-14">
-                            (16)
-                          </span>
-                        </div>
-                      </div>
-                      <Link
-                        to="/product-details"
-                        className="btn btn-outline-light btn-sm pill"
-                      >
-                        Live Demo
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-xl-3 col-lg-4 col-sm-6">
-                <div className="product-item">
-                  <div className="product-item__thumb d-flex">
-                    <Link to="/product-details" className="link w-100">
-                      <img
-                        src="assets/images/thumbs/product-img2.png"
-                        alt=""
-                        className="cover-img"
-                      />
-                    </Link>
-                    <button type="button" className="product-item__wishlist">
-                      <i className="fas fa-heart" />
-                    </button>
-                  </div>
-                  <div className="product-item__content">
-                    <h6 className="product-item__title">
-                      <Link to="/product-details" className="link">
-                        SaaS dashboard digital products Title here
-                      </Link>
-                    </h6>
-                    <div className="product-item__info flx-between gap-2">
-                      <span className="product-item__author">
-                        by
-                        <Link
-                          to="/profile"
-                          className="link hover-text-decoration-underline"
-                        >
-                          themepix
-                        </Link>
-                      </span>
-                      <div className="flx-align gap-2">
-                        <h6 className="product-item__price mb-0">$129</h6>
-                        <span className="product-item__prevPrice text-decoration-line-through">
-                          $236
-                        </span>
-                      </div>
-                    </div>
-                    <div className="product-item__bottom flx-between gap-2">
-                      <div>
-                        <span className="product-item__sales font-14 mb-2">
-                          100 Sales
-                        </span>
-                        <div className="d-flex align-items-center gap-1">
-                          <ul className="star-rating">
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                          </ul>
-                          <span className="star-rating__text text-heading fw-500 font-14">
-                            (16)
-                          </span>
-                        </div>
-                      </div>
-                      <Link
-                        to="/product-details"
-                        className="btn btn-outline-light btn-sm pill"
-                      >
-                        Live Demo
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-xl-3 col-lg-4 col-sm-6">
-                <div className="product-item">
-                  <div className="product-item__thumb d-flex">
-                    <Link to="/product-details" className="link w-100">
-                      <img
-                        src="assets/images/thumbs/product-img3.png"
-                        alt=""
-                        className="cover-img"
-                      />
-                    </Link>
-                    <button type="button" className="product-item__wishlist">
-                      <i className="fas fa-heart" />
-                    </button>
-                  </div>
-                  <div className="product-item__content">
-                    <h6 className="product-item__title">
-                      <Link to="/product-details" className="link">
-                        SaaS dashboard digital products Title here
-                      </Link>
-                    </h6>
-                    <div className="product-item__info flx-between gap-2">
-                      <span className="product-item__author">
-                        by
-                        <Link
-                          to="/profile"
-                          className="link hover-text-decoration-underline"
-                        >
-                          themepix
-                        </Link>
-                      </span>
-                      <div className="flx-align gap-2">
-                        <h6 className="product-item__price mb-0">$79</h6>
-                        <span className="product-item__prevPrice text-decoration-line-through">
-                          $99
-                        </span>
-                      </div>
-                    </div>
-                    <div className="product-item__bottom flx-between gap-2">
-                      <div>
-                        <span className="product-item__sales font-14 mb-2">
-                          900 Sales
-                        </span>
-                        <div className="d-flex align-items-center gap-1">
-                          <ul className="star-rating">
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                          </ul>
-                          <span className="star-rating__text text-heading fw-500 font-14">
-                            (16)
-                          </span>
-                        </div>
-                      </div>
-                      <Link
-                        to="/product-details"
-                        className="btn btn-outline-light btn-sm pill"
-                      >
-                        Live Demo
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-xl-3 col-lg-4 col-sm-6">
-                <div className="product-item">
-                  <div className="product-item__thumb d-flex">
-                    <Link to="/product-details" className="link w-100">
-                      <img
-                        src="assets/images/thumbs/product-img4.png"
-                        alt=""
-                        className="cover-img"
-                      />
-                    </Link>
-                    <button type="button" className="product-item__wishlist">
-                      <i className="fas fa-heart" />
-                    </button>
-                  </div>
-                  <div className="product-item__content">
-                    <h6 className="product-item__title">
-                      <Link to="/product-details" className="link">
-                        SaaS dashboard digital products Title here
-                      </Link>
-                    </h6>
-                    <div className="product-item__info flx-between gap-2">
-                      <span className="product-item__author">
-                        by
-                        <Link
-                          to="/profile"
-                          className="link hover-text-decoration-underline"
-                        >
-                          themepix
-                        </Link>
-                      </span>
-                      <div className="flx-align gap-2">
-                        <h6 className="product-item__price mb-0">$59</h6>
-                        <span className="product-item__prevPrice text-decoration-line-through">
-                          $129
-                        </span>
-                      </div>
-                    </div>
-                    <div className="product-item__bottom flx-between gap-2">
-                      <div>
-                        <span className="product-item__sales font-14 mb-2">
-                          1225 Sales
-                        </span>
-                        <div className="d-flex align-items-center gap-1">
-                          <ul className="star-rating">
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                          </ul>
-                          <span className="star-rating__text text-heading fw-500 font-14">
-                            (16)
-                          </span>
-                        </div>
-                      </div>
-                      <Link
-                        to="/product-details"
-                        className="btn btn-outline-light btn-sm pill"
-                      >
-                        Live Demo
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-xl-3 col-lg-4 col-sm-6">
-                <div className="product-item">
-                  <div className="product-item__thumb d-flex">
-                    <Link to="/product-details" className="link w-100">
-                      <img
-                        src="assets/images/thumbs/product-img5.png"
-                        alt=""
-                        className="cover-img"
-                      />
-                    </Link>
-                    <button type="button" className="product-item__wishlist">
-                      <i className="fas fa-heart" />
-                    </button>
-                  </div>
-                  <div className="product-item__content">
-                    <h6 className="product-item__title">
-                      <Link to="/product-details" className="link">
-                        SaaS dashboard digital products Title here
-                      </Link>
-                    </h6>
-                    <div className="product-item__info flx-between gap-2">
-                      <span className="product-item__author">
-                        by
-                        <Link
-                          to="/profile"
-                          className="link hover-text-decoration-underline"
-                        >
-                          themepix
-                        </Link>
-                      </span>
-                      <div className="flx-align gap-2">
-                        <h6 className="product-item__price mb-0">$99</h6>
-                        <span className="product-item__prevPrice text-decoration-line-through">
-                          $129
-                        </span>
-                      </div>
-                    </div>
-                    <div className="product-item__bottom flx-between gap-2">
-                      <div>
-                        <span className="product-item__sales font-14 mb-2">
-                          1300 Sales
-                        </span>
-                        <div className="d-flex align-items-center gap-1">
-                          <ul className="star-rating">
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                          </ul>
-                          <span className="star-rating__text text-heading fw-500 font-14">
-                            (16)
-                          </span>
-                        </div>
-                      </div>
-                      <Link
-                        to="/product-details"
-                        className="btn btn-outline-light btn-sm pill"
-                      >
-                        Live Demo
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-xl-3 col-lg-4 col-sm-6">
-                <div className="product-item">
-                  <div className="product-item__thumb d-flex">
-                    <Link to="/product-details" className="link w-100">
-                      <img
-                        src="assets/images/thumbs/product-img6.png"
-                        alt=""
-                        className="cover-img"
-                      />
-                    </Link>
-                    <button type="button" className="product-item__wishlist">
-                      <i className="fas fa-heart" />
-                    </button>
-                  </div>
-                  <div className="product-item__content">
-                    <h6 className="product-item__title">
-                      <Link to="/product-details" className="link">
-                        SaaS dashboard digital products Title here
-                      </Link>
-                    </h6>
-                    <div className="product-item__info flx-between gap-2">
-                      <span className="product-item__author">
-                        by
-                        <Link
-                          to="/profile"
-                          className="link hover-text-decoration-underline"
-                        >
-                          themepix
-                        </Link>
-                      </span>
-                      <div className="flx-align gap-2">
-                        <h6 className="product-item__price mb-0">$129</h6>
-                        <span className="product-item__prevPrice text-decoration-line-through">
-                          $256
-                        </span>
-                      </div>
-                    </div>
-                    <div className="product-item__bottom flx-between gap-2">
-                      <div>
-                        <span className="product-item__sales font-14 mb-2">
-                          200 Sales
-                        </span>
-                        <div className="d-flex align-items-center gap-1">
-                          <ul className="star-rating">
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                          </ul>
-                          <span className="star-rating__text text-heading fw-500 font-14">
-                            (16)
-                          </span>
-                        </div>
-                      </div>
-                      <Link
-                        to="/product-details"
-                        className="btn btn-outline-light btn-sm pill"
-                      >
-                        Live Demo
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-xl-3 col-lg-4 col-sm-6">
-                <div className="product-item">
-                  <div className="product-item__thumb d-flex">
-                    <Link to="/product-details" className="link w-100">
-                      <img
-                        src="assets/images/thumbs/product-img7.png"
-                        alt=""
-                        className="cover-img"
-                      />
-                    </Link>
-                    <button type="button" className="product-item__wishlist">
-                      <i className="fas fa-heart" />
-                    </button>
-                  </div>
-                  <div className="product-item__content">
-                    <h6 className="product-item__title">
-                      <Link to="/product-details" className="link">
-                        SaaS dashboard digital products Title here
-                      </Link>
-                    </h6>
-                    <div className="product-item__info flx-between gap-2">
-                      <span className="product-item__author">
-                        by
-                        <Link
-                          to="/profile"
-                          className="link hover-text-decoration-underline"
-                        >
-                          themepix
-                        </Link>
-                      </span>
-                      <div className="flx-align gap-2">
-                        <h6 className="product-item__price mb-0">$129</h6>
-                        <span className="product-item__prevPrice text-decoration-line-through">
-                          $259
-                        </span>
-                      </div>
-                    </div>
-                    <div className="product-item__bottom flx-between gap-2">
-                      <div>
-                        <span className="product-item__sales font-14 mb-2">
-                          500 Sales
-                        </span>
-                        <div className="d-flex align-items-center gap-1">
-                          <ul className="star-rating">
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                          </ul>
-                          <span className="star-rating__text text-heading fw-500 font-14">
-                            (16)
-                          </span>
-                        </div>
-                      </div>
-                      <Link
-                        to="/product-details"
-                        className="btn btn-outline-light btn-sm pill"
-                      >
-                        Live Demo
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-xl-3 col-lg-4 col-sm-6">
-                <div className="product-item">
-                  <div className="product-item__thumb d-flex">
-                    <Link to="/product-details" className="link w-100">
-                      <img
-                        src="assets/images/thumbs/product-img8.png"
-                        alt=""
-                        className="cover-img"
-                      />
-                    </Link>
-                    <button type="button" className="product-item__wishlist">
-                      <i className="fas fa-heart" />
-                    </button>
-                  </div>
-                  <div className="product-item__content">
-                    <h6 className="product-item__title">
-                      <Link to="/product-details" className="link">
-                        SaaS dashboard digital products Title here
-                      </Link>
-                    </h6>
-                    <div className="product-item__info flx-between gap-2">
-                      <span className="product-item__author">
-                        by
-                        <Link
-                          to="/profile"
-                          className="link hover-text-decoration-underline"
-                        >
-                          themepix
-                        </Link>
-                      </span>
-                      <div className="flx-align gap-2">
-                        <h6 className="product-item__price mb-0">$79</h6>
-                        <span className="product-item__prevPrice text-decoration-line-through">
-                          $99
-                        </span>
-                      </div>
-                    </div>
-                    <div className="product-item__bottom flx-between gap-2">
-                      <div>
-                        <span className="product-item__sales font-14 mb-2">
-                          2100 Sales
-                        </span>
-                        <div className="d-flex align-items-center gap-1">
-                          <ul className="star-rating">
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                            <li className="star-rating__item font-11">
-                              <i className="fas fa-star" />
-                            </li>
-                          </ul>
-                          <span className="star-rating__text text-heading fw-500 font-14">
-                            (16)
-                          </span>
-                        </div>
-                      </div>
-                      <Link
-                        to="/product-details"
-                        className="btn btn-outline-light btn-sm pill"
-                      >
-                        Live Demo
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+          
+
         </div>
         <div className="text-center mt-64">
           <Link

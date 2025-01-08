@@ -118,337 +118,49 @@ const SellingOne = () => {
               <div className="product-item__thumb d-flex max-h-unset">
                 <Link to="/product-details" className="link w-100">
                   <img
-                    src="assets/images/thumbs/product-img12.png"
+                    src="assets/images/thumbs/card5.webp"
                     alt=""
                     className="cover-img"
                   />
                 </Link>
               </div>
-              <div className="product-item__content">
-                <h6 className="product-item__title">
-                  <Link to="/product-details" className="link">
-                    Title here digital products new marketplace theme
-                  </Link>
-                </h6>
-                <div className="product-item__info flx-between gap-2">
-                  <span className="product-item__author">
-                    by
-                    <Link
-                      to="/profile"
-                      className="link hover-text-decoration-underline"
-                    >
-                      themepix
-                    </Link>
-                  </span>
-                  <div className="flx-align gap-2">
-                    <h6 className="product-item__price mb-0">$56</h6>
-                    <span className="product-item__prevPrice text-decoration-line-through">
-                      $65
-                    </span>
-                  </div>
-                </div>
-                <div className="product-item__bottom flx-between gap-2">
-                  <div>
-                    <span className="product-item__sales font-16 mb-2">
-                      1230 Sales
-                    </span>
-                    <ul className="star-rating gap-2">
-                      <li className="star-rating__item font-16">
-                        <i className="fas fa-star" />
-                      </li>
-                      <li className="star-rating__item font-16">
-                        <i className="fas fa-star" />
-                      </li>
-                      <li className="star-rating__item font-16">
-                        <i className="fas fa-star" />
-                      </li>
-                      <li className="star-rating__item font-16">
-                        <i className="fas fa-star" />
-                      </li>
-                      <li className="star-rating__item font-16">
-                        <i className="fas fa-star" />
-                      </li>
-                    </ul>
-                  </div>
-                  <div className="flx-align gap-2">
-                    <Link
-                      to="/product-details"
-                      className="btn btn-outline-light download-icon btn-icon btn-icon--sm pill"
-                    >
-                      <span className="icon">
-                        <img
-                          src="assets/images/icons/download.svg"
-                          alt=""
-                          className="white-version"
-                        />
-                        <img
-                          src="assets/images/icons/download-white.svg"
-                          alt=""
-                          className="dark-version"
-                        />
-                      </span>
-                    </Link>
-                    <Link
-                      to="/product-details"
-                      className="btn btn-outline-light pill"
-                    >
-                      Live Demo
-                    </Link>
-                  </div>
-                </div>
-              </div>
+
             </div>
             <div className="product-item shadow-sm overlay-none">
               <div className="product-item__thumb d-flex max-h-unset">
                 <Link to="/product-details" className="link w-100">
                   <img
-                    src="assets/images/thumbs/product-img13.png"
+                    src="assets/images/thumbs/card1.webp"
                     alt=""
                     className="cover-img"
                   />
                 </Link>
               </div>
-              <div className="product-item__content">
-                <h6 className="product-item__title">
-                  <Link to="/product-details" className="link">
-                    Title here digital products new marketplace theme
-                  </Link>
-                </h6>
-                <div className="product-item__info flx-between gap-2">
-                  <span className="product-item__author">
-                    by
-                    <Link
-                      to="/profile"
-                      className="link hover-text-decoration-underline"
-                    >
-                      themepix
-                    </Link>
-                  </span>
-                  <div className="flx-align gap-2">
-                    <h6 className="product-item__price mb-0">$32</h6>
-                    <span className="product-item__prevPrice text-decoration-line-through">
-                      $40
-                    </span>
-                  </div>
-                </div>
-                <div className="product-item__bottom flx-between gap-2">
-                  <div>
-                    <span className="product-item__sales font-16 mb-2">
-                      1230 Sales
-                    </span>
-                    <ul className="star-rating gap-2">
-                      <li className="star-rating__item font-16">
-                        <i className="fas fa-star" />
-                      </li>
-                      <li className="star-rating__item font-16">
-                        <i className="fas fa-star" />
-                      </li>
-                      <li className="star-rating__item font-16">
-                        <i className="fas fa-star" />
-                      </li>
-                      <li className="star-rating__item font-16">
-                        <i className="fas fa-star" />
-                      </li>
-                      <li className="star-rating__item font-16">
-                        <i className="fas fa-star" />
-                      </li>
-                    </ul>
-                  </div>
-                  <div className="flx-align gap-2">
-                    <Link
-                      to="/product-details"
-                      className="btn btn-outline-light download-icon btn-icon btn-icon--sm pill"
-                    >
-                      <span className="icon">
-                        <img
-                          src="assets/images/icons/download.svg"
-                          alt=""
-                          className="white-version"
-                        />
-                        <img
-                          src="assets/images/icons/download-white.svg"
-                          alt=""
-                          className="dark-version"
-                        />
-                      </span>
-                    </Link>
-                    <Link
-                      to="/product-details"
-                      className="btn btn-outline-light pill"
-                    >
-                      Live Demo
-                    </Link>
-                  </div>
-                </div>
-              </div>
+
             </div>
             <div className="product-item shadow-sm overlay-none">
               <div className="product-item__thumb d-flex max-h-unset">
                 <Link to="/product-details" className="link w-100">
                   <img
-                    src="assets/images/thumbs/product-img14.png"
+                    src="assets/images/thumbs/card3.webp"
                     alt=""
                     className="cover-img"
                   />
                 </Link>
               </div>
-              <div className="product-item__content">
-                <h6 className="product-item__title">
-                  <Link to="/product-details" className="link">
-                    Title here digital products new marketplace theme
-                  </Link>
-                </h6>
-                <div className="product-item__info flx-between gap-2">
-                  <span className="product-item__author">
-                    by
-                    <Link
-                      to="/profile"
-                      className="link hover-text-decoration-underline"
-                    >
-                      themepix
-                    </Link>
-                  </span>
-                  <div className="flx-align gap-2">
-                    <h6 className="product-item__price mb-0">$90</h6>
-                    <span className="product-item__prevPrice text-decoration-line-through">
-                      $120
-                    </span>
-                  </div>
-                </div>
-                <div className="product-item__bottom flx-between gap-2">
-                  <div>
-                    <span className="product-item__sales font-16 mb-2">
-                      1230 Sales
-                    </span>
-                    <ul className="star-rating gap-2">
-                      <li className="star-rating__item font-16">
-                        <i className="fas fa-star" />
-                      </li>
-                      <li className="star-rating__item font-16">
-                        <i className="fas fa-star" />
-                      </li>
-                      <li className="star-rating__item font-16">
-                        <i className="fas fa-star" />
-                      </li>
-                      <li className="star-rating__item font-16">
-                        <i className="fas fa-star" />
-                      </li>
-                      <li className="star-rating__item font-16">
-                        <i className="fas fa-star" />
-                      </li>
-                    </ul>
-                  </div>
-                  <div className="flx-align gap-2">
-                    <Link
-                      to="/product-details"
-                      className="btn btn-outline-light download-icon btn-icon btn-icon--sm pill"
-                    >
-                      <span className="icon">
-                        <img
-                          src="assets/images/icons/download.svg"
-                          alt=""
-                          className="white-version"
-                        />
-                        <img
-                          src="assets/images/icons/download-white.svg"
-                          alt=""
-                          className="dark-version"
-                        />
-                      </span>
-                    </Link>
-                    <Link
-                      to="/product-details"
-                      className="btn btn-outline-light pill"
-                    >
-                      Live Demo
-                    </Link>
-                  </div>
-                </div>
-              </div>
+
             </div>
             <div className="product-item shadow-sm overlay-none">
               <div className="product-item__thumb d-flex max-h-unset">
                 <Link to="/product-details" className="link w-100">
                   <img
-                    src="assets/images/thumbs/product-img13.png"
+                    src="assets/images/thumbs/card2.webp"
                     alt=""
                     className="cover-img"
                   />
                 </Link>
               </div>
-              <div className="product-item__content">
-                <h6 className="product-item__title">
-                  <Link to="/product-details" className="link">
-                    Title here digital products new marketplace theme
-                  </Link>
-                </h6>
-                <div className="product-item__info flx-between gap-2">
-                  <span className="product-item__author">
-                    by
-                    <Link
-                      to="/profile"
-                      className="link hover-text-decoration-underline"
-                    >
-                      themepix
-                    </Link>
-                  </span>
-                  <div className="flx-align gap-2">
-                    <h6 className="product-item__price mb-0">$56</h6>
-                    <span className="product-item__prevPrice text-decoration-line-through">
-                      $54
-                    </span>
-                  </div>
-                </div>
-                <div className="product-item__bottom flx-between gap-2">
-                  <div>
-                    <span className="product-item__sales font-16 mb-2">
-                      1230 Sales
-                    </span>
-                    <ul className="star-rating gap-2">
-                      <li className="star-rating__item font-16">
-                        <i className="fas fa-star" />
-                      </li>
-                      <li className="star-rating__item font-16">
-                        <i className="fas fa-star" />
-                      </li>
-                      <li className="star-rating__item font-16">
-                        <i className="fas fa-star" />
-                      </li>
-                      <li className="star-rating__item font-16">
-                        <i className="fas fa-star" />
-                      </li>
-                      <li className="star-rating__item font-16">
-                        <i className="fas fa-star" />
-                      </li>
-                    </ul>
-                  </div>
-                  <div className="flx-align gap-2">
-                    <Link
-                      to="/product-details"
-                      className="btn btn-outline-light download-icon btn-icon btn-icon--sm pill"
-                    >
-                      <span className="icon">
-                        <img
-                          src="assets/images/icons/download.svg"
-                          alt=""
-                          className="white-version"
-                        />
-                        <img
-                          src="assets/images/icons/download-white.svg"
-                          alt=""
-                          className="dark-version"
-                        />
-                      </span>
-                    </Link>
-                    <Link
-                      to="/product-details"
-                      className="btn btn-outline-light pill"
-                    >
-                      Live Demo
-                    </Link>
-                  </div>
-                </div>
-              </div>
+
             </div>
           </Slider>
         </div>
