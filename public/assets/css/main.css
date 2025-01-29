@@ -8691,7 +8691,14 @@ input[type=number] {
     left: auto;
     right: 0;
 }
-
+.about h1{
+    font-size: 3rem;
+}
+.about-bx{
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0 0 0/17%);
+    background: #000;
+}
 /* ======================== Element Css End ========================== */
 /* ============================ Dark Version Css Start =============================== */
 :root {
