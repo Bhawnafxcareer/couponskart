@@ -1,19 +1,13 @@
 import React from "react";
 import Preloader from "../helper/Preloader";
-import SaleOffer from "../components/SaleOffer";
 import HeaderOne from "../components/HeaderOne";
 import BannerOne from "../components/BannerOne";
-import PopularOne from "../components/PopularOne";
+import Categories from "../components/Categories";
 import ArrivalOne from "../components/ArrivalOne";
-import FeaturedOne from "../components/FeaturedOne";
 import SellingOne from "../components/SellingOne";
-import FeaturedAuthor from "../components/FeaturedAuthor";
-import PerformanceAuthor from "../components/PerformanceAuthor";
-import BlogOne from "../components/BlogOne";
+import BlogHome from "../components/BlogHome";
 import BecomeSellerOne from "../components/BecomeSellerOne";
-import BrandSectionOne from "../components/BrandSectionOne";
 import FooterOne from "../components/FooterOne";
-import FeaturedTwo from "../components/FeaturedTwo";
 import ResourceOne from "../components/ResourceOne";
 
 const HomePage = () => {
@@ -32,8 +26,8 @@ const HomePage = () => {
     {/* BannerOne */}
     <BannerOne />
 
-    {/* PopularOne */}
-    <PopularOne />
+    {/* Categories */}
+    <Categories />
 
     {/* ArrivalOne */}
     <ArrivalOne />
@@ -46,13 +40,12 @@ const HomePage = () => {
     <SellingOne />
 
     {/* BlogOne */}
-    <BlogOne />
+    <BlogHome />
 
     {/* BecomeSellerOne */}
     <BecomeSellerOne />
 
-    {/* BrandSectionOne */}
-    {/* <BrandSectionOne /> */}
+ 
 
     {/* FooterOne */}
     <FooterOne />

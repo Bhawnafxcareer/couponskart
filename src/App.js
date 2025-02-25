@@ -2,7 +2,6 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import RouteScrollToTop from "./helper/RouteScrollToTop";
 import ScrollToTop from "react-scroll-to-top";
-import HomePageTwo from "./pages/HomePageTwo";
 import AllProductPage from "./pages/AllProductPage";
 import ProductDetailsPage from "./pages/ProductDetailsPage";
 import ProfilePage from "./pages/ProfilePage";
@@ -38,7 +37,7 @@ function App() {
       <Routes>
         <Route exact path="/" element={<HomePage />} />
         <Route exact path="/about" element={<About />} />
-        {/* <Route exact path="/index-two" element={<HomePageTwo />} /> */}
+       
         <Route exact path="/all-product" element={<AllProductPage />} />
         <Route exact path="/product-details" element={<ProductDetailsPage />} />
         <Route exact path="/profile" element={<ProfilePage />} />

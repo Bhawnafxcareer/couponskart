@@ -2,7 +2,7 @@
 import { Link } from "react-router-dom";
 import Slider from "react-slick";
 
-const PopularOne = () => {
+const Categories = () => {
   function SampleNextArrow(props) {
     const { className, onClick } = props;
     return (
@@ -136,4 +136,4 @@ const PopularOne = () => {
   );
 };
 
-export default PopularOne;
+export default Categories;

@@ -50,61 +50,7 @@ const BreadcrumbTwo = () => {
                                 <h3 className="breadcrumb-two-content__title mb-3 text-capitalize">
                                     Quantum: SaaS Landing Page WordPress Theme
                                 </h3>
-                                <div className="breadcrumb-content flx-align gap-3">
-                                    <div className="breadcrumb-content__item text-heading fw-500 flx-align gap-2">
-                                        <span className="text">
-                                            By{" "}
-                                            <Link to="#" className="link text-main fw-600">
-                                                Oviousdev
-                                            </Link>{" "}
-                                        </span>
-                                    </div>
-                                    <div className="breadcrumb-content__item text-heading fw-500 flx-align gap-2">
-                                        <span className="icon">
-                                            <img
-                                                src="assets/images/icons/cart-icon.svg"
-                                                alt=""
-                                                className="white-version"
-                                            />
-                                            <img
-                                                src="assets/images/icons/cart-white.svg"
-                                                alt=""
-                                                className="dark-version w-20"
-                                            />
-                                        </span>
-                                        <span className="text">158 sales</span>
-                                    </div>
-                                    <div className="breadcrumb-content__item text-heading fw-500 flx-align gap-2">
-                                        <span className="icon">
-                                            <img
-                                                src="assets/images/icons/check-icon.svg"
-                                                alt=""
-                                                className="white-version"
-                                            />
-                                            <img
-                                                src="assets/images/icons/check-icon-white.svg"
-                                                alt=""
-                                                className="dark-version"
-                                            />
-                                        </span>
-                                        <span className="text">Recently Updated</span>
-                                    </div>
-                                    <div className="breadcrumb-content__item text-heading fw-500 flx-align gap-2">
-                                        <span className="icon">
-                                            <img
-                                                src="assets/images/icons/check-icon.svg"
-                                                alt=""
-                                                className="white-version"
-                                            />
-                                            <img
-                                                src="assets/images/icons/check-icon-white.svg"
-                                                alt=""
-                                                className="dark-version"
-                                            />
-                                        </span>
-                                        <span className="text">Well Documented</span>
-                                    </div>
-                                </div>
+                                
                             </div>
                         </div>
                     </div>

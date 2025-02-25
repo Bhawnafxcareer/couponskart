@@ -7,7 +7,7 @@ const ProductDetails = () => {
         <div className="product-details mt-32 padding-b-120">
             <div className="container container-two">
                 <div className="row gy-4">
-                    <div className="col-lg-8">
+                    <div className="col-lg-6">
                         <div className="tab-content" id="pills-tabContent">
                             <div
                                 className="tab-pane fade show active"
@@ -19,24 +19,9 @@ const ProductDetails = () => {
                                 {/* Product Details Content Start */}
                                 <div className="product-details">
                                     <div className="product-details__thumb">
-                                        <img src="assets/images/thumbs/product-details.png" alt="" />
+                                        <img src="assets/images/thumbs/coupon4.png" alt="" />
                                     </div>
-                                    <div className="product-details__buttons flx-align justify-content-center gap-3">
-                                        <Link
-                                            to="#"
-                                            className="btn btn-main d-inline-flex align-items-center gap-2 pill px-sm-5 justify-content-center"
-                                        >
-                                            Live Preview
-                                            <img src="assets/images/icons/eye-outline.svg" alt="" />
-                                        </Link>
-                                        <Link
-                                            to="#"
-                                            className="screenshot-btn btn btn-white pill px-sm-5"
-                                            data-images='["assets/images/thumbs/product-details.png", "assets/images/thumbs/product-details.png"]'
-                                        >
-                                            Screenshot
-                                        </Link>
-                                    </div>
+
                                     <p className="product-details__desc">
                                         System management saas products, consectetur adipiscing elit,
                                         sed do eiusmod tempor incididunt ut labore et dolore magna
@@ -46,160 +31,8 @@ const ProductDetails = () => {
                                         dolore eu fugiat nulla pariatur. Excepteur sint occaecat
                                         cupidatat non proident.
                                     </p>
-                                    <div className="product-details__item">
-                                        <h5 className="product-details__title mb-3">
-                                            Template Features
-                                        </h5>
-                                        <ul className="product-list">
-                                            <li className="product-list__item">
-                                                Modern and Professional design
-                                            </li>
-                                            <li className="product-list__item">
-                                                Built with Elementor Pro
-                                            </li>
-                                            <li className="product-list__item">
-                                                100% Responsive &amp; mobile-friendly
-                                            </li>
-                                            <li className="product-list__item">
-                                                12+ pre-built templates
-                                            </li>
-                                            <li className="product-list__item">Easy to customize</li>
-                                            <li className="product-list__item">
-                                                Fully responsive website
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div className="product-details__item">
-                                        <h5 className="product-details__title mb-3">Layout Features</h5>
-                                        <ul className="product-list">
-                                            <li className="product-list__item">One-Click demo import</li>
-                                            <li className="product-list__item">Unlimited color style</li>
-                                            <li className="product-list__item">850+ google fonts</li>
-                                            <li className="product-list__item">Powered by dpmarket</li>
-                                            <li className="product-list__item">
-                                                Hight resolution images
-                                            </li>
-                                            <li className="product-list__item">Easy to customize</li>
-                                        </ul>
-                                    </div>
-                                    <div className="product-details__item">
-                                        <h5 className="product-details__title mb-3">Font Family</h5>
-                                        <ul className="product-list">
-                                            <li className="product-list__item text-heading">
-                                                <Link
-                                                    to="https://fonts.google.com/specimen/Fira+Sans?query=fira"
-                                                    className="link text-body hover-text-main hover-text-decoration-underline"
-                                                >
-                                                    Fira Sans
-                                                </Link>
-                                            </li>
-                                            <li className="product-list__item text-heading">
-                                                <Link
-                                                    to="https://fonts.google.com/specimen/Inter?query=inter"
-                                                    className="link text-body hover-text-main hover-text-decoration-underline"
-                                                >
-                                                    Inter
-                                                </Link>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div className="product-details__item">
-                                        <h5 className="product-details__title mb-3">Support</h5>
-                                        <p className="product-details__desc">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                                            do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                            Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                                            irure dolor in reprehenderit in voluptate velit esse cillum
-                                            dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                                            cupidatat non proident.
-                                        </p>
-                                    </div>
-                                    <div className="more-item">
-                                        <div className="flx-between mb-4">
-                                            <h5 className="more-item__title">More Items</h5>
-                                            <Link
-                                                to="/profile"
-                                                className="text-heading fw-500 hover-text-decoration-underline"
-                                            >
-                                                View Author Profile
-                                            </Link>
-                                        </div>
-                                        <div className="more-item__content flx-align">
-                                            <div className="more-item__item">
-                                                <Link
-                                                    to="/all-product"
-                                                    className="link w-100 h-100 d-block"
-                                                >
-                                                    <img src="assets/images/thumbs/more-item1.png" alt="" />
-                                                </Link>
-                                            </div>
-                                            <div className="more-item__item">
-                                                <Link
-                                                    to="/all-product"
-                                                    className="link w-100 h-100 d-block"
-                                                >
-                                                    <img src="assets/images/thumbs/more-item2.png" alt="" />
-                                                </Link>
-                                            </div>
-                                            <div className="more-item__item">
-                                                <Link
-                                                    to="/all-product"
-                                                    className="link w-100 h-100 d-block"
-                                                >
-                                                    <img src="assets/images/thumbs/more-item3.png" alt="" />
-                                                </Link>
-                                            </div>
-                                            <div className="more-item__item">
-                                                <Link
-                                                    to="/all-product"
-                                                    className="link w-100 h-100 d-block"
-                                                >
-                                                    <img src="assets/images/thumbs/more-item4.png" alt="" />
-                                                </Link>
-                                            </div>
-                                            <div className="more-item__item">
-                                                <Link
-                                                    to="/all-product"
-                                                    className="link w-100 h-100 d-block"
-                                                >
-                                                    <img src="assets/images/thumbs/more-item5.png" alt="" />
-                                                </Link>
-                                            </div>
-                                            <div className="more-item__item">
-                                                <Link
-                                                    to="/all-product"
-                                                    className="link w-100 h-100 d-block"
-                                                >
-                                                    <img src="assets/images/thumbs/more-item6.png" alt="" />
-                                                </Link>
-                                            </div>
-                                            <div className="more-item__item">
-                                                <Link
-                                                    to="/all-product"
-                                                    className="link w-100 h-100 d-block"
-                                                >
-                                                    <img src="assets/images/thumbs/more-item7.png" alt="" />
-                                                </Link>
-                                            </div>
-                                            <div className="more-item__item">
-                                                <Link
-                                                    to="/all-product"
-                                                    className="link w-100 h-100 d-block"
-                                                >
-                                                    <img src="assets/images/thumbs/more-item8.png" alt="" />
-                                                </Link>
-                                            </div>
-                                            <div className="more-item__item">
-                                                <Link
-                                                    to="/all-product"
-                                                    className="link w-100 h-100 d-block"
-                                                >
-                                                    <img src="assets/images/thumbs/more-item9.png" alt="" />
-                                                </Link>
-                                            </div>
-                                        </div>
-                                    </div>
+
+
                                 </div>
                                 {/* Product Details Content End */}
                             </div>
@@ -415,16 +248,10 @@ const ProductDetails = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-4">
+                    <div className="col-lg-6">
                         {/* ======================= Product Sidebar Start ========================= */}
                         <div className="product-sidebar section-bg">
                             <div className="product-sidebar__top position-relative flx-between gap-1">
-                                <button
-                                    type="button"
-                                    className="btn-has-dropdown font-heading font-18"
-                                >
-                                    Extended License
-                                </button>
                                 <div className="license-dropdown">
                                     <div className="license-dropdown__item mb-3">
                                         <h6 className="license-dropdown__title font-body mb-1 font-16">
@@ -499,247 +326,10 @@ const ProductDetails = () => {
                                     <h6 className="product-item__price mb-0 font-14 fw-500">$7.25</h6>
                                 </div>
                             </div>
-                            <button
-                                type="button"
-                                className="btn btn-main d-flex w-100 justify-content-center align-items-center gap-2 pill px-sm-5 mt-32"
-                            >
-                                <img src="assets/images/icons/add-to-cart.svg" alt="" />
-                                Add To Cart
-                            </button>
-                            {/* Author Details Start*/}
-                            <div className="author-details">
-                                <div className="d-flex align-items-center gap-2">
-                                    <div className="author-details__thumb flex-shrink-0">
-                                        <img src="assets/images/thumbs/author-details-img.png" alt="" />
-                                    </div>
-                                    <div className="author-details__content">
-                                        <h6 className="author-details__name font-18 mb-2">
-                                            <Link to="/profile" className="link hover-text-main">
-                                                Oviousdev
-                                            </Link>
-                                        </h6>
-                                        <span className="d-flex align-items-center gap-1">
-                                            <span className="star-rating">
-                                                <span className="star-rating__item font-11">
-                                                    <i className="fas fa-star" />
-                                                </span>
-                                                <span className="star-rating__item font-11">
-                                                    <i className="fas fa-star" />
-                                                </span>
-                                                <span className="star-rating__item font-11">
-                                                    <i className="fas fa-star" />
-                                                </span>
-                                                <span className="star-rating__item font-11">
-                                                    <i className="fas fa-star" />
-                                                </span>
-                                                <span className="star-rating__item font-11">
-                                                    <i className="fas fa-star" />
-                                                </span>
-                                            </span>
-                                            <span className="star-rating__text text-body"> 5.0</span>
-                                        </span>
-                                    </div>
-                                </div>
-                                <ul className="badge-list flx-align gap-2 mt-3">
-                                    <li
-                                        className="badge-list__item"
-                                        data-bs-toggle="tooltip"
-                                        data-bs-placement="top"
-                                        data-bs-title="Badge Info"
-                                    >
-                                        <img src="assets/images/thumbs/badge1.png" alt="" />
-                                    </li>
-                                    <li
-                                        className="badge-list__item"
-                                        data-bs-toggle="tooltip"
-                                        data-bs-placement="top"
-                                        data-bs-title="Badge Info"
-                                    >
-                                        <img src="assets/images/thumbs/badge2.png" alt="" />
-                                    </li>
-                                    <li
-                                        className="badge-list__item"
-                                        data-bs-toggle="tooltip"
-                                        data-bs-placement="top"
-                                        data-bs-title="Badge Info"
-                                    >
-                                        <img src="assets/images/thumbs/badge3.png" alt="" />
-                                    </li>
-                                    <li
-                                        className="badge-list__item"
-                                        data-bs-toggle="tooltip"
-                                        data-bs-placement="top"
-                                        data-bs-title="Badge Info"
-                                    >
-                                        <img src="assets/images/thumbs/badge4.png" alt="" />
-                                    </li>
-                                    <li
-                                        className="badge-list__item"
-                                        data-bs-toggle="tooltip"
-                                        data-bs-placement="top"
-                                        data-bs-title="Badge Info"
-                                    >
-                                        <img src="assets/images/thumbs/badge5.png" alt="" />
-                                    </li>
-                                    <li
-                                        className="badge-list__item"
-                                        data-bs-toggle="tooltip"
-                                        data-bs-placement="top"
-                                        data-bs-title="Badge Info"
-                                    >
-                                        <img src="assets/images/thumbs/badge6.png" alt="" />
-                                    </li>
-                                    <li
-                                        className="badge-list__item"
-                                        data-bs-toggle="tooltip"
-                                        data-bs-placement="top"
-                                        data-bs-title="Badge Info"
-                                    >
-                                        <img src="assets/images/thumbs/badge7.png" alt="" />
-                                    </li>
-                                    <li
-                                        className="badge-list__item"
-                                        data-bs-toggle="tooltip"
-                                        data-bs-placement="top"
-                                        data-bs-title="Badge Info"
-                                    >
-                                        <img src="assets/images/thumbs/badge8.png" alt="" />
-                                    </li>
-                                </ul>
-                                <Link
-                                    to="/profile"
-                                    className="btn btn-outline-light w-100 pill mt-32"
-                                >
-                                    View Portfolio
-                                </Link>
-                            </div>
-                            {/* Author Details End */}
-                            {/* Meta Attribute List Start */}
-                            <ul className="meta-attribute">
-                                <li className="meta-attribute__item">
-                                    <span className="name">Last Update</span>
-                                    <span className="details">Feb 21, 2024</span>
-                                </li>
-                                <li className="meta-attribute__item">
-                                    <span className="name">Published</span>
-                                    <span className="details">Feb 15, 2024</span>
-                                </li>
-                                <li className="meta-attribute__item">
-                                    <span className="name">Category</span>
-                                    <span className="details">Themes</span>
-                                </li>
-                                <li className="meta-attribute__item">
-                                    <span className="name">Widget Ready</span>
-                                    <span className="details">Yes</span>
-                                </li>
-                                <li className="meta-attribute__item">
-                                    <span className="name">High Resolution</span>
-                                    <span className="details">Yes</span>
-                                </li>
-                                <li className="meta-attribute__item">
-                                    <span className="name">Copatible with</span>
-                                    <span className="details">
-                                        <Link to="#" className="hover-text-decoration-underline">
-                                            Contact Form 7,
-                                        </Link>
-                                        <Link to="#" className="hover-text-decoration-underline">
-                                            {" "}
-                                            Calendar,
-                                        </Link>
-                                        <Link to="#" className="hover-text-decoration-underline">
-                                            {" "}
-                                            Elementor,
-                                        </Link>
-                                        <Link to="#" className="hover-text-decoration-underline">
-                                            {" "}
-                                            Elementor Pro,
-                                        </Link>
-                                        <Link to="#" className="hover-text-decoration-underline">
-                                            {" "}
-                                            WooCommerce 8.x.x
-                                        </Link>
-                                    </span>
-                                </li>
-                                <li className="meta-attribute__item">
-                                    <span className="name">File size</span>
-                                    <span className="details">85 MB</span>
-                                </li>
-                                <li className="meta-attribute__item">
-                                    <span className="name">Framework</span>
-                                    <span className="details">Underscores</span>
-                                </li>
-                                <li className="meta-attribute__item">
-                                    <span className="name">Software Version</span>
-                                    <span className="details">
-                                        <Link to="#" className="hover-text-decoration-underline">
-                                            WordPress 6.3.x,
-                                        </Link>
-                                        <Link to="#" className="hover-text-decoration-underline">
-                                            WordPress 6.2.x,
-                                        </Link>
-                                        <Link to="#" className="hover-text-decoration-underline">
-                                            WordPress 6.1.x,
-                                        </Link>
-                                        <Link to="#" className="hover-text-decoration-underline">
-                                            WordPress 6.0.x,
-                                        </Link>
-                                        <Link to="#" className="hover-text-decoration-underline">
-                                            WordPress 5.9.x,
-                                        </Link>
-                                    </span>
-                                </li>
-                                <li className="meta-attribute__item">
-                                    <span className="name">Marketplace Files Included</span>
-                                    <span className="details">
-                                        <Link to="#" className="hover-text-decoration-underline">
-                                            PHP Files,
-                                        </Link>
-                                        <Link to="#" className="hover-text-decoration-underline">
-                                            CSS Files,
-                                        </Link>
-                                        <Link to="#" className="hover-text-decoration-underline">
-                                            SCSS Files,
-                                        </Link>
-                                        <Link to="#" className="hover-text-decoration-underline">
-                                            JS Files,
-                                        </Link>
-                                    </span>
-                                </li>
-                                <li className="meta-attribute__item">
-                                    <span className="name">Layout</span>
-                                    <span className="details">Responsive</span>
-                                </li>
-                                <li className="meta-attribute__item">
-                                    <span className="name">Tags</span>
-                                    <span className="details">
-                                        <Link to="#" className="hover-text-decoration-underline">
-                                            theme,
-                                        </Link>
-                                        <Link to="#" className="hover-text-decoration-underline">
-                                            web design,
-                                        </Link>
-                                        <Link to="#" className="hover-text-decoration-underline">
-                                            minimal design,
-                                        </Link>
-                                        <Link to="#" className="hover-text-decoration-underline">
-                                            trendy,
-                                        </Link>
-                                        <Link to="#" className="hover-text-decoration-underline">
-                                            responsive,
-                                        </Link>
-                                        <Link to="#" className="hover-text-decoration-underline">
-                                            wordpress,
-                                        </Link>
-                                        <Link to="#" className="hover-text-decoration-underline">
-                                            saas,
-                                        </Link>
-                                        <Link to="#" className="hover-text-decoration-underline">
-                                            dashboard,
-                                        </Link>
-                                    </span>
-                                </li>
-                            </ul>
-                            {/* Meta Attribute List End */}
+                            <Link to="/cart" className="btn btn-main d-flex w-100 justify-content-center align-items-center gap-2 pill px-sm-5 mt-32"
+                            ><img src="assets/images/icons/add-to-cart.svg" alt="" />Buy Now </Link>
+                           
+                           
                         </div>
                     </div>
                 </div>

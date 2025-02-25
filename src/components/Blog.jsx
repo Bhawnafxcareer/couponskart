@@ -162,7 +162,7 @@ const Blog = () => {
               <div className="post-item__thumb">
                 <Link to="/blog-details" className="link">
                   <img
-                    src="assets/images/thumbs/blog3.png"
+                    src="assets/images/thumbs/blog1.png"
                     className="cover-img"
                     alt=""
                   />
@@ -260,7 +260,7 @@ const Blog = () => {
               <div className="post-item__thumb">
                 <Link to="/blog-details" className="link">
                   <img
-                    src="assets/images/thumbs/blog2.png"
+                    src="assets/images/thumbs/blog1.png"
                     className="cover-img"
                     alt=""
                   />
@@ -358,7 +358,7 @@ const Blog = () => {
               <div className="post-item__thumb">
                 <Link to="/blog-details" className="link">
                   <img
-                    src="assets/images/thumbs/blog2.png"
+                    src="assets/images/thumbs/blog1.png"
                     className="cover-img"
                     alt=""
                   />
@@ -407,7 +407,7 @@ const Blog = () => {
               <div className="post-item__thumb">
                 <Link to="/blog-details" className="link">
                   <img
-                    src="assets/images/thumbs/blog3.png"
+                    src="assets/images/thumbs/blog1.png"
                     className="cover-img"
                     alt=""
                   />

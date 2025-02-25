@@ -25,10 +25,6 @@ const ProductDetailsPage = () => {
       <ProductDetails />
 
 
-      {/* BrandSectionOne */}
-
-      <BrandSectionOne />
-
 
       {/* FooterOne */}
       <FooterOne />

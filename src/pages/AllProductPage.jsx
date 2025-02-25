@@ -1,10 +1,8 @@
 import React from "react";
 import Preloader from "../helper/Preloader";
 import HeaderOne from "../components/HeaderOne";
-import Breadcrumb from "../components/Breadcrumb";
 import AllProduct from "../components/AllProduct";
 import ResourceOne from "../components/ResourceOne";
-import BrandSectionOne from "../components/BrandSectionOne";
 import FooterOne from "../components/FooterOne";
 
 
@@ -20,8 +18,7 @@ const AllProductPage = () => {
       {/* HeaderOne */}
       <HeaderOne />
 
-      {/* Breadcrumb */}
-      {/* <Breadcrumb /> */}
+     
 
       {/* AllProduct */}
       <AllProduct />
@@ -30,12 +27,6 @@ const AllProductPage = () => {
       <div className="resource-style-two">
         <ResourceOne />
       </div>
-
-
-      {/* BrandSectionOne */}
-
-      <BrandSectionOne />
-
 
       {/* FooterOne */}
       <FooterOne />

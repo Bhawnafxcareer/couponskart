@@ -524,7 +524,7 @@ const AllProduct = () => {
                       <div className="product-item__thumb d-flex">
                         <Link to="/product-details" className="link w-100">
                           <img
-                            src="assets/images/thumbs/product-img1.png"
+                            src="assets/images/thumbs/coupon1.jpg"
                             alt=""
                             className="cover-img"
                           />
@@ -602,7 +602,7 @@ const AllProduct = () => {
                       <div className="product-item__thumb d-flex">
                         <Link to="/product-details" className="link w-100">
                           <img
-                            src="assets/images/thumbs/product-img2.png"
+                            src="assets/images/thumbs/coupon4.png"
                             alt=""
                             className="cover-img"
                           />
@@ -680,7 +680,7 @@ const AllProduct = () => {
                       <div className="product-item__thumb d-flex">
                         <Link to="/product-details" className="link w-100">
                           <img
-                            src="assets/images/thumbs/product-img3.png"
+                            src="assets/images/thumbs/coupon3.png"
                             alt=""
                             className="cover-img"
                           />
@@ -758,7 +758,7 @@ const AllProduct = () => {
                       <div className="product-item__thumb d-flex">
                         <Link to="/product-details" className="link w-100">
                           <img
-                            src="assets/images/thumbs/product-img4.png"
+                            src="assets/images/thumbs/coupon4.png"
                             alt=""
                             className="cover-img"
                           />
@@ -836,7 +836,7 @@ const AllProduct = () => {
                       <div className="product-item__thumb d-flex">
                         <Link to="/product-details" className="link w-100">
                           <img
-                            src="assets/images/thumbs/product-img5.png"
+                            src="assets/images/thumbs/coupon4.png"
                             alt=""
                             className="cover-img"
                           />
@@ -914,7 +914,7 @@ const AllProduct = () => {
                       <div className="product-item__thumb d-flex">
                         <Link to="/product-details" className="link w-100">
                           <img
-                            src="assets/images/thumbs/product-img6.png"
+                            src="assets/images/thumbs/coupon4.png"
                             alt=""
                             className="cover-img"
                           />
@@ -992,7 +992,7 @@ const AllProduct = () => {
                       <div className="product-item__thumb d-flex">
                         <Link to="/product-details" className="link w-100">
                           <img
-                            src="assets/images/thumbs/product-img7.png"
+                            src="assets/images/thumbs/coupon4.png"
                             alt=""
                             className="cover-img"
                           />
@@ -1070,7 +1070,7 @@ const AllProduct = () => {
                       <div className="product-item__thumb d-flex">
                         <Link to="/product-details" className="link w-100">
                           <img
-                            src="assets/images/thumbs/product-img8.png"
+                            src="assets/images/thumbs/coupon2.png"
                             alt=""
                             className="cover-img"
                           />
@@ -1148,7 +1148,7 @@ const AllProduct = () => {
                       <div className="product-item__thumb d-flex">
                         <Link to="/product-details" className="link w-100">
                           <img
-                            src="assets/images/thumbs/product-img9.png"
+                            src="assets/images/thumbs/coupon1.jpg"
                             alt=""
                             className="cover-img"
                           />
@@ -1226,7 +1226,7 @@ const AllProduct = () => {
                       <div className="product-item__thumb d-flex">
                         <Link to="/product-details" className="link w-100">
                           <img
-                            src="assets/images/thumbs/product-img10.png"
+                            src="assets/images/thumbs/coupon3.png"
                             alt=""
                             className="cover-img"
                           />
@@ -1304,7 +1304,7 @@ const AllProduct = () => {
                       <div className="product-item__thumb d-flex">
                         <Link to="/product-details" className="link w-100">
                           <img
-                            src="assets/images/thumbs/product-img11.png"
+                            src="assets/images/thumbs/coupon1.jpg"
                             alt=""
                             className="cover-img"
                           />
@@ -1382,7 +1382,7 @@ const AllProduct = () => {
                       <div className="product-item__thumb d-flex">
                         <Link to="/product-details" className="link w-100">
                           <img
-                            src="assets/images/thumbs/product-img12.png"
+                            src="assets/images/thumbs/coupon2.png"
                             alt=""
                             className="cover-img"
                           />
@@ -1512,7 +1512,7 @@ const AllProduct = () => {
                       <div className="product-item__thumb d-flex">
                         <Link to="/product-details" className="link w-100">
                           <img
-                            src="assets/images/thumbs/product-img1.png"
+                            src="assets/images/thumbs/coupon1.jpg"
                             alt=""
                             className="cover-img"
                           />
@@ -1590,7 +1590,7 @@ const AllProduct = () => {
                       <div className="product-item__thumb d-flex">
                         <Link to="/product-details" className="link w-100">
                           <img
-                            src="assets/images/thumbs/product-img2.png"
+                            src="assets/images/thumbs/coupon2.png"
                             alt=""
                             className="cover-img"
                           />
@@ -1668,7 +1668,7 @@ const AllProduct = () => {
                       <div className="product-item__thumb d-flex">
                         <Link to="/product-details" className="link w-100">
                           <img
-                            src="assets/images/thumbs/product-img3.png"
+                            src="assets/images/thumbs/coupon3.png"
                             alt=""
                             className="cover-img"
                           />
@@ -1746,7 +1746,7 @@ const AllProduct = () => {
                       <div className="product-item__thumb d-flex">
                         <Link to="/product-details" className="link w-100">
                           <img
-                            src="assets/images/thumbs/product-img4.png"
+                            src="assets/images/thumbs/coupon4.png"
                             alt=""
                             className="cover-img"
                           />
@@ -1824,7 +1824,7 @@ const AllProduct = () => {
                       <div className="product-item__thumb d-flex">
                         <Link to="/product-details" className="link w-100">
                           <img
-                            src="assets/images/thumbs/product-img5.png"
+                            src="assets/images/thumbs/coupon4.png"
                             alt=""
                             className="cover-img"
                           />
@@ -1902,7 +1902,7 @@ const AllProduct = () => {
                       <div className="product-item__thumb d-flex">
                         <Link to="/product-details" className="link w-100">
                           <img
-                            src="assets/images/thumbs/product-img6.png"
+                            src="assets/images/thumbs/coupon4.png"
                             alt=""
                             className="cover-img"
                           />
@@ -1980,7 +1980,7 @@ const AllProduct = () => {
                       <div className="product-item__thumb d-flex">
                         <Link to="/product-details" className="link w-100">
                           <img
-                            src="assets/images/thumbs/product-img7.png"
+                            src="assets/images/thumbs/coupon4.png"
                             alt=""
                             className="cover-img"
                           />
@@ -2058,7 +2058,7 @@ const AllProduct = () => {
                       <div className="product-item__thumb d-flex">
                         <Link to="/product-details" className="link w-100">
                           <img
-                            src="assets/images/thumbs/product-img8.png"
+                            src="assets/images/thumbs/coupon2.png"
                             alt=""
                             className="cover-img"
                           />
@@ -2136,7 +2136,7 @@ const AllProduct = () => {
                       <div className="product-item__thumb d-flex">
                         <Link to="/product-details" className="link w-100">
                           <img
-                            src="assets/images/thumbs/product-img9.png"
+                            src="assets/images/thumbs/coupon1.jpg"
                             alt=""
                             className="cover-img"
                           />
@@ -2214,7 +2214,7 @@ const AllProduct = () => {
                       <div className="product-item__thumb d-flex">
                         <Link to="/product-details" className="link w-100">
                           <img
-                            src="assets/images/thumbs/product-img10.png"
+                            src="assets/images/thumbs/coupon3.png"
                             alt=""
                             className="cover-img"
                           />
@@ -2292,7 +2292,7 @@ const AllProduct = () => {
                       <div className="product-item__thumb d-flex">
                         <Link to="/product-details" className="link w-100">
                           <img
-                            src="assets/images/thumbs/product-img11.png"
+                            src="assets/images/thumbs/coupon1.jpg"
                             alt=""
                             className="cover-img"
                           />
@@ -2370,7 +2370,7 @@ const AllProduct = () => {
                       <div className="product-item__thumb d-flex">
                         <Link to="/product-details" className="link w-100">
                           <img
-                            src="assets/images/thumbs/product-img12.png"
+                            src="assets/images/thumbs/coupon2.png"
                             alt=""
                             className="cover-img"
                           />
@@ -2500,7 +2500,7 @@ const AllProduct = () => {
                       <div className="product-item__thumb d-flex">
                         <Link to="/product-details" className="link w-100">
                           <img
-                            src="assets/images/thumbs/product-img1.png"
+                            src="assets/images/thumbs/coupon1.jpg"
                             alt=""
                             className="cover-img"
                           />
@@ -2578,7 +2578,7 @@ const AllProduct = () => {
                       <div className="product-item__thumb d-flex">
                         <Link to="/product-details" className="link w-100">
                           <img
-                            src="assets/images/thumbs/product-img2.png"
+                            src="assets/images/thumbs/coupon2.png"
                             alt=""
                             className="cover-img"
                           />
@@ -2656,7 +2656,7 @@ const AllProduct = () => {
                       <div className="product-item__thumb d-flex">
                         <Link to="/product-details" className="link w-100">
                           <img
-                            src="assets/images/thumbs/product-img3.png"
+                            src="assets/images/thumbs/coupon3.png"
                             alt=""
                             className="cover-img"
                           />
@@ -2734,7 +2734,7 @@ const AllProduct = () => {
                       <div className="product-item__thumb d-flex">
                         <Link to="/product-details" className="link w-100">
                           <img
-                            src="assets/images/thumbs/product-img4.png"
+                            src="assets/images/thumbs/coupon4.png"
                             alt=""
                             className="cover-img"
                           />
@@ -2812,7 +2812,7 @@ const AllProduct = () => {
                       <div className="product-item__thumb d-flex">
                         <Link to="/product-details" className="link w-100">
                           <img
-                            src="assets/images/thumbs/product-img5.png"
+                            src="assets/images/thumbs/coupon4.png"
                             alt=""
                             className="cover-img"
                           />
@@ -2890,7 +2890,7 @@ const AllProduct = () => {
                       <div className="product-item__thumb d-flex">
                         <Link to="/product-details" className="link w-100">
                           <img
-                            src="assets/images/thumbs/product-img6.png"
+                            src="assets/images/thumbs/coupon4.png"
                             alt=""
                             className="cover-img"
                           />
@@ -2968,7 +2968,7 @@ const AllProduct = () => {
                       <div className="product-item__thumb d-flex">
                         <Link to="/product-details" className="link w-100">
                           <img
-                            src="assets/images/thumbs/product-img7.png"
+                            src="assets/images/thumbs/coupon4.png"
                             alt=""
                             className="cover-img"
                           />
@@ -3046,7 +3046,7 @@ const AllProduct = () => {
                       <div className="product-item__thumb d-flex">
                         <Link to="/product-details" className="link w-100">
                           <img
-                            src="assets/images/thumbs/product-img8.png"
+                            src="assets/images/thumbs/coupon2.png"
                             alt=""
                             className="cover-img"
                           />
@@ -3124,7 +3124,7 @@ const AllProduct = () => {
                       <div className="product-item__thumb d-flex">
                         <Link to="/product-details" className="link w-100">
                           <img
-                            src="assets/images/thumbs/product-img9.png"
+                            src="assets/images/thumbs/coupon1.jpg"
                             alt=""
                             className="cover-img"
                           />
@@ -3202,7 +3202,7 @@ const AllProduct = () => {
                       <div className="product-item__thumb d-flex">
                         <Link to="/product-details" className="link w-100">
                           <img
-                            src="assets/images/thumbs/product-img10.png"
+                            src="assets/images/thumbs/coupon3.png"
                             alt=""
                             className="cover-img"
                           />
@@ -3280,7 +3280,7 @@ const AllProduct = () => {
                       <div className="product-item__thumb d-flex">
                         <Link to="/product-details" className="link w-100">
                           <img
-                            src="assets/images/thumbs/product-img11.png"
+                            src="assets/images/thumbs/coupon1.jpg"
                             alt=""
                             className="cover-img"
                           />
@@ -3358,7 +3358,7 @@ const AllProduct = () => {
                       <div className="product-item__thumb d-flex">
                         <Link to="/product-details" className="link w-100">
                           <img
-                            src="assets/images/thumbs/product-img12.png"
+                            src="assets/images/thumbs/coupon2.png"
                             alt=""
                             className="cover-img"
                           />
@@ -3488,7 +3488,7 @@ const AllProduct = () => {
                       <div className="product-item__thumb d-flex">
                         <Link to="/product-details" className="link w-100">
                           <img
-                            src="assets/images/thumbs/product-img1.png"
+                            src="assets/images/thumbs/coupon1.jpg"
                             alt=""
                             className="cover-img"
                           />
@@ -3566,7 +3566,7 @@ const AllProduct = () => {
                       <div className="product-item__thumb d-flex">
                         <Link to="/product-details" className="link w-100">
                           <img
-                            src="assets/images/thumbs/product-img2.png"
+                            src="assets/images/thumbs/coupon2.png"
                             alt=""
                             className="cover-img"
                           />
@@ -3644,7 +3644,7 @@ const AllProduct = () => {
                       <div className="product-item__thumb d-flex">
                         <Link to="/product-details" className="link w-100">
                           <img
-                            src="assets/images/thumbs/product-img3.png"
+                            src="assets/images/thumbs/coupon3.png"
                             alt=""
                             className="cover-img"
                           />
@@ -3722,7 +3722,7 @@ const AllProduct = () => {
                       <div className="product-item__thumb d-flex">
                         <Link to="/product-details" className="link w-100">
                           <img
-                            src="assets/images/thumbs/product-img4.png"
+                            src="assets/images/thumbs/coupon4.png"
                             alt=""
                             className="cover-img"
                           />
@@ -3800,7 +3800,7 @@ const AllProduct = () => {
                       <div className="product-item__thumb d-flex">
                         <Link to="/product-details" className="link w-100">
                           <img
-                            src="assets/images/thumbs/product-img5.png"
+                            src="assets/images/thumbs/coupon4.png"
                             alt=""
                             className="cover-img"
                           />
@@ -3878,7 +3878,7 @@ const AllProduct = () => {
                       <div className="product-item__thumb d-flex">
                         <Link to="/product-details" className="link w-100">
                           <img
-                            src="assets/images/thumbs/product-img6.png"
+                            src="assets/images/thumbs/coupon4.png"
                             alt=""
                             className="cover-img"
                           />
@@ -3956,7 +3956,7 @@ const AllProduct = () => {
                       <div className="product-item__thumb d-flex">
                         <Link to="/product-details" className="link w-100">
                           <img
-                            src="assets/images/thumbs/product-img7.png"
+                            src="assets/images/thumbs/coupon4.png"
                             alt=""
                             className="cover-img"
                           />
@@ -4034,7 +4034,7 @@ const AllProduct = () => {
                       <div className="product-item__thumb d-flex">
                         <Link to="/product-details" className="link w-100">
                           <img
-                            src="assets/images/thumbs/product-img8.png"
+                            src="assets/images/thumbs/coupon2.png"
                             alt=""
                             className="cover-img"
                           />
@@ -4112,7 +4112,7 @@ const AllProduct = () => {
                       <div className="product-item__thumb d-flex">
                         <Link to="/product-details" className="link w-100">
                           <img
-                            src="assets/images/thumbs/product-img9.png"
+                            src="assets/images/thumbs/coupon1.jpg"
                             alt=""
                             className="cover-img"
                           />
@@ -4190,7 +4190,7 @@ const AllProduct = () => {
                       <div className="product-item__thumb d-flex">
                         <Link to="/product-details" className="link w-100">
                           <img
-                            src="assets/images/thumbs/product-img10.png"
+                            src="assets/images/thumbs/coupon3.png"
                             alt=""
                             className="cover-img"
                           />
@@ -4268,7 +4268,7 @@ const AllProduct = () => {
                       <div className="product-item__thumb d-flex">
                         <Link to="/product-details" className="link w-100">
                           <img
-                            src="assets/images/thumbs/product-img11.png"
+                            src="assets/images/thumbs/coupon1.jpg"
                             alt=""
                             className="cover-img"
                           />
@@ -4346,7 +4346,7 @@ const AllProduct = () => {
                       <div className="product-item__thumb d-flex">
                         <Link to="/product-details" className="link w-100">
                           <img
-                            src="assets/images/thumbs/product-img12.png"
+                            src="assets/images/thumbs/coupon2.png"
                             alt=""
                             className="cover-img"
                           />
@@ -4476,7 +4476,7 @@ const AllProduct = () => {
                       <div className="product-item__thumb d-flex">
                         <Link to="/product-details" className="link w-100">
                           <img
-                            src="assets/images/thumbs/product-img1.png"
+                            src="assets/images/thumbs/coupon1.jpg"
                             alt=""
                             className="cover-img"
                           />
@@ -4554,7 +4554,7 @@ const AllProduct = () => {
                       <div className="product-item__thumb d-flex">
                         <Link to="/product-details" className="link w-100">
                           <img
-                            src="assets/images/thumbs/product-img2.png"
+                            src="assets/images/thumbs/coupon2.png"
                             alt=""
                             className="cover-img"
                           />
@@ -4632,7 +4632,7 @@ const AllProduct = () => {
                       <div className="product-item__thumb d-flex">
                         <Link to="/product-details" className="link w-100">
                           <img
-                            src="assets/images/thumbs/product-img3.png"
+                            src="assets/images/thumbs/coupon3.png"
                             alt=""
                             className="cover-img"
                           />
@@ -4710,7 +4710,7 @@ const AllProduct = () => {
                       <div className="product-item__thumb d-flex">
                         <Link to="/product-details" className="link w-100">
                           <img
-                            src="assets/images/thumbs/product-img4.png"
+                            src="assets/images/thumbs/coupon4.png"
                             alt=""
                             className="cover-img"
                           />
@@ -4788,7 +4788,7 @@ const AllProduct = () => {
                       <div className="product-item__thumb d-flex">
                         <Link to="/product-details" className="link w-100">
                           <img
-                            src="assets/images/thumbs/product-img5.png"
+                            src="assets/images/thumbs/coupon4.png"
                             alt=""
                             className="cover-img"
                           />
@@ -4866,7 +4866,7 @@ const AllProduct = () => {
                       <div className="product-item__thumb d-flex">
                         <Link to="/product-details" className="link w-100">
                           <img
-                            src="assets/images/thumbs/product-img6.png"
+                            src="assets/images/thumbs/coupon4.png"
                             alt=""
                             className="cover-img"
                           />
@@ -4944,7 +4944,7 @@ const AllProduct = () => {
                       <div className="product-item__thumb d-flex">
                         <Link to="/product-details" className="link w-100">
                           <img
-                            src="assets/images/thumbs/product-img7.png"
+                            src="assets/images/thumbs/coupon4.png"
                             alt=""
                             className="cover-img"
                           />
@@ -5022,7 +5022,7 @@ const AllProduct = () => {
                       <div className="product-item__thumb d-flex">
                         <Link to="/product-details" className="link w-100">
                           <img
-                            src="assets/images/thumbs/product-img8.png"
+                            src="assets/images/thumbs/coupon2.png"
                             alt=""
                             className="cover-img"
                           />
@@ -5100,7 +5100,7 @@ const AllProduct = () => {
                       <div className="product-item__thumb d-flex">
                         <Link to="/product-details" className="link w-100">
                           <img
-                            src="assets/images/thumbs/product-img9.png"
+                            src="assets/images/thumbs/coupon1.jpg"
                             alt=""
                             className="cover-img"
                           />
@@ -5178,7 +5178,7 @@ const AllProduct = () => {
                       <div className="product-item__thumb d-flex">
                         <Link to="/product-details" className="link w-100">
                           <img
-                            src="assets/images/thumbs/product-img10.png"
+                            src="assets/images/thumbs/coupon3.png"
                             alt=""
                             className="cover-img"
                           />
@@ -5256,7 +5256,7 @@ const AllProduct = () => {
                       <div className="product-item__thumb d-flex">
                         <Link to="/product-details" className="link w-100">
                           <img
-                            src="assets/images/thumbs/product-img11.png"
+                            src="assets/images/thumbs/coupon1.jpg"
                             alt=""
                             className="cover-img"
                           />
@@ -5334,7 +5334,7 @@ const AllProduct = () => {
                       <div className="product-item__thumb d-flex">
                         <Link to="/product-details" className="link w-100">
                           <img
-                            src="assets/images/thumbs/product-img12.png"
+                            src="assets/images/thumbs/coupon2.png"
                             alt=""
                             className="cover-img"
                           />
@@ -5464,7 +5464,7 @@ const AllProduct = () => {
                       <div className="product-item__thumb d-flex">
                         <Link to="/product-details" className="link w-100">
                           <img
-                            src="assets/images/thumbs/product-img1.png"
+                            src="assets/images/thumbs/coupon1.jpg"
                             alt=""
                             className="cover-img"
                           />
@@ -5542,7 +5542,7 @@ const AllProduct = () => {
                       <div className="product-item__thumb d-flex">
                         <Link to="/product-details" className="link w-100">
                           <img
-                            src="assets/images/thumbs/product-img2.png"
+                            src="assets/images/thumbs/coupon2.png"
                             alt=""
                             className="cover-img"
                           />
@@ -5620,7 +5620,7 @@ const AllProduct = () => {
                       <div className="product-item__thumb d-flex">
                         <Link to="/product-details" className="link w-100">
                           <img
-                            src="assets/images/thumbs/product-img3.png"
+                            src="assets/images/thumbs/coupon3.png"
                             alt=""
                             className="cover-img"
                           />
@@ -5698,7 +5698,7 @@ const AllProduct = () => {
                       <div className="product-item__thumb d-flex">
                         <Link to="/product-details" className="link w-100">
                           <img
-                            src="assets/images/thumbs/product-img4.png"
+                            src="assets/images/thumbs/coupon4.png"
                             alt=""
                             className="cover-img"
                           />
@@ -5776,7 +5776,7 @@ const AllProduct = () => {
                       <div className="product-item__thumb d-flex">
                         <Link to="/product-details" className="link w-100">
                           <img
-                            src="assets/images/thumbs/product-img5.png"
+                            src="assets/images/thumbs/coupon4.png"
                             alt=""
                             className="cover-img"
                           />
@@ -5854,7 +5854,7 @@ const AllProduct = () => {
                       <div className="product-item__thumb d-flex">
                         <Link to="/product-details" className="link w-100">
                           <img
-                            src="assets/images/thumbs/product-img6.png"
+                            src="assets/images/thumbs/coupon4.png"
                             alt=""
                             className="cover-img"
                           />
@@ -5932,7 +5932,7 @@ const AllProduct = () => {
                       <div className="product-item__thumb d-flex">
                         <Link to="/product-details" className="link w-100">
                           <img
-                            src="assets/images/thumbs/product-img7.png"
+                            src="assets/images/thumbs/coupon4.png"
                             alt=""
                             className="cover-img"
                           />
@@ -6010,7 +6010,7 @@ const AllProduct = () => {
                       <div className="product-item__thumb d-flex">
                         <Link to="/product-details" className="link w-100">
                           <img
-                            src="assets/images/thumbs/product-img8.png"
+                            src="assets/images/thumbs/coupon2.png"
                             alt=""
                             className="cover-img"
                           />
@@ -6088,7 +6088,7 @@ const AllProduct = () => {
                       <div className="product-item__thumb d-flex">
                         <Link to="/product-details" className="link w-100">
                           <img
-                            src="assets/images/thumbs/product-img9.png"
+                            src="assets/images/thumbs/coupon1.jpg"
                             alt=""
                             className="cover-img"
                           />
@@ -6166,7 +6166,7 @@ const AllProduct = () => {
                       <div className="product-item__thumb d-flex">
                         <Link to="/product-details" className="link w-100">
                           <img
-                            src="assets/images/thumbs/product-img10.png"
+                            src="assets/images/thumbs/coupon3.png"
                             alt=""
                             className="cover-img"
                           />
@@ -6244,7 +6244,7 @@ const AllProduct = () => {
                       <div className="product-item__thumb d-flex">
                         <Link to="/product-details" className="link w-100">
                           <img
-                            src="assets/images/thumbs/product-img11.png"
+                            src="assets/images/thumbs/coupon1.jpg"
                             alt=""
                             className="cover-img"
                           />
@@ -6322,7 +6322,7 @@ const AllProduct = () => {
                       <div className="product-item__thumb d-flex">
                         <Link to="/product-details" className="link w-100">
                           <img
-                            src="assets/images/thumbs/product-img12.png"
+                            src="assets/images/thumbs/coupon2.png"
                             alt=""
                             className="cover-img"
                           />

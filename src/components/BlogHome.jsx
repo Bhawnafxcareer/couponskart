@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-const BlogOne = () => {
+const BlogHome = () => {
   return (
     <section className="blog padding-y-120 section-bg position-relative z-index-1 overflow-hidden">
       <img
@@ -173,4 +173,4 @@ const BlogOne = () => {
   );
 };
 
-export default BlogOne;
+export default BlogHome;

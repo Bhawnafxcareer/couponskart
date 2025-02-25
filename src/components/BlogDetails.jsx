@@ -177,188 +177,8 @@ const BlogDetails = () => {
                   </div>
                 </div>
                 {/* Post Tag & Share End */}
-                {/* Advisor content Start */}
-                <div className="advisor p-3 p-lg-4 mt-40 mb-64 section-bg d-flex flex-sm-row flex-column align-items-start gap-md-4 gap-3">
-                  <div className="advisor__thumb flex-shrink-0">
-                    <img src="assets/images/thumbs/advisor-img.png" alt="" />
-                  </div>
-                  <div className="advisor__content flex-grow-1">
-                    <h6 className="advisor__name font-18 mb-2">Brooklyn Simmons</h6>
-                    <span className="advisor__designation text-heading mb-3 fw-500">
-                      Chief Advisor{" "}
-                    </span>
-                    <p className="advisor__desc">
-                      Lorem ipsum dolor sit amet consectetur. Nec nunc pellentesque
-                      massa pretium. Quam sapien nec venenatis vivamus sed cras
-                      faucibus.
-                    </p>
-                  </div>
-                </div>
-                {/* Advisor content End */}
-                {/* Comment Form Start */}
-                <div className="comment-form mt-64 mb-64" id="comment-box">
-                  <h5 className="mb-32">Post a comment</h5>
-                  <form action="#" autoComplete="off">
-                    <div className="row gy-4">
-                      <div className="col-sm-6 col-xs-6">
-                        <label
-                          htmlFor="name"
-                          className="form-label mb-2 font-18 font-heading fw-600"
-                        >
-                          Full Name
-                        </label>
-                        <input
-                          type="text"
-                          className="common-input common-input--grayBg border"
-                          id="name"
-                          placeholder="Your name here"
-                        />
-                      </div>
-                      <div className="col-sm-6 col-xs-6">
-                        <label
-                          htmlFor="email"
-                          className="form-label mb-2 font-18 font-heading fw-600"
-                        >
-                          Your Mail
-                        </label>
-                        <input
-                          type="email"
-                          className="common-input common-input--grayBg border"
-                          id="email"
-                          placeholder="Your email here "
-                        />
-                      </div>
-                      <div className="col-sm-12">
-                        <label
-                          htmlFor="comment"
-                          className="form-label mb-2 font-18 font-heading fw-600"
-                        >
-                          Your Comment
-                        </label>
-                        <textarea
-                          className="common-input common-input--grayBg border"
-                          id="comment"
-                          placeholder="Type your comment"
-                          defaultValue={""}
-                        />
-                      </div>
-                      <div className="col-sm-12">
-                        <div className="common-check">
-                          <input
-                            className="form-check-input"
-                            type="checkbox"
-                            name="checkbox"
-                            id="agree"
-                          />
-                          <label
-                            className="form-check-label mb-0 fw-400 font-16 text-body"
-                            htmlFor="agree"
-                          >
-                            Save my details for future purchase
-                          </label>
-                        </div>
-                      </div>
-                      <div className="col-sm-12">
-                        <button className="btn btn-main btn-lg pill">
-                          {" "}
-                          Submit
-                          <span className="icon icon-right line-height-1 font-20">
-                            <i className="las la-arrow-right" />
-                          </span>
-                        </button>
-                      </div>
-                    </div>
-                  </form>
-                </div>
-                {/* Comment Form End */}
-                {/* Comment Start */}
-                <div className="comment mt-64 mb-64">
-                  <h5 className="mb-32">2 Comments</h5>
-                  <ul className="comment-list">
-                    <li className="comment-list__item d-flex align-items-start gap-sm-4 gap-3">
-                      <div className="comment-list__thumb flex-shrink-0">
-                        <img
-                          src="assets/images/thumbs/comment1.png"
-                          className="cover-img"
-                          alt=""
-                        />
-                      </div>
-                      <div className="comment-list__content">
-                        <div className="flx-between gap-2 align-items-start">
-                          <div>
-                            <h6 className="comment-list__name font-18 mb-sm-2 mb-1">
-                              Jenny Wilson
-                            </h6>
-                            <span className="comment-list__date font-14">
-                              Jan 21, 2024 at 11:25 pm
-                            </span>
-                          </div>
-                          <a
-                            className="comment-list__reply fw-500 flx-align gap-2 hover-text-decoration-underline"
-                            href="#comment-box"
-                          >
-                            Reply
-                            <span className="icon">
-                              <img
-                                src="assets/images/icons/reply-icon.svg"
-                                alt=""
-                              />
-                            </span>
-                          </a>
-                        </div>
-                        <p className="comment-list__desc mt-3">
-                          Lorem ipsum dolor sit amet consectetur. Nec nunc
-                          pellentesque massa pretium. Quam sapien nec venenatis
-                          vivamus sed cras faucibus mi viverra. Quam faucibus morbi
-                          cras vitae neque. Necnunc pellentesque massa pretium.
-                        </p>
-                      </div>
-                    </li>
-                    <li>
-                      <ul className="comment-list comment-list--two">
-                        <li className="comment-list__item d-flex align-items-start gap-sm-4 gap-3">
-                          <div className="comment-list__thumb flex-shrink-0">
-                            <img
-                              src="assets/images/thumbs/comment2.png"
-                              className="cover-img"
-                              alt=""
-                            />
-                          </div>
-                          <div className="comment-list__content">
-                            <div className="flx-between gap-2 align-items-start">
-                              <div>
-                                <h6 className="comment-list__name font-18 mb-sm-2 mb-1">
-                                  Courtney Henry
-                                </h6>
-                                <span className="comment-list__date font-14">
-                                  Jan 21, 2024 at 11:25 pm
-                                </span>
-                              </div>
-                              <a
-                                className="comment-list__reply fw-500 flx-align gap-2 hover-text-decoration-underline"
-                                href="#comment-box"
-                              >
-                                Reply
-                                <span className="icon">
-                                  <img
-                                    src="assets/images/icons/reply-icon.svg"
-                                    alt=""
-                                  />
-                                </span>
-                              </a>
-                            </div>
-                            <p className="comment-list__desc mt-3">
-                              Lorem ipsum dolor sit amet consectetur. Nec nunc
-                              pellentesque massa pretium. Quam sapien nec venenatis
-                              vivamus sed cras faucibus.
-                            </p>
-                          </div>
-                        </li>
-                      </ul>
-                    </li>
-                  </ul>
-                </div>
-                {/* Comment End */}
+
+            
               </div>
               {/* blog details content End*/}
             </div>
@@ -472,7 +292,7 @@ const BlogDetails = () => {
                     </p>
                   </div>
                   <div className="article-item__thumb">
-                    <img src="assets/images/thumbs/blog2.png" alt="" />
+                    <img src="assets/images/thumbs/blog1.png" alt="" />
                   </div>
                 </div>
               </div>
@@ -524,7 +344,7 @@ const BlogDetails = () => {
                     </p>
                   </div>
                   <div className="article-item__thumb">
-                    <img src="assets/images/thumbs/blog3.png" alt="" />
+                    <img src="assets/images/thumbs/blog1.png" alt="" />
                   </div>
                 </div>
               </div>

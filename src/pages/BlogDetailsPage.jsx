@@ -1,7 +1,6 @@
 import React from "react";
 import Preloader from "../helper/Preloader";
 import HeaderOne from "../components/HeaderOne";
-import BrandSectionOne from "../components/BrandSectionOne";
 import FooterOne from "../components/FooterOne";
 import BlogDetails from "../components/BlogDetails";
 const BlogDetailsPage = () => {
@@ -18,9 +17,7 @@ const BlogDetailsPage = () => {
       {/* BlogDetails */}
       <BlogDetails />
 
-      {/* BrandSectionOne */}
-      <BrandSectionOne />
-
+ 
 
       {/* FooterOne */}
       <FooterOne />
