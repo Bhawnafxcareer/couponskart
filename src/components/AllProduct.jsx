@@ -27,126 +27,15 @@ const AllProduct = () => {
         <div className="row">
           <div className="col-lg-12">
             <div className="filter-tab gap-3 flx-between">
-              <button
-                type="button"
-                className="filter-tab__button btn btn-outline-light pill d-flex align-items-center"
-              >
-                <span className="icon icon-left">
-                  <img src="assets/images/icons/filter.svg" alt="" />
-                </span>
-                <span className="font-18 fw-500">Filters</span>
-              </button>
-              <ul
-                className="nav common-tab nav-pills mb-0 gap-lg-2 gap-1 ms-lg-auto"
-                id="pills-tab"
-                role="tablist"
-              >
-                <li className="nav-item" role="presentation">
-                  <button
-                    className="nav-link active"
-                    id="pills-product-tab"
-                    data-bs-toggle="pill"
-                    data-bs-target="#pills-product"
-                    type="button"
-                    role="tab"
-                    aria-controls="pills-product"
-                    aria-selected="true"
-                  >
-                    All Item
-                  </button>
-                </li>
-                <li className="nav-item" role="presentation">
-                  <button
-                    className="nav-link"
-                    id="pills-bestMatch-tab"
-                    data-bs-toggle="pill"
-                    data-bs-target="#pills-bestMatch"
-                    type="button"
-                    role="tab"
-                    aria-controls="pills-bestMatch"
-                    aria-selected="false"
-                  >
-                    Best Match
-                  </button>
-                </li>
-                <li className="nav-item" role="presentation">
-                  <button
-                    className="nav-link"
-                    id="pills-bestRating-tab"
-                    data-bs-toggle="pill"
-                    data-bs-target="#pills-bestRating"
-                    type="button"
-                    role="tab"
-                    aria-controls="pills-bestRating"
-                    aria-selected="false"
-                  >
-                    Best Rating
-                  </button>
-                </li>
-                <li className="nav-item" role="presentation">
-                  <button
-                    className="nav-link"
-                    id="pills-trending-tab"
-                    data-bs-toggle="pill"
-                    data-bs-target="#pills-trending"
-                    type="button"
-                    role="tab"
-                    aria-controls="pills-trending"
-                    aria-selected="false"
-                  >
-                    Site Template
-                  </button>
-                </li>
-                <li className="nav-item" role="presentation">
-                  <button
-                    className="nav-link"
-                    id="pills-bestOffers-tab"
-                    data-bs-toggle="pill"
-                    data-bs-target="#pills-bestOffers"
-                    type="button"
-                    role="tab"
-                    aria-controls="pills-bestOffers"
-                    aria-selected="false"
-                  >
-                    Best Offers
-                  </button>
-                </li>
-                <li className="nav-item" role="presentation">
-                  <button
-                    className="nav-link"
-                    id="pills-bestSelling-tab"
-                    data-bs-toggle="pill"
-                    data-bs-target="#pills-bestSelling"
-                    type="button"
-                    role="tab"
-                    aria-controls="pills-bestSelling"
-                    aria-selected="false"
-                  >
-                    Best Selling
-                  </button>
-                </li>
-              </ul>
-              <div className="list-grid d-flex align-items-center gap-2">
-                <button
-                  className={`list-grid__button list-button d-sm-flex d-none text-body ${activeButton === "list-view" ? "active" : ""
-                    }`}
-                  onClick={() => handleClick("list-view")}
-                >
-                  <i className="las la-list" />
-                </button>
-                <button
-                  className={`list-grid__button grid-button d-sm-flex d-none  text-body ${activeButton === "grid-view" ? "active" : ""
-                    }`}
-                  onClick={() => handleClick("grid-view")}
-                >
-                  <i className="las la-border-all" />
-                </button>
+
+             
+              <div className="list-grid d-flex align-items-center gap-2">               
                 <button className="list-grid__button sidebar-btn text-body d-lg-none d-flex" onClick={handleFilter}>
                   <i className="las la-bars" />
                 </button>
               </div>
             </div>
-            <form action="#" className="filter-form pb-4 d-block">
+            {/* <form action="#" className="filter-form pb-4 d-block">
               <div className="row gy-3">
                 <div className="col-sm-4 col-xs-6">
                   <div className="flx-between gap-1">
@@ -205,7 +94,7 @@ const AllProduct = () => {
                   </div>
                 </div>
               </div>
-            </form>
+            </form> */}
           </div>
           <div className="col-xl-3 col-lg-4">
             {/* ===================== Filter Sidebar Start ============================= */}
@@ -560,38 +449,12 @@ const AllProduct = () => {
                           </div>
                         </div>
                         <div className="product-item__bottom flx-between gap-2">
-                          <div>
-                            <span className="product-item__sales font-14 mb-2">
-                              1200 Sales
-                            </span>
-                            <div className="d-flex align-items-center gap-1">
-                              <ul className="star-rating">
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                              </ul>
-                              <span className="star-rating__text text-heading fw-500 font-14">
-                                (16)
-                              </span>
-                            </div>
-                          </div>
+
                           <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
-                            Live Demo
+                            Buy Now
                           </Link>
                         </div>
                       </div>
@@ -638,38 +501,12 @@ const AllProduct = () => {
                           </div>
                         </div>
                         <div className="product-item__bottom flx-between gap-2">
-                          <div>
-                            <span className="product-item__sales font-14 mb-2">
-                              100 Sales
-                            </span>
-                            <div className="d-flex align-items-center gap-1">
-                              <ul className="star-rating">
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                              </ul>
-                              <span className="star-rating__text text-heading fw-500 font-14">
-                                (16)
-                              </span>
-                            </div>
-                          </div>
+
                           <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
-                            Live Demo
+                            Buy Now
                           </Link>
                         </div>
                       </div>
@@ -716,38 +553,12 @@ const AllProduct = () => {
                           </div>
                         </div>
                         <div className="product-item__bottom flx-between gap-2">
-                          <div>
-                            <span className="product-item__sales font-14 mb-2">
-                              900 Sales
-                            </span>
-                            <div className="d-flex align-items-center gap-1">
-                              <ul className="star-rating">
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                              </ul>
-                              <span className="star-rating__text text-heading fw-500 font-14">
-                                (16)
-                              </span>
-                            </div>
-                          </div>
+
                           <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
-                            Live Demo
+                            Buy Now
                           </Link>
                         </div>
                       </div>
@@ -794,38 +605,12 @@ const AllProduct = () => {
                           </div>
                         </div>
                         <div className="product-item__bottom flx-between gap-2">
-                          <div>
-                            <span className="product-item__sales font-14 mb-2">
-                              1225 Sales
-                            </span>
-                            <div className="d-flex align-items-center gap-1">
-                              <ul className="star-rating">
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                              </ul>
-                              <span className="star-rating__text text-heading fw-500 font-14">
-                                (16)
-                              </span>
-                            </div>
-                          </div>
+
                           <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
-                            Live Demo
+                            Buy Now
                           </Link>
                         </div>
                       </div>
@@ -872,38 +657,12 @@ const AllProduct = () => {
                           </div>
                         </div>
                         <div className="product-item__bottom flx-between gap-2">
-                          <div>
-                            <span className="product-item__sales font-14 mb-2">
-                              1300 Sales
-                            </span>
-                            <div className="d-flex align-items-center gap-1">
-                              <ul className="star-rating">
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                              </ul>
-                              <span className="star-rating__text text-heading fw-500 font-14">
-                                (16)
-                              </span>
-                            </div>
-                          </div>
+
                           <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
-                            Live Demo
+                            Buy Now
                           </Link>
                         </div>
                       </div>
@@ -950,38 +709,12 @@ const AllProduct = () => {
                           </div>
                         </div>
                         <div className="product-item__bottom flx-between gap-2">
-                          <div>
-                            <span className="product-item__sales font-14 mb-2">
-                              200 Sales
-                            </span>
-                            <div className="d-flex align-items-center gap-1">
-                              <ul className="star-rating">
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                              </ul>
-                              <span className="star-rating__text text-heading fw-500 font-14">
-                                (16)
-                              </span>
-                            </div>
-                          </div>
+
                           <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
-                            Live Demo
+                            Buy Now
                           </Link>
                         </div>
                       </div>
@@ -1028,38 +761,12 @@ const AllProduct = () => {
                           </div>
                         </div>
                         <div className="product-item__bottom flx-between gap-2">
-                          <div>
-                            <span className="product-item__sales font-14 mb-2">
-                              500 Sales
-                            </span>
-                            <div className="d-flex align-items-center gap-1">
-                              <ul className="star-rating">
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                              </ul>
-                              <span className="star-rating__text text-heading fw-500 font-14">
-                                (16)
-                              </span>
-                            </div>
-                          </div>
+
                           <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
-                            Live Demo
+                            Buy Now
                           </Link>
                         </div>
                       </div>
@@ -1106,38 +813,12 @@ const AllProduct = () => {
                           </div>
                         </div>
                         <div className="product-item__bottom flx-between gap-2">
-                          <div>
-                            <span className="product-item__sales font-14 mb-2">
-                              2100 Sales
-                            </span>
-                            <div className="d-flex align-items-center gap-1">
-                              <ul className="star-rating">
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                              </ul>
-                              <span className="star-rating__text text-heading fw-500 font-14">
-                                (16)
-                              </span>
-                            </div>
-                          </div>
+                        
                           <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
-                            Live Demo
+                            Buy Now
                           </Link>
                         </div>
                       </div>
@@ -1184,38 +865,12 @@ const AllProduct = () => {
                           </div>
                         </div>
                         <div className="product-item__bottom flx-between gap-2">
-                          <div>
-                            <span className="product-item__sales font-14 mb-2">
-                              2100 Sales
-                            </span>
-                            <div className="d-flex align-items-center gap-1">
-                              <ul className="star-rating">
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                              </ul>
-                              <span className="star-rating__text text-heading fw-500 font-14">
-                                (16)
-                              </span>
-                            </div>
-                          </div>
+                        
                           <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
-                            Live Demo
+                            Buy Now
                           </Link>
                         </div>
                       </div>
@@ -1262,38 +917,12 @@ const AllProduct = () => {
                           </div>
                         </div>
                         <div className="product-item__bottom flx-between gap-2">
-                          <div>
-                            <span className="product-item__sales font-14 mb-2">
-                              2100 Sales
-                            </span>
-                            <div className="d-flex align-items-center gap-1">
-                              <ul className="star-rating">
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                              </ul>
-                              <span className="star-rating__text text-heading fw-500 font-14">
-                                (16)
-                              </span>
-                            </div>
-                          </div>
+                        
                           <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
-                            Live Demo
+                            Buy Now
                           </Link>
                         </div>
                       </div>
@@ -1340,38 +969,12 @@ const AllProduct = () => {
                           </div>
                         </div>
                         <div className="product-item__bottom flx-between gap-2">
-                          <div>
-                            <span className="product-item__sales font-14 mb-2">
-                              2100 Sales
-                            </span>
-                            <div className="d-flex align-items-center gap-1">
-                              <ul className="star-rating">
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                              </ul>
-                              <span className="star-rating__text text-heading fw-500 font-14">
-                                (16)
-                              </span>
-                            </div>
-                          </div>
+                        
                           <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
-                            Live Demo
+                            Buy Now
                           </Link>
                         </div>
                       </div>
@@ -1418,38 +1021,12 @@ const AllProduct = () => {
                           </div>
                         </div>
                         <div className="product-item__bottom flx-between gap-2">
-                          <div>
-                            <span className="product-item__sales font-14 mb-2">
-                              2100 Sales
-                            </span>
-                            <div className="d-flex align-items-center gap-1">
-                              <ul className="star-rating">
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                              </ul>
-                              <span className="star-rating__text text-heading fw-500 font-14">
-                                (16)
-                              </span>
-                            </div>
-                          </div>
+                        
                           <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
-                            Live Demo
+                            Buy Now
                           </Link>
                         </div>
                       </div>
@@ -1548,38 +1125,12 @@ const AllProduct = () => {
                           </div>
                         </div>
                         <div className="product-item__bottom flx-between gap-2">
-                          <div>
-                            <span className="product-item__sales font-14 mb-2">
-                              1200 Sales
-                            </span>
-                            <div className="d-flex align-items-center gap-1">
-                              <ul className="star-rating">
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                              </ul>
-                              <span className="star-rating__text text-heading fw-500 font-14">
-                                (16)
-                              </span>
-                            </div>
-                          </div>
+
                           <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
-                            Live Demo
+                            Buy Now
                           </Link>
                         </div>
                       </div>
@@ -1626,38 +1177,12 @@ const AllProduct = () => {
                           </div>
                         </div>
                         <div className="product-item__bottom flx-between gap-2">
-                          <div>
-                            <span className="product-item__sales font-14 mb-2">
-                              100 Sales
-                            </span>
-                            <div className="d-flex align-items-center gap-1">
-                              <ul className="star-rating">
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                              </ul>
-                              <span className="star-rating__text text-heading fw-500 font-14">
-                                (16)
-                              </span>
-                            </div>
-                          </div>
+
                           <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
-                            Live Demo
+                            Buy Now
                           </Link>
                         </div>
                       </div>
@@ -1704,38 +1229,12 @@ const AllProduct = () => {
                           </div>
                         </div>
                         <div className="product-item__bottom flx-between gap-2">
-                          <div>
-                            <span className="product-item__sales font-14 mb-2">
-                              900 Sales
-                            </span>
-                            <div className="d-flex align-items-center gap-1">
-                              <ul className="star-rating">
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                              </ul>
-                              <span className="star-rating__text text-heading fw-500 font-14">
-                                (16)
-                              </span>
-                            </div>
-                          </div>
+
                           <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
-                            Live Demo
+                            Buy Now
                           </Link>
                         </div>
                       </div>
@@ -1782,38 +1281,12 @@ const AllProduct = () => {
                           </div>
                         </div>
                         <div className="product-item__bottom flx-between gap-2">
-                          <div>
-                            <span className="product-item__sales font-14 mb-2">
-                              1225 Sales
-                            </span>
-                            <div className="d-flex align-items-center gap-1">
-                              <ul className="star-rating">
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                              </ul>
-                              <span className="star-rating__text text-heading fw-500 font-14">
-                                (16)
-                              </span>
-                            </div>
-                          </div>
+
                           <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
-                            Live Demo
+                            Buy Now
                           </Link>
                         </div>
                       </div>
@@ -1860,38 +1333,12 @@ const AllProduct = () => {
                           </div>
                         </div>
                         <div className="product-item__bottom flx-between gap-2">
-                          <div>
-                            <span className="product-item__sales font-14 mb-2">
-                              1300 Sales
-                            </span>
-                            <div className="d-flex align-items-center gap-1">
-                              <ul className="star-rating">
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                              </ul>
-                              <span className="star-rating__text text-heading fw-500 font-14">
-                                (16)
-                              </span>
-                            </div>
-                          </div>
+
                           <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
-                            Live Demo
+                            Buy Now
                           </Link>
                         </div>
                       </div>
@@ -1938,38 +1385,12 @@ const AllProduct = () => {
                           </div>
                         </div>
                         <div className="product-item__bottom flx-between gap-2">
-                          <div>
-                            <span className="product-item__sales font-14 mb-2">
-                              200 Sales
-                            </span>
-                            <div className="d-flex align-items-center gap-1">
-                              <ul className="star-rating">
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                              </ul>
-                              <span className="star-rating__text text-heading fw-500 font-14">
-                                (16)
-                              </span>
-                            </div>
-                          </div>
+
                           <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
-                            Live Demo
+                            Buy Now
                           </Link>
                         </div>
                       </div>
@@ -2016,38 +1437,12 @@ const AllProduct = () => {
                           </div>
                         </div>
                         <div className="product-item__bottom flx-between gap-2">
-                          <div>
-                            <span className="product-item__sales font-14 mb-2">
-                              500 Sales
-                            </span>
-                            <div className="d-flex align-items-center gap-1">
-                              <ul className="star-rating">
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                              </ul>
-                              <span className="star-rating__text text-heading fw-500 font-14">
-                                (16)
-                              </span>
-                            </div>
-                          </div>
+
                           <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
-                            Live Demo
+                            Buy Now
                           </Link>
                         </div>
                       </div>
@@ -2094,38 +1489,12 @@ const AllProduct = () => {
                           </div>
                         </div>
                         <div className="product-item__bottom flx-between gap-2">
-                          <div>
-                            <span className="product-item__sales font-14 mb-2">
-                              2100 Sales
-                            </span>
-                            <div className="d-flex align-items-center gap-1">
-                              <ul className="star-rating">
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                              </ul>
-                              <span className="star-rating__text text-heading fw-500 font-14">
-                                (16)
-                              </span>
-                            </div>
-                          </div>
+                        
                           <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
-                            Live Demo
+                            Buy Now
                           </Link>
                         </div>
                       </div>
@@ -2172,38 +1541,12 @@ const AllProduct = () => {
                           </div>
                         </div>
                         <div className="product-item__bottom flx-between gap-2">
-                          <div>
-                            <span className="product-item__sales font-14 mb-2">
-                              2100 Sales
-                            </span>
-                            <div className="d-flex align-items-center gap-1">
-                              <ul className="star-rating">
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                              </ul>
-                              <span className="star-rating__text text-heading fw-500 font-14">
-                                (16)
-                              </span>
-                            </div>
-                          </div>
+                        
                           <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
-                            Live Demo
+                            Buy Now
                           </Link>
                         </div>
                       </div>
@@ -2250,38 +1593,12 @@ const AllProduct = () => {
                           </div>
                         </div>
                         <div className="product-item__bottom flx-between gap-2">
-                          <div>
-                            <span className="product-item__sales font-14 mb-2">
-                              2100 Sales
-                            </span>
-                            <div className="d-flex align-items-center gap-1">
-                              <ul className="star-rating">
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                              </ul>
-                              <span className="star-rating__text text-heading fw-500 font-14">
-                                (16)
-                              </span>
-                            </div>
-                          </div>
+                        
                           <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
-                            Live Demo
+                            Buy Now
                           </Link>
                         </div>
                       </div>
@@ -2328,38 +1645,12 @@ const AllProduct = () => {
                           </div>
                         </div>
                         <div className="product-item__bottom flx-between gap-2">
-                          <div>
-                            <span className="product-item__sales font-14 mb-2">
-                              2100 Sales
-                            </span>
-                            <div className="d-flex align-items-center gap-1">
-                              <ul className="star-rating">
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                              </ul>
-                              <span className="star-rating__text text-heading fw-500 font-14">
-                                (16)
-                              </span>
-                            </div>
-                          </div>
+                        
                           <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
-                            Live Demo
+                            Buy Now
                           </Link>
                         </div>
                       </div>
@@ -2406,38 +1697,12 @@ const AllProduct = () => {
                           </div>
                         </div>
                         <div className="product-item__bottom flx-between gap-2">
-                          <div>
-                            <span className="product-item__sales font-14 mb-2">
-                              2100 Sales
-                            </span>
-                            <div className="d-flex align-items-center gap-1">
-                              <ul className="star-rating">
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                              </ul>
-                              <span className="star-rating__text text-heading fw-500 font-14">
-                                (16)
-                              </span>
-                            </div>
-                          </div>
+                        
                           <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
-                            Live Demo
+                            Buy Now
                           </Link>
                         </div>
                       </div>
@@ -2536,38 +1801,12 @@ const AllProduct = () => {
                           </div>
                         </div>
                         <div className="product-item__bottom flx-between gap-2">
-                          <div>
-                            <span className="product-item__sales font-14 mb-2">
-                              1200 Sales
-                            </span>
-                            <div className="d-flex align-items-center gap-1">
-                              <ul className="star-rating">
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                              </ul>
-                              <span className="star-rating__text text-heading fw-500 font-14">
-                                (16)
-                              </span>
-                            </div>
-                          </div>
+
                           <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
-                            Live Demo
+                            Buy Now
                           </Link>
                         </div>
                       </div>
@@ -2614,38 +1853,12 @@ const AllProduct = () => {
                           </div>
                         </div>
                         <div className="product-item__bottom flx-between gap-2">
-                          <div>
-                            <span className="product-item__sales font-14 mb-2">
-                              100 Sales
-                            </span>
-                            <div className="d-flex align-items-center gap-1">
-                              <ul className="star-rating">
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                              </ul>
-                              <span className="star-rating__text text-heading fw-500 font-14">
-                                (16)
-                              </span>
-                            </div>
-                          </div>
+
                           <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
-                            Live Demo
+                            Buy Now
                           </Link>
                         </div>
                       </div>
@@ -2692,38 +1905,12 @@ const AllProduct = () => {
                           </div>
                         </div>
                         <div className="product-item__bottom flx-between gap-2">
-                          <div>
-                            <span className="product-item__sales font-14 mb-2">
-                              900 Sales
-                            </span>
-                            <div className="d-flex align-items-center gap-1">
-                              <ul className="star-rating">
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                              </ul>
-                              <span className="star-rating__text text-heading fw-500 font-14">
-                                (16)
-                              </span>
-                            </div>
-                          </div>
+
                           <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
-                            Live Demo
+                            Buy Now
                           </Link>
                         </div>
                       </div>
@@ -2770,38 +1957,12 @@ const AllProduct = () => {
                           </div>
                         </div>
                         <div className="product-item__bottom flx-between gap-2">
-                          <div>
-                            <span className="product-item__sales font-14 mb-2">
-                              1225 Sales
-                            </span>
-                            <div className="d-flex align-items-center gap-1">
-                              <ul className="star-rating">
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                              </ul>
-                              <span className="star-rating__text text-heading fw-500 font-14">
-                                (16)
-                              </span>
-                            </div>
-                          </div>
+
                           <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
-                            Live Demo
+                            Buy Now
                           </Link>
                         </div>
                       </div>
@@ -2848,38 +2009,12 @@ const AllProduct = () => {
                           </div>
                         </div>
                         <div className="product-item__bottom flx-between gap-2">
-                          <div>
-                            <span className="product-item__sales font-14 mb-2">
-                              1300 Sales
-                            </span>
-                            <div className="d-flex align-items-center gap-1">
-                              <ul className="star-rating">
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                              </ul>
-                              <span className="star-rating__text text-heading fw-500 font-14">
-                                (16)
-                              </span>
-                            </div>
-                          </div>
+
                           <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
-                            Live Demo
+                            Buy Now
                           </Link>
                         </div>
                       </div>
@@ -2926,38 +2061,12 @@ const AllProduct = () => {
                           </div>
                         </div>
                         <div className="product-item__bottom flx-between gap-2">
-                          <div>
-                            <span className="product-item__sales font-14 mb-2">
-                              200 Sales
-                            </span>
-                            <div className="d-flex align-items-center gap-1">
-                              <ul className="star-rating">
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                              </ul>
-                              <span className="star-rating__text text-heading fw-500 font-14">
-                                (16)
-                              </span>
-                            </div>
-                          </div>
+
                           <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
-                            Live Demo
+                            Buy Now
                           </Link>
                         </div>
                       </div>
@@ -3004,38 +2113,12 @@ const AllProduct = () => {
                           </div>
                         </div>
                         <div className="product-item__bottom flx-between gap-2">
-                          <div>
-                            <span className="product-item__sales font-14 mb-2">
-                              500 Sales
-                            </span>
-                            <div className="d-flex align-items-center gap-1">
-                              <ul className="star-rating">
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                              </ul>
-                              <span className="star-rating__text text-heading fw-500 font-14">
-                                (16)
-                              </span>
-                            </div>
-                          </div>
+
                           <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
-                            Live Demo
+                            Buy Now
                           </Link>
                         </div>
                       </div>
@@ -3082,38 +2165,12 @@ const AllProduct = () => {
                           </div>
                         </div>
                         <div className="product-item__bottom flx-between gap-2">
-                          <div>
-                            <span className="product-item__sales font-14 mb-2">
-                              2100 Sales
-                            </span>
-                            <div className="d-flex align-items-center gap-1">
-                              <ul className="star-rating">
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                              </ul>
-                              <span className="star-rating__text text-heading fw-500 font-14">
-                                (16)
-                              </span>
-                            </div>
-                          </div>
+                        
                           <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
-                            Live Demo
+                            Buy Now
                           </Link>
                         </div>
                       </div>
@@ -3160,38 +2217,12 @@ const AllProduct = () => {
                           </div>
                         </div>
                         <div className="product-item__bottom flx-between gap-2">
-                          <div>
-                            <span className="product-item__sales font-14 mb-2">
-                              2100 Sales
-                            </span>
-                            <div className="d-flex align-items-center gap-1">
-                              <ul className="star-rating">
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                              </ul>
-                              <span className="star-rating__text text-heading fw-500 font-14">
-                                (16)
-                              </span>
-                            </div>
-                          </div>
+                        
                           <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
-                            Live Demo
+                            Buy Now
                           </Link>
                         </div>
                       </div>
@@ -3238,38 +2269,12 @@ const AllProduct = () => {
                           </div>
                         </div>
                         <div className="product-item__bottom flx-between gap-2">
-                          <div>
-                            <span className="product-item__sales font-14 mb-2">
-                              2100 Sales
-                            </span>
-                            <div className="d-flex align-items-center gap-1">
-                              <ul className="star-rating">
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                              </ul>
-                              <span className="star-rating__text text-heading fw-500 font-14">
-                                (16)
-                              </span>
-                            </div>
-                          </div>
+                        
                           <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
-                            Live Demo
+                            Buy Now
                           </Link>
                         </div>
                       </div>
@@ -3316,38 +2321,12 @@ const AllProduct = () => {
                           </div>
                         </div>
                         <div className="product-item__bottom flx-between gap-2">
-                          <div>
-                            <span className="product-item__sales font-14 mb-2">
-                              2100 Sales
-                            </span>
-                            <div className="d-flex align-items-center gap-1">
-                              <ul className="star-rating">
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                              </ul>
-                              <span className="star-rating__text text-heading fw-500 font-14">
-                                (16)
-                              </span>
-                            </div>
-                          </div>
+                        
                           <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
-                            Live Demo
+                            Buy Now
                           </Link>
                         </div>
                       </div>
@@ -3394,38 +2373,12 @@ const AllProduct = () => {
                           </div>
                         </div>
                         <div className="product-item__bottom flx-between gap-2">
-                          <div>
-                            <span className="product-item__sales font-14 mb-2">
-                              2100 Sales
-                            </span>
-                            <div className="d-flex align-items-center gap-1">
-                              <ul className="star-rating">
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                              </ul>
-                              <span className="star-rating__text text-heading fw-500 font-14">
-                                (16)
-                              </span>
-                            </div>
-                          </div>
+                        
                           <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
-                            Live Demo
+                            Buy Now
                           </Link>
                         </div>
                       </div>
@@ -3524,38 +2477,12 @@ const AllProduct = () => {
                           </div>
                         </div>
                         <div className="product-item__bottom flx-between gap-2">
-                          <div>
-                            <span className="product-item__sales font-14 mb-2">
-                              1200 Sales
-                            </span>
-                            <div className="d-flex align-items-center gap-1">
-                              <ul className="star-rating">
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                              </ul>
-                              <span className="star-rating__text text-heading fw-500 font-14">
-                                (16)
-                              </span>
-                            </div>
-                          </div>
+
                           <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
-                            Live Demo
+                            Buy Now
                           </Link>
                         </div>
                       </div>
@@ -3602,38 +2529,12 @@ const AllProduct = () => {
                           </div>
                         </div>
                         <div className="product-item__bottom flx-between gap-2">
-                          <div>
-                            <span className="product-item__sales font-14 mb-2">
-                              100 Sales
-                            </span>
-                            <div className="d-flex align-items-center gap-1">
-                              <ul className="star-rating">
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                              </ul>
-                              <span className="star-rating__text text-heading fw-500 font-14">
-                                (16)
-                              </span>
-                            </div>
-                          </div>
+
                           <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
-                            Live Demo
+                            Buy Now
                           </Link>
                         </div>
                       </div>
@@ -3680,38 +2581,12 @@ const AllProduct = () => {
                           </div>
                         </div>
                         <div className="product-item__bottom flx-between gap-2">
-                          <div>
-                            <span className="product-item__sales font-14 mb-2">
-                              900 Sales
-                            </span>
-                            <div className="d-flex align-items-center gap-1">
-                              <ul className="star-rating">
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                              </ul>
-                              <span className="star-rating__text text-heading fw-500 font-14">
-                                (16)
-                              </span>
-                            </div>
-                          </div>
+
                           <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
-                            Live Demo
+                            Buy Now
                           </Link>
                         </div>
                       </div>
@@ -3758,38 +2633,12 @@ const AllProduct = () => {
                           </div>
                         </div>
                         <div className="product-item__bottom flx-between gap-2">
-                          <div>
-                            <span className="product-item__sales font-14 mb-2">
-                              1225 Sales
-                            </span>
-                            <div className="d-flex align-items-center gap-1">
-                              <ul className="star-rating">
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                              </ul>
-                              <span className="star-rating__text text-heading fw-500 font-14">
-                                (16)
-                              </span>
-                            </div>
-                          </div>
+
                           <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
-                            Live Demo
+                            Buy Now
                           </Link>
                         </div>
                       </div>
@@ -3836,38 +2685,12 @@ const AllProduct = () => {
                           </div>
                         </div>
                         <div className="product-item__bottom flx-between gap-2">
-                          <div>
-                            <span className="product-item__sales font-14 mb-2">
-                              1300 Sales
-                            </span>
-                            <div className="d-flex align-items-center gap-1">
-                              <ul className="star-rating">
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                              </ul>
-                              <span className="star-rating__text text-heading fw-500 font-14">
-                                (16)
-                              </span>
-                            </div>
-                          </div>
+
                           <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
-                            Live Demo
+                            Buy Now
                           </Link>
                         </div>
                       </div>
@@ -3914,38 +2737,12 @@ const AllProduct = () => {
                           </div>
                         </div>
                         <div className="product-item__bottom flx-between gap-2">
-                          <div>
-                            <span className="product-item__sales font-14 mb-2">
-                              200 Sales
-                            </span>
-                            <div className="d-flex align-items-center gap-1">
-                              <ul className="star-rating">
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                              </ul>
-                              <span className="star-rating__text text-heading fw-500 font-14">
-                                (16)
-                              </span>
-                            </div>
-                          </div>
+
                           <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
-                            Live Demo
+                            Buy Now
                           </Link>
                         </div>
                       </div>
@@ -3992,38 +2789,12 @@ const AllProduct = () => {
                           </div>
                         </div>
                         <div className="product-item__bottom flx-between gap-2">
-                          <div>
-                            <span className="product-item__sales font-14 mb-2">
-                              500 Sales
-                            </span>
-                            <div className="d-flex align-items-center gap-1">
-                              <ul className="star-rating">
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                              </ul>
-                              <span className="star-rating__text text-heading fw-500 font-14">
-                                (16)
-                              </span>
-                            </div>
-                          </div>
+
                           <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
-                            Live Demo
+                            Buy Now
                           </Link>
                         </div>
                       </div>
@@ -4070,38 +2841,12 @@ const AllProduct = () => {
                           </div>
                         </div>
                         <div className="product-item__bottom flx-between gap-2">
-                          <div>
-                            <span className="product-item__sales font-14 mb-2">
-                              2100 Sales
-                            </span>
-                            <div className="d-flex align-items-center gap-1">
-                              <ul className="star-rating">
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                              </ul>
-                              <span className="star-rating__text text-heading fw-500 font-14">
-                                (16)
-                              </span>
-                            </div>
-                          </div>
+                        
                           <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
-                            Live Demo
+                            Buy Now
                           </Link>
                         </div>
                       </div>
@@ -4148,38 +2893,12 @@ const AllProduct = () => {
                           </div>
                         </div>
                         <div className="product-item__bottom flx-between gap-2">
-                          <div>
-                            <span className="product-item__sales font-14 mb-2">
-                              2100 Sales
-                            </span>
-                            <div className="d-flex align-items-center gap-1">
-                              <ul className="star-rating">
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                              </ul>
-                              <span className="star-rating__text text-heading fw-500 font-14">
-                                (16)
-                              </span>
-                            </div>
-                          </div>
+                        
                           <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
-                            Live Demo
+                            Buy Now
                           </Link>
                         </div>
                       </div>
@@ -4226,38 +2945,12 @@ const AllProduct = () => {
                           </div>
                         </div>
                         <div className="product-item__bottom flx-between gap-2">
-                          <div>
-                            <span className="product-item__sales font-14 mb-2">
-                              2100 Sales
-                            </span>
-                            <div className="d-flex align-items-center gap-1">
-                              <ul className="star-rating">
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                              </ul>
-                              <span className="star-rating__text text-heading fw-500 font-14">
-                                (16)
-                              </span>
-                            </div>
-                          </div>
+                        
                           <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
-                            Live Demo
+                            Buy Now
                           </Link>
                         </div>
                       </div>
@@ -4304,38 +2997,12 @@ const AllProduct = () => {
                           </div>
                         </div>
                         <div className="product-item__bottom flx-between gap-2">
-                          <div>
-                            <span className="product-item__sales font-14 mb-2">
-                              2100 Sales
-                            </span>
-                            <div className="d-flex align-items-center gap-1">
-                              <ul className="star-rating">
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                              </ul>
-                              <span className="star-rating__text text-heading fw-500 font-14">
-                                (16)
-                              </span>
-                            </div>
-                          </div>
+                        
                           <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
-                            Live Demo
+                            Buy Now
                           </Link>
                         </div>
                       </div>
@@ -4382,38 +3049,12 @@ const AllProduct = () => {
                           </div>
                         </div>
                         <div className="product-item__bottom flx-between gap-2">
-                          <div>
-                            <span className="product-item__sales font-14 mb-2">
-                              2100 Sales
-                            </span>
-                            <div className="d-flex align-items-center gap-1">
-                              <ul className="star-rating">
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                              </ul>
-                              <span className="star-rating__text text-heading fw-500 font-14">
-                                (16)
-                              </span>
-                            </div>
-                          </div>
+                        
                           <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
-                            Live Demo
+                            Buy Now
                           </Link>
                         </div>
                       </div>
@@ -4512,38 +3153,12 @@ const AllProduct = () => {
                           </div>
                         </div>
                         <div className="product-item__bottom flx-between gap-2">
-                          <div>
-                            <span className="product-item__sales font-14 mb-2">
-                              1200 Sales
-                            </span>
-                            <div className="d-flex align-items-center gap-1">
-                              <ul className="star-rating">
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                              </ul>
-                              <span className="star-rating__text text-heading fw-500 font-14">
-                                (16)
-                              </span>
-                            </div>
-                          </div>
+
                           <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
-                            Live Demo
+                            Buy Now
                           </Link>
                         </div>
                       </div>
@@ -4590,38 +3205,12 @@ const AllProduct = () => {
                           </div>
                         </div>
                         <div className="product-item__bottom flx-between gap-2">
-                          <div>
-                            <span className="product-item__sales font-14 mb-2">
-                              100 Sales
-                            </span>
-                            <div className="d-flex align-items-center gap-1">
-                              <ul className="star-rating">
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                              </ul>
-                              <span className="star-rating__text text-heading fw-500 font-14">
-                                (16)
-                              </span>
-                            </div>
-                          </div>
+
                           <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
-                            Live Demo
+                            Buy Now
                           </Link>
                         </div>
                       </div>
@@ -4668,38 +3257,12 @@ const AllProduct = () => {
                           </div>
                         </div>
                         <div className="product-item__bottom flx-between gap-2">
-                          <div>
-                            <span className="product-item__sales font-14 mb-2">
-                              900 Sales
-                            </span>
-                            <div className="d-flex align-items-center gap-1">
-                              <ul className="star-rating">
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                              </ul>
-                              <span className="star-rating__text text-heading fw-500 font-14">
-                                (16)
-                              </span>
-                            </div>
-                          </div>
+
                           <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
-                            Live Demo
+                            Buy Now
                           </Link>
                         </div>
                       </div>
@@ -4746,38 +3309,12 @@ const AllProduct = () => {
                           </div>
                         </div>
                         <div className="product-item__bottom flx-between gap-2">
-                          <div>
-                            <span className="product-item__sales font-14 mb-2">
-                              1225 Sales
-                            </span>
-                            <div className="d-flex align-items-center gap-1">
-                              <ul className="star-rating">
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                              </ul>
-                              <span className="star-rating__text text-heading fw-500 font-14">
-                                (16)
-                              </span>
-                            </div>
-                          </div>
+
                           <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
-                            Live Demo
+                            Buy Now
                           </Link>
                         </div>
                       </div>
@@ -4824,38 +3361,12 @@ const AllProduct = () => {
                           </div>
                         </div>
                         <div className="product-item__bottom flx-between gap-2">
-                          <div>
-                            <span className="product-item__sales font-14 mb-2">
-                              1300 Sales
-                            </span>
-                            <div className="d-flex align-items-center gap-1">
-                              <ul className="star-rating">
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                              </ul>
-                              <span className="star-rating__text text-heading fw-500 font-14">
-                                (16)
-                              </span>
-                            </div>
-                          </div>
+
                           <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
-                            Live Demo
+                            Buy Now
                           </Link>
                         </div>
                       </div>
@@ -4902,38 +3413,12 @@ const AllProduct = () => {
                           </div>
                         </div>
                         <div className="product-item__bottom flx-between gap-2">
-                          <div>
-                            <span className="product-item__sales font-14 mb-2">
-                              200 Sales
-                            </span>
-                            <div className="d-flex align-items-center gap-1">
-                              <ul className="star-rating">
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                              </ul>
-                              <span className="star-rating__text text-heading fw-500 font-14">
-                                (16)
-                              </span>
-                            </div>
-                          </div>
+
                           <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
-                            Live Demo
+                            Buy Now
                           </Link>
                         </div>
                       </div>
@@ -4980,38 +3465,12 @@ const AllProduct = () => {
                           </div>
                         </div>
                         <div className="product-item__bottom flx-between gap-2">
-                          <div>
-                            <span className="product-item__sales font-14 mb-2">
-                              500 Sales
-                            </span>
-                            <div className="d-flex align-items-center gap-1">
-                              <ul className="star-rating">
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                              </ul>
-                              <span className="star-rating__text text-heading fw-500 font-14">
-                                (16)
-                              </span>
-                            </div>
-                          </div>
+
                           <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
-                            Live Demo
+                            Buy Now
                           </Link>
                         </div>
                       </div>
@@ -5058,38 +3517,12 @@ const AllProduct = () => {
                           </div>
                         </div>
                         <div className="product-item__bottom flx-between gap-2">
-                          <div>
-                            <span className="product-item__sales font-14 mb-2">
-                              2100 Sales
-                            </span>
-                            <div className="d-flex align-items-center gap-1">
-                              <ul className="star-rating">
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                              </ul>
-                              <span className="star-rating__text text-heading fw-500 font-14">
-                                (16)
-                              </span>
-                            </div>
-                          </div>
+                        
                           <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
-                            Live Demo
+                            Buy Now
                           </Link>
                         </div>
                       </div>
@@ -5136,38 +3569,12 @@ const AllProduct = () => {
                           </div>
                         </div>
                         <div className="product-item__bottom flx-between gap-2">
-                          <div>
-                            <span className="product-item__sales font-14 mb-2">
-                              2100 Sales
-                            </span>
-                            <div className="d-flex align-items-center gap-1">
-                              <ul className="star-rating">
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                              </ul>
-                              <span className="star-rating__text text-heading fw-500 font-14">
-                                (16)
-                              </span>
-                            </div>
-                          </div>
+                        
                           <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
-                            Live Demo
+                            Buy Now
                           </Link>
                         </div>
                       </div>
@@ -5214,38 +3621,12 @@ const AllProduct = () => {
                           </div>
                         </div>
                         <div className="product-item__bottom flx-between gap-2">
-                          <div>
-                            <span className="product-item__sales font-14 mb-2">
-                              2100 Sales
-                            </span>
-                            <div className="d-flex align-items-center gap-1">
-                              <ul className="star-rating">
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                              </ul>
-                              <span className="star-rating__text text-heading fw-500 font-14">
-                                (16)
-                              </span>
-                            </div>
-                          </div>
+                        
                           <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
-                            Live Demo
+                            Buy Now
                           </Link>
                         </div>
                       </div>
@@ -5292,38 +3673,12 @@ const AllProduct = () => {
                           </div>
                         </div>
                         <div className="product-item__bottom flx-between gap-2">
-                          <div>
-                            <span className="product-item__sales font-14 mb-2">
-                              2100 Sales
-                            </span>
-                            <div className="d-flex align-items-center gap-1">
-                              <ul className="star-rating">
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                              </ul>
-                              <span className="star-rating__text text-heading fw-500 font-14">
-                                (16)
-                              </span>
-                            </div>
-                          </div>
+                        
                           <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
-                            Live Demo
+                            Buy Now
                           </Link>
                         </div>
                       </div>
@@ -5370,38 +3725,12 @@ const AllProduct = () => {
                           </div>
                         </div>
                         <div className="product-item__bottom flx-between gap-2">
-                          <div>
-                            <span className="product-item__sales font-14 mb-2">
-                              2100 Sales
-                            </span>
-                            <div className="d-flex align-items-center gap-1">
-                              <ul className="star-rating">
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                              </ul>
-                              <span className="star-rating__text text-heading fw-500 font-14">
-                                (16)
-                              </span>
-                            </div>
-                          </div>
+                        
                           <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
-                            Live Demo
+                            Buy Now
                           </Link>
                         </div>
                       </div>
@@ -5500,38 +3829,12 @@ const AllProduct = () => {
                           </div>
                         </div>
                         <div className="product-item__bottom flx-between gap-2">
-                          <div>
-                            <span className="product-item__sales font-14 mb-2">
-                              1200 Sales
-                            </span>
-                            <div className="d-flex align-items-center gap-1">
-                              <ul className="star-rating">
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                              </ul>
-                              <span className="star-rating__text text-heading fw-500 font-14">
-                                (16)
-                              </span>
-                            </div>
-                          </div>
+
                           <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
-                            Live Demo
+                            Buy Now
                           </Link>
                         </div>
                       </div>
@@ -5578,38 +3881,12 @@ const AllProduct = () => {
                           </div>
                         </div>
                         <div className="product-item__bottom flx-between gap-2">
-                          <div>
-                            <span className="product-item__sales font-14 mb-2">
-                              100 Sales
-                            </span>
-                            <div className="d-flex align-items-center gap-1">
-                              <ul className="star-rating">
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                              </ul>
-                              <span className="star-rating__text text-heading fw-500 font-14">
-                                (16)
-                              </span>
-                            </div>
-                          </div>
+
                           <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
-                            Live Demo
+                            Buy Now
                           </Link>
                         </div>
                       </div>
@@ -5656,38 +3933,12 @@ const AllProduct = () => {
                           </div>
                         </div>
                         <div className="product-item__bottom flx-between gap-2">
-                          <div>
-                            <span className="product-item__sales font-14 mb-2">
-                              900 Sales
-                            </span>
-                            <div className="d-flex align-items-center gap-1">
-                              <ul className="star-rating">
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                              </ul>
-                              <span className="star-rating__text text-heading fw-500 font-14">
-                                (16)
-                              </span>
-                            </div>
-                          </div>
+
                           <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
-                            Live Demo
+                            Buy Now
                           </Link>
                         </div>
                       </div>
@@ -5734,38 +3985,12 @@ const AllProduct = () => {
                           </div>
                         </div>
                         <div className="product-item__bottom flx-between gap-2">
-                          <div>
-                            <span className="product-item__sales font-14 mb-2">
-                              1225 Sales
-                            </span>
-                            <div className="d-flex align-items-center gap-1">
-                              <ul className="star-rating">
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                              </ul>
-                              <span className="star-rating__text text-heading fw-500 font-14">
-                                (16)
-                              </span>
-                            </div>
-                          </div>
+
                           <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
-                            Live Demo
+                            Buy Now
                           </Link>
                         </div>
                       </div>
@@ -5812,38 +4037,12 @@ const AllProduct = () => {
                           </div>
                         </div>
                         <div className="product-item__bottom flx-between gap-2">
-                          <div>
-                            <span className="product-item__sales font-14 mb-2">
-                              1300 Sales
-                            </span>
-                            <div className="d-flex align-items-center gap-1">
-                              <ul className="star-rating">
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                              </ul>
-                              <span className="star-rating__text text-heading fw-500 font-14">
-                                (16)
-                              </span>
-                            </div>
-                          </div>
+
                           <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
-                            Live Demo
+                            Buy Now
                           </Link>
                         </div>
                       </div>
@@ -5890,38 +4089,12 @@ const AllProduct = () => {
                           </div>
                         </div>
                         <div className="product-item__bottom flx-between gap-2">
-                          <div>
-                            <span className="product-item__sales font-14 mb-2">
-                              200 Sales
-                            </span>
-                            <div className="d-flex align-items-center gap-1">
-                              <ul className="star-rating">
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                              </ul>
-                              <span className="star-rating__text text-heading fw-500 font-14">
-                                (16)
-                              </span>
-                            </div>
-                          </div>
+
                           <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
-                            Live Demo
+                            Buy Now
                           </Link>
                         </div>
                       </div>
@@ -5968,38 +4141,12 @@ const AllProduct = () => {
                           </div>
                         </div>
                         <div className="product-item__bottom flx-between gap-2">
-                          <div>
-                            <span className="product-item__sales font-14 mb-2">
-                              500 Sales
-                            </span>
-                            <div className="d-flex align-items-center gap-1">
-                              <ul className="star-rating">
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                              </ul>
-                              <span className="star-rating__text text-heading fw-500 font-14">
-                                (16)
-                              </span>
-                            </div>
-                          </div>
+
                           <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
-                            Live Demo
+                            Buy Now
                           </Link>
                         </div>
                       </div>
@@ -6046,38 +4193,12 @@ const AllProduct = () => {
                           </div>
                         </div>
                         <div className="product-item__bottom flx-between gap-2">
-                          <div>
-                            <span className="product-item__sales font-14 mb-2">
-                              2100 Sales
-                            </span>
-                            <div className="d-flex align-items-center gap-1">
-                              <ul className="star-rating">
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                              </ul>
-                              <span className="star-rating__text text-heading fw-500 font-14">
-                                (16)
-                              </span>
-                            </div>
-                          </div>
+                        
                           <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
-                            Live Demo
+                            Buy Now
                           </Link>
                         </div>
                       </div>
@@ -6124,38 +4245,12 @@ const AllProduct = () => {
                           </div>
                         </div>
                         <div className="product-item__bottom flx-between gap-2">
-                          <div>
-                            <span className="product-item__sales font-14 mb-2">
-                              2100 Sales
-                            </span>
-                            <div className="d-flex align-items-center gap-1">
-                              <ul className="star-rating">
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                              </ul>
-                              <span className="star-rating__text text-heading fw-500 font-14">
-                                (16)
-                              </span>
-                            </div>
-                          </div>
+                        
                           <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
-                            Live Demo
+                            Buy Now
                           </Link>
                         </div>
                       </div>
@@ -6202,38 +4297,12 @@ const AllProduct = () => {
                           </div>
                         </div>
                         <div className="product-item__bottom flx-between gap-2">
-                          <div>
-                            <span className="product-item__sales font-14 mb-2">
-                              2100 Sales
-                            </span>
-                            <div className="d-flex align-items-center gap-1">
-                              <ul className="star-rating">
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                              </ul>
-                              <span className="star-rating__text text-heading fw-500 font-14">
-                                (16)
-                              </span>
-                            </div>
-                          </div>
+                        
                           <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
-                            Live Demo
+                            Buy Now
                           </Link>
                         </div>
                       </div>
@@ -6280,38 +4349,12 @@ const AllProduct = () => {
                           </div>
                         </div>
                         <div className="product-item__bottom flx-between gap-2">
-                          <div>
-                            <span className="product-item__sales font-14 mb-2">
-                              2100 Sales
-                            </span>
-                            <div className="d-flex align-items-center gap-1">
-                              <ul className="star-rating">
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                              </ul>
-                              <span className="star-rating__text text-heading fw-500 font-14">
-                                (16)
-                              </span>
-                            </div>
-                          </div>
+                        
                           <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
-                            Live Demo
+                            Buy Now
                           </Link>
                         </div>
                       </div>
@@ -6358,38 +4401,12 @@ const AllProduct = () => {
                           </div>
                         </div>
                         <div className="product-item__bottom flx-between gap-2">
-                          <div>
-                            <span className="product-item__sales font-14 mb-2">
-                              2100 Sales
-                            </span>
-                            <div className="d-flex align-items-center gap-1">
-                              <ul className="star-rating">
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                                <li className="star-rating__item font-11">
-                                  <i className="fas fa-star" />
-                                </li>
-                              </ul>
-                              <span className="star-rating__text text-heading fw-500 font-14">
-                                (16)
-                              </span>
-                            </div>
-                          </div>
+                        
                           <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
-                            Live Demo
+                            Buy Now
                           </Link>
                         </div>
                       </div>
