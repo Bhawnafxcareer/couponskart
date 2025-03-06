@@ -7,10 +7,10 @@ const WhyChoose = () => {
             <section className='padding-y-120'>
                 <div className="container">
                     <div className="row align-items-center g-4">
-                        <div className="col-lg-6">
+                        <div className="col-md-6">
                             <img src="assets/images/thumbs/payments-methods.png" alt=""  className='w-100'/>
                         </div>
-                        <div className="col-lg-6">
+                        <div className="col-md-6">
                             <div className="support-content ">
 
                                 <h3 className="support-content__title mb-3 ">

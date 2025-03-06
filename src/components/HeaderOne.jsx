@@ -205,7 +205,7 @@ const HeaderOne = () => {
               </li>
               <li className="nav-menu__item  ">
                 <Link to="/about" className="nav-menu__link">
-                  about
+                  About
                 </Link>
 
               </li>
@@ -214,13 +214,7 @@ const HeaderOne = () => {
                   All Coupons
                 </Link>
                 <ul className="nav-submenu">
-                  <li className="nav-submenu__item">
-                    <NavLink to="/all-product" className={(navData) =>
-                      navData.isActive ? "nav-submenu__link activePage" : "nav-submenu__link"
-                    } >
-                      All Coupons
-                    </NavLink>
-                  </li>
+
                   <li className="nav-submenu__item">
                     <NavLink to="/all-product" className={(navData) =>
                       navData.isActive ? "nav-submenu__link activePage" : "nav-submenu__link"

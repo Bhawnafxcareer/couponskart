@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+
 import ThemeToggle from "./ThemeToggle";
 
 const Login = () => {
@@ -6,11 +7,7 @@ const Login = () => {
     <>
       {/* ================================== Account Page Start =========================== */}
       <section className="account d-flex">
-        <img
-          src="assets/images/thumbs/account-img.png"
-          alt=""
-          className="account__img"
-        />
+
         <div className="account__left d-md-flex d-none flx-align section-bg position-relative z-index-1 overflow-hidden">
           <img
             src="assets/images/shapes/pattern-curve-seven.png"
@@ -18,13 +15,8 @@ const Login = () => {
             className="position-absolute end-0 top-0 z-index--1 h-100"
           />
           <div className="account-thumb">
-            <img src="assets/images/thumbs/banner-img.png" alt="" />
-            <div className="statistics animation bg-main text-center">
-              <h5 className="statistics__amount text-white">50k</h5>
-              <span className="statistics__text text-white font-14">
-                Customers
-              </span>
-            </div>
+            <img src="assets/images/about/tab-img-2.webp" alt="" />
+
           </div>
         </div>
         <div className="account__right padding-y-120 flx-align">
@@ -133,6 +125,15 @@ const Login = () => {
                       <img src="assets/images/icons/google.svg" alt="" />
                     </span>
                     Sign in with google
+                  </button>
+                  <button
+                    type="submit"
+                    className="btn btn-outline-light btn-lg-icon btn-lg w-100 mt-3 pill"
+                  >
+                    <span className="icon icon-left">
+                      <img src="assets/images/icons/facebook.svg" alt="facebook"  width={'24px'} />
+                    </span>
+                    Sign in with facebook
                   </button>
                 </div>
                 <div className="col-sm-12 mb-0">

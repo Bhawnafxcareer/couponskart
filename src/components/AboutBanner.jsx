@@ -6,8 +6,8 @@ const AboutBanner = () => {
     <>
       <section className="padding-y-120">
         <div className="container">
-          <div className="row">
-            <div className="col-lg-6 align-self-center">
+          <div className="row g-4">
+            <div className="col-lg-6 col-md-6 align-self-center">
               <div className="about_left">
                 <h1 className="">
                   About Us
@@ -18,30 +18,30 @@ const AboutBanner = () => {
                 <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum ducimus beatae earum tempora consectetur placeat pariatur explicabo, nulla illum magnam, omnis impedit! Repellat dolorem aliquam, in accusamus et exercitationem praesentium.</p>
               </div>
             </div>
-            <div className="col-md-6 text-center">
+            <div className="col-md-6 col-md-6 align-self-center text-center">
               <img src="assets/images/about/tab-img-2.webp" alt="" className='w-75' />
             </div>
           </div>
-          <div className="row mt-4">
-            <div className="col-md-3">
+          <div className="row g-4 mt-4">
+            <div className="col-md-6 col-lg-3">
               <div className=" section-bg about-bx d-flex align-items-center gap-3 rounded">
                 <img src="assets/images/about/price-tag.png" alt="" />
                 <h6 className='fw-semibold mb-0'>Best prices & offers</h6>
               </div>
             </div>
-            <div className="col-md-3">
+            <div className="col-md-6 col-lg-3">
               <div className=" section-bg about-bx d-flex align-items-center gap-3 rounded">
                 <img src="assets/images/about/discounts.png" alt="" />
                 <h6 className='fw-semibold mb-0'>Great daily deal</h6>
               </div>
             </div>
-            <div className="col-md-3">
+            <div className="col-md-6 col-lg-3">
               <div className="section-bg about-bx d-flex align-items-center gap-3 rounded">
                 <img src="assets/images/about/discounts-member.png" alt="" />
                 <h6 className='fw-semibold mb-0'>Member Discounts</h6>
               </div>
             </div>
-            <div className="col-md-3">
+            <div className="col-md-6 col-lg-3">
               <div className=" section-bg about-bx d-flex align-items-center gap-3 rounded">
                 <img src="assets/images/about/customer-service.png" alt="" />
                 <h6 className='fw-semibold mb-0'>Online Support 24/7</h6>
