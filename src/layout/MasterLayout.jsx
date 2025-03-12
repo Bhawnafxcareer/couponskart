@@ -267,7 +267,26 @@ const MasterLayout = ({ children }) => {
                                                 className="icon icon-active"
                                             />
                                         </span>
-                                        <span className="text">Statements</span>
+                                        <span className="text">Transaction</span>
+                                    </NavLink>
+                                </li>
+                                <li className="sidebar-list__item">
+                                    <NavLink to="/" className={(navData) =>
+                                        navData.isActive ? "sidebar-list__link activePage" : "sidebar-list__link"
+                                    }>
+                                        <span className="sidebar-list__icon">
+                                            <img
+                                                src="assets/images/icons/sidebar-icon12.svg"
+                                                alt=""
+                                                className="icon"
+                                            />
+                                            <img
+                                                src="assets/images/icons/sidebar-icon-active12.svg"
+                                                alt=""
+                                                className="icon icon-active"
+                                            />
+                                        </span>
+                                        <span className="text">Coupons</span>
                                     </NavLink>
                                 </li>
                                 <li className="sidebar-list__item">
