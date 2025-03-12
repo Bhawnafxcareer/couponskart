@@ -154,20 +154,7 @@ const ProfileInner = () => {
                           Personal Info
                         </button>
                       </li>
-                      <li className="nav-item" role="presentation">
-                        <button
-                          className="nav-link font-18 font-heading"
-                          id="pills-payouts-tab"
-                          data-bs-toggle="pill"
-                          data-bs-target="#pills-payouts"
-                          type="button"
-                          role="tab"
-                          aria-controls="pills-payouts"
-                          aria-selected="false"
-                        >
-                          Payouts
-                        </button>
-                      </li>
+
                       <li className="nav-item" role="presentation">
                         <button
                           className="nav-link font-18 font-heading"
@@ -330,85 +317,7 @@ const ProfileInner = () => {
                           </div>
                         </form>
                       </div>
-                      <div
-                        className="tab-pane fade"
-                        id="pills-payouts"
-                        role="tabpanel"
-                        aria-labelledby="pills-payouts-tab"
-                        tabIndex={0}
-                      >
-                        <form action="#" autoComplete="off">
-                          <div className="row gy-4">
-                            <div className="col-sm-6 col-xs-6">
-                              <label
-                                htmlFor="name"
-                                className="form-label mb-2 font-18 font-heading fw-600"
-                              >
-                                Full Name
-                              </label>
-                              <input
-                                type="text"
-                                className="common-input border"
-                                id="name"
-                                defaultValue="Michel"
-                                placeholder="Full Name"
-                              />
-                            </div>
-                            <div className="col-sm-6 col-xs-6">
-                              <label
-                                htmlFor="phone"
-                                className="form-label mb-2 font-18 font-heading fw-600"
-                              >
-                                Phone Number
-                              </label>
-                              <input
-                                type="tel"
-                                className="common-input border"
-                                id="phone"
-                                defaultValue="+880 15589 236 45"
-                                placeholder="Phone Number"
-                              />
-                            </div>
-                            <div className="col-sm-6 col-xs-6">
-                              <label
-                                htmlFor="emailAdd"
-                                className="form-label mb-2 font-18 font-heading fw-600"
-                              >
-                                Email Address
-                              </label>
-                              <input
-                                type="email"
-                                className="common-input border"
-                                id="emailAdd"
-                                defaultValue="michel15@gmail.com"
-                                placeholder="Email Address"
-                              />
-                            </div>
-                            <div className="col-sm-6 col-xs-6">
-                              <label
-                                htmlFor="city"
-                                className="form-label mb-2 font-18 font-heading fw-600"
-                              >
-                                City
-                              </label>
-                              <div className="select-has-icon">
-                                <select className="common-input border" id="city" defaultValue={1}>
-                                  <option value={1}>Dhaka</option>
-                                  <option value={1}>Chandpur</option>
-                                  <option value={1}>Comilla</option>
-                                  <option value={1}>Rangpur</option>
-                                </select>
-                              </div>
-                            </div>
-                            <div className="col-sm-12 text-end">
-                              <button className="btn btn-main btn-lg pill mt-4">
-                                {" "}
-                                Pay Now
-                              </button>
-                            </div>
-                          </div>
-                        </form>
-                      </div>
+                      
                       <div
                         className="tab-pane fade"
                         id="pills-changePassword"
