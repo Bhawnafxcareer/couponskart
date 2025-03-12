@@ -20,7 +20,7 @@ const MasterLayout = ({ children }) => {
 
     return (
         <>
-
+{/* 
             <div className="mobile-menu d-lg-none d-block" >
                 <button type="button" className="close-button text-body hover-text-main" >
                     {" "}
@@ -181,7 +181,7 @@ const MasterLayout = ({ children }) => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
 
 
             <section className={`dashboard ${active && "active"}`} onClick={() => show === true && setShow(false)}>
@@ -197,12 +197,12 @@ const MasterLayout = ({ children }) => {
                         <div className="dashboard-sidebar__inner">
                             <Link to="/" className="logo mb-48">
                                 <img
-                                    src="assets/images/logo/logo.png"
+                                    src="assets/images/logo/logo-two.png"
                                     alt=""
                                     className="white-version"
                                 />
                                 <img
-                                    src="assets/images/logo/white-logo-two.png"
+                                    src="assets/images/logo/white-logo.png"
                                     alt=""
                                     className="dark-version"
                                 />
@@ -249,64 +249,8 @@ const MasterLayout = ({ children }) => {
                                         </span>
                                         <span className="text">Profile</span>
                                     </NavLink>
-                                </li>
-                                <li className="sidebar-list__item">
-                                    <NavLink to="/follower" className={(navData) =>
-                                        navData.isActive ? "sidebar-list__link activePage" : "sidebar-list__link"
-                                    }>
-                                        <span className="sidebar-list__icon">
-                                            <img
-                                                src="assets/images/icons/sidebar-icon4.svg"
-                                                alt=""
-                                                className="icon"
-                                            />
-                                            <img
-                                                src="assets/images/icons/sidebar-icon-active4.svg"
-                                                alt=""
-                                                className="icon icon-active"
-                                            />
-                                        </span>
-                                        <span className="text">Followers</span>
-                                    </NavLink>
-                                </li>
-                                <li className="sidebar-list__item">
-                                    <NavLink to="/following" className={(navData) =>
-                                        navData.isActive ? "sidebar-list__link activePage" : "sidebar-list__link"
-                                    }>
-                                        <span className="sidebar-list__icon">
-                                            <img
-                                                src="assets/images/icons/sidebar-icon5.svg"
-                                                alt=""
-                                                className="icon"
-                                            />
-                                            <img
-                                                src="assets/images/icons/sidebar-icon-active5.svg"
-                                                alt=""
-                                                className="icon icon-active"
-                                            />
-                                        </span>
-                                        <span className="text">Followings</span>
-                                    </NavLink>
-                                </li>
-                                <li className="sidebar-list__item">
-                                    <NavLink to="/setting" className={(navData) =>
-                                        navData.isActive ? "sidebar-list__link activePage" : "sidebar-list__link"
-                                    }>
-                                        <span className="sidebar-list__icon">
-                                            <img
-                                                src="assets/images/icons/sidebar-icon10.svg"
-                                                alt=""
-                                                className="icon"
-                                            />
-                                            <img
-                                                src="assets/images/icons/sidebar-icon-active10.svg"
-                                                alt=""
-                                                className="icon icon-active"
-                                            />
-                                        </span>
-                                        <span className="text">Settings</span>
-                                    </NavLink>
-                                </li>
+                                </li>                             
+
                                 <li className="sidebar-list__item">
                                     <NavLink to="/statement" className={(navData) =>
                                         navData.isActive ? "sidebar-list__link activePage" : "sidebar-list__link"
@@ -345,25 +289,7 @@ const MasterLayout = ({ children }) => {
                                         <span className="text">Earnings</span>
                                     </NavLink>
                                 </li>
-                                <li className="sidebar-list__item">
-                                    <NavLink to="/review" className={(navData) =>
-                                        navData.isActive ? "sidebar-list__link activePage" : "sidebar-list__link"
-                                    }>
-                                        <span className="sidebar-list__icon">
-                                            <img
-                                                src="assets/images/icons/sidebar-icon7.svg"
-                                                alt=""
-                                                className="icon"
-                                            />
-                                            <img
-                                                src="assets/images/icons/sidebar-icon-active7.svg"
-                                                alt=""
-                                                className="icon icon-active"
-                                            />
-                                        </span>
-                                        <span className="text">Reviews</span>
-                                    </NavLink>
-                                </li>
+
                                 <li className="sidebar-list__item">
                                     <NavLink to="/download" className={(navData) =>
                                         navData.isActive ? "sidebar-list__link activePage" : "sidebar-list__link"
@@ -383,7 +309,7 @@ const MasterLayout = ({ children }) => {
                                         <span className="text">Downloads</span>
                                     </NavLink>
                                 </li>
-                                <li className="sidebar-list__item">
+                                {/* <li className="sidebar-list__item">
                                     <NavLink to="/refund" className={(navData) =>
                                         navData.isActive ? "sidebar-list__link activePage" : "sidebar-list__link"
                                     }>
@@ -401,7 +327,7 @@ const MasterLayout = ({ children }) => {
                                         </span>
                                         <span className="text">Refunds</span>
                                     </NavLink>
-                                </li>
+                                </li> */}
                                 <li className="sidebar-list__item">
                                     <NavLink to="/login" className={(navData) =>
                                         navData.isActive ? "sidebar-list__link activePage" : "sidebar-list__link"
@@ -531,24 +457,7 @@ const MasterLayout = ({ children }) => {
                                                 </li>
                                             </ul>
                                         </div>
-                                        <div className="language-select flx-align select-has-icon">
-                                            <img
-                                                src="assets/images/icons/globe.svg"
-                                                alt=""
-                                                className="globe-icon white-version"
-                                            />
-                                            <img
-                                                src="assets/images/icons/globe-white.svg"
-                                                alt=""
-                                                className="globe-icon dark-version"
-                                            />
-                                            <select className="select py-0 ps-2 border-0 fw-500">
-                                                <option value={1}>Eng</option>
-                                                <option value={2}>Bn</option>
-                                                <option value={3}>Eur</option>
-                                                <option value={4}>Urd</option>
-                                            </select>
-                                        </div>
+
                                     </div>
                                 </div>
                             </div>
@@ -562,7 +471,7 @@ const MasterLayout = ({ children }) => {
                             <div className="bottom-footer__inner flx-between gap-3">
                                 <p className="bottom-footer__text font-14">
                                     {" "}
-                                    Copyright © 2024 DPmarket, All rights reserved.
+                                    Copyright © 2024 Couponskart, All rights reserved.
                                 </p>
                                 <div className="footer-links gap-4">
                                     <Link to="/#" className="footer-link hover-text-heading font-14">
