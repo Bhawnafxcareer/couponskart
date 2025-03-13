@@ -81,10 +81,10 @@
   --main-gradient-two: linear-gradient(305deg, hsl(var(--main)) 0%, hsl(var(--main-three)) 100%);
   
   /* ========================= Main Color ============================= */
-  --main-h: 253;  
-  --main-s: 88%;
-  --main-l: 58%;
-  --main: var(--main-h) var(--main-s) var(--main-l);
+  --main-h: 250;  
+  --main-s: 30%;
+  --main-l: 42%;
+  --main: var(--main-h) var(--main-s) var(--main-l); 
   
   /* Main Lighten */
   --main-l-100: var(--main-h) calc(var(--main-s)) calc(var(--main-l) + (100% - var(--main-l)) * 0.1);
@@ -102,9 +102,14 @@
   /* ========================= Main Color ============================= */
 
   /* ========================= Main two Color ============================= */
-  --main-two-h: 184;
-  --main-two-s: 96%;
-  --main-two-l: 48%;
+  --main-two-h: 271;
+  --main-two-s: 81%;
+  --main-two-l: 74
+  
+  
+  
+  
+  %;
   --main-two: var(--main-two-h) var(--main-two-s) var(--main-two-l);
   
   /* Main-two Lighten */

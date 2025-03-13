@@ -48,117 +48,15 @@ const BreadcrumbTwo = () => {
                                     </li>
                                 </ul>
                                 <h3 className="breadcrumb-two-content__title mb-3 text-capitalize">
-                                    Quantum: SaaS Landing Page WordPress Theme
+                                    HappyYOU Ramadan Card
                                 </h3>
-                                
+
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div className="container container-two">
-                <div className="breadcrumb-tab flx-wrap align-items-start gap-lg-4 gap-2">
-                    <ul className="nav tab-bordered nav-pills" id="pills-tab" role="tablist">
-                        <li className="nav-item" role="presentation">
-                            <button
-                                className="nav-link active"
-                                id="pills-product-details-tab"
-                                data-bs-toggle="pill"
-                                data-bs-target="#pills-product-details"
-                                type="button"
-                                role="tab"
-                                aria-controls="pills-product-details"
-                                aria-selected="true"
-                            >
-                                Product Details
-                            </button>
-                        </li>
-                        <li className="nav-item" role="presentation">
-                            <button
-                                className="nav-link"
-                                id="pills-rating-tab"
-                                data-bs-toggle="pill"
-                                data-bs-target="#pills-rating"
-                                type="button"
-                                role="tab"
-                                aria-controls="pills-rating"
-                                aria-selected="false"
-                            >
-                                <span className="d-flex align-items-center gap-1">
-                                    <span className="star-rating">
-                                        <span className="star-rating__item font-11">
-                                            <i className="fas fa-star" />
-                                        </span>
-                                        <span className="star-rating__item font-11">
-                                            <i className="fas fa-star" />
-                                        </span>
-                                        <span className="star-rating__item font-11">
-                                            <i className="fas fa-star" />
-                                        </span>
-                                        <span className="star-rating__item font-11">
-                                            <i className="fas fa-star" />
-                                        </span>
-                                        <span className="star-rating__item font-11">
-                                            <i className="fas fa-star" />
-                                        </span>
-                                    </span>
-                                    <span className="star-rating__text text-body"> 5.0</span>
-                                    <span className="star-rating__text text-body"> (180)</span>
-                                </span>
-                            </button>
-                        </li>
-                        <li className="nav-item" role="presentation">
-                            <button
-                                className="nav-link"
-                                id="pills-comments-tab"
-                                data-bs-toggle="pill"
-                                data-bs-target="#pills-comments"
-                                type="button"
-                                role="tab"
-                                aria-controls="pills-comments"
-                                aria-selected="false"
-                            >
-                                Comments (50)
-                            </button>
-                        </li>
-                    </ul>
-                    <div className="social-share">
-                        <button type="button" className="social-share__button" >
-                            <img src="assets/images/icons/share-icon.svg" alt="" />
-                        </button>
-                        <div className="social-share__icons">
-                            <ul className="social-icon-list colorful-style">
-                                <li className="social-icon-list__item">
-                                    <Link
-                                        to="https://www.facebook.com"
-                                        className="social-icon-list__link text-body flex-center"
-                                    >
-                                        <i className="fab fa-facebook-f" />
-                                    </Link>
-                                </li>
-                                <li className="social-icon-list__item">
-                                    <Link
-                                        to="https://www.twitter.com"
-                                        className="social-icon-list__link text-body flex-center"
-                                    >
-                                        {" "}
-                                        <i className="fab fa-linkedin-in" />
-                                    </Link>
-                                </li>
-                                <li className="social-icon-list__item">
-                                    <Link
-                                        to="https://www.google.com"
-                                        className="social-icon-list__link text-body flex-center"
-                                    >
-                                        {" "}
-                                        <i className="fab fa-twitter" />
-                                    </Link>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
         </section>
 
     );
