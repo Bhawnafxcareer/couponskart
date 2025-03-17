@@ -11,8 +11,8 @@ import CartPaymentPage from "./pages/CartPaymentPage";
 import CartThankYouPage from "./pages/CartThankYouPage";
 import DashboardPage from "./pages/DashboardPage";
 import DashboardProfilePage from "./pages/DashboardProfilePage";
-
 import SettingPage from "./pages/SettingPage";
+import OrdersPage from "./pages/OrdersPage";
 import StatementPage from "./pages/StatementPage";
 import EarningPage from "./pages/EarningPage";
 import ReviewPage from "./pages/ReviewPage";
@@ -56,7 +56,7 @@ function App() {
         <Route exact path="/blog-details" element={<BlogDetailsPage />} />
         {/* <Route exact path="/blog-details-sidebar" element={<BlogDetailsSidebarPage />} /> */}
         <Route exact path="/contact" element={<ContactPage />} />
-
+        <Route exact path="/orders" element={<OrdersPage />} />
         <Route exact path="/register" element={<RegisterPage />} />
         <Route exact path="/login" element={<LoginPage />} />
 

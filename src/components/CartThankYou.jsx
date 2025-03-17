@@ -90,11 +90,9 @@ const CartThankYou = () => {
                       <span className="text">$28.00</span>
                     </li>
                   </ul>
-                  <div className="thank-card__thumb mt-64 mb-3">
-                    <img src="assets/images/thumbs/rating-img.png" alt="" />
-                  </div>
-                  <div className="flx-between gap-2">
-                    <p className="text">Please don’t forget to rating</p>
+        
+                  <div className="text-end d-flex justify-content-end gap-2 mt-4">
+                    
                     <Link
                       to="/"
                       className="btn btn-main flx-align gap-2 pill"

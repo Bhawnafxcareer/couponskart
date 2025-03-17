@@ -18,8 +18,7 @@ const CartPaymentPage = () => {
       <HeaderOne />
 
 
-      {/* BreadcrumbSix */}
-      <BreadcrumbSix />
+   
 
       {/* CartPayment */}
       <CartPayment />

@@ -1,47 +1,105 @@
 .about-bx {
     padding: 15px;
     transition: all 0.4s ease-in-out;
-    }
-    .about-bx:hover{
+}
+
+.about-bx:hover {
     box-shadow: 0px 0px 10px rgb(0 0 0/17%);
+}
+
+.logoshape {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.1;
+}
+
+.price-amount {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.topdown {
+    -webkit-animation: topdown 1.5s ease-in-out 0s infinite alternate;
+    animation: topdown 1.5s ease-in-out 0s infinite alternate;
+    animation-duration: 3s;
+}
+
+.coupons-orders {
+    border-radius: 10px;
+    /* box-shadow: 0px 0px 10px rgb(0 0 0 / 15%); */
+    border: 2px dashed #00000060;
+    overflow: hidden;
+}
+
+.coupons-orders img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.coupons-orders .coupons-title {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+
+.buy-status {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.coupons-orders .coupons-thumb {
+    width: 200px;
+
+}
+
+.coupons-orders  .circle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #0d0e11;
+    border: 2px dashed #6d664c;
+}
+
+.coupons-orders  .circle.up {
+    border-top-color: transparent;
+    border-left-color: transparent;
+    transform: translate(-16px, -16px) rotate(50deg);
+}
+
+.coupons-orders  .circle.down {
+    top: unset;
+    bottom: 0;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    transform: translate(-16px, 16px) rotate(-118deg);
+}
+
+@keyframes topdown {
+    0% {
+        -webkit-transform: rotateX(0deg) translateY(0px);
+        -moz-transform: rotateX(0deg) translateY(0px);
+        -ms-transform: rotateX(0deg) translateY(0px);
+        -o-transform: rotateX(0deg) translateY(0px);
+        transform: rotateX(0deg) translateY(0px);
     }
-    .logoshape{
-        position: absolute;
-        top: 0;
-        left: 0;
-        opacity: 0.1;
+
+    50% {
+        -webkit-transform: rotateX(0deg) translateY(-20px);
+        -moz-transform: rotateX(0deg) translateY(-20px);
+        -ms-transform: rotateX(0deg) translateY(-20px);
+        -o-transform: rotateX(0deg) translateY(-20px);
+        transform: rotateX(0deg) translateY(-20px);
     }
-    .price-amount{
-        font-size: 1.5rem;
-        font-weight: 600;
+
+    100% {
+        -webkit-transform: rotateX(0deg) translateY(0px);
+        -moz-transform: rotateX(0deg) translateY(0px);
+        -ms-transform: rotateX(0deg) translateY(0px);
+        -o-transform: rotateX(0deg) translateY(0px);
+        transform: rotateX(0deg) translateY(0px);
     }
-    .topdown {
-        -webkit-animation: topdown 1.5s ease-in-out 0s infinite alternate;
-        animation: topdown 1.5s ease-in-out 0s infinite alternate;
-        animation-duration: 3s;
-    }
-    @keyframes topdown {
-        0% {
-            -webkit-transform: rotateX(0deg) translateY(0px);
-            -moz-transform: rotateX(0deg) translateY(0px);
-            -ms-transform: rotateX(0deg) translateY(0px);
-            -o-transform: rotateX(0deg) translateY(0px);
-            transform: rotateX(0deg) translateY(0px);
-        }
-    
-        50% {
-            -webkit-transform: rotateX(0deg) translateY(-20px);
-            -moz-transform: rotateX(0deg) translateY(-20px);
-            -ms-transform: rotateX(0deg) translateY(-20px);
-            -o-transform: rotateX(0deg) translateY(-20px);
-            transform: rotateX(0deg) translateY(-20px);
-        }
-    
-        100% {
-            -webkit-transform: rotateX(0deg) translateY(0px);
-            -moz-transform: rotateX(0deg) translateY(0px);
-            -ms-transform: rotateX(0deg) translateY(0px);
-            -o-transform: rotateX(0deg) translateY(0px);
-            transform: rotateX(0deg) translateY(0px);
-        }
-    }
+}

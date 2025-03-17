@@ -23,7 +23,7 @@ const BreadcrumbFive = () => {
                     <div className="col-lg-12">
                         <div className="breadcrumb-four-content">
                             <h3 className="breadcrumb-four-content__title text-center mb-3 text-capitalize">
-                                Shopping Cart
+                          Product Name
                             </h3>
                             <ul className="breadcrumb-list flx-align justify-content-center gap-2 mb-2">
                                 <li className="breadcrumb-list__item font-14 text-body">
@@ -40,60 +40,10 @@ const BreadcrumbFive = () => {
                                     </span>
                                 </li>
                                 <li className="breadcrumb-list__item font-14 text-body">
-                                    <span className="breadcrumb-list__text">My Shopping Cart</span>
+                                    <span className="breadcrumb-list__text">  Product Name</span>
                                 </li>
                             </ul>
-                            <ul className="process-list">
-                                <li className="process-list__item activePage">
-                                    <Link to="/cart" className="process-list__link">
-                                        <div className="icons">
-                                            <span className="icon white">
-                                                <img src="assets/images/icons/process-white1.svg" alt="" />
-                                            </span>
-                                        </div>
-                                        <span className="text">Shopping Cart</span>
-                                    </Link>
-                                </li>
-                                <li className="process-list__item activePage">
-                                    <Link to="/cart-personal" className="process-list__link">
-                                        <div className="icons">
-                                            <span className="icon white">
-                                                <img src="assets/images/icons/process-white2.svg" alt="" />
-                                            </span>
-                                            <span className="icon colored">
-                                                <img src="assets/images/icons/process2.svg" alt="" />
-                                            </span>
-                                        </div>
-                                        <span className="text">Mailing Address</span>
-                                    </Link>
-                                </li>
-                                <li className="process-list__item ">
-                                    <Link to="/cart-payment" className="process-list__link">
-                                        <div className="icons">
-                                            <span className="icon white">
-                                                <img src="assets/images/icons/process-white3.svg" alt="" />
-                                            </span>
-                                            <span className="icon colored">
-                                                <img src="assets/images/icons/process3.svg" alt="" />
-                                            </span>
-                                        </div>
-                                        <span className="text">Payment Methods</span>
-                                    </Link>
-                                </li>
-                                <li className="process-list__item">
-                                    <Link to="/cart-thank-you" className="process-list__link">
-                                        <div className="icons">
-                                            <span className="icon white">
-                                                <img src="assets/images/icons/process-white4.svg" alt="" />
-                                            </span>
-                                            <span className="icon colored">
-                                                <img src="assets/images/icons/process4.svg" alt="" />
-                                            </span>
-                                        </div>
-                                        <span className="text">Preview Order</span>
-                                    </Link>
-                                </li>
-                            </ul>
+                    
                         </div>
                     </div>
                 </div>

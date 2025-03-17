@@ -20,170 +20,6 @@ const MasterLayout = ({ children }) => {
 
     return (
         <>
-{/* 
-            <div className="mobile-menu d-lg-none d-block" >
-                <button type="button" className="close-button text-body hover-text-main" >
-                    {" "}
-                    <i className="las la-times" />{" "}
-                </button>
-                <div className="mobile-menu__inner">
-                    <Link to="/" className="mobile-menu__logo">
-                        <img
-                            src="assets/images/logo/logo.png"
-                            alt="Logo"
-                            className="white-version"
-                        />
-                        <img
-                            src="assets/images/logo/white-logo-two.png"
-                            alt="Logo"
-                            className="dark-version"
-                        />
-                    </Link>
-                    <div className="mobile-menu__menu">
-                        <ul className="nav-menu flx-align nav-menu--mobile">
-                            <li className="nav-menu__item has-submenu">
-                                <Link to="#" className="nav-menu__link">
-                                    Home
-                                </Link>
-                                <ul className="nav-submenu">
-                                    <li className="nav-submenu__item">
-                                        <Link to="/" className="nav-submenu__link">
-                                            {" "}
-                                            Home One
-                                        </Link>
-                                    </li>
-                                    <li className="nav-submenu__item">
-                                        <Link to="/index-two" className="nav-submenu__link">
-                                            {" "}
-                                            Home Two
-                                        </Link>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li className="nav-menu__item has-submenu">
-                                <Link to="/#" className="nav-menu__link">
-                                    Products
-                                </Link>
-                                <ul className="nav-submenu">
-                                    <li className="nav-submenu__item">
-                                        <Link to="/all-product" className="nav-submenu__link">
-                                            {" "}
-                                            All Products
-                                        </Link>
-                                    </li>
-                                    <li className="nav-submenu__item">
-                                        <Link to="/product-details" className="nav-submenu__link">
-                                            {" "}
-                                            Product Details
-                                        </Link>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li className="nav-menu__item has-submenu">
-                                <Link to="/#" className="nav-menu__link">
-                                    Pages
-                                </Link>
-                                <ul className="nav-submenu">
-                                    <li className="nav-submenu__item">
-                                        <Link to="/profile" className="nav-submenu__link">
-                                            {" "}
-                                            Profile
-                                        </Link>
-                                    </li>
-                                    <li className="nav-submenu__item">
-                                        <Link to="/cart" className="nav-submenu__link">
-                                            {" "}
-                                            Shopping Cart
-                                        </Link>
-                                    </li>
-                                    <li className="nav-submenu__item">
-                                        <Link to="/cart-personal" className="nav-submenu__link">
-                                            {" "}
-                                            Mailing Address
-                                        </Link>
-                                    </li>
-                                    <li className="nav-submenu__item">
-                                        <Link to="/cart-payment" className="nav-submenu__link">
-                                            {" "}
-                                            Payment Method
-                                        </Link>
-                                    </li>
-                                    <li className="nav-submenu__item">
-                                        <Link to="/cart-thank-you" className="nav-submenu__link">
-                                            {" "}
-                                            Preview Order
-                                        </Link>
-                                    </li>
-                                    <li className="nav-submenu__item">
-                                        <Link to="/dashboard" className="nav-submenu__link">
-                                            {" "}
-                                            Dashboard
-                                        </Link>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li className="nav-menu__item has-submenu">
-                                <Link to="/#" className="nav-menu__link">
-                                    Blog
-                                </Link>
-                                <ul className="nav-submenu">
-                                    <li className="nav-submenu__item">
-                                        <Link to="/blog" className="nav-submenu__link">
-                                            {" "}
-                                            Blog
-                                        </Link>
-                                    </li>
-                                    <li className="nav-submenu__item">
-                                        <Link to="/blog-details" className="nav-submenu__link">
-                                            {" "}
-                                            Blog Details
-                                        </Link>
-                                    </li>
-                                    <li className="nav-submenu__item">
-                                        <Link to="/blog-details-sidebar" className="nav-submenu__link">
-                                            {" "}
-                                            Blog Details Sidebar
-                                        </Link>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li className="nav-menu__item">
-                                <Link to="/contact" className="nav-menu__link">
-                                    Contact
-                                </Link>
-                            </li>
-                        </ul>
-                        <div className="header-right__inner d-lg-none my-3 gap-1 d-flex flx-align">
-                            <Link to="/register" className="btn btn-main pill">
-                                <span className="icon-left icon">
-                                    <img src="assets/images/icons/user.svg" alt="" />
-                                </span>
-                                Create Account
-                            </Link>
-                            <div className="language-select flx-align select-has-icon">
-                                <img
-                                    src="assets/images/icons/globe.svg"
-                                    alt=""
-                                    className="globe-icon white-version"
-                                />
-                                <img
-                                    src="assets/images/icons/globe-white.svg"
-                                    alt=""
-                                    className="globe-icon dark-version"
-                                />
-                                <select className="select py-0 ps-2 border-0 fw-500">
-                                    <option value={1}>Eng</option>
-                                    <option value={2}>Bn</option>
-                                    <option value={3}>Eur</option>
-                                    <option value={4}>Urd</option>
-                                </select>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> */}
-
-
             <section className={`dashboard ${active && "active"}`} onClick={() => show === true && setShow(false)}>
                 <div className="dashboard__inner d-flex">
                     {/* Dashboard Sidebar Start */}
@@ -218,12 +54,12 @@ const MasterLayout = ({ children }) => {
                                     }  >
                                         <span className="sidebar-list__icon">
                                             <img
-                                                src="assets/images/icons/sidebar-icon1.svg"
+                                                src="assets/images/icons/dashboard.png"
                                                 alt=""
                                                 className="icon"
                                             />
                                             <img
-                                                src="assets/images/icons/sidebar-icon-active1.svg"
+                                                src="assets/images/icons/dashboard.png"
                                                 alt=""
                                                 className="icon icon-active"
                                             />
@@ -237,12 +73,12 @@ const MasterLayout = ({ children }) => {
                                     }>
                                         <span className="sidebar-list__icon">
                                             <img
-                                                src="assets/images/icons/sidebar-icon2.svg"
+                                                src="assets/images/icons/profile.png"
                                                 alt=""
                                                 className="icon"
                                             />
                                             <img
-                                                src="assets/images/icons/sidebar-icon-active2.svg"
+                                                src="assets/images/icons/profile.png"
                                                 alt=""
                                                 className="icon icon-active"
                                             />
@@ -251,42 +87,43 @@ const MasterLayout = ({ children }) => {
                                     </NavLink>
                                 </li>                             
 
+                               
+                                <li className="sidebar-list__item">
+                                    <NavLink to="/orders" className={(navData) =>
+                                        navData.isActive ? "sidebar-list__link activePage" : "sidebar-list__link"
+                                    }>
+                                        <span className="sidebar-list__icon">
+                                            <img
+                                                src="assets/images/icons/orders.png"
+                                                alt=""
+                                                className="icon"
+                                            />
+                                            <img
+                                                src="assets/images/icons/orders.png"
+                                                alt=""
+                                                className="icon icon-active"
+                                            />
+                                        </span>
+                                        <span className="text">Orders</span>
+                                    </NavLink>
+                                </li>
                                 <li className="sidebar-list__item">
                                     <NavLink to="/statement" className={(navData) =>
                                         navData.isActive ? "sidebar-list__link activePage" : "sidebar-list__link"
                                     }>
                                         <span className="sidebar-list__icon">
                                             <img
-                                                src="assets/images/icons/sidebar-icon12.svg"
+                                                src="assets/images/icons/transaction.png"
                                                 alt=""
                                                 className="icon"
                                             />
                                             <img
-                                                src="assets/images/icons/sidebar-icon-active12.svg"
+                                                src="assets/images/icons/transaction.png"
                                                 alt=""
                                                 className="icon icon-active"
                                             />
                                         </span>
                                         <span className="text">Transaction</span>
-                                    </NavLink>
-                                </li>
-                                <li className="sidebar-list__item">
-                                    <NavLink to="/" className={(navData) =>
-                                        navData.isActive ? "sidebar-list__link activePage" : "sidebar-list__link"
-                                    }>
-                                        <span className="sidebar-list__icon">
-                                            <img
-                                                src="assets/images/icons/sidebar-icon12.svg"
-                                                alt=""
-                                                className="icon"
-                                            />
-                                            <img
-                                                src="assets/images/icons/sidebar-icon-active12.svg"
-                                                alt=""
-                                                className="icon icon-active"
-                                            />
-                                        </span>
-                                        <span className="text">Coupons</span>
                                     </NavLink>
                                 </li>
                                 <li className="sidebar-list__item">
@@ -309,8 +146,8 @@ const MasterLayout = ({ children }) => {
                                     </NavLink>
                                 </li>
 
-                                <li className="sidebar-list__item">
-                                    <NavLink to="/download" className={(navData) =>
+                                {/* <li className="sidebar-list__item">
+                                    <NavLink to="/" className={(navData) =>
                                         navData.isActive ? "sidebar-list__link activePage" : "sidebar-list__link"
                                     }>
                                         <span className="sidebar-list__icon">
@@ -327,7 +164,7 @@ const MasterLayout = ({ children }) => {
                                         </span>
                                         <span className="text">Downloads</span>
                                     </NavLink>
-                                </li>
+                                </li> */}
                                 {/* <li className="sidebar-list__item">
                                     <NavLink to="/refund" className={(navData) =>
                                         navData.isActive ? "sidebar-list__link activePage" : "sidebar-list__link"
@@ -441,7 +278,7 @@ const MasterLayout = ({ children }) => {
                                                     </Link>
                                                 </li>
                                                 <li className="sidebar-list__item">
-                                                    <Link to="/setting" className="sidebar-list__link">
+                                                    <Link to="/" className="sidebar-list__link">
                                                         <span className="sidebar-list__icon">
                                                             <img
                                                                 src="assets/images/icons/sidebar-icon10.svg"
@@ -454,7 +291,7 @@ const MasterLayout = ({ children }) => {
                                                                 className="icon icon-active"
                                                             />
                                                         </span>
-                                                        <span className="text">Settings</span>
+                                                        <span className="text">Orders</span>
                                                     </Link>
                                                 </li>
                                                 <li className="sidebar-list__item">

@@ -19,9 +19,6 @@ const CartThankYouPage = () => {
       <CartThankYou />
 
 
-   
-
-
       {/* FooterOne */}
       <FooterOne />
     </>

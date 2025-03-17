@@ -66,7 +66,7 @@ const ProductDetails = () => {
                                             </option>
                                         ))}
                                     </select>
-                                    <Link to="/cart" className="btn btn-main d-flex w-100 justify-content-center align-items-center gap-2 pill px-sm-5 "
+                                    <Link to="/cart-personal" className="btn btn-main d-flex w-100 justify-content-center align-items-center gap-2 pill px-sm-5 "
                                     ><img src="assets/images/icons/add-to-cart.svg" alt="" />Buy Now </Link>
                                 </div>
 

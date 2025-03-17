@@ -60,49 +60,13 @@ const CartPersonal = () => {
                     placeholder="Last name"
                   />
                 </div>
-                <div className="mt-32 mb-32">
-                  <div className="common-check">
-                    <input
-                      className="form-check-input"
-                      type="checkbox"
-                      name="checkbox"
-                      id="agree"
-                    />
-                    <label className="form-check-label mb-0" htmlFor="agree">
-                      Agree To Terms
-                    </label>
-                  </div>
-                  <div className="common-check mb-0">
-                    <input
-                      className="form-check-input"
-                      type="checkbox"
-                      name="checkbox"
-                      id="privacy"
-                    />
-                    <label className="form-check-label mb-0" htmlFor="privacy">
-                      Agree To Privacy Policy
-                    </label>
-                  </div>
-                </div>
+
               </form>
             </div>
-            <form action="#" className="apply-coupon flx-align gap-3">
-              <input
-                type="text"
-                className="common-input common-input--md w-auto pill"
-                placeholder="Coupon code"
-              />
-              <button
-                type="submit"
-                className="btn btn-main btn-md py-3 px-sm-5 px-4 flx-align gap-2 pill fw-300"
-              >
-                {" "}
-                Apply
-              </button>
-            </form>
+
             <div className="cart-content__bottom flx-between gap-2">
               <Link
-                to="/cart"
+                to="/product-details"
                 className="btn btn-outline-light flx-align gap-2 pill btn-lg"
               >
                 <span className="icon line-height-1 font-20">
@@ -147,24 +111,7 @@ const CartPersonal = () => {
                   </span>
                 </li>
               </ul>
-              <button
-                type="submit"
-                className="btn btn-outline-light pill btn-lg w-100 mt-32"
-              >
-                <span className="icon icon-left">
-                  <img
-                    src="assets/images/icons/cart-reverse.svg"
-                    alt=""
-                    className="white-version"
-                  />
-                  <img
-                    src="assets/images/icons/cart-white.svg"
-                    alt=""
-                    className="dark-version"
-                  />
-                </span>
-                Purchased Now
-              </button>
+
             </div>
           </div>
         </div>
