@@ -85,6 +85,11 @@
     -webkit-box-orient: vertical;  
     overflow: hidden;
   }
+  .notification-drp{
+    z-index: 2;
+    width: 300px;
+    right: 0;
+  }
 @keyframes topdown {
     0% {
         -webkit-transform: rotateX(0deg) translateY(0px);

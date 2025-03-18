@@ -1,5 +1,5 @@
 
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 import ThemeToggle from "./ThemeToggle";
 import { Link, NavLink } from "react-router-dom";
 const HeaderOne = () => {
@@ -48,6 +48,26 @@ const HeaderOne = () => {
   const mobileMenu = () => {
     setActive(!active);
   };
+  const [isOpen, setIsOpen] = useState(false);
+  const dropdownRef = useRef(null);
+
+  // Toggle dropdown visibility
+  const toggleDropdown = () => {
+    setIsOpen(!isOpen);
+  };
+
+  // Close dropdown if clicked outside
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+        setIsOpen(false);
+      }
+    };
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, []);
 
   return (
     <>
@@ -82,9 +102,9 @@ const HeaderOne = () => {
                 </li>
                 <li className="nav-menu__item has-submenu">
                   <Link to="#" className="nav-menu__link">
-                   All Coupons
+                    All Coupons
                   </Link>
-                  <ul className="nav-submenu">    
+                  <ul className="nav-submenu">
                     <li className="nav-submenu__item">
                       <NavLink to="/all-product" className="nav-submenu__link">
                         UP TO 50% Off
@@ -95,10 +115,10 @@ const HeaderOne = () => {
                         UP TO 30% off
                       </NavLink>
                     </li>
-                  
+
                   </ul>
                 </li>
-                
+
                 <li className="nav-menu__item ">
                   <Link to="/blog" className="nav-menu__link">
                     Blog
@@ -114,22 +134,37 @@ const HeaderOne = () => {
             {/* Menu End  */}
             {/* Header Right start */}
             <div className="header-right flx-align">
-            <Link
-                to="/"
-                className="header-right__button cart-btn position-relative"
-              >
-                <img
-                  src="assets/images/icons/notification.png"
-                  alt=""
-                  className="white-version"
-                />
-                <img
-                  src="assets/images/icons/notification-white.png"
-                  alt=""
-                  className="dark-version"
-                />
-                <span className="qty-badge font-12">0</span>
-              </Link>
+              <div className="position-relative" ref={dropdownRef}>
+                <Link
+                  to="#"
+                  className="header-right__button cart-btn position-relative"
+                  onClick={toggleDropdown}
+                >
+                  <img
+                    src="assets/images/icons/notification.png"
+                    alt="Notification"
+                    className="white-version"
+                  />
+                  <img
+                    src="assets/images/icons/notification-white.png"
+                    alt="Notification Dark"
+                    className="dark-version"
+                  />
+                  <span className="qty-badge font-12">3</span>
+                </Link>
+
+                {/* Dropdown Content */}
+                {isOpen && (
+                  <div className="position-absolute start-0 mt-2 notification-drp bg-white shadow-lg rounded-lg p-3 z-50">
+                    <p className="font-semibold text-sm text-gray-700">Notifications</p>
+                    <ul className="mt-2">
+                      <li className="p-2 border-b">New comment on your post</li>
+                      <li className="p-2 border-b">New follower</li>
+                      <li className="p-2">Update available</li>
+                    </ul>
+                  </div>
+                )}
+              </div>
               {/* Light Dark Mode */}
               {/* <ThemeToggle /> */}
               {/* Light Dark Mode */}
@@ -171,21 +206,21 @@ const HeaderOne = () => {
           </nav>
         </div>
         <div className="container">
-        <div className="search-box">
-          <button
-            type="submit"
-            className=" icon border-0"
-          >
-            <img src="assets/images/icons/search-01.svg" alt="" />
-          </button>
-          <input
-            type="text"
-            className="common-input common-input--sm  bg-light rounded "
-            placeholder="Search theme, plugins & more..."
-          />
+          <div className="search-box">
+            <button
+              type="submit"
+              className=" icon border-0"
+            >
+              <img src="assets/images/icons/search-01.svg" alt="" />
+            </button>
+            <input
+              type="text"
+              className="common-input common-input--sm  bg-light rounded "
+              placeholder="Search theme, plugins & more..."
+            />
 
+          </div>
         </div>
-      </div>
       </header>
 
       {/* ==================== Header End Here ==================== */}
@@ -247,7 +282,7 @@ const HeaderOne = () => {
 
                 </ul>
               </li>
-            
+
               <li className="nav-menu__item ">
                 <Link to="/blog" className="nav-menu__link">
                   Blog
