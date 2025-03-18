@@ -114,9 +114,24 @@ const HeaderOne = () => {
             {/* Menu End  */}
             {/* Header Right start */}
             <div className="header-right flx-align">
-
+            <Link
+                to="/"
+                className="header-right__button cart-btn position-relative"
+              >
+                <img
+                  src="assets/images/icons/notification.png"
+                  alt=""
+                  className="white-version"
+                />
+                <img
+                  src="assets/images/icons/notification-white.png"
+                  alt=""
+                  className="dark-version"
+                />
+                <span className="qty-badge font-12">0</span>
+              </Link>
               {/* Light Dark Mode */}
-              <ThemeToggle />
+              {/* <ThemeToggle /> */}
               {/* Light Dark Mode */}
               <div className="header-right__inner gap-3 flx-align d-lg-flex d-none">
                 <Link to="/register" className="btn btn-main pill">

@@ -248,7 +248,7 @@ const MasterLayout = ({ children }) => {
                                 <div className="header-right flx-align">
                                     <div className="header-right__inner gap-sm-3 gap-2 flx-align d-flex">
                                         {/* Light Dark Mode */}
-                                        <ThemeToggle />
+                                       
                                         <div className="user-profile">
                                             <button className="user-profile__button flex-align" onClick={showProfileControl}>
                                                 <span className="user-profile__thumb">
@@ -278,7 +278,7 @@ const MasterLayout = ({ children }) => {
                                                     </Link>
                                                 </li>
                                                 <li className="sidebar-list__item">
-                                                    <Link to="/" className="sidebar-list__link">
+                                                    <Link to="/orders" className="sidebar-list__link">
                                                         <span className="sidebar-list__icon">
                                                             <img
                                                                 src="assets/images/icons/sidebar-icon10.svg"
@@ -294,6 +294,7 @@ const MasterLayout = ({ children }) => {
                                                         <span className="text">Orders</span>
                                                     </Link>
                                                 </li>
+
                                                 <li className="sidebar-list__item">
                                                     <Link to="/login" className="sidebar-list__link">
                                                         <span className="sidebar-list__icon">

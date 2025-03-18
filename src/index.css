@@ -28,13 +28,14 @@
 .coupons-orders {
     border-radius: 10px;
     /* box-shadow: 0px 0px 10px rgb(0 0 0 / 15%); */
-    border: 2px dashed #00000060;
-    overflow: hidden;
+    border: 2px dashed #e3e3e3;
 }
 
 .coupons-orders img {
     height: 100%;
     object-fit: cover;
+    border-radius: 8px 0px 0px 8px;
+    border-right: 2px dashed #e3e3e3;
 }
 
 .coupons-orders .coupons-title {
@@ -53,31 +54,37 @@
 
 }
 
-.coupons-orders  .circle {
+.coupons-orders  .circle2 {
     position: absolute;
-    top: 0;
+    top: 0px;
     left: 0;
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    background: #0d0e11;
-    border: 2px dashed #6d664c;
+    background: #f5f7f9;
+    border: 2px dashed #e3e3e3;
+    z-index: 0;
 }
 
-.coupons-orders  .circle.up {
+.coupons-orders  .circle2.up {
     border-top-color: transparent;
     border-left-color: transparent;
     transform: translate(-16px, -16px) rotate(50deg);
 }
 
-.coupons-orders  .circle.down {
+.coupons-orders  .circle2.down {
     top: unset;
     bottom: 0;
     border-top-color: transparent;
     border-left-color: transparent;
-    transform: translate(-16px, 16px) rotate(-118deg);
+    transform: translate(-16px, 16px) rotate(-130deg);
 }
-
+.line-clamp1 {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+  }
 @keyframes topdown {
     0% {
         -webkit-transform: rotateX(0deg) translateY(0px);
@@ -102,4 +109,23 @@
         -o-transform: rotateX(0deg) translateY(0px);
         transform: rotateX(0deg) translateY(0px);
     }
+}
+@media(max-width:575.98px){
+    .coupons-orders img {
+        border-bottom: 2px dashed #e3e3e3;
+        border-right: none;
+        border-radius: 8px 8px 0px 0px;
+}
+.coupons-orders .circle2.up {
+    transform: translate(-16px, -16px) rotate(314deg);
+}
+.coupons-orders .circle2.down {
+    top: 0;
+    bottom: unset;
+    right: 0;
+    left: unset;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    transform: translate(16px, -16px) rotate(135deg);
+}
 }
