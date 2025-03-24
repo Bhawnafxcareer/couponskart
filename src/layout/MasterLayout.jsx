@@ -165,7 +165,8 @@ const MasterLayout = ({ children }) => {
                                         <span className="text">Downloads</span>
                                     </NavLink>
                                 </li> */}
-                                {/* <li className="sidebar-list__item">
+                                
+                                <li className="sidebar-list__item">
                                     <NavLink to="/refund" className={(navData) =>
                                         navData.isActive ? "sidebar-list__link activePage" : "sidebar-list__link"
                                     }>
@@ -181,9 +182,28 @@ const MasterLayout = ({ children }) => {
                                                 className="icon icon-active"
                                             />
                                         </span>
-                                        <span className="text">Refunds</span>
+                                        <span className="text">Product Management</span>
                                     </NavLink>
-                                </li> */}
+                                </li>
+                                <li className="sidebar-list__item">
+                                    <NavLink to="/refund" className={(navData) =>
+                                        navData.isActive ? "sidebar-list__link activePage" : "sidebar-list__link"
+                                    }>
+                                        <span className="sidebar-list__icon">
+                                            <img
+                                                src="assets/images/icons/sidebar-icon8.svg"
+                                                alt=""
+                                                className="icon"
+                                            />
+                                            <img
+                                                src="assets/images/icons/sidebar-icon-active8.svg"
+                                                alt=""
+                                                className="icon icon-active"
+                                            />
+                                        </span>
+                                        <span className="text">Invoice</span>
+                                    </NavLink>
+                                </li>
                                 <li className="sidebar-list__item">
                                     <NavLink to="/login" className={(navData) =>
                                         navData.isActive ? "sidebar-list__link activePage" : "sidebar-list__link"

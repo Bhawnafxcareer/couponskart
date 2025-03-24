@@ -26,11 +26,11 @@ const ProfileInner = () => {
         </div>
       </div>
       {/* Cover Photo End */}
-      <div className="dashboard-body__content profile-content-wrapper z-index-1 position-relative mt--100">
+      <div className="dashboard-body__content profile-content-wrapper z-index-1 position-relative mt--100 p-3">
         {/* Profile Content Start */}
-        <div className="profile">
+        <div className="profile ">
           <div className="row gy-4">
-            <div className="col-xxl-3 col-xl-4">
+            <div className="col-xxl-4 col-xl-4">
               <div className="profile-info">
                 <div className="profile-info__inner mb-40 text-center">
                   <div className="avatar-upload mb-24">
@@ -68,9 +68,9 @@ const ProfileInner = () => {
                         alt=""
                         className="icon"
                       />
-                      <span className="text text-heading fw-500">Username</span>
+                      <span className="text text-heading fw-500 font-14">Username</span>
                     </span>
-                    <span className="profile-info-list__info">michel15</span>
+                    <span className="profile-info-list__info font-14">michel15</span>
                   </li>
                   <li className="profile-info-list__item">
                     <span className="profile-info-list__content flx-align flex-nowrap gap-2">
@@ -79,9 +79,9 @@ const ProfileInner = () => {
                         alt=""
                         className="icon"
                       />
-                      <span className="text text-heading fw-500">Email</span>
+                      <span className="text text-heading fw-500 font-14">Email</span>
                     </span>
-                    <span className="profile-info-list__info">
+                    <span className="profile-info-list__info font-14">
                       michel15@gmail.com
                     </span>
                   </li>
@@ -92,9 +92,9 @@ const ProfileInner = () => {
                         alt=""
                         className="icon"
                       />
-                      <span className="text text-heading fw-500">Phone</span>
+                      <span className="text text-heading fw-500 font-14">Phone</span>
                     </span>
-                    <span className="profile-info-list__info">
+                    <span className="profile-info-list__info font-14">
                       +880 15589 236 45
                     </span>
                   </li>
@@ -105,9 +105,9 @@ const ProfileInner = () => {
                         alt=""
                         className="icon"
                       />
-                      <span className="text text-heading fw-500">Country</span>
+                      <span className="text text-heading fw-500 font-14">Country</span>
                     </span>
-                    <span className="profile-info-list__info">Bangladesh</span>
+                    <span className="profile-info-list__info font-14">Bangladesh</span>
                   </li>
                   <li className="profile-info-list__item">
                     <span className="profile-info-list__content flx-align flex-nowrap gap-2">
@@ -116,9 +116,9 @@ const ProfileInner = () => {
                         alt=""
                         className="icon"
                       />
-                      <span className="text text-heading fw-500">Balance</span>
+                      <span className="text text-heading fw-500 font-14">Balance</span>
                     </span>
-                    <span className="profile-info-list__info">$0.00 USD</span>
+                    <span className="profile-info-list__info font-14">$0.00 USD</span>
                   </li>
                   <li className="profile-info-list__item">
                     <span className="profile-info-list__content flx-align flex-nowrap gap-2">
@@ -127,9 +127,9 @@ const ProfileInner = () => {
                         alt=""
                         className="icon"
                       />
-                      <span className="text text-heading fw-500">Member Since</span>
+                      <span className="text text-heading fw-500 font-14">Member Since</span>
                     </span>
-                    <span className="profile-info-list__info">Jan, 01, 2024</span>
+                    <span className="profile-info-list__info font-14">Jan, 01, 2024</span>
                   </li>
                   <li className="profile-info-list__item">
                     <span className="profile-info-list__content flx-align flex-nowrap gap-2">
@@ -138,14 +138,14 @@ const ProfileInner = () => {
                         alt=""
                         className="icon"
                       />
-                      <span className="text text-heading fw-500">Purchased</span>
+                      <span className="text text-heading fw-500 font-14">Purchased</span>
                     </span>
-                    <span className="profile-info-list__info">0 items</span>
+                    <span className="profile-info-list__info font-14">0 items</span>
                   </li>
                 </ul>
               </div>
             </div>
-            <div className="col-xxl-9 col-xl-8">
+            <div className="col-xxl-8 col-xl-8">
               <div className="dashboard-card">
                 <div className="dashboard-card__header pb-0">
                   <ul

@@ -90,6 +90,9 @@
     width: 300px;
     right: 0;
   }
+  .bg-light-purple{
+    background-color: #eadcfd;
+  }
 @keyframes topdown {
     0% {
         -webkit-transform: rotateX(0deg) translateY(0px);

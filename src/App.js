@@ -25,7 +25,9 @@ import BlogDetailsPage from "./pages/BlogDetailsPage";
 // import BlogDetailsSidebarPage from "./pages/BlogDetailsSidebarPage";
 import ContactPage from "./pages/ContactPage";
 import About from "./pages/About";
+import BecomeSeller from "./pages/BecomeSeller";
 import './index.css';
+
 
 
 function App() {
@@ -59,7 +61,7 @@ function App() {
         <Route exact path="/orders" element={<OrdersPage />} />
         <Route exact path="/register" element={<RegisterPage />} />
         <Route exact path="/login" element={<LoginPage />} />
-
+        <Route exact path="/Become-a-seller" element={<BecomeSeller />} />
       </Routes>
     </BrowserRouter>
   );

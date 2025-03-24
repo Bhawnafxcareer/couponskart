@@ -1,6 +1,6 @@
 
 import { useEffect, useState, useRef } from "react";
-import ThemeToggle from "./ThemeToggle";
+//import ThemeToggle from "./ThemeToggle";
 import { Link, NavLink } from "react-router-dom";
 const HeaderOne = () => {
   const [active, setActive] = useState(false);
