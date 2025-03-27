@@ -155,12 +155,16 @@ const HeaderOne = () => {
 
                 {/* Dropdown Content */}
                 {isOpen && (
-                  <div className="position-absolute start-0 mt-2 notification-drp bg-white shadow-lg rounded-lg p-3 z-50">
-                    <p className="font-semibold text-sm text-gray-700">Notifications</p>
+                  <div className="position-absolute  mt-3 notification-drp bg-white shadow-lg rounded-lg p-3 z-50">
+                    <p className="fw-bold text-sm ">Notifications</p>
                     <ul className="mt-2">
-                      <li className="p-2 border-b">New comment on your post</li>
-                      <li className="p-2 border-b">New follower</li>
-                      <li className="p-2">Update available</li>
+                      <li className="pb-2 pt-2 border-bottom  d-flex "><img src="assets/images/thumbs/coupon2.png" alt="" className="coupons-notify-thumb pe-2 "/>
+                     <span> <p className="notify-time">26/03/2024</p><p className="font-14 lh-sm line-clamp2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, molestias.</p></span></li>
+                     <li className="pb-2 pt-2 border-bottom  d-flex "><img src="assets/images/thumbs/coupon2.png" alt="" className="coupons-notify-thumb pe-2 "/>
+                     <span> <p className="notify-time">3 Hours Ago</p><p className="font-14 lh-sm line-clamp2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, molestias.</p></span></li>
+                     <li className="pb-2 pt-2 border-bottom  d-flex "><img src="assets/images/thumbs/coupon2.png" alt="" className="coupons-notify-thumb pe-2 "/>
+                     <span> <p className="notify-time">26/03/2024</p><p className="font-14 lh-sm line-clamp2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, molestias.</p></span></li>
+       
                     </ul>
                   </div>
                 )}

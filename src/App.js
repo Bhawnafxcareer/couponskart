@@ -27,6 +27,7 @@ import ContactPage from "./pages/ContactPage";
 import About from "./pages/About";
 import BecomeSeller from "./pages/BecomeSeller";
 import './index.css';
+import ProductManagementPage from "./pages/ProductManagementPage";
 
 
 
@@ -61,7 +62,9 @@ function App() {
         <Route exact path="/orders" element={<OrdersPage />} />
         <Route exact path="/register" element={<RegisterPage />} />
         <Route exact path="/login" element={<LoginPage />} />
-        <Route exact path="/Become-a-seller" element={<BecomeSeller />} />
+        <Route exact path="/become-a-seller" element={<BecomeSeller />} />
+        <Route exact path="/product-management" element={<ProductManagementPage />} />
+
       </Routes>
     </BrowserRouter>
   );

@@ -167,7 +167,7 @@ const MasterLayout = ({ children }) => {
                                 </li> */}
                                 
                                 <li className="sidebar-list__item">
-                                    <NavLink to="/refund" className={(navData) =>
+                                    <NavLink to="/product-management" className={(navData) =>
                                         navData.isActive ? "sidebar-list__link activePage" : "sidebar-list__link"
                                     }>
                                         <span className="sidebar-list__icon">
