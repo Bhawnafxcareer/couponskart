@@ -3,175 +3,175 @@
       "id": 1,
       "title": "Discount10",
       "date": "2024-03-01",
-      "couponImage": "https://via.placeholder.com/100",
+      "couponImage": "assets/images/thumbs/coupon2.png",
       "actions": "Edit | Delete"
     },
     {
       "id": 2,
       "title": "SummerSale",
       "date": "2024-04-15",
-      "couponImage": "https://via.placeholder.com/100",
+      "couponImage": "assets/images/thumbs/coupon2.png",
       "actions": "Edit | Delete"
     },
     {
       "id": 3,
       "title": "BlackFriday",
       "date": "2024-11-25",
-      "couponImage": "https://via.placeholder.com/100",
+      "couponImage": "assets/images/thumbs/coupon2.png",
       "actions": "Edit | Delete"
     },
     {
       "id": 4,
       "title": "HolidaySpecial",
       "date": "2024-12-20",
-      "couponImage": "https://via.placeholder.com/100",
+      "couponImage": "assets/images/thumbs/coupon2.png",
       "actions": "Edit | Delete"
     },
     {
       "id": 5,
       "title": "NewYear2025",
       "date": "2025-01-01",
-      "couponImage": "https://via.placeholder.com/100",
+      "couponImage": "assets/images/thumbs/coupon2.png",
       "actions": "Edit | Delete"
     },
     {
       "id": 6,
       "title": "FlashSale",
       "date": "2024-07-10",
-      "couponImage": "https://via.placeholder.com/100",
+      "couponImage": "assets/images/thumbs/coupon2.png",
       "actions": "Edit | Delete"
     },
     {
       "id": 7,
       "title": "Buy1Get1",
       "date": "2024-06-15",
-      "couponImage": "https://via.placeholder.com/100",
+      "couponImage": "assets/images/thumbs/coupon2.png",
       "actions": "Edit | Delete"
     },
     {
       "id": 8,
       "title": "MegaDiscount",
       "date": "2024-05-22",
-      "couponImage": "https://via.placeholder.com/100",
+      "couponImage": "assets/images/thumbs/coupon2.png",
       "actions": "Edit | Delete"
     },
     {
       "id": 9,
       "title": "WinterSale",
       "date": "2024-10-30",
-      "couponImage": "https://via.placeholder.com/100",
+      "couponImage": "assets/images/thumbs/coupon2.png",
       "actions": "Edit | Delete"
     },
     {
       "id": 10,
       "title": "ExclusiveDeal",
       "date": "2024-09-05",
-      "couponImage": "https://via.placeholder.com/100",
+      "couponImage": "assets/images/thumbs/coupon2.png",
       "actions": "Edit | Delete"
     },
     {
       "id": 11,
       "title": "BackToSchool",
       "date": "2024-08-15",
-      "couponImage": "https://via.placeholder.com/100",
+      "couponImage": "assets/images/thumbs/coupon2.png",
       "actions": "Edit | Delete"
     },
     {
       "id": 12,
       "title": "CyberMonday",
       "date": "2024-11-28",
-      "couponImage": "https://via.placeholder.com/100",
+      "couponImage": "assets/images/thumbs/coupon2.png",
       "actions": "Edit | Delete"
     },
     {
       "id": 13,
       "title": "WeekendSpecial",
       "date": "2024-03-23",
-      "couponImage": "https://via.placeholder.com/100",
+      "couponImage": "assets/images/thumbs/coupon2.png",
       "actions": "Edit | Delete"
     },
     {
       "id": 14,
       "title": "HalfPrice",
       "date": "2024-07-04",
-      "couponImage": "https://via.placeholder.com/100",
+      "couponImage": "assets/images/thumbs/coupon2.png",
       "actions": "Edit | Delete"
     },
     {
       "id": 15,
       "title": "FreeShipping",
       "date": "2024-05-12",
-      "couponImage": "https://via.placeholder.com/100",
+      "couponImage": "assets/images/thumbs/coupon2.png",
       "actions": "Edit | Delete"
     },
     {
       "id": 16,
       "title": "BirthdayDeal",
       "date": "2024-06-21",
-      "couponImage": "https://via.placeholder.com/100",
+      "couponImage": "assets/images/thumbs/coupon2.png",
       "actions": "Edit | Delete"
     },
     {
       "id": 17,
       "title": "ValentinesGift",
       "date": "2024-02-14",
-      "couponImage": "https://via.placeholder.com/100",
+      "couponImage": "assets/images/thumbs/coupon2.png",
       "actions": "Edit | Delete"
     },
     {
       "id": 18,
       "title": "AnniversarySale",
       "date": "2024-09-30",
-      "couponImage": "https://via.placeholder.com/100",
+      "couponImage": "assets/images/thumbs/coupon2.png",
       "actions": "Edit | Delete"
     },
     {
       "id": 19,
       "title": "FestivalOffer",
       "date": "2024-10-10",
-      "couponImage": "https://via.placeholder.com/100",
+      "couponImage": "assets/images/thumbs/coupon2.png",
       "actions": "Edit | Delete"
     },
     {
       "id": 20,
       "title": "ShoppingSpree",
       "date": "2024-05-25",
-      "couponImage": "https://via.placeholder.com/100",
+      "couponImage": "assets/images/thumbs/coupon2.png",
       "actions": "Edit | Delete"
     },
     {
       "id": 21,
       "title": "DailyDeals",
       "date": "2024-06-03",
-      "couponImage": "https://via.placeholder.com/100",
+      "couponImage": "assets/images/thumbs/coupon2.png",
       "actions": "Edit | Delete"
     },
     {
       "id": 22,
       "title": "SuperSaver",
       "date": "2024-04-29",
-      "couponImage": "https://via.placeholder.com/100",
+      "couponImage": "assets/images/thumbs/coupon2.png",
       "actions": "Edit | Delete"
     },
     {
       "id": 23,
       "title": "ClearanceSale",
       "date": "2024-07-15",
-      "couponImage": "https://via.placeholder.com/100",
+      "couponImage": "assets/images/thumbs/coupon2.png",
       "actions": "Edit | Delete"
     },
     {
       "id": 24,
       "title": "EndOfSeason",
       "date": "2024-09-20",
-      "couponImage": "https://via.placeholder.com/100",
+      "couponImage": "assets/images/thumbs/coupon2.png",
       "actions": "Edit | Delete"
     },
     {
       "id": 25,
       "title": "StockClearance",
       "date": "2024-12-10",
-      "couponImage": "https://via.placeholder.com/100",
+      "couponImage": "assets/images/thumbs/coupon2.png",
       "actions": "Edit | Delete"
     }
   ]

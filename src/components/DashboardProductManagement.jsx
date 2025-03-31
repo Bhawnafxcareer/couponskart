@@ -91,7 +91,10 @@ const DashboardProductManagement = () => {
       <div className="row gy-4">
         <div className="col-lg-12">
           <div className="refund-feedback">
+            <div className='d-flex justify-content-between align-items-center mb-5'>
             <h5 className="refund-feedback__title mb-4">All Products</h5>
+            <div><Link className='btn btn-main btn-md pill fw-300'> <i class="las la-cart-plus"></i> Add New Product</Link></div>
+            </div>
             <DataTable title="" columns={columns(handleDelete)} data={data} customStyles={customStyles} pagination className=' ' />
           </div>
         </div>

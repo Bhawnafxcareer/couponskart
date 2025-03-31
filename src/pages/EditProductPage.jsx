@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import productData from '../json/productdata.json';  // Import your product data
+import Preloader from "../helper/Preloader";
+import MasterLayout from "../layout/MasterLayout";
 
-const EditProduct = () => {
+const EditProductPage = () => {
   const { id } = useParams();  // Get ID from URL
   const navigate = useNavigate(); // To redirect after save
   const [product, setProduct] = useState(null);
@@ -37,11 +39,14 @@ const EditProduct = () => {
     navigate('/'); // Redirect to dashboard
   };
 
-  if (!product) {
-    return <h5 className="text-danger">Product not found!</h5>;
-  }
+  // if (!product) {
+  //   return <h5 className="text-danger">Product not found!</h5>
+  // }
 
   return (
+    <MasterLayout >
+        {/* Preloader */}
+        <Preloader />
     <div className="dashboard-body__content">
       <div className="row gy-4">
         <div className="col-lg-12">
@@ -71,7 +76,8 @@ const EditProduct = () => {
         </div>
       </div>
     </div>
+    </MasterLayout>
   );
 };
 
-export default EditProduct;
+export default EditProductPage;

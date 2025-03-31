@@ -3,7 +3,7 @@
 
 import { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
-import ThemeToggle from "../components/ThemeToggle";
+//import ThemeToggle from "../components/ThemeToggle";
 
 const MasterLayout = ({ children }) => {
 
@@ -33,18 +33,18 @@ const MasterLayout = ({ children }) => {
                         <div className="dashboard-sidebar__inner">
                             <Link to="/" className="logo mb-48">
                                 <img
-                                    src="assets/images/logo/logo-two.png"
+                                    src="/assets/images/logo/logo-two.png"
                                     alt=""
                                     className="white-version"
                                 />
                                 <img
-                                    src="assets/images/logo/white-logo.png"
+                                    src="/assets/images/logo/white-logo.png"
                                     alt=""
                                     className="dark-version"
                                 />
                             </Link>
                             <Link to="/" className="logo favicon mb-48">
-                                <img src="assets/images/logo/favicon.png" alt="" />
+                                <img src="/assets/images/logo/favicon.png" alt="" />
                             </Link>
                             {/* Sidebar List Start */}
                             <ul className="sidebar-list">
@@ -54,12 +54,12 @@ const MasterLayout = ({ children }) => {
                                     }  >
                                         <span className="sidebar-list__icon">
                                             <img
-                                                src="assets/images/icons/dashboard.png"
+                                                src="/assets/images/icons/dashboard.png"
                                                 alt=""
                                                 className="icon"
                                             />
                                             <img
-                                                src="assets/images/icons/dashboard.png"
+                                                src="/assets/images/icons/dashboard.png"
                                                 alt=""
                                                 className="icon icon-active"
                                             />
@@ -73,12 +73,12 @@ const MasterLayout = ({ children }) => {
                                     }>
                                         <span className="sidebar-list__icon">
                                             <img
-                                                src="assets/images/icons/profile.png"
+                                                src="/assets/images/icons/profile.png"
                                                 alt=""
                                                 className="icon"
                                             />
                                             <img
-                                                src="assets/images/icons/profile.png"
+                                                src="/assets/images/icons/profile.png"
                                                 alt=""
                                                 className="icon icon-active"
                                             />
@@ -94,12 +94,12 @@ const MasterLayout = ({ children }) => {
                                     }>
                                         <span className="sidebar-list__icon">
                                             <img
-                                                src="assets/images/icons/orders.png"
+                                                src="/assets/images/icons/orders.png"
                                                 alt=""
                                                 className="icon"
                                             />
                                             <img
-                                                src="assets/images/icons/orders.png"
+                                                src="/assets/images/icons/orders.png"
                                                 alt=""
                                                 className="icon icon-active"
                                             />
@@ -113,12 +113,12 @@ const MasterLayout = ({ children }) => {
                                     }>
                                         <span className="sidebar-list__icon">
                                             <img
-                                                src="assets/images/icons/transaction.png"
+                                                src="/assets/images/icons/transaction.png"
                                                 alt=""
                                                 className="icon"
                                             />
                                             <img
-                                                src="assets/images/icons/transaction.png"
+                                                src="/assets/images/icons/transaction.png"
                                                 alt=""
                                                 className="icon icon-active"
                                             />
@@ -132,12 +132,12 @@ const MasterLayout = ({ children }) => {
                                     }>
                                         <span className="sidebar-list__icon">
                                             <img
-                                                src="assets/images/icons/sidebar-icon11.svg"
+                                                src="/assets/images/icons/sidebar-icon11.svg"
                                                 alt=""
                                                 className="icon"
                                             />
                                             <img
-                                                src="assets/images/icons/sidebar-icon-active11.svg"
+                                                src="/assets/images/icons/sidebar-icon-active11.svg"
                                                 alt=""
                                                 className="icon icon-active"
                                             />
@@ -152,12 +152,12 @@ const MasterLayout = ({ children }) => {
                                     }>
                                         <span className="sidebar-list__icon">
                                             <img
-                                                src="assets/images/icons/sidebar-icon6.svg"
+                                                src="/assets/images/icons/sidebar-icon6.svg"
                                                 alt=""
                                                 className="icon"
                                             />
                                             <img
-                                                src="assets/images/icons/sidebar-icon-active6.svg"
+                                                src="/assets/images/icons/sidebar-icon-active6.svg"
                                                 alt=""
                                                 className="icon icon-active"
                                             />
@@ -172,12 +172,12 @@ const MasterLayout = ({ children }) => {
                                     }>
                                         <span className="sidebar-list__icon">
                                             <img
-                                                src="assets/images/icons/sidebar-icon8.svg"
+                                                src="/assets/images/icons/sidebar-icon8.svg"
                                                 alt=""
                                                 className="icon"
                                             />
                                             <img
-                                                src="assets/images/icons/sidebar-icon-active8.svg"
+                                                src="/assets/images/icons/sidebar-icon-active8.svg"
                                                 alt=""
                                                 className="icon icon-active"
                                             />
@@ -191,12 +191,12 @@ const MasterLayout = ({ children }) => {
                                     }>
                                         <span className="sidebar-list__icon">
                                             <img
-                                                src="assets/images/icons/sidebar-icon8.svg"
+                                                src="/assets/images/icons/sidebar-icon8.svg"
                                                 alt=""
                                                 className="icon"
                                             />
                                             <img
-                                                src="assets/images/icons/sidebar-icon-active8.svg"
+                                                src="/assets/images/icons/sidebar-icon-active8.svg"
                                                 alt=""
                                                 className="icon icon-active"
                                             />
@@ -210,12 +210,12 @@ const MasterLayout = ({ children }) => {
                                     }>
                                         <span className="sidebar-list__icon">
                                             <img
-                                                src="assets/images/icons/sidebar-icon13.svg"
+                                                src="/assets/images/icons/sidebar-icon13.svg"
                                                 alt=""
                                                 className="icon"
                                             />
                                             <img
-                                                src="assets/images/icons/sidebar-icon-active13.svg"
+                                                src="/assets/images/icons/sidebar-icon-active13.svg"
                                                 alt=""
                                                 className="icon icon-active"
                                             />
@@ -242,17 +242,17 @@ const MasterLayout = ({ children }) => {
                                     type="button"
                                     className="icon-btn arrow-icon text-heading bg-gray-seven flx-center"
                                 >
-                                    <img src="assets/images/icons/angle-right.svg" alt="" />
+                                    <img src="/assets/images/icons/angle-right.svg" alt="" />
                                 </button>
                                 <form action="#" className="search-input d-sm-block d-none">
                                     <span className="icon">
                                         <img
-                                            src="assets/images/icons/search-dark.svg"
+                                            src="/assets/images/icons/search-dark.svg"
                                             alt=""
                                             className="white-version"
                                         />
                                         <img
-                                            src="assets/images/icons/search-dark-white.svg"
+                                            src="/assets/images/icons/search-dark-white.svg"
                                             alt=""
                                             className="dark-version"
                                         />
@@ -273,7 +273,7 @@ const MasterLayout = ({ children }) => {
                                             <button className="user-profile__button flex-align" onClick={showProfileControl}>
                                                 <span className="user-profile__thumb">
                                                     <img
-                                                        src="assets/images/thumbs/user-profile.png"
+                                                        src="/assets/images/thumbs/user-profile.png"
                                                         className="cover-img"
                                                         alt=""
                                                     />
@@ -284,12 +284,12 @@ const MasterLayout = ({ children }) => {
                                                     <Link to="/dashboard-profile" className="sidebar-list__link">
                                                         <span className="sidebar-list__icon">
                                                             <img
-                                                                src="assets/images/icons/sidebar-icon2.svg"
+                                                                src="/assets/images/icons/sidebar-icon2.svg"
                                                                 alt=""
                                                                 className="icon"
                                                             />
                                                             <img
-                                                                src="assets/images/icons/sidebar-icon-active2.svg"
+                                                                src="/assets/images/icons/sidebar-icon-active2.svg"
                                                                 alt=""
                                                                 className="icon icon-active"
                                                             />
@@ -301,12 +301,12 @@ const MasterLayout = ({ children }) => {
                                                     <Link to="/orders" className="sidebar-list__link">
                                                         <span className="sidebar-list__icon">
                                                             <img
-                                                                src="assets/images/icons/sidebar-icon10.svg"
+                                                                src="/assets/images/icons/sidebar-icon10.svg"
                                                                 alt=""
                                                                 className="icon"
                                                             />
                                                             <img
-                                                                src="assets/images/icons/sidebar-icon-active10.svg"
+                                                                src="/assets/images/icons/sidebar-icon-active10.svg"
                                                                 alt=""
                                                                 className="icon icon-active"
                                                             />
@@ -319,12 +319,12 @@ const MasterLayout = ({ children }) => {
                                                     <Link to="/login" className="sidebar-list__link">
                                                         <span className="sidebar-list__icon">
                                                             <img
-                                                                src="assets/images/icons/sidebar-icon13.svg"
+                                                                src="/assets/images/icons/sidebar-icon13.svg"
                                                                 alt=""
                                                                 className="icon"
                                                             />
                                                             <img
-                                                                src="assets/images/icons/sidebar-icon-active13.svg"
+                                                                src="/assets/images/icons/sidebar-icon-active13.svg"
                                                                 alt=""
                                                                 className="icon icon-active"
                                                             />
