@@ -108,13 +108,13 @@ const Login = () => {
                   </div>
                 </div>
                 <div className="col-12">
-                  <button
+                  <Link to="/dashboard"
                     type="submit"
                     className="btn btn-main btn-lg w-100 pill"
                   >
                     {" "}
                     Sign In
-                  </button>
+                  </Link>
                 </div>
                 <div className="col-12">
                   <button

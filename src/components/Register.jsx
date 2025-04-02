@@ -103,13 +103,13 @@ const Register = () => {
                 </div>
 
                 <div className="col-12">
-                  <button
+                  <Link to="/dashboard"
                     type="submit"
                     className="btn btn-main btn-lg w-100 pill"
                   >
                     {" "}
                     Create An Account
-                  </button>
+                  </Link>
                 </div>
                 <div className="col-12">
                   <button

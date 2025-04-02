@@ -21,7 +21,7 @@ const BecomeSellerOne = () => {
                 informationabout the fee structure on Market.
               </p>
               <Link
-                to="/register"
+                to="/become-a-seller"
                 className="btn btn-static-outline-black btn-xl pill fw-600"
               >
                 Become a Seller
