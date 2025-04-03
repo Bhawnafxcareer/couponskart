@@ -34,8 +34,8 @@ const FooterOne = () => {
                   </Link>
                 </div>
                 <p className="footer-widget__desc">
-                  Lorem consultancy elitsed do eiusmod tempor inci didunt ut
-                  labore dolore magna aliqua sed do eiusmod.
+                Your go-to platform for free and premium coupons, helping you save on fashion, food, travel, and more. Enjoy verified deals, easy redemption, and exclusive discounts—all in one place! 
+
                 </p>
                 <div className="footer-widget__social">
                   <ul className="social-icon-list">

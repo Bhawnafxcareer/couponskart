@@ -2,7 +2,7 @@
     [
   
       {
-        "image": "http://localhost:3000/assets/images/thumbs/coupon1.jpg",
+        "image": "assets/images/thumbs/coupon1.jpg",
         "status": "Purchased",
         "date": "Sun, 15th March",
         "title": "SaaS dashboard digital products Title here",
@@ -10,7 +10,7 @@
         "price": "₹ 500/-"
       },
       {
-        "image": "http://localhost:3000/assets/images/thumbs/coupon2.png",
+        "image": "assets/images/thumbs/coupon2.png",
         "status": "Purchased",
         "date": "Sun, 15th March",
         "code": "THREEJIBBIT",
@@ -18,7 +18,7 @@
         "price": "₹ 500/-"
       },
       {
-        "image": "http://localhost:3000/assets/images/thumbs/coupon4.png",
+        "image": "assets/images/thumbs/coupon4.png",
         "status": "Purchased",
         "date": "Sun, 15th March",
         "code": "THREEJIBBIT",
@@ -26,7 +26,7 @@
         "price": "₹ 500/-"
       },
       {
-        "image": "http://localhost:3000/assets/images/thumbs/coupon3.png",
+        "image": "assets/images/thumbs/coupon3.png",
         "status": "Redeemed",
         "date": "Sun, 15th March",
         "code": "THREEJIBBIT",

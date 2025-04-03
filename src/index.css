@@ -128,6 +128,17 @@
     padding: 0 !important;
     line-height: 28px;
 }
+input[type=file]::file-selector-button {
+    padding: 1em 1.5em;
+    border-width: 0;
+    background-color: hsl(var(--main)) !important;
+    border: transparent !important;
+    z-index: 1;
+    color: #dbe6f0;
+    transition: all 0.25s ease-in-out;
+    cursor: pointer;
+    margin-right: 1em;
+  }
 @keyframes topdown {
     0% {
         -webkit-transform: rotateX(0deg) translateY(0px);

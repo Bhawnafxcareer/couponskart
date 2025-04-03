@@ -31,6 +31,7 @@ import ProductManagementPage from "./pages/ProductManagementPage";
 import EditProductPage from "./pages/EditProductPage";
 
 import './index.css';
+import AddCoupons from "./pages/AddCoupons";
 
 function App() {
   return (
@@ -66,7 +67,7 @@ function App() {
         <Route exact path="/become-a-seller" element={<BecomeSeller />} />
         <Route exact path="/product-management" element={<ProductManagementPage />} />
         <Route exact path="/edit-product/:id" element={<EditProductPage />} />
-        
+        <Route exact path="/add-coupons" element={<AddCoupons />} />
       </Routes>
     </BrowserRouter>
   );

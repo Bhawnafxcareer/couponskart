@@ -13,12 +13,10 @@ const BecomeSellerOne = () => {
                 alt=""
               />
               <h3 className="seller-item__title">
-                Earn 75% of the ItemD Price
+              Zero Commission on Your First 20 Coupons!
               </h3>
               <p className="seller-item__desc fw-500 text-heading">
-                Sellers receive 75% of the Itemp Price for items Dsold
-                exclusively and 50% for items sold non-exclusively. See detailed
-                informationabout the fee structure on Market.
+              List your coupons, attract more customers, and grow your business effortlessly. Enjoy zero commission on your first 20 coupons and start attracting more customers today!
               </p>
               <Link
                 to="/become-a-seller"
@@ -35,17 +33,15 @@ const BecomeSellerOne = () => {
                 className="position-absolute start-0 top-0 z-index--1"
                 alt=""
               />
-              <h3 className="seller-item__title">Earn until 40% commission</h3>
+              <h3 className="seller-item__title">Unlock Free & Premium Coupons!</h3>
               <p className="seller-item__desc fw-500 text-heading">
-                Our Market is the world’s largest creative market place, selling
-                millions of digital assets every year. With 30% affiliate
-                commission, earning money has never been easier!
+              Subscribe to unlock free and premium coupons on fashion, food, travel, and more. Redeem amazing discounts and save big on every purchase!
               </p>
               <Link
                 to="/register"
                 className="btn btn-static-outline-black btn-xl pill fw-600"
               >
-                Become an Affiliate
+                Become a User
               </Link>
             </div>
           </div>
@@ -72,16 +68,18 @@ const BecomeSellerOne = () => {
                 <div className="col-lg-5 col-md-8">
                   <div className="support-content">
                     <h3 className="support-content__title mb-3">
-                      Support 24/7
+                    Unlock Exclusive Deals & Start Saving Today!
+
                     </h3>
                     <p className="support-content__desc">
-                      Wanna talk? Send us a message
+                    If you need any assistance, feel free to reach out to us for inquiries.
+
                     </p>
                     <Link
                       to="mailto:infomail@office.com"
                       className="btn btn-static-black btn-lg fw-300 pill"
                     >
-                      infomail@office.com
+                      info@couponskart.com
                     </Link>
                   </div>
                 </div>

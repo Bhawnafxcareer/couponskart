@@ -14,7 +14,7 @@
 .hero-inner {
     &__title {
         margin-bottom: 24px;
-        font-size: clamp(2rem, -2.0093rem + 7.85vw, 4.5rem);
+        font-size: clamp(2rem, -2.0093rem + 7.85vw, 3.5rem);
         text-transform: capitalize;
         @include md-screen {
             margin-bottom: 16px;

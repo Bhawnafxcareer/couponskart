@@ -97,12 +97,10 @@ const SellingOne = () => {
         <div className="section-heading style-left style-white flx-between max-w-unset gap-4">
           <div>
             <h3 className="section-heading__title">
-              Weekly Best selling Products
+            Trending Deals of the Week
             </h3>
             <p className="section-heading__desc font-18">
-              Every month we pick some best products for you. This month's best
-              web themes &amp; templates have arrived, chosen by our content
-              specialists.
+            Discover the most popular products shoppers love! Grab top-rated deals across fashion, electronics, beauty, and more before they sell out. Shop now and save big!
             </p>
           </div>
           <Link

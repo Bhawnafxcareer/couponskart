@@ -22,15 +22,16 @@ const NewsletterTwo = () => {
         <div className="flx-between gap-3">
           <div className="newsletter-two-content">
             <h3 className="newsletter-two-content__title mb-3">
-              Get all items for just $59!
+            Start Saving with CouponsKart!
             </h3>
             <p className="newsletter-two-content__desc text-heading font-18">
-              With our broad assortment of components, making and tweaking designs
-              becomes natural. Disregard coding and partake in our topics.
+            Unlock exclusive free & premium coupons and enjoy the best discounts on fashion, food, travel, and more. Subscribe now and redeem top deals instantly.
+
             </p>
           </div>
           <Link to="/all-product" className="btn btn-main btn-lg pill">
-            Grabe All Product
+          Get Coupons Now
+
           </Link>
         </div>
       </div>

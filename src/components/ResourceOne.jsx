@@ -72,14 +72,13 @@ const ResourceOne = () => {
       <div className="container container-two">
         <div className="section-heading style-left style-flex flx-between align-items-end gap-3">
           <div className="section-heading__inner w-lg">
-            <h3 className="section-heading__title">Featured Coupons</h3>
+            <h3 className="section-heading__title">Featured Coupons – Grab the Best Deals Now!</h3>
             <p className="section-heading__desc">
-              Every month we pick some best products for you. This month's best
-              web themes &amp; templates have arrived, chosen by our content
-              specialists.
+            CouponsKart brings you the best deals on fashion, food, electronics, travel, entertainment, and fitness. Enjoy exclusive discounts and special offers from top brands, making your shopping and savings experience better than ever! Redeem now and start saving!
+
             </p>
           </div>
-          <Link to="#" className="btn btn-main btn-lg pill">
+          <Link to="/all-product" className="btn btn-main btn-lg pill">
             View All Items
           </Link>
         </div>

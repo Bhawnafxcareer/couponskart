@@ -23,10 +23,12 @@ const OurMission = () => {
                                         <div className="support-content ">
                                        
                                             <h3 className="support-content__title mb-3 ">
-                                                Our Mission 
+                                            Your Ultimate Destination for Savings & Deals!
+
                                             </h3>
                                             <p className="support-content__desc  mb-0">
-                                                Lorem ipsum dolor sit amet <strong>consectetur adipisicing</strong> elit. Excepturi itaque nam pariatur ex expedita similique, mollitia odit natus voluptas fugiat. Voluptate quidem natus beatae <strong> officia perspiciatis</strong>, quos veniam repudiandae ducimus!.
+                                            At CouponsKart, our mission is to help shoppers save more effortlessly by providing access to the best deals, discounts, and exclusive coupons across various categories. We aim to make shopping more affordable and rewarding by ensuring users can redeem verified and trusted offers with ease. For businesses, CouponsKart serves as a powerful platform to promote their deals and reach a wider audience. Our goal is to create a seamless and beneficial experience for both users and sellers, making couponing simple, transparent, and highly rewarding.
+
                                             </p>
 
                                         </div>

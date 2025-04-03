@@ -25,14 +25,12 @@ const BannerOne = () => {
               <div className="hero-inner position-relative pe-lg-5">
                 <div>
                   <h1 className="hero-inner__title">
-                    2M+ curated digital products
+                    Unlock Exclusive Deals & Discounts
                   </h1>
                   <p className="hero-inner__desc font-18">
-                    Explore the best premium themes and plugins available for
-                    sale. Our unique collection is hand-curated by experts. Find
-                    and buy the perfect premium theme today.
+                    Save more with free and premium coupons on top brands! Subscribe to access exclusive discounts and redeem deals effortlessly. Start unlocking savings today!
                   </p>
-               
+
                 </div>
               </div>
             </div>

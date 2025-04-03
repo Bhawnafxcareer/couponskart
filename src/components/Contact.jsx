@@ -19,9 +19,8 @@ const Contact = () => {
             <div className="contact-info">
               <h3 className="contact-info__title">Get in touch with us today</h3>
               <p className="contact-info__desc">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum
-                rem facere labore cupiditate sint? Animi quis illo suscipit autem
-                cum.
+              Have questions or need assistance? Contact us for support, inquiries, or partnerships—we're here to help!
+
               </p>
               <div className="contact-info__item-wrapper flx-between gap-4">
                 <div className="contact-info__item">
@@ -40,10 +39,10 @@ const Contact = () => {
                     Give Us An Email
                   </span>
                   <Link
-                    to="tel:dpmarket@gmail.com"
+                    to="tel:info@couponskart.com"
                     className="contact-info__link font-24 fw-500 text-heading hover-text-main"
                   >
-                    dpmarket@gmail.com
+                    info@couponskart.com
                   </Link>
                 </div>
               </div>

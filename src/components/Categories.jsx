@@ -63,7 +63,7 @@ const Categories = () => {
     <section className="popular padding-y-120 overflow-hidden">
       <div className="container container-two">
         <div className="section-heading style-left mb-64">
-          <h5 className="section-heading__title">Popular Categories</h5>
+          <h3 className="section-heading__title">Popular Categories</h3>
         </div>
         <div className="popular-slider arrow-style-two row gy-4">
           <Slider {...settings}>
