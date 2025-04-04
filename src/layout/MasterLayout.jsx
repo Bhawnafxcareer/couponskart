@@ -3,6 +3,7 @@
 
 import { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
+import Notifications from "../components/Notifications";
 //import ThemeToggle from "../components/ThemeToggle";
 
 const MasterLayout = ({ children }) => {
@@ -53,7 +54,7 @@ const MasterLayout = ({ children }) => {
                                         navData.isActive ? "sidebar-list__link activePage" : "sidebar-list__link"
                                     }  >
                                         <span className="sidebar-list__icon">
-                                            <img
+                                            {/* <img
                                                 src="/assets/images/icons/dashboard.png"
                                                 alt=""
                                                 className="icon"
@@ -62,7 +63,8 @@ const MasterLayout = ({ children }) => {
                                                 src="/assets/images/icons/dashboard.png"
                                                 alt=""
                                                 className="icon icon-active"
-                                            />
+                                            /> */}
+                                            <i className="las la-home"></i>
                                         </span>
                                         <span className="text">Dashboard</span>
                                     </NavLink>
@@ -72,16 +74,17 @@ const MasterLayout = ({ children }) => {
                                         navData.isActive ? "sidebar-list__link activePage" : "sidebar-list__link"
                                     }>
                                         <span className="sidebar-list__icon">
-                                            <img
-                                                src="/assets/images/icons/profile.png"
-                                                alt=""
-                                                className="icon"
-                                            />
-                                            <img
-                                                src="/assets/images/icons/profile.png"
-                                                alt=""
-                                                className="icon icon-active"
-                                            />
+                                        {/* <img
+                                            src="/assets/images/icons/profile.png"
+                                            alt=""
+                                            className="icon"
+                                        />
+                                        <img
+                                            src="/assets/images/icons/profile.png"
+                                            alt=""
+                                            className="icon icon-active"
+                                        /> */}
+                                        <i className="las la-user-alt"></i>
                                         </span>
                                         <span className="text">Profile</span>
                                     </NavLink>
@@ -93,7 +96,7 @@ const MasterLayout = ({ children }) => {
                                         navData.isActive ? "sidebar-list__link activePage" : "sidebar-list__link"
                                     }>
                                         <span className="sidebar-list__icon">
-                                            <img
+                                            {/* <img
                                                 src="/assets/images/icons/orders.png"
                                                 alt=""
                                                 className="icon"
@@ -102,7 +105,8 @@ const MasterLayout = ({ children }) => {
                                                 src="/assets/images/icons/orders.png"
                                                 alt=""
                                                 className="icon icon-active"
-                                            />
+                                            /> */}
+                                            <i className="las la-ticket-alt"></i>
                                         </span>
                                         <span className="text">Orders</span>
                                     </NavLink>
@@ -112,7 +116,7 @@ const MasterLayout = ({ children }) => {
                                         navData.isActive ? "sidebar-list__link activePage" : "sidebar-list__link"
                                     }>
                                         <span className="sidebar-list__icon">
-                                            <img
+                                            {/* <img
                                                 src="/assets/images/icons/transaction.png"
                                                 alt=""
                                                 className="icon"
@@ -121,7 +125,8 @@ const MasterLayout = ({ children }) => {
                                                 src="/assets/images/icons/transaction.png"
                                                 alt=""
                                                 className="icon icon-active"
-                                            />
+                                            /> */}
+                                            <i className="las la-file-invoice"></i>
                                         </span>
                                         <span className="text">Transaction</span>
                                     </NavLink>
@@ -268,7 +273,7 @@ const MasterLayout = ({ children }) => {
                                 <div className="header-right flx-align">
                                     <div className="header-right__inner gap-sm-3 gap-2 flx-align d-flex">
                                         {/* Light Dark Mode */}
-                                       
+                                       <Notifications />
                                         <div className="user-profile">
                                             <button className="user-profile__button flex-align" onClick={showProfileControl}>
                                                 <span className="user-profile__thumb">
