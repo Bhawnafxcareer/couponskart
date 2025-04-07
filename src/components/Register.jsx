@@ -8,6 +8,18 @@ const Register = () => {
       <section className="account d-flex">
        
         <div className="account__left d-md-flex d-none flx-align section-bg position-relative z-index-1 overflow-hidden">
+        <Link to="/" className="logo mb-4">
+              <img
+                src="/assets/images/logo/logo-two.png"
+                alt=""
+                className="white-version"
+              />
+              <img
+                src="assets/images/logo/white-logo-two.png"
+                alt=""
+                className="dark-version"
+              />
+            </Link>
           <img
             src="assets/images/shapes/pattern-curve-seven.png"
             alt=""
@@ -19,23 +31,8 @@ const Register = () => {
           </div>
         </div>
         <div className="account__right padding-t-120 flx-align">
-          <div className="dark-light-mode">
-            {/* Light Dark Mode */}
-            <ThemeToggle />
-          </div>
-          <div className="account-content">
-            <Link to="/" className="logo mb-64">
-              <img
-                src="assets/images/logo/logo.png"
-                alt=""
-                className="white-version"
-              />
-              <img
-                src="assets/images/logo/white-logo-two.png"
-                alt=""
-                className="dark-version"
-              />
-            </Link>
+      
+            <div className="account-content">
             <h4 className="account-content__title mb-48 text-capitalize">
               Create A Free Account
             </h4>

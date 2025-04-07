@@ -20,19 +20,16 @@ const Login = () => {
           </div>
         </div>
         <div className="account__right padding-y-120 flx-align">
-          <div className="dark-light-mode">
-            {/* Light Dark Mode */}
-            <ThemeToggle />
-          </div>
+
           <div className="account-content">
             <Link to="/" className="logo mb-64">
               <img
-                src="assets/images/logo/logo.png"
+                src="/assets/images/logo/logo.png"
                 alt=""
                 className="white-version"
               />
               <img
-                src="assets/images/logo/white-logo-two.png"
+                src="/assets/images/logo/white-logo-two.png"
                 alt=""
                 className="dark-version"
               />

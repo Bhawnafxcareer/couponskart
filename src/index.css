@@ -122,7 +122,18 @@
     border-color: rgba(var(--danger-rgb), 0.1);
     color: rgb(var(--danger-rgb)) !important;
 }
-
+.btn-danger-transparent:hover, .btn-danger-transparent:focus:hover {
+    --danger-rgb: 251, 66, 66;
+    background-color: rgb(var(--danger-rgb));
+    border-color: rgb(var(--danger-rgb));
+    color: #fff !important;
+}
+.btn-info-transparent:hover, .btn-info-transparent:focus:hover {
+    --info-rgb: 14, 165, 232;
+    background-color: rgb(var(--info-rgb));
+    border-color: rgb(var(--info-rgb));
+    color: #fff;
+}
 .btn-info-transparent {
     --info-rgb: 14, 165, 232;
     background-color: rgba(var(--info-rgb), 0.1);
@@ -131,9 +142,9 @@
 }
 
 .btn-smm {
-    width: 1.75rem;
-    height: 1.75rem;
-    font-size: 0.8rem !important;
+    width: 1.9rem;
+    height: 1.9rem;
+    font-size: 1rem !important;
     padding: 0 !important;
     line-height: 28px;
 }
@@ -183,24 +194,15 @@ input[type=file]::file-selector-button {
         transform: rotateX(0deg) translateY(0px);
     }
 }
-.dropdown-menu {
-    padding-left: 2rem;
-    margin-top: 0.5rem;
+.bg-success-transparent {
+    --success-rgb: 33, 206, 158;
+    background-color: rgba(var(--success-rgb), 0.1) !important;
+    color: rgb(var(--success-rgb)) !important;
+}
+  .master-layout-notifications .notification-drp {
+    right: 0 !important;
+    left: unset !important;
   }
-  
-  .sidebar-sub-link {
-    display: block;
-    padding: 0.5rem 0;
-    color: #666;
-    text-decoration: none;
-  }
-  
-  .sidebar-sub-link:hover,
-  .sidebar-sub-link.activePage {
-    color: #000;
-    font-weight: bold;
-  }
-
 @media(max-width:991.98px) {
     .notification-drp {
         right: -53px;

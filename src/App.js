@@ -29,10 +29,11 @@ import BecomeSeller from "./pages/BecomeSeller";
 import ProductManagementPage from "./pages/ProductManagementPage";
 //import EditProduct from "./components/EditProduct";
 import EditProductPage from "./pages/EditProductPage";
+import AddCoupons from "./pages/AddCoupons";
+import InvoicePage from "./pages/InvoicePage";
+import Invoice from "./components/Invoice";
 
 import './index.css';
-import AddCoupons from "./pages/AddCoupons";
-
 function App() {
   return (
     <BrowserRouter>
@@ -68,6 +69,9 @@ function App() {
         <Route exact path="/product-management" element={<ProductManagementPage />} />
         <Route exact path="/edit-product/:id" element={<EditProductPage />} />
         <Route exact path="/add-coupons" element={<AddCoupons />} />
+        <Route exact path="/invoices" element={<InvoicePage />} />
+        <Route exact path="/invoice" element={<Invoice />} />
+       
       </Routes>
     </BrowserRouter>
   );

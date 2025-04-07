@@ -5,7 +5,7 @@ const DashboardStatement = () => {
     <div className="dashboard-body__content">
       {/* ========================= Statement section start =========================== */}
       <div className="row gy-4">
-        <div className="col-lg-6">
+        {/* <div className="col-lg-6">
           <div className="statement-item card common-card border border-gray-five">
             <div className="card-body">
               <div className="statement-item__header">
@@ -58,7 +58,7 @@ const DashboardStatement = () => {
               </ul>
             </div>
           </div>
-        </div>
+        </div> */}
         <div className="col-12">
           <div className="card common-card border border-gray-five">
             <div className="card-body">

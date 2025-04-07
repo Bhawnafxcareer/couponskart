@@ -15,9 +15,8 @@ const MasterLayout = ({ children }) => {
     }
     let showProfileControl = () => {
         setShow(!show)
+
     }
-
-
 
     return (
         <>
@@ -111,32 +110,13 @@ const MasterLayout = ({ children }) => {
                                         <span className="text">Orders</span>
                                     </NavLink>
                                 </li>
-                                <li className="sidebar-list__item">
-                                    <NavLink to="/statement" className={(navData) =>
-                                        navData.isActive ? "sidebar-list__link activePage" : "sidebar-list__link"
-                                    }>
-                                        <span className="sidebar-list__icon">
-                                            {/* <img
-                                                src="/assets/images/icons/transaction.png"
-                                                alt=""
-                                                className="icon"
-                                            />
-                                            <img
-                                                src="/assets/images/icons/transaction.png"
-                                                alt=""
-                                                className="icon icon-active"
-                                            /> */}
-                                            <i className="las la-file-invoice"></i>
-                                        </span>
-                                        <span className="text">Transaction</span>
-                                    </NavLink>
-                                </li>
+
                                 <li className="sidebar-list__item">
                                     <NavLink to="/earning" className={(navData) =>
                                         navData.isActive ? "sidebar-list__link activePage" : "sidebar-list__link"
                                     }>
                                         <span className="sidebar-list__icon">
-                                            <img
+                                            {/* <img
                                                 src="/assets/images/icons/sidebar-icon11.svg"
                                                 alt=""
                                                 className="icon"
@@ -145,9 +125,10 @@ const MasterLayout = ({ children }) => {
                                                 src="/assets/images/icons/sidebar-icon-active11.svg"
                                                 alt=""
                                                 className="icon icon-active"
-                                            />
+                                            /> */}
+                                            <i class="las la-money-bill-wave"></i>
                                         </span>
-                                        <span className="text">Earnings</span>
+                                        <span className="text">Payment & Earnings</span>
                                     </NavLink>
                                 </li>
 
@@ -176,7 +157,7 @@ const MasterLayout = ({ children }) => {
                                         navData.isActive ? "sidebar-list__link activePage" : "sidebar-list__link"
                                     }>
                                         <span className="sidebar-list__icon">
-                                            <img
+                                            {/* <img
                                                 src="/assets/images/icons/sidebar-icon8.svg"
                                                 alt=""
                                                 className="icon"
@@ -185,17 +166,18 @@ const MasterLayout = ({ children }) => {
                                                 src="/assets/images/icons/sidebar-icon-active8.svg"
                                                 alt=""
                                                 className="icon icon-active"
-                                            />
+                                            /> */}
+                                            <i class="las la-shopping-cart"></i>
                                         </span>
                                         <span className="text">Product Management</span>
                                     </NavLink>
                                 </li>
                                 <li className="sidebar-list__item">
-                                    <NavLink to="/refund" className={(navData) =>
+                                    <NavLink to="/invoices" className={(navData) =>
                                         navData.isActive ? "sidebar-list__link activePage" : "sidebar-list__link"
                                     }>
                                         <span className="sidebar-list__icon">
-                                            <img
+                                            {/* <img
                                                 src="/assets/images/icons/sidebar-icon8.svg"
                                                 alt=""
                                                 className="icon"
@@ -204,7 +186,8 @@ const MasterLayout = ({ children }) => {
                                                 src="/assets/images/icons/sidebar-icon-active8.svg"
                                                 alt=""
                                                 className="icon icon-active"
-                                            />
+                                            /> */}
+                                            <i class="las la-file-invoice"></i>
                                         </span>
                                         <span className="text">Invoice</span>
                                     </NavLink>
@@ -214,7 +197,7 @@ const MasterLayout = ({ children }) => {
                                         navData.isActive ? "sidebar-list__link activePage" : "sidebar-list__link"
                                     }>
                                         <span className="sidebar-list__icon">
-                                            <img
+                                            {/* <img
                                                 src="/assets/images/icons/sidebar-icon13.svg"
                                                 alt=""
                                                 className="icon"
@@ -223,7 +206,8 @@ const MasterLayout = ({ children }) => {
                                                 src="/assets/images/icons/sidebar-icon-active13.svg"
                                                 alt=""
                                                 className="icon icon-active"
-                                            />
+                                            /> */}
+                                            <i class="las la-sign-out-alt"></i>
                                         </span>
                                         <span className="text">Logout</span>
                                     </NavLink>
@@ -273,7 +257,7 @@ const MasterLayout = ({ children }) => {
                                 <div className="header-right flx-align">
                                     <div className="header-right__inner gap-sm-3 gap-2 flx-align d-flex">
                                         {/* Light Dark Mode */}
-                                       <Notifications />
+                                       <Notifications className="master-layout-notifications" />
                                         <div className="user-profile">
                                             <button className="user-profile__button flex-align" onClick={showProfileControl}>
                                                 <span className="user-profile__thumb">
