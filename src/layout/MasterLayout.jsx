@@ -126,7 +126,7 @@ const MasterLayout = ({ children }) => {
                                                 alt=""
                                                 className="icon icon-active"
                                             /> */}
-                                            <i class="las la-money-bill-wave"></i>
+                                            <i className="las la-money-bill-wave"></i>
                                         </span>
                                         <span className="text">Payment & Earnings</span>
                                     </NavLink>
@@ -167,7 +167,7 @@ const MasterLayout = ({ children }) => {
                                                 alt=""
                                                 className="icon icon-active"
                                             /> */}
-                                            <i class="las la-shopping-cart"></i>
+                                            <i className="las la-shopping-cart"></i>
                                         </span>
                                         <span className="text">Product Management</span>
                                     </NavLink>
@@ -187,7 +187,7 @@ const MasterLayout = ({ children }) => {
                                                 alt=""
                                                 className="icon icon-active"
                                             /> */}
-                                            <i class="las la-file-invoice"></i>
+                                            <i className="las la-file-invoice"></i>
                                         </span>
                                         <span className="text">Invoice</span>
                                     </NavLink>
@@ -207,7 +207,7 @@ const MasterLayout = ({ children }) => {
                                                 alt=""
                                                 className="icon icon-active"
                                             /> */}
-                                            <i class="las la-sign-out-alt"></i>
+                                            <i className="las la-sign-out-alt"></i>
                                         </span>
                                         <span className="text">Logout</span>
                                     </NavLink>

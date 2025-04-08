@@ -34,6 +34,7 @@ import InvoicePage from "./pages/InvoicePage";
 import Invoice from "./components/Invoice";
 
 import './index.css';
+import PrivacyPolicy from "./pages/PrivacyPolicy";
 function App() {
   return (
     <BrowserRouter>
@@ -71,7 +72,7 @@ function App() {
         <Route exact path="/add-coupons" element={<AddCoupons />} />
         <Route exact path="/invoices" element={<InvoicePage />} />
         <Route exact path="/invoice" element={<Invoice />} />
-       
+        <Route exact path="/privacy-policy" element={<PrivacyPolicy />} />
       </Routes>
     </BrowserRouter>
   );

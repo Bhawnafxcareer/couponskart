@@ -109,11 +109,11 @@ const DashboardProductManagement = () => {
           <button onClick={() => handleEdit(row.id)}  className="btn-smm btn-info-transparent rounded-pill text-center me-2" >
             <i className="las la-edit"></i>
           </button>
-          <button onClick={() => handleDelete(row.id)} className="btn-smm btn-danger-transparent dlt rounded-pill"><i class="las la-trash-alt"></i></button>
+          <button onClick={() => handleDelete(row.id)} className="btn-smm btn-danger-transparent dlt rounded-pill"><i className="las la-trash-alt"></i></button>
         </>
       ),
       ignoreRowClick: true,
-      allowOverflow: true,
+      //allowOverflow: true,
       button: true,
     },
   ];
@@ -125,7 +125,7 @@ const DashboardProductManagement = () => {
           <div className="refund-feedback">
             <div className='d-flex justify-content-between align-items-center mb-5'>
             <h5 className="refund-feedback__title mb-0">All Products</h5>
-            <div className='d-flex align-items-center gap-2'><Link className='btn btn-main btn-md pill fw-300' to="/add-coupons"> <i class="las la-cart-plus"></i> Add New Product</Link> <button className='btn btn-main btn-md pill fw-300' onClick={() => exportToCSV(data)}>Export CSV</button></div>
+            <div className='d-flex align-items-center gap-2'><Link className='btn btn-main btn-md pill fw-300' to="/add-coupons"> <i className="las la-cart-plus"></i> Add New Product</Link> <button className='btn btn-main btn-md pill fw-300' onClick={() => exportToCSV(data)}>Export CSV</button></div>
             </div>
             <DataTable title="" columns={columns(handleDelete)} data={data} customStyles={customStyles} pagination className=' ' />
           </div>

@@ -115,7 +115,11 @@
     font-size: 10px;
     text-align: right;
 }
-
+.btn-secondary-light {
+    --secondary-rgb: 158, 92, 247;
+    background-color: rgba(var(--secondary-rgb), 0.1);
+    color: rgb(var(--secondary-rgb));
+}
 .btn-danger-transparent {
     --danger-rgb: 251, 66, 66;
     background-color: rgba(var(--danger-rgb), 0.1);

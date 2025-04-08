@@ -16,7 +16,10 @@ const ContactPage = () => {
       <HeaderOne />
 
       {/* BreadcrumbEight */}
-      <BreadcrumbEight />
+      <BreadcrumbEight  items={[
+    { label: "Home", path: "/" },
+    { label: "Contact Us", path: null } // or remove path to make it non-clickable
+  ]} />
 
       {/* Contact */}
       <Contact />

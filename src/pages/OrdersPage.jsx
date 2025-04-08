@@ -2,6 +2,7 @@ import React from "react";
 import Preloader from "../helper/Preloader";
 import MasterLayout from "../layout/MasterLayout";
 import Coupons from "../components/Coupons";
+import OrdersList from "../components/OrdersList";
 const OrdersPage = () => {
 
   return (
@@ -13,6 +14,7 @@ const OrdersPage = () => {
 
         {/* DashboardRefund */}
         <Coupons />
+        <OrdersList />
 
       </MasterLayout>
 

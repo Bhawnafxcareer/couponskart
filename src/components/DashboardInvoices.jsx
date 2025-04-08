@@ -60,8 +60,8 @@ const columns = [
     name: 'Actions',
     cell: row => (
       <>
-      <button className='btn-smm btn-info-transparent rounded-pill text-center me-2'><i class="las la-eye"></i></button>
-      <button className='btn-smm  bg-success-transparent  rounded-pill text-center'><i class="las la-download"></i></button>
+      <button className='btn-smm btn-info-transparent rounded-pill text-center me-2'><i className="las la-eye"></i></button>
+      <button className='btn-smm  bg-success-transparent  rounded-pill text-center'><i className="las la-download"></i></button>
       </>
     ),
     ignoreRowClick: true,
