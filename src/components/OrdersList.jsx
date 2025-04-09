@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import DataTable from "react-data-table-component";
 
 const data = [
@@ -50,6 +51,7 @@ const customStyles = {
       style: {
         fontSize: '14px',
         padding: '20px 16px',
+        flexBasic:'1'
       },
     },
   };
@@ -68,9 +70,9 @@ const columns = [
         name: "Action",
         cell: row => (
             <>
-            <button  className="btn-smm btn-info-transparent rounded-pill text-center me-2" >
+            <Link to="/order-detail"  className="btn-smm btn-info-transparent rounded-pill text-center me-2" >
             <i className="las la-edit"></i>
-          </button>
+          </Link>
             <button  className=" btn-smm btn-secondary-light  rounded-pill text-center me-2">
                 <i className="las la-eye"></i>
             </button>

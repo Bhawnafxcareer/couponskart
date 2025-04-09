@@ -53,16 +53,7 @@ const MasterLayout = ({ children }) => {
                                         navData.isActive ? "sidebar-list__link activePage" : "sidebar-list__link"
                                     }  >
                                         <span className="sidebar-list__icon">
-                                            {/* <img
-                                                src="/assets/images/icons/dashboard.png"
-                                                alt=""
-                                                className="icon"
-                                            />
-                                            <img
-                                                src="/assets/images/icons/dashboard.png"
-                                                alt=""
-                                                className="icon icon-active"
-                                            /> */}
+                 
                                             <i className="las la-home"></i>
                                         </span>
                                         <span className="text">Dashboard</span>
@@ -73,38 +64,34 @@ const MasterLayout = ({ children }) => {
                                         navData.isActive ? "sidebar-list__link activePage" : "sidebar-list__link"
                                     }>
                                         <span className="sidebar-list__icon">
-                                        {/* <img
-                                            src="/assets/images/icons/profile.png"
-                                            alt=""
-                                            className="icon"
-                                        />
-                                        <img
-                                            src="/assets/images/icons/profile.png"
-                                            alt=""
-                                            className="icon icon-active"
-                                        /> */}
+                              
                                         <i className="las la-user-alt"></i>
                                         </span>
                                         <span className="text">Profile</span>
                                     </NavLink>
                                 </li>                             
-
-                               
+                                <li className="sidebar-list__item">
+                                    <NavLink to="/customers" className={(navData) =>
+                                        navData.isActive ? "sidebar-list__link activePage" : "sidebar-list__link"
+                                    }>
+                                        <span className="sidebar-list__icon"><i class="las la-users"></i></span>
+                                        <span className="text">Customers</span>
+                                    </NavLink>
+                                </li>     
+                                <li className="sidebar-list__item">
+                                    <NavLink to="/vendors" className={(navData) =>
+                                        navData.isActive ? "sidebar-list__link activePage" : "sidebar-list__link"
+                                    }>
+                                        <span className="sidebar-list__icon"><i class="las la-store-alt"></i></span>
+                                        <span className="text">Sellers/Vendors</span>
+                                    </NavLink>
+                                </li>   
                                 <li className="sidebar-list__item">
                                     <NavLink to="/orders" className={(navData) =>
                                         navData.isActive ? "sidebar-list__link activePage" : "sidebar-list__link"
                                     }>
                                         <span className="sidebar-list__icon">
-                                            {/* <img
-                                                src="/assets/images/icons/orders.png"
-                                                alt=""
-                                                className="icon"
-                                            />
-                                            <img
-                                                src="/assets/images/icons/orders.png"
-                                                alt=""
-                                                className="icon icon-active"
-                                            /> */}
+             
                                             <i className="las la-ticket-alt"></i>
                                         </span>
                                         <span className="text">Orders</span>
@@ -116,57 +103,20 @@ const MasterLayout = ({ children }) => {
                                         navData.isActive ? "sidebar-list__link activePage" : "sidebar-list__link"
                                     }>
                                         <span className="sidebar-list__icon">
-                                            {/* <img
-                                                src="/assets/images/icons/sidebar-icon11.svg"
-                                                alt=""
-                                                className="icon"
-                                            />
-                                            <img
-                                                src="/assets/images/icons/sidebar-icon-active11.svg"
-                                                alt=""
-                                                className="icon icon-active"
-                                            /> */}
+                                          
                                             <i className="las la-money-bill-wave"></i>
                                         </span>
                                         <span className="text">Payment & Earnings</span>
                                     </NavLink>
                                 </li>
 
-                                {/* <li className="sidebar-list__item">
-                                    <NavLink to="/" className={(navData) =>
-                                        navData.isActive ? "sidebar-list__link activePage" : "sidebar-list__link"
-                                    }>
-                                        <span className="sidebar-list__icon">
-                                            <img
-                                                src="/assets/images/icons/sidebar-icon6.svg"
-                                                alt=""
-                                                className="icon"
-                                            />
-                                            <img
-                                                src="/assets/images/icons/sidebar-icon-active6.svg"
-                                                alt=""
-                                                className="icon icon-active"
-                                            />
-                                        </span>
-                                        <span className="text">Downloads</span>
-                                    </NavLink>
-                                </li> */}
                                 
                                 <li className="sidebar-list__item">
                                     <NavLink to="/product-management" className={(navData) =>
                                         navData.isActive ? "sidebar-list__link activePage" : "sidebar-list__link"
                                     }>
                                         <span className="sidebar-list__icon">
-                                            {/* <img
-                                                src="/assets/images/icons/sidebar-icon8.svg"
-                                                alt=""
-                                                className="icon"
-                                            />
-                                            <img
-                                                src="/assets/images/icons/sidebar-icon-active8.svg"
-                                                alt=""
-                                                className="icon icon-active"
-                                            /> */}
+
                                             <i className="las la-shopping-cart"></i>
                                         </span>
                                         <span className="text">Product Management</span>
@@ -177,16 +127,7 @@ const MasterLayout = ({ children }) => {
                                         navData.isActive ? "sidebar-list__link activePage" : "sidebar-list__link"
                                     }>
                                         <span className="sidebar-list__icon">
-                                            {/* <img
-                                                src="/assets/images/icons/sidebar-icon8.svg"
-                                                alt=""
-                                                className="icon"
-                                            />
-                                            <img
-                                                src="/assets/images/icons/sidebar-icon-active8.svg"
-                                                alt=""
-                                                className="icon icon-active"
-                                            /> */}
+     
                                             <i className="las la-file-invoice"></i>
                                         </span>
                                         <span className="text">Invoice</span>
@@ -197,16 +138,7 @@ const MasterLayout = ({ children }) => {
                                         navData.isActive ? "sidebar-list__link activePage" : "sidebar-list__link"
                                     }>
                                         <span className="sidebar-list__icon">
-                                            {/* <img
-                                                src="/assets/images/icons/sidebar-icon13.svg"
-                                                alt=""
-                                                className="icon"
-                                            />
-                                            <img
-                                                src="/assets/images/icons/sidebar-icon-active13.svg"
-                                                alt=""
-                                                className="icon icon-active"
-                                            /> */}
+
                                             <i className="las la-sign-out-alt"></i>
                                         </span>
                                         <span className="text">Logout</span>

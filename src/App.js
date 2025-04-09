@@ -32,9 +32,16 @@ import EditProductPage from "./pages/EditProductPage";
 import AddCoupons from "./pages/AddCoupons";
 import InvoicePage from "./pages/InvoicePage";
 import Invoice from "./components/Invoice";
-
-import './index.css';
 import PrivacyPolicy from "./pages/PrivacyPolicy";
+import OrderDetailsPage from "./pages/OrderDetailsPage";
+import CustomersPage from "./pages/CustomersPage";
+import VendorsPage from "./pages/VendorsPage";
+import ViewCustomer from "./pages/ViewCustomer";
+import EditCustomer from "./pages/EditCustomer";
+import './index.css';
+
+
+
 function App() {
   return (
     <BrowserRouter>
@@ -72,7 +79,12 @@ function App() {
         <Route exact path="/add-coupons" element={<AddCoupons />} />
         <Route exact path="/invoices" element={<InvoicePage />} />
         <Route exact path="/invoice" element={<Invoice />} />
+        <Route exact path="/order-detail" element={<OrderDetailsPage />} />
+        <Route exact path="/customers" element={<CustomersPage />} />
+        <Route exact path="/vendors" element={<VendorsPage />} />
         <Route exact path="/privacy-policy" element={<PrivacyPolicy />} />
+        <Route path="/customers/:id" element={<ViewCustomer />} />
+        <Route path="/customers/edit/:id" element={<EditCustomer />} />
       </Routes>
     </BrowserRouter>
   );
