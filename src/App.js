@@ -38,7 +38,11 @@ import CustomersPage from "./pages/CustomersPage";
 import VendorsPage from "./pages/VendorsPage";
 import ViewCustomer from "./pages/ViewCustomer";
 import EditCustomer from "./pages/EditCustomer";
+import EditVendor from "./pages/EditVendor";
+import ViewVendor from "./pages/ViewVendor";
 import './index.css';
+import SingleInvoice from "./pages/SingleInvoice";
+
 
 
 
@@ -85,6 +89,9 @@ function App() {
         <Route exact path="/privacy-policy" element={<PrivacyPolicy />} />
         <Route path="/customers/:id" element={<ViewCustomer />} />
         <Route path="/customers/edit/:id" element={<EditCustomer />} />
+        <Route path="/edit-vendor" element={<EditVendor />} />
+        <Route path="/vendor-details" element={<ViewVendor />} />
+        <Route path="/invoice-single" element={<SingleInvoice />} />
       </Routes>
     </BrowserRouter>
   );

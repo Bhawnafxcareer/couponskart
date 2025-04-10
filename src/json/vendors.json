@@ -1,0 +1,84 @@
+[
+    {
+      "id": 1,
+      "name": "Alice Johnson",
+      "email": "alice@example.com",
+      "phone": "123-456-7890",
+      "companyName": "Tech Solutions Inc.",
+      "panNumber": "ABCDE1234F"
+    },
+    {
+      "id": 2,
+      "name": "Bob Smith",
+      "email": "bob@example.com",
+      "phone": "987-654-3210",
+      "companyName": "InnoTech Ltd.",
+      "panNumber": "FGHIJ5678K"
+    },
+    {
+      "id": 3,
+      "name": "Charlie Brown",
+      "email": "charlie@example.com",
+      "phone": "555-234-5678",
+      "companyName": "Creative Minds",
+      "panNumber": "LMNOP9012Q"
+    },
+    {
+      "id": 4,
+      "name": "Diana Prince",
+      "email": "diana@example.com",
+      "phone": "321-654-0987",
+      "companyName": "Amazon Solutions",
+      "panNumber": "RSTUV3456W"
+    },
+    {
+      "id": 5,
+      "name": "Ethan Hunt",
+      "email": "ethan@example.com",
+      "phone": "789-123-4567",
+      "companyName": "Mission Enterprises",
+      "panNumber": "XYZAB7890C"
+    },
+    {
+      "id": 6,
+      "name": "Fiona Gallagher",
+      "email": "fiona@example.com",
+      "phone": "654-321-7890",
+      "companyName": "Gallagher Group",
+      "panNumber": "CDEFG1234H"
+    },
+    {
+      "id": 7,
+      "name": "George Clooney",
+      "email": "george@example.com",
+      "phone": "111-222-3333",
+      "companyName": "Ocean Eleven Co.",
+      "panNumber": "HIJKL5678M"
+    },
+    {
+      "id": 8,
+      "name": "Hannah Montana",
+      "email": "hannah@example.com",
+      "phone": "444-555-6666",
+      "companyName": "Miley Enterprises",
+      "panNumber": "NOPQR9012S"
+    },
+    {
+      "id": 9,
+      "name": "Ian Somerhalder",
+      "email": "ian@example.com",
+      "phone": "777-888-9999",
+      "companyName": "Vampire Inc.",
+      "panNumber": "TUVWX3456Z"
+    },
+    {
+      "id": 10,
+      "name": "Jane Doe",
+      "email": "jane@example.com",
+      "phone": "000-111-2222",
+      "companyName": "Unknown Corp.",
+      "panNumber": "ABCDE6789F"
+    }
+  ]
+  
+  
