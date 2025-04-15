@@ -31,7 +31,7 @@ import ProductManagementPage from "./pages/ProductManagementPage";
 import EditProductPage from "./pages/EditProductPage";
 import AddCoupons from "./pages/AddCoupons";
 import InvoicePage from "./pages/InvoicePage";
-import Invoice from "./components/Invoice";
+import Invoice from "./pages/Invoice";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import OrderDetailsPage from "./pages/OrderDetailsPage";
 import CustomersPage from "./pages/CustomersPage";
@@ -40,11 +40,9 @@ import ViewCustomer from "./pages/ViewCustomer";
 import EditCustomer from "./pages/EditCustomer";
 import EditVendor from "./pages/EditVendor";
 import ViewVendor from "./pages/ViewVendor";
+import TermsAndConditions from "./pages/TermsAndConditions";
+import DisclaimerPolicy from "./pages/DisclaimerPolicy";
 import './index.css';
-import SingleInvoice from "./pages/SingleInvoice";
-
-
-
 
 function App() {
   return (
@@ -82,16 +80,19 @@ function App() {
         <Route exact path="/edit-product/:id" element={<EditProductPage />} />
         <Route exact path="/add-coupons" element={<AddCoupons />} />
         <Route exact path="/invoices" element={<InvoicePage />} />
-        <Route exact path="/invoice" element={<Invoice />} />
+        <Route exact path="/invoice/:orderId" element={<Invoice />} />
         <Route exact path="/order-detail" element={<OrderDetailsPage />} />
         <Route exact path="/customers" element={<CustomersPage />} />
         <Route exact path="/vendors" element={<VendorsPage />} />
         <Route exact path="/privacy-policy" element={<PrivacyPolicy />} />
+        <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
+        <Route path="/disclaimer-policy" element={<DisclaimerPolicy />} />
         <Route path="/customers/:id" element={<ViewCustomer />} />
         <Route path="/customers/edit/:id" element={<EditCustomer />} />
         <Route path="/edit-vendor" element={<EditVendor />} />
         <Route path="/vendor-details" element={<ViewVendor />} />
-        <Route path="/invoice-single" element={<SingleInvoice />} />
+       
+        
       </Routes>
     </BrowserRouter>
   );

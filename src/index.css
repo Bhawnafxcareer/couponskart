@@ -194,6 +194,9 @@ max-width: 100px;
     border-radius: 7px;
     color: #fff;
 }
+.list-style{
+list-style: disc;
+}
 @keyframes topdown {
     0% {
         -webkit-transform: rotateX(0deg) translateY(0px);
@@ -227,6 +230,28 @@ max-width: 100px;
   .master-layout-notifications .notification-drp {
     right: 0 !important;
     left: unset !important;
+  }
+  @media print {
+    body * {
+      visibility: hidden;
+    }
+  
+    .invoice-container, .invoice-container * {
+      visibility: visible;
+    }
+  
+    .invoice-container {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      box-shadow: none !important;
+      padding: 0 !important;
+    }
+  
+    .d-print-none {
+      display: none !important;
+    }
   }
 @media(max-width:991.98px) {
     .notification-drp {

@@ -34,9 +34,7 @@ const FooterOne = () => {
                   </Link>
                 </div>
                 <p className="footer-widget__desc">
-                Your go-to platform for free and premium coupons, helping you save on fashion, food, travel, and more. Enjoy verified deals, easy redemption, and exclusive discounts—all in one place! 
-
-                </p>
+                  Your go-to platform for free and premium coupons, helping you save on fashion, food, travel, and more. Enjoy verified deals, easy redemption, and exclusive discounts—all in one place!</p>
                 <div className="footer-widget__social">
                   <ul className="social-icon-list">
                     <li className="social-icon-list__item">
@@ -88,33 +86,19 @@ const FooterOne = () => {
                 <h5 className="footer-widget__title text-white">Useful Link</h5>
                 <ul className="footer-lists">
                   <li className="footer-lists__item">
+                    <Link to="/" className="footer-lists__link">
+                      Home
+                    </Link>
+                  </li>
+                  <li className="footer-lists__item">    <Link to="/about" className="footer-lists__link">
+                    About
+                  </Link></li>
+                  <li className="footer-lists__item">
                     <Link to="/all-product" className="footer-lists__link">
-                      Product
+                      Products
                     </Link>
                   </li>
-                  <li className="footer-lists__item">
-                    <Link
-                      to="/product-details"
-                      className="footer-lists__link"
-                    >
-                      Product Details
-                    </Link>
-                  </li>
-                  <li className="footer-lists__item">
-                    <Link to="/profile" className="footer-lists__link">
-                      Profile
-                    </Link>
-                  </li>
-                  <li className="footer-lists__item">
-                    <Link to="/cart" className="footer-lists__link">
-                      Shopping Cart
-                    </Link>
-                  </li>
-                  <li className="footer-lists__item">
-                    <Link to="/dashboard" className="footer-lists__link">
-                      Dashboard
-                    </Link>
-                  </li>
+
                 </ul>
               </div>
             </div>
@@ -122,11 +106,7 @@ const FooterOne = () => {
               <div className="footer-widget">
                 <h5 className="footer-widget__title text-white">Quick Links</h5>
                 <ul className="footer-lists">
-                  <li className="footer-lists__item">
-                    <Link to="/dashboard" className="footer-lists__link">
-                      Dashboard
-                    </Link>
-                  </li>
+
                   <li className="footer-lists__item">
                     <Link to="/login" className="footer-lists__link">
                       Login{" "}
@@ -142,11 +122,7 @@ const FooterOne = () => {
                       Blog{" "}
                     </Link>
                   </li>
-                  <li className="footer-lists__item">
-                    <Link to="/blog-details" className="footer-lists__link">
-                      Blog Details
-                    </Link>
-                  </li>
+
                 </ul>
               </div>
             </div>
@@ -185,14 +161,14 @@ const FooterOne = () => {
               Copyright © 2024 Couponskart, All rights reserved.
             </p>
             <div className="footer-links">
-              <Link to="#" className="footer-link font-14">
-                Terms of service
+              <Link to="/terms-and-conditions" className="footer-link font-14">
+                Terms & Conditions
               </Link>
-              <Link to="#" className="footer-link font-14">
+              <Link to="/privacy-policy" className="footer-link font-14">
                 Privacy Policy
               </Link>
-              <Link to="/contact" className="footer-link font-14">
-                cookies
+              <Link to="/disclaimer-policy" className="footer-link font-14">
+                Disclaimer Policy
               </Link>
             </div>
           </div>

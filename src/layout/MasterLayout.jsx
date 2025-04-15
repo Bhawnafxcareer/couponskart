@@ -74,7 +74,7 @@ const MasterLayout = ({ children }) => {
                                     <NavLink to="/customers" className={(navData) =>
                                         navData.isActive ? "sidebar-list__link activePage" : "sidebar-list__link"
                                     }>
-                                        <span className="sidebar-list__icon"><i class="las la-users"></i></span>
+                                        <span className="sidebar-list__icon"><i className="las la-users"></i></span>
                                         <span className="text">Customers</span>
                                     </NavLink>
                                 </li>     
@@ -82,7 +82,7 @@ const MasterLayout = ({ children }) => {
                                     <NavLink to="/vendors" className={(navData) =>
                                         navData.isActive ? "sidebar-list__link activePage" : "sidebar-list__link"
                                     }>
-                                        <span className="sidebar-list__icon"><i class="las la-store-alt"></i></span>
+                                        <span className="sidebar-list__icon"><i className="las la-store-alt"></i></span>
                                         <span className="text">Sellers/Vendors</span>
                                     </NavLink>
                                 </li>   
@@ -108,9 +108,7 @@ const MasterLayout = ({ children }) => {
                                         </span>
                                         <span className="text">Payment & Earnings</span>
                                     </NavLink>
-                                </li>
-
-                                
+                                </li>                                
                                 <li className="sidebar-list__item">
                                     <NavLink to="/product-management" className={(navData) =>
                                         navData.isActive ? "sidebar-list__link activePage" : "sidebar-list__link"

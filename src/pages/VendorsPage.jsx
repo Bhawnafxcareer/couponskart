@@ -124,53 +124,18 @@ const VendorsPage = () => {
                     <li className='pb-2'><i className="fas fa-envelope avatar-sm me-2 "></i> zarafashionworld@dayrep.com</li>
                     <li><i className="fas fa-phone-alt avatar-sm me-2 "></i> +243 812-801-9335</li>
                   </ul>
-                  <div class="row text-center mt-3 g-2 pb-3 border-bottom">
-                    <div class="col-lg-4 col-4 border-end">
-                      <h6 class=" fw-600 mb-1">865</h6>
-                      <p class="text-muted mb-0 font-14">Item Stock</p>
+                  <div className="row text-center mt-3 g-2 pb-3 border-bottom">
+                    <div className="col-lg-4 col-4 border-end">
+                      <h6 className=" fw-600 mb-1">865</h6>
+                      <p className="text-muted mb-0 font-14">Item Stock</p>
                     </div>
-                    <div class="col-lg-4 col-4 border-end">
-                      <h6 class=" fw-600 mb-1">+4.5k</h6>
-                      <p class="text-muted mb-0 font-14">Sells</p>
+                    <div className="col-lg-4 col-4 border-end">
+                      <h6 className=" fw-600 mb-1">+4.5k</h6>
+                      <p className="text-muted mb-0 font-14">Sells</p>
                     </div>
-                    <div class="col-lg-4 col-4">
-                      <h6 class=" fw-600 mb-1">+2k</h6>
-                      <p class="text-muted mb-0 font-14">Happy Client</p>
-                    </div>
-                  </div>
-                  <div className='d-flex align-items-center justify-content-between gap-4 mt-4'>
-                    <Link to="/vendor-details" className='btn btn-main btn-sm pill'>View Profile</Link>
-                    <Link to="/edit-vendor" className='btn btn-main btn-sm btn-outline pill'>Edit Profile</Link>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-3 col-md-3">
-              <div className='profile-info h-100 p-4'>
-
-                <div className='vendor-profile-pic bg-light text-center  rounded p-4 mb-2  py-5'>
-                  <img src="/assets/images/icons/zara.svg" alt="" />
-                </div>
-
-                <div className="vendor-profile mt-4">
-                  <h6 className='fw-semibold mb-0'>ZARA International</h6>
-                  <Link to="/" className='text-primary'>www.larkon.com</Link>
-                  <ul className='mt-4 border-bottom pb-4'>
-                    <li className='pb-2'><i className="fas fa-envelope avatar-sm me-2 "></i> zarafashionworld@dayrep.com</li>
-                    <li><i className="fas fa-phone-alt avatar-sm me-2 "></i> +243 812-801-9335</li>
-                  </ul>
-                  <div class="row text-center mt-3 g-2 pb-3 border-bottom">
-                    <div class="col-lg-4 col-4 border-end">
-                      <h6 class=" fw-600 mb-1">865</h6>
-                      <p class="text-muted mb-0 font-14">Item Stock</p>
-                    </div>
-                    <div class="col-lg-4 col-4 border-end">
-                      <h6 class=" fw-600 mb-1">+4.5k</h6>
-                      <p class="text-muted mb-0 font-14">Sells</p>
-                    </div>
-                    <div class="col-lg-4 col-4">
-                      <h6 class=" fw-600 mb-1">+2k</h6>
-                      <p class="text-muted mb-0 font-14">Happy Client</p>
+                    <div className="col-lg-4 col-4">
+                      <h6 className=" fw-600 mb-1">+2k</h6>
+                      <p className="text-muted mb-0 font-14">Happy Client</p>
                     </div>
                   </div>
                   <div className='d-flex align-items-center justify-content-between gap-4 mt-4'>
@@ -194,18 +159,18 @@ const VendorsPage = () => {
                     <li className='pb-2'><i className="fas fa-envelope avatar-sm me-2 "></i> zarafashionworld@dayrep.com</li>
                     <li><i className="fas fa-phone-alt avatar-sm me-2 "></i> +243 812-801-9335</li>
                   </ul>
-                  <div class="row text-center mt-3 g-2 pb-3 border-bottom">
-                    <div class="col-lg-4 col-4 border-end">
-                      <h6 class=" fw-600 mb-1">865</h6>
-                      <p class="text-muted mb-0 font-14">Item Stock</p>
+                  <div className="row text-center mt-3 g-2 pb-3 border-bottom">
+                    <div className="col-lg-4 col-4 border-end">
+                      <h6 className=" fw-600 mb-1">865</h6>
+                      <p className="text-muted mb-0 font-14">Item Stock</p>
                     </div>
-                    <div class="col-lg-4 col-4 border-end">
-                      <h6 class=" fw-600 mb-1">+4.5k</h6>
-                      <p class="text-muted mb-0 font-14">Sells</p>
+                    <div className="col-lg-4 col-4 border-end">
+                      <h6 className=" fw-600 mb-1">+4.5k</h6>
+                      <p className="text-muted mb-0 font-14">Sells</p>
                     </div>
-                    <div class="col-lg-4 col-4">
-                      <h6 class=" fw-600 mb-1">+2k</h6>
-                      <p class="text-muted mb-0 font-14">Happy Client</p>
+                    <div className="col-lg-4 col-4">
+                      <h6 className=" fw-600 mb-1">+2k</h6>
+                      <p className="text-muted mb-0 font-14">Happy Client</p>
                     </div>
                   </div>
                   <div className='d-flex align-items-center justify-content-between gap-4 mt-4'>
@@ -229,18 +194,53 @@ const VendorsPage = () => {
                     <li className='pb-2'><i className="fas fa-envelope avatar-sm me-2 "></i> zarafashionworld@dayrep.com</li>
                     <li><i className="fas fa-phone-alt avatar-sm me-2 "></i> +243 812-801-9335</li>
                   </ul>
-                  <div class="row text-center mt-3 g-2 pb-3 border-bottom">
-                    <div class="col-lg-4 col-4 border-end">
-                      <h6 class=" fw-600 mb-1">865</h6>
-                      <p class="text-muted mb-0 font-14">Item Stock</p>
+                  <div className="row text-center mt-3 g-2 pb-3 border-bottom">
+                    <div className="col-lg-4 col-4 border-end">
+                      <h6 className=" fw-600 mb-1">865</h6>
+                      <p className="text-muted mb-0 font-14">Item Stock</p>
                     </div>
-                    <div class="col-lg-4 col-4 border-end">
-                      <h6 class=" fw-600 mb-1">+4.5k</h6>
-                      <p class="text-muted mb-0 font-14">Sells</p>
+                    <div className="col-lg-4 col-4 border-end">
+                      <h6 className=" fw-600 mb-1">+4.5k</h6>
+                      <p className="text-muted mb-0 font-14">Sells</p>
                     </div>
-                    <div class="col-lg-4 col-4">
-                      <h6 class=" fw-600 mb-1">+2k</h6>
-                      <p class="text-muted mb-0 font-14">Happy Client</p>
+                    <div className="col-lg-4 col-4">
+                      <h6 className=" fw-600 mb-1">+2k</h6>
+                      <p className="text-muted mb-0 font-14">Happy Client</p>
+                    </div>
+                  </div>
+                  <div className='d-flex align-items-center justify-content-between gap-4 mt-4'>
+                    <Link to="/vendor-details" className='btn btn-main btn-sm pill'>View Profile</Link>
+                    <Link to="/edit-vendor" className='btn btn-main btn-sm btn-outline pill'>Edit Profile</Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-3 col-md-3">
+              <div className='profile-info h-100 p-4'>
+
+                <div className='vendor-profile-pic bg-light text-center  rounded p-4 mb-2  py-5'>
+                  <img src="/assets/images/icons/zara.svg" alt="" />
+                </div>
+
+                <div className="vendor-profile mt-4">
+                  <h6 className='fw-semibold mb-0'>ZARA International</h6>
+                  <Link to="/" className='text-primary'>www.larkon.com</Link>
+                  <ul className='mt-4 border-bottom pb-4'>
+                    <li className='pb-2'><i className="fas fa-envelope avatar-sm me-2 "></i> zarafashionworld@dayrep.com</li>
+                    <li><i className="fas fa-phone-alt avatar-sm me-2 "></i> +243 812-801-9335</li>
+                  </ul>
+                  <div className="row text-center mt-3 g-2 pb-3 border-bottom">
+                    <div className="col-lg-4 col-4 border-end">
+                      <h6 className=" fw-600 mb-1">865</h6>
+                      <p className="text-muted mb-0 font-14">Item Stock</p>
+                    </div>
+                    <div className="col-lg-4 col-4 border-end">
+                      <h6 className=" fw-600 mb-1">+4.5k</h6>
+                      <p className="text-muted mb-0 font-14">Sells</p>
+                    </div>
+                    <div className="col-lg-4 col-4">
+                      <h6 className=" fw-600 mb-1">+2k</h6>
+                      <p className="text-muted mb-0 font-14">Happy Client</p>
                     </div>
                   </div>
                   <div className='d-flex align-items-center justify-content-between gap-4 mt-4'>

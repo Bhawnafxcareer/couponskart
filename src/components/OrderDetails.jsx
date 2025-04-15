@@ -10,7 +10,7 @@ const OrderDetails = () => {
               <div className='d-flex justify-content-between'>
                 <div><h6 className='fw-semibold mb-0'>Order Number: #656454667j</h6>
                   <p>On Sun, 15th March</p></div>
-                <div ><span class="badge bg-success-subtle text-success ">Paid</span> <span class="badge text-bg-success">Success</span></div>
+                <div ><span className="badge bg-success-subtle text-success ">Paid</span> <span className="badge text-bg-success">Success</span></div>
               </div>
               <div className='mt-4'>
                 <h5 className='mb-4'>SaaS dashboard digital products Title here</h5>
