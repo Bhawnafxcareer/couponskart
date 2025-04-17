@@ -46,6 +46,7 @@ import './index.css';
 import BlogDashboard from "./pages/BlogDashboard";
 import AddNewblog from "./pages/AddNewblog";
 import AddSeoDetails from "./pages/AddSeoDetails";
+import CKEditorr from "./components/CKEditorr";
 
 function App() {
   return (
@@ -97,6 +98,8 @@ function App() {
         <Route path="/all-blog" element={<BlogDashboard />} />
         <Route path="/add-new-blog" element={<AddNewblog />} />
         <Route path="/add-seo-details" element={<AddSeoDetails />} />
+
+        <Route path="/ck-editor"element={<CKEditorr/>}></Route>
       </Routes>
     </BrowserRouter>
   );
