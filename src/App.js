@@ -43,6 +43,9 @@ import ViewVendor from "./pages/ViewVendor";
 import TermsAndConditions from "./pages/TermsAndConditions";
 import DisclaimerPolicy from "./pages/DisclaimerPolicy";
 import './index.css';
+import BlogDashboard from "./pages/BlogDashboard";
+import AddNewblog from "./pages/AddNewblog";
+import AddSeoDetails from "./pages/AddSeoDetails";
 
 function App() {
   return (
@@ -91,8 +94,9 @@ function App() {
         <Route path="/customers/edit/:id" element={<EditCustomer />} />
         <Route path="/edit-vendor" element={<EditVendor />} />
         <Route path="/vendor-details" element={<ViewVendor />} />
-       
-        
+        <Route path="/all-blog" element={<BlogDashboard />} />
+        <Route path="/add-new-blog" element={<AddNewblog />} />
+        <Route path="/add-seo-details" element={<AddSeoDetails />} />
       </Routes>
     </BrowserRouter>
   );

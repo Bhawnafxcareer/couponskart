@@ -1,8 +1,8 @@
 
 
 
-import { useState } from "react";
-import { Link, NavLink } from "react-router-dom";
+import { useState, useEffect } from "react";
+import { Link, NavLink, useLocation } from "react-router-dom";
 import Notifications from "../components/Notifications";
 //import ThemeToggle from "../components/ThemeToggle";
 
@@ -17,6 +17,27 @@ const MasterLayout = ({ children }) => {
         setShow(!show)
 
     }
+    const [isOpen, setIsOpen] = useState(false);
+    const location = useLocation();
+
+    // Automatically set open dropdowns based on current route
+    const [openDropdowns, setOpenDropdowns] = useState({});
+
+    useEffect(() => {
+        setOpenDropdowns({
+            blog: location.pathname.startsWith("/blogs") || location.pathname.startsWith("/all-blog") || location.pathname.startsWith("/add-new-blog"),
+            users: location.pathname.startsWith("/users"),
+            // Add more sections as needed
+        });
+    }, [location]);
+
+    const toggleDropdown = (key) => {
+        setOpenDropdowns(prev => ({
+            ...prev,
+            [key]: !prev[key]
+        }));
+    };
+
 
     return (
         <>
@@ -53,7 +74,7 @@ const MasterLayout = ({ children }) => {
                                         navData.isActive ? "sidebar-list__link activePage" : "sidebar-list__link"
                                     }  >
                                         <span className="sidebar-list__icon">
-                 
+
                                             <i className="las la-home"></i>
                                         </span>
                                         <span className="text">Dashboard</span>
@@ -64,12 +85,12 @@ const MasterLayout = ({ children }) => {
                                         navData.isActive ? "sidebar-list__link activePage" : "sidebar-list__link"
                                     }>
                                         <span className="sidebar-list__icon">
-                              
-                                        <i className="las la-user-alt"></i>
+
+                                            <i className="las la-user-alt"></i>
                                         </span>
                                         <span className="text">Profile</span>
                                     </NavLink>
-                                </li>                             
+                                </li>
                                 <li className="sidebar-list__item">
                                     <NavLink to="/customers" className={(navData) =>
                                         navData.isActive ? "sidebar-list__link activePage" : "sidebar-list__link"
@@ -77,7 +98,7 @@ const MasterLayout = ({ children }) => {
                                         <span className="sidebar-list__icon"><i className="las la-users"></i></span>
                                         <span className="text">Customers</span>
                                     </NavLink>
-                                </li>     
+                                </li>
                                 <li className="sidebar-list__item">
                                     <NavLink to="/vendors" className={(navData) =>
                                         navData.isActive ? "sidebar-list__link activePage" : "sidebar-list__link"
@@ -85,13 +106,13 @@ const MasterLayout = ({ children }) => {
                                         <span className="sidebar-list__icon"><i className="las la-store-alt"></i></span>
                                         <span className="text">Sellers/Vendors</span>
                                     </NavLink>
-                                </li>   
+                                </li>
                                 <li className="sidebar-list__item">
                                     <NavLink to="/orders" className={(navData) =>
                                         navData.isActive ? "sidebar-list__link activePage" : "sidebar-list__link"
                                     }>
                                         <span className="sidebar-list__icon">
-             
+
                                             <i className="las la-ticket-alt"></i>
                                         </span>
                                         <span className="text">Orders</span>
@@ -103,12 +124,12 @@ const MasterLayout = ({ children }) => {
                                         navData.isActive ? "sidebar-list__link activePage" : "sidebar-list__link"
                                     }>
                                         <span className="sidebar-list__icon">
-                                          
+
                                             <i className="las la-money-bill-wave"></i>
                                         </span>
                                         <span className="text">Payment & Earnings</span>
                                     </NavLink>
-                                </li>                                
+                                </li>
                                 <li className="sidebar-list__item">
                                     <NavLink to="/product-management" className={(navData) =>
                                         navData.isActive ? "sidebar-list__link activePage" : "sidebar-list__link"
@@ -125,10 +146,84 @@ const MasterLayout = ({ children }) => {
                                         navData.isActive ? "sidebar-list__link activePage" : "sidebar-list__link"
                                     }>
                                         <span className="sidebar-list__icon">
-     
+
                                             <i className="las la-file-invoice"></i>
                                         </span>
                                         <span className="text">Invoice</span>
+                                    </NavLink>
+                                </li>
+                                <li className="sidebar-list__item">
+                                    <p>CMS</p>
+                                </li>
+                                <li className="sidebar-list__item">
+                                    <div
+                                        className={`sidebar-list__link with-dropdown ${openDropdowns.blog ? "activePage" : ""}`}
+                                        onClick={() => toggleDropdown("blog")}
+                                    >
+                                        <span className="sidebar-list__icon">
+                                            <i className="las la-pen-nib"></i>
+                                        </span>
+                                        <span className="text">Blog</span>
+                                        <i className={`las la-angle-${openDropdowns.blog ? "up" : "down"} dropdown-arrow`}></i>
+                                    </div>
+
+                                    {openDropdowns.blog && (
+                                        <ul className="sidebar-sublist">
+                                            <li>
+                                                <NavLink to="/all-blog" className={({ isActive }) =>
+                                                    isActive ? "sidebar-sublist__link activePage" : "sidebar-sublist__link"
+                                                }>
+                                                  <i className="las la-minus"></i>  View All Blogs
+                                                </NavLink>
+                                            </li>
+                                            <li>
+                                                <NavLink to="/add-new-blog" className={({ isActive }) =>
+                                                    isActive ? "sidebar-sublist__link activePage" : "sidebar-sublist__link"
+                                                }>
+                                                 <i className="las la-minus"></i>   Add New Blog
+                                                </NavLink>
+                                            </li>
+                                        </ul>
+                                    )}
+                                </li>
+
+                                {/* USERS DROPDOWN */}
+                                <li className="sidebar-list__item">
+                                    <div className="sidebar-list__link with-dropdown" onClick={() => toggleDropdown("users")}>
+                                        <span className="sidebar-list__icon">
+                                            <i className="las la-user"></i>
+                                        </span>
+                                        <span className="text">Users</span>
+                                        <i className={`las la-angle-${openDropdowns.users ? "up" : "down"} dropdown-arrow`}></i>
+                                    </div>
+
+                                    {openDropdowns.users && (
+                                        <ul className="sidebar-sublist">
+                                            <li>
+                                                <NavLink to="/users" className={({ isActive }) =>
+                                                    isActive ? "sidebar-sublist__link activePage" : "sidebar-sublist__link"
+                                                }>
+                                                    View All Users
+                                                </NavLink>
+                                            </li>
+                                            <li>
+                                                <NavLink to="/users/new" className={({ isActive }) =>
+                                                    isActive ? "sidebar-sublist__link activePage" : "sidebar-sublist__link"
+                                                }>
+                                                    Add New User
+                                                </NavLink>
+                                            </li>
+                                        </ul>
+                                    )}
+                                </li>
+                                <li className="sidebar-list__item">
+                                    <NavLink to="/add-seo-details" className={(navData) =>
+                                        navData.isActive ? "sidebar-list__link activePage" : "sidebar-list__link"
+                                    }>
+                                        <span className="sidebar-list__icon">
+                                            <i className="lar la-chart-bar"></i>
+                                        </span>
+                                        <span className="text">SEO</span>
                                     </NavLink>
                                 </li>
                                 <li className="sidebar-list__item">
@@ -142,6 +237,7 @@ const MasterLayout = ({ children }) => {
                                         <span className="text">Logout</span>
                                     </NavLink>
                                 </li>
+
                             </ul>
                             {/* Sidebar List End */}
                         </div>
@@ -187,7 +283,7 @@ const MasterLayout = ({ children }) => {
                                 <div className="header-right flx-align">
                                     <div className="header-right__inner gap-sm-3 gap-2 flx-align d-flex">
                                         {/* Light Dark Mode */}
-                                       <Notifications className="master-layout-notifications" />
+                                        <Notifications className="master-layout-notifications" />
                                         <div className="user-profile">
                                             <button className="user-profile__button flex-align" onClick={showProfileControl}>
                                                 <span className="user-profile__thumb">

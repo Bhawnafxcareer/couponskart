@@ -9,6 +9,7 @@
     "@testing-library/user-event": "^13.5.0",
     "animate.css": "^4.1.1",
     "bootstrap": "^5.3.3",
+    "ckeditor4-react": "^5.2.1",
     "file-saver": "^2.0.5",
     "html2canvas": "^1.4.1",
     "imagesloaded": "^5.0.0",

@@ -179,7 +179,7 @@ const HeaderOne = () => {
               type="submit"
               className=" icon border-0"
             >
-              <img src="assets/images/icons/search-01.svg" alt="" />
+              <img src="/assets/images/icons/search-01.svg" alt="" />
             </button>
             <input
               type="text"

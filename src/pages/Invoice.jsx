@@ -12,27 +12,42 @@ const Invoice = () => {
 
     const handleDownloadPDF = () => {
         const input = invoiceRef.current;
+        
+        // Hide buttons before generating the PDF
+        const buttons = input.querySelector('.text-end');
+        if (buttons) buttons.style.display = 'none';
+    
         html2canvas(input, { scale: 2, useCORS: true }).then((canvas) => {
             const imgData = canvas.toDataURL('image/png');
             const pdf = new jsPDF('p', 'mm', 'a4');
             const imgProps = pdf.getImageProperties(imgData);
             const pdfWidth = pdf.internal.pageSize.getWidth();
             const pdfHeight = (imgProps.height * pdfWidth) / imgProps.width;
-
-            let heightLeft = pdfHeight;
-            let position = 0;
-
-            pdf.addImage(imgData, 'PNG', 0, position, pdfWidth, pdfHeight);
-            heightLeft -= pdf.internal.pageSize.getHeight();
-
-            while (heightLeft > 0) {
-                position = heightLeft - pdfHeight;
-                pdf.addPage();
+    
+            const pageHeight = pdf.internal.pageSize.getHeight();
+    
+            // Only add multiple pages if image is taller than one page
+            if (pdfHeight <= pageHeight) {
+                pdf.addImage(imgData, 'PNG', 0, 0, pdfWidth, pdfHeight);
+            } else {
+                let position = 0;
+                let heightLeft = pdfHeight;
+    
                 pdf.addImage(imgData, 'PNG', 0, position, pdfWidth, pdfHeight);
-                heightLeft -= pdf.internal.pageSize.getHeight();
+                heightLeft -= pageHeight;
+    
+                while (heightLeft > 0) {
+                    position -= pageHeight;
+                    pdf.addPage();
+                    pdf.addImage(imgData, 'PNG', 0, position, pdfWidth, pdfHeight);
+                    heightLeft -= pageHeight;
+                }
             }
-
+    
             pdf.save('invoice.pdf');
+    
+            // Show buttons again
+            if (buttons) buttons.style.display = 'block';
         });
     };
 

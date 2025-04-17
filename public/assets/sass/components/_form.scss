@@ -157,9 +157,9 @@ select option {
 // Message Field Css
 textarea {
     &.common-input {
-        height: 140px;
+        height: 100px;
         @include sm-screen {
-            height: 110px;
+            height: 70px;
         }
     }
 }
