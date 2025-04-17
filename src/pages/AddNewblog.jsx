@@ -4,7 +4,7 @@ import Preloader from '../helper/Preloader'
 import { CKEditor } from 'ckeditor4-react';
 const AddNewblog = () => {
 
-    const [content, setContent] = useState('');
+  //const [data, setData] = useState('<p>Hello from CKEditor 4.22.1!</p>');
     return (
         <>
             <MasterLayout>
@@ -56,11 +56,19 @@ const AddNewblog = () => {
                                             <textarea name="" id="" rows={3} className="common-input border p-0"></textarea>
                                         </div>
                                         <div className="col-md-12">
-                                        <CKEditor
-        scriptUrl="https://cdn.ckeditor.com/4.21.0/standard/ckeditor.js"
-        initData="<p>Start writing...</p>"
-        onChange={(event) => setContent(event.editor.getData())}
-      />
+            <CKEditor
+              initData={""}
+              config={{
+                removePlugins: 'exportpdf,wsc,scayt', // Remove any license-bound features
+                toolbar: [
+                  ['Bold', 'Italic', 'Underline'],
+                  ['NumberedList', 'BulletedList'],
+                  ['Link', 'Unlink'],
+                  ['Undo', 'Redo'],
+                  ['Source']
+                ]
+              }}
+              />
                                         </div>
                                         <div className="col-md-12 mb-4">
                                             <label className="form-label mb-2 font-18 font-heading fw-600">Upload Featured Image</label>
