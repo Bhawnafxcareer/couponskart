@@ -3,9 +3,9 @@ import MasterLayout from '../layout/MasterLayout'
 import Preloader from '../helper/Preloader'
 
 const AddSeoDetails = () => {
-  return (
-    <>
-           <MasterLayout>
+    return (
+        <>
+            <MasterLayout>
                 {/* Preloader */}
                 <Preloader />
                 <div className="dashboard-body__content">
@@ -17,18 +17,18 @@ const AddSeoDetails = () => {
                                     <div className="row g-4">
                                         <div className="col-md-4">
                                             <label className="form-label mb-2 font-18 font-heading fw-600">Select Page</label>
-                                          
-                    <div className="select-has-icon">
-                      <select className="common-input border" name="" value="">
-                        <option value="">Select a category</option>
-                        <option value="">Home</option>
-                        <option value="">About</option>
-                        <option value="">Contact</option>
-                        
-                      </select>
-              
-                  </div>
-                                        </div>                         
+
+                                            <div className="select-has-icon">
+                                                <select className="common-input border" name="" value="">
+                                                    <option value="">Select a category</option>
+                                                    <option value="">Home</option>
+                                                    <option value="">About</option>
+                                                    <option value="">Contact</option>
+
+                                                </select>
+
+                                            </div>
+                                        </div>
 
                                         <div className="col-md-4">
                                             <label className="form-label mb-2 font-18 font-heading fw-600">SEO Title</label>
@@ -42,12 +42,12 @@ const AddSeoDetails = () => {
 
                                         <div className="col-md-12">
                                             <label className="form-label mb-2 font-18 font-heading fw-600">SEO Description</label>
-                                            <textarea name="" id="" rows={3} className="common-input border p-0"></textarea>
+                                            <textarea name="" id="" rows={3} className="common-input border "></textarea>
                                         </div>
 
                                     </div>
 
-                                    <button type="button" className="btn btn-main btn-md pill fw-300">Save Changes</button>
+                                    <button type="button" className="btn btn-main btn-md pill fw-300 mt-4">Save Changes</button>
 
                                 </form>
 
@@ -58,7 +58,7 @@ const AddSeoDetails = () => {
             </MasterLayout>
         </>
 
-  )
+    )
 }
 
 export default AddSeoDetails

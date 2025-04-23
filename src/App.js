@@ -42,11 +42,21 @@ import EditVendor from "./pages/EditVendor";
 import ViewVendor from "./pages/ViewVendor";
 import TermsAndConditions from "./pages/TermsAndConditions";
 import DisclaimerPolicy from "./pages/DisclaimerPolicy";
-import './index.css';
 import BlogDashboard from "./pages/BlogDashboard";
 import AddNewblog from "./pages/AddNewblog";
 import AddSeoDetails from "./pages/AddSeoDetails";
-import CKEditorr from "./components/CKEditorr";
+// import CKEditorr from "./components/CKEditorr";
+import EditBlog from "./pages/EditBlog";
+import AllSeoDetails from "./pages/AllSeoDetails";
+import EditSeoDetails from "./pages/EditSeoDetails";
+import Notifications from "./pages/Notifications";
+import Categories from "./pages/Categories";
+import AddCategory from "./pages/AddCategory";
+import Purchases from "./pages/Purchases";
+import './index.css';
+import CreateInvoice from "./pages/CreateInvoice";
+
+
 
 function App() {
   return (
@@ -98,8 +108,15 @@ function App() {
         <Route path="/all-blog" element={<BlogDashboard />} />
         <Route path="/add-new-blog" element={<AddNewblog />} />
         <Route path="/add-seo-details" element={<AddSeoDetails />} />
-
-        <Route path="/ck-editor"element={<CKEditorr/>}></Route>
+        <Route path="/edit-blog" element={<EditBlog />} />
+        <Route path="/all-pages" element={<AllSeoDetails />} />
+        <Route path="/edit-seo/:id" element={<EditSeoDetails />} />
+        <Route path="/notifications" element={<Notifications />} />
+        <Route path="/all-categories" element={<Categories />} />
+        <Route path="/add-category" element={<AddCategory />} />
+        <Route path="/purchases" element={<Purchases />} />
+        <Route path="/create-invoice" element={<CreateInvoice />} />
+       {/* // <Route path="/ck-editor"element={<CKEditorr/>}></Route> */}
       </Routes>
     </BrowserRouter>
   );

@@ -58,6 +58,7 @@ const CustomersPage = () => {
         name: 'ID',
         selector: row => row.id,
         sortable: true,
+        width: "110px",
       },
       {
         name: 'Name',
@@ -91,6 +92,7 @@ const CustomersPage = () => {
         ignoreRowClick: true,
         allowOverflow: true,
         button: true,
+        width: "150px",
       },
     ];
     

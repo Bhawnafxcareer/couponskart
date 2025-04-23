@@ -1,10 +1,10 @@
-import React, {useState} from 'react'
+import React, { useState } from 'react'
 import MasterLayout from '../layout/MasterLayout'
 import Preloader from '../helper/Preloader'
 import { CKEditor } from 'ckeditor4-react';
 const AddNewblog = () => {
 
-  //const [data, setData] = useState('<p>Hello from CKEditor 4.22.1!</p>');
+    //const [data, setData] = useState('<p>Hello from CKEditor 4.22.1!</p>');
     return (
         <>
             <MasterLayout>
@@ -48,33 +48,34 @@ const AddNewblog = () => {
 
 
                                         <div className="col-md-6">
-                                            <label className="form-label mb-2 font-18 font-heading fw-600">Blog Short Description</label>
+                                            <label className="form-label mb-2 font-18 font-heading fw-600">SEO Description</label>
                                             <textarea name="" id="" rows={3} className="common-input border p-0"></textarea>
                                         </div>
                                         <div className="col-md-6">
                                             <label className="form-label mb-2 font-18 font-heading fw-600">Blog Long Description</label>
                                             <textarea name="" id="" rows={3} className="common-input border p-0"></textarea>
                                         </div>
-                                        <div className="col-md-12">
-            <CKEditor
-              initData={""}
-              config={{
-                removePlugins: 'exportpdf,wsc,scayt', // Remove any license-bound features
-                toolbar: [
-                  ['Bold', 'Italic', 'Underline'],
-                  ['NumberedList', 'BulletedList'],
-                  ['Link', 'Unlink'],
-                  ['Undo', 'Redo'],
-                  ['Source']
-                ]
-              }}
-              />
-                                        </div>
-                                        <div className="col-md-12 mb-4">
+                                        <div className="col-md-12 ">
                                             <label className="form-label mb-2 font-18 font-heading fw-600">Upload Featured Image</label>
                                             <input type="file" accept="image/*" className="common-input border p-0" />
-                                            <img src="" alt="Coupon" width="100px" className="mt-4" />
+                                            {/* <img src="" alt="Coupon" width="100px" className="mt-4" /> */}
                                         </div>
+                                        <div className="col-md-12 mb-4">
+                                            <CKEditor
+                                                initData={""}
+                                                config={{
+                                                    removePlugins: 'exportpdf,wsc,scayt', // Remove any license-bound features
+                                                    toolbar: [
+                                                        ['Bold', 'Italic', 'Underline'],
+                                                        ['NumberedList', 'BulletedList'],
+                                                        ['Link', 'Unlink'],
+                                                        ['Undo', 'Redo'],
+                                                        ['Source']
+                                                    ]
+                                                }}
+                                            />
+                                        </div>
+
                                     </div>
 
                                     <button type="button" className="btn btn-main btn-md pill fw-300">Save Changes</button>

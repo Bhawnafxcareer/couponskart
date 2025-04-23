@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import DataTable from 'react-data-table-component';
 import { saveAs } from 'file-saver';
-
 import productData from '../json/productdata.json';
 
 const customStyles = {
@@ -33,9 +32,6 @@ const customStyles = {
   },
 };
 
-
-
-
 const DashboardProductManagement = () => {
 //export CSV
   const exportToCSV = (data, filename = "products.csv") => {
@@ -54,6 +50,7 @@ const DashboardProductManagement = () => {
   };
 
 //end export CSV
+
 
   const [data, setData] = useState(productData);
 

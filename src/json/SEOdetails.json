@@ -1,0 +1,37 @@
+[
+    {
+      "id": 1,
+      "pageName": "Home",
+      "seoTitle": "Welcome to Our Website",
+      "seoKeywords": "home, website, landing",
+      "seoDescription": "This is the homepage of our website."
+    },
+    {
+      "id": 2,
+      "pageName": "About",
+      "seoTitle": "About Us",
+      "seoKeywords": "about, company, info",
+      "seoDescription": "Learn more about our team and mission."
+    },
+    {
+      "id": 3,
+      "pageName": "Services",
+      "seoTitle": "Our Services",
+      "seoKeywords": "services, offerings, solutions",
+      "seoDescription": "Explore the services we offer to our customers."
+    },
+    {
+      "id": 4,
+      "pageName": "Contact",
+      "seoTitle": "Get in Touch",
+      "seoKeywords": "contact, support, reach us",
+      "seoDescription": "Contact us for more information or support."
+    },
+    {
+      "id": 5,
+      "pageName": "Blog",
+      "seoTitle": "Our Blog",
+      "seoKeywords": "blog, news, updates",
+      "seoDescription": "Read our latest blog posts and updates."
+    }
+  ]

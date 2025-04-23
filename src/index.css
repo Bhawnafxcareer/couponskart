@@ -122,12 +122,21 @@ border: 1px solid hsl(var(--gray-five));
     --bs-success-bg-subtle: #d3f3df;
     background-color: var(--bs-success-bg-subtle) !important;
 }
-
-
+.bg-danger-subtle {
+    --bs-danger-bg-subtle: #fcdfdf;
+    background-color: var(--bs-danger-bg-subtle) !important;
+}   
+.bg-warning-subtle {
+    --bs-warning-bg-subtle: #fef1d6;
+    background-color: var(--bs-warning-bg-subtle) !important;
+}
 .btn-secondary-light {
     --secondary-rgb: 158, 92, 247;
     background-color: rgba(var(--secondary-rgb), 0.1);
     color: rgb(var(--secondary-rgb));
+}
+.notify-content{
+    max-width: 600px;
 }
 .btn-danger-transparent {
     --danger-rgb: 251, 66, 66;
@@ -271,6 +280,32 @@ list-style: disc;
 .dropdown-arrow {
     margin-left: auto;
 }
+.notification-wrapper {
+    max-height: 280px;
+    overflow-y: scroll; /* Always allocate space for scrollbar */
+    scrollbar-gutter: stable; /* Keeps layout from shifting */
+  }
+    /* Thumb style */
+    .notification-wrapper::-webkit-scrollbar-thumb {
+        background-color: rgba(202, 202, 202, 0.39);
+        border-radius: 4px;
+        height: 60px !important;
+      }
+      
+      /* Optional: hide track for cleaner look */
+      .notification-wrapper::-webkit-scrollbar-track {
+        background: transparent;
+
+      }
+  .notification-wrapper::-webkit-scrollbar {
+    width: 6px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+
+ 
+  
+
   @media print {
     body * {
       visibility: hidden;

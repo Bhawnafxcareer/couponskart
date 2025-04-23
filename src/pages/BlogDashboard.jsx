@@ -53,9 +53,15 @@ const BlogDashboard = () => {
                 </h5>
                 <Link
                   to="/blog-details"
-                  className="btn btn-outline-light pill fw-600"
+                  className="btn btn-outline-light pill fw-600 me-3"
                 >
                   Read More{" "}
+                </Link>
+                <Link
+                  to="/edit-blog"
+                  className="btn btn-outline-light pill fw-600"
+                >
+                  Edit Blog{" "}
                 </Link>
               </div>
             </div>
@@ -102,9 +108,15 @@ const BlogDashboard = () => {
                 </h5>
                 <Link
                   to="/blog-details"
-                  className="btn btn-outline-light pill fw-600"
+                  className="btn btn-outline-light pill fw-600 me-3"
                 >
                   Read More{" "}
+                </Link>
+                <Link
+                  to="/edit-blog"
+                  className="btn btn-outline-light pill fw-600"
+                >
+                  Edit Blog{" "}
                 </Link>
               </div>
             </div>
@@ -151,9 +163,15 @@ const BlogDashboard = () => {
                 </h5>
                 <Link
                   to="/blog-details"
-                  className="btn btn-outline-light pill fw-600"
+                  className="btn btn-outline-light pill fw-600 me-3"
                 >
                   Read More{" "}
+                </Link>
+                <Link
+                  to="/edit-blog"
+                  className="btn btn-outline-light pill fw-600"
+                >
+                  Edit Blog{" "}
                 </Link>
               </div>
             </div>
@@ -200,9 +218,15 @@ const BlogDashboard = () => {
                 </h5>
                 <Link
                   to="/blog-details"
-                  className="btn btn-outline-light pill fw-600"
+                  className="btn btn-outline-light pill fw-600 me-3"
                 >
                   Read More{" "}
+                </Link>
+                <Link
+                  to="/edit-blog"
+                  className="btn btn-outline-light pill fw-600"
+                >
+                  Edit Blog{" "}
                 </Link>
               </div>
             </div>
@@ -249,9 +273,15 @@ const BlogDashboard = () => {
                 </h5>
                 <Link
                   to="/blog-details"
-                  className="btn btn-outline-light pill fw-600"
+                  className="btn btn-outline-light pill fw-600 me-3"
                 >
                   Read More{" "}
+                </Link>
+                <Link
+                  to="/edit-blog"
+                  className="btn btn-outline-light pill fw-600"
+                >
+                  Edit Blog{" "}
                 </Link>
               </div>
             </div>
@@ -298,9 +328,15 @@ const BlogDashboard = () => {
                 </h5>
                 <Link
                   to="/blog-details"
-                  className="btn btn-outline-light pill fw-600"
+                  className="btn btn-outline-light pill fw-600 me-3"
                 >
                   Read More{" "}
+                </Link>
+                <Link
+                  to="/edit-blog"
+                  className="btn btn-outline-light pill fw-600"
+                >
+                  Edit Blog{" "}
                 </Link>
               </div>
             </div>
@@ -347,9 +383,15 @@ const BlogDashboard = () => {
                 </h5>
                 <Link
                   to="/blog-details"
-                  className="btn btn-outline-light pill fw-600"
+                  className="btn btn-outline-light pill fw-600 me-3"
                 >
                   Read More{" "}
+                </Link>
+                <Link
+                  to="/edit-blog"
+                  className="btn btn-outline-light pill fw-600"
+                >
+                  Edit Blog{" "}
                 </Link>
               </div>
             </div>
@@ -396,9 +438,15 @@ const BlogDashboard = () => {
                 </h5>
                 <Link
                   to="/blog-details"
-                  className="btn btn-outline-light pill fw-600"
+                  className="btn btn-outline-light pill fw-600 me-3"
                 >
                   Read More{" "}
+                </Link>
+                <Link
+                  to="/edit-blog"
+                  className="btn btn-outline-light pill fw-600"
+                >
+                  Edit Blog{" "}
                 </Link>
               </div>
             </div>
@@ -445,9 +493,15 @@ const BlogDashboard = () => {
                 </h5>
                 <Link
                   to="/blog-details"
-                  className="btn btn-outline-light pill fw-600"
+                  className="btn btn-outline-light pill fw-600 me-3"
                 >
                   Read More{" "}
+                </Link>
+                <Link
+                  to="/edit-blog"
+                  className="btn btn-outline-light pill fw-600"
+                >
+                  Edit Blog{" "}
                 </Link>
               </div>
             </div>

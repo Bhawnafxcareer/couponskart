@@ -1,0 +1,52 @@
+[
+    {
+      "sno": 1,
+      "category": "Electronics",
+      "categorythumb": "/assets/images/thumbs/coupon2.png"
+    },
+    {
+      "sno": 2,
+      "category": "Fashion",
+       "categorythumb": "/assets/images/thumbs/coupon4.png"
+    },
+    {
+      "sno": 3,
+      "category": "Home & Kitchen",
+        "categorythumb": "/assets/images/thumbs/coupon3.png"
+    },
+    {
+      "sno": 4,
+      "category": "Books",
+       "categorythumb": "/assets/images/thumbs/coupon2.png"
+    },
+    {
+      "sno": 5,
+      "category": "Toys & Games",
+       "categorythumb": "/assets/images/thumbs/coupon4.png"
+    },
+    {
+      "sno": 6,
+      "category": "Sports",
+      "categorythumb": "/assets/images/thumbs/coupon3.png"
+    },
+    {
+      "sno": 7,
+      "category": "Beauty",
+        "categorythumb": "/assets/images/thumbs/coupon2.png"
+    },
+    {
+      "sno": 8,
+      "category": "Automotive",
+      "categorythumb": "/assets/images/thumbs/coupon3.png"
+    },
+    {
+      "sno": 9,
+      "category": "Health",
+     "categorythumb": "/assets/images/thumbs/coupon4.png"
+    },
+    {
+      "sno": 10,
+      "category": "Grocery",
+       "categorythumb": "/assets/images/thumbs/coupon2.png"
+    }
+  ]

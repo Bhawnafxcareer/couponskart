@@ -2,7 +2,7 @@
 import { useEffect, useState, useRef } from "react";
 //import ThemeToggle from "./ThemeToggle";
 import { Link, NavLink } from "react-router-dom";
-import Notifications from "./Notifications";
+import NotificationsDropdwon from "./NotificationsDropdwon";
 const HeaderOne = () => {
   const [active, setActive] = useState(false);
   const [scroll, setScroll] = useState(false);
@@ -132,7 +132,7 @@ const HeaderOne = () => {
             {/* Menu End  */}
             {/* Header Right start */}
             <div className="header-right flx-align">
-              <Notifications />
+              <NotificationsDropdwon />
               {/* Light Dark Mode */}
               {/* <ThemeToggle /> */}
               {/* Light Dark Mode */}
